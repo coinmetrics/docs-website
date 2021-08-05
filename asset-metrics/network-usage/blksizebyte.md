@@ -10,7 +10,7 @@ The sum of the size \(in bytes\) of all blocks created that interval.
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sum Block Size \(in bytes\) | BlkSizeByte | Network Usage | Blocks | Sum | Bytes | 1 day |
+| Sum Block Size \(in bytes\) | BlkSizeByte | Network Usage | Blocks | Sum | Bytes | 1d, 1b |
 
 ## Details
 
