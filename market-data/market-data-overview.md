@@ -18,5 +18,3 @@ MDF data is included in the following endpoints as described in the sections tha
 
 `/timeseries/market-funding-rates`
 
-\`\`
-
