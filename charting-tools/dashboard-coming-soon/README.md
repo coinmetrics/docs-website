@@ -2,7 +2,7 @@
 description: 'https://charts.coinmetrics.io/dashboard/'
 ---
 
-# Dashboard \(COMING SOON\)
+# Dashboard
 
 The Dashboard enables you to organize and quickly view your saved charts \(from our [Data Visualization](../data-visualization/) suite\).  You can create a thematic dashboard \(e.g., a Mining Dashboard\), an asset-specific dashboard \(e.g., Favorite BTC charts\) or really any mashup that you'd like.  
 

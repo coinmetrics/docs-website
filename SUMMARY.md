@@ -457,7 +457,7 @@
   * [Formula Builder](charting-tools/data-visualization/formula-builder.md)
   * [Correlation Tool](charting-tools/data-visualization/correlation-tool.md)
   * [Troubleshooting](charting-tools/data-visualization/trouble-shooting.md)
-* [Dashboard \(COMING SOON\)](charting-tools/dashboard-coming-soon/README.md)
+* [Dashboard](charting-tools/dashboard-coming-soon/README.md)
   * [Troubleshooting](charting-tools/dashboard-coming-soon/troubleshooting.md)
 * [Pro Charts](charting-tools/cmpro/README.md)
   * [Troubleshooting](charting-tools/cmpro/troubleshooting.md)
