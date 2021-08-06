@@ -4,6 +4,8 @@ description: 'https://charts.coinmetrics.io/formulas/'
 
 # Formula Builder
 
+### Formula Builder Overview
+
 The formula builder allows you to transform the available Coin Metrics' data series.  For example, you can create your own ratios, add together USDT metrics, slice or splice time series, even customize the line colors and many more things.
 
 The formula builder editor and information can be found via the right toolbar by clicking on the "formula button".
@@ -21,6 +23,29 @@ Specific **syntax** and **examples** can be found on the "Syntax" tab.  You can 
 The formula editor is under the "Formula" tab.  An example of a very simple formula is shown below. 
 
 ![](../../.gitbook/assets/screen-shot-2021-03-09-at-9.27.09-pm.png)
+
+### Chart & Syntax Examples
+
+Our Formula Builder allows users to build/chart new metrics with our existing metrics. A great example of this is BTC Market Cap Dominance. We currently don't serve this as a Network Data Pro metric, but it can be built easily in our Formula Builder.
+
+![BTC Dominance \(Free Float Market Cap\)](../../.gitbook/assets/screen-shot-2021-08-06-at-2.14.19-pm.png)
+
+If you click into the Formula Editor on the right side of the [charts](https://charts.coinmetrics.io/formulas/#1394), you can see the syntax used to create a combined time-series of Market Cap across all of the assets supported in our universe. 
+
+![BTC Dominance \(Formula Editor Syntax\)](../../.gitbook/assets/screen-shot-2021-08-06-at-2.14.54-pm.png)
+
+This just scratches the surface, as there are many other ways you can use this tool to transform our time-series. Here are a few more examples: 
+
+* [ETH HODL Waves](https://charts.coinmetrics.io/formulas/#297)
+* [BTC Active Supply Bands](https://charts.coinmetrics.io/formulas/#212)
+* [USDT\_ETH Supply Distribution](https://charts.coinmetrics.io/formulas/#212)
+* [USDT\_ETH Address Distribution](https://charts.coinmetrics.io/formulas/#163)
+
+
+
+
+
+
 
 
 
