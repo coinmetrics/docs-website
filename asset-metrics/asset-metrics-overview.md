@@ -4,7 +4,7 @@ description: /timeseries/asset-metrics
 
 # Asset Metrics Overview
 
-Our Asset metrics include our Network Data time series metrics and certain Market Data metrics that are aggregated at the asset-level \(e.g., Reference Rates/Prices and Trusted Volume\).
+Our Asset metrics include our Network Data time series metrics and certain Market Data metrics that are aggregated at the asset-level \(e.g., Reference Rates/Prices and Trusted Volume\). 
 
 ### Network Data
 
