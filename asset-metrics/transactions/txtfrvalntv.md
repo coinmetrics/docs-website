@@ -12,6 +12,8 @@ The sum of native units transferred \(i.e., the aggregate "size" of all transfer
 
 * Transfers are movement of native units.
 * Only non-zero value, successful, transfers with distinct sender/recipient, are considered.
+* Failed transactions are not considered in TxTfrValNtv
+* For ETH, the fees sent from the original sender to the miner for the failed transaction are not considered
 
 ## Asset-Specific Details
 
