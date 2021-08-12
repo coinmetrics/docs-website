@@ -17,6 +17,8 @@ The sum count of unique addresses that were active in the network \(either as a 
 * Ledger changes can include activities such as transacting, signing of blocks, claiming of mining or staking rewards, voting, creating accounts, and more dependent on whether the underlying protocol supports the activity \(different protocols vary in the types of activities that are supported\).
 * All participants of a ledger change activity are included.
 * If an address was active multiple times during the aggregation interval \(e.g., 1 day\), it is counted only once.
+* For ETH, miners receiving fees from the original sender of a failed transaction are counted as active \(receiving\) addresses
+* Any address that's active \(even if sending 0 ETH, or sending ETH to itself, or involved in failed transactions\) is counted towards active addresses.
 
 ## **Chart**
 
