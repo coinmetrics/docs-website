@@ -16,6 +16,7 @@ The sum count of unique addresses that were active in the network \(as a recipie
 * For this unadjusted version of the metric, all ledger change scenarios are considered.
 * Such ledger changes can include mining, staking, transacting, account creation, etc..
 * If an address was active multiple times as recipient during that interval, it is counted only once.
+* For ETH, miners receiving fees from the original sender of a failed transaction are counted as active receiving addresses.
 
 ## **Asset-Specific Details**
 
