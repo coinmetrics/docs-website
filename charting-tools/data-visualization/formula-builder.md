@@ -16,17 +16,21 @@ If you are unfamiliar with the formula builder and syntax, the "Information" tab
 
 ![](../../.gitbook/assets/screen-shot-2021-03-09-at-9.19.27-pm.png)
 
-Specific **syntax** and **examples** can be found on the "Syntax" tab.  You can search for the specific "formula" in the "Search..." window or scroll through the list of available formulas.  Once a formula is selected, further information on that formula \(including the "syntax" and often an example\) will be available in the lower window.
-
-![](../../.gitbook/assets/screen-shot-2021-03-09-at-9.20.56-pm.png)
+### Formula Editor
 
 The formula editor is under the "Formula" tab.  An example of a very simple formula is shown below. 
 
 ![](../../.gitbook/assets/screen-shot-2021-03-09-at-9.27.09-pm.png)
 
-### Chart & Syntax Examples
+### Syntax
 
-Our Formula Builder allows users to build/chart new metrics with our existing metrics. A great example of this is BTC Market Cap Dominance. We currently don't serve this as a Network Data Pro metric, but it can be built easily in our Formula Builder.
+Specific **syntax** and **syntax** **examples** can be found on the "Syntax" tab.  You can search for the specific "formula" in the "Search..." window or scroll through the list of available formulas.  Once a formula is selected, further information on that formula \(including the "syntax" and often an example\) will be available in the lower window.
+
+![](../../.gitbook/assets/screen-shot-2021-03-09-at-9.20.56-pm.png)
+
+### Chart/Formula Example
+
+A great example of a Formula Builder Chart is this _BTC Market Cap Dominance_ chart.  This chart can be built easily in our Formula Builder.
 
 ![BTC Dominance \(Free Float Market Cap\)](../../.gitbook/assets/screen-shot-2021-08-06-at-2.14.19-pm.png)
 
