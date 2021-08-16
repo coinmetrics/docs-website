@@ -1,4 +1,4 @@
-# Val in Addrs w/ Bal ≥ $1M USD
+# Val in Addrs w/ Bal ≥ $1M \(native units\)
 
 ## Definition
 
