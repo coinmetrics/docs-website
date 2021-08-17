@@ -75,7 +75,7 @@ Exchanges serve each trades and liquidations observations with a unique identifi
 
 As such, when storing/ingesting our trades and liquidations data, we recommend adding the 'coin\_metrics\_id 'field to the table's composite primary key to ensure that you are not storing any duplicates. The coin\_metrics\_id is also useful when the exchange reports it as an incremental integer -- an integer that increments by 1 for every trade. Most exchanges will start this id at 1, so you can see how many trades have occurred in its lifetime. Also, it is useful for sequencing trades and determining whether all trades have been collected. Coinbase and Binance are two exchanges that report their trade ids in this format.
 
- **How does Coin Metrics ensure high levels of data quality and data integrity?**  
+**How does Coin Metrics ensure high levels of data quality and data integrity?**  
   
 Coin Metrics utilizes a multifaceted approach to ensure high levels of data quality and data integrity. We carefully curate our exchange coverage universe, employ a market data collection system with high levels of redundancy and resiliency, use a robust system of logging and monitoring that alerts staff members in real-time to any anomalies, and our software releases are governed by a series of SOC 2-compliant policies that include extensive testing prior to release. For certain critical data types, such as our reference rates, we also employ regular human review to screen for data quality issues. Each of these facets is described in more detail below.
 
