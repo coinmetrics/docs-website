@@ -12,28 +12,11 @@ Yes, the margin\_asset is the asset of settlement. A trader must post this asset
 
 The interpretation of the liquidation side is the side of the trade that liquidates the trader's position. For instance, if a trader is long a futures contract and the price declines such that the value of his position falls below the trader's maintenance margin, the exchange would execute a liquidation sell order to close the traders' position. So in liquidations, “side” is the side of the trade that liquidates the trader’s position.  And in trades, “side” is the side of the trade that removes an ask or a bid from the book.
 
-#### **Is there a way to pull data for all markets of an exchange by just including the exchange name in the API query \(e.g., “exchange=Coinbase”\)?**  
+#### **Is there a way to pull data for multiple markets \(such as all the markets for a particular exchange\) in one API call?**   
 
-You must query each market \(e.g., ‘markets=coinbase-btc-usd-spot’\) and aggregate the markets by exchange.  We do not currently support a call for all markets for an exchange.  
+All of our endpoints in API v4 that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
 
-One workaround for efficiently pulling this data is by using the "exchange" parameter in our market catalogue endpoint. Here's a raw python example that would pull the markets from Coinbase:
-
-```python
-response = requests.get(
-    'https://api.coinmetrics.io/v4/catalog/markets',
-    params={'api_key': api_key,
-           'exchange':'coinbase'},
-)
-```
-
-This method will work via the API and you can use it in any language. The general outline of the process is:
-
-1. Get a list of all desired markets from `v4/catalog/markets`
-2. if more than 90 markets, break the list into chunks of 90 markets
-3. Call the API endpoint for each chunk of markets
-4. Combine the results for analysis
-
-#### **Is there a way to pull data for trading volume across a specific exchange or asset?**
+**Is there a way to pull data for trading volume across a specific exchange or asset?**
 
 Yes, there is a way to query and calculate this via our API. With your API key you can pull candles data for all the markets listed on an exchange from our timeseries/market-candles endpoint.  Then you sum the volume by exchange. Here is a sample query that will pull candles from the coinbase-btc-usd-spot market: 
 
