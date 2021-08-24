@@ -4,6 +4,7 @@
 * [API Basics](api.md)
 * [API Reference](https://docs.coinmetrics.io/api/v4)
 * [On-Chain Basics](on-chain-basics.md)
+* [CM Labs](cm-labs.md)
 * [Status Page](status-page.md)
 
 ## Exchange Coverage <a id="exchanges"></a>
