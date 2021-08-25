@@ -4,6 +4,8 @@
 
 While CM Labs products and features are very cool, for one reason or another, we are not quite ready to incorporate them into our mainstream product offerings.  
 
+## Identification of CM Labs Efforts
+
 In addition to the projects and prototypes you'll find on our CM Labs [site](https://coinmetrics.io/cm-labs/), you will also notice certain metrics and assets \(e.g., ICP\) flagged in our tools as CM Labs.  
 
 ![](.gitbook/assets/screen-shot-2021-08-24-at-7.54.11-pm.png)
@@ -25,7 +27,7 @@ This flag also exists in our catalogs.  Experimental assets/metrics with have  `
 ```
 
 {% hint style="warning" %}
-While we obviously feel there is value in making these experimental metrics/assets available, please exercise caution given their experimental nature.  
+While we obviously feel there is value in making these experimental assets/metrics available, please exercise caution given their experimental nature.  
 {% endhint %}
 
 
