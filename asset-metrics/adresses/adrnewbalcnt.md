@@ -17,6 +17,12 @@ The sum count of all unique addresses that were newly created and funded \(e.g. 
 * Depending upon how a blockchain stores address information, new addresses might not be funded with any tokens. In other words, they have a balance of zero.
 * This metric only accounts for new addresses that have been funded.
 
+## **Chart**
+
+[New Addr Cnt](https://docs.coinmetrics.io/asset-metrics/adresses/adrnewcnt) showcases all new addresses observed in the network over the previous day, and New Funded Addr Cnt is a subset of New Addr Cnt that only counts addresses with a balance greater than 0.
+
+![Source: CM Network Data Charts](../../.gitbook/assets/9-new-addresses.png)
+
 ## **Asset-Specific Details**
 
 This metric is not available for assets that have full privacy, like Monero and Grin. For assets that have opt-in privacy features, like ZCash, it only takes the non-private activities into account.
