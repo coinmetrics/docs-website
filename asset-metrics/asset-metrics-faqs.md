@@ -56,7 +56,7 @@ One note:  Centralized exchanges do not differentiate between Tether-Omni, Tethe
 
 #### **Is there a way to approximate the number of users for a specific blockchain?** 
 
-You can use the "[Address Count with Balance](adresses/adrbal1inxcnt/)" metrics to approximate this, although you should keep in mind that users may have multiple addresses and certain addresses \(e.g., custodian or exchange addresses\) may represent multiple users. For day to day use, you can use our active addresses metrics. We provide aggregate [active address metrics](adresses/adractcnt.md) \(AdrActCnt\) as well as aggregates for [receiving](adresses/adractreccnt.md) and [sending](adresses/adractsentcnt.md) addresses \(AdrActRecCnt and AdrActSentCnt\). 
+You can use the "[Address Count with Balance](addresses/adrbal1inxcnt/)" metrics to approximate this, although you should keep in mind that users may have multiple addresses and certain addresses \(e.g., custodian or exchange addresses\) may represent multiple users. For day to day use, you can use our active addresses metrics. We provide aggregate [active address metrics](addresses/adractcnt.md) \(AdrActCnt\) as well as aggregates for [receiving](addresses/adractreccnt.md) and [sending](addresses/adractsentcnt.md) addresses \(AdrActRecCnt and AdrActSentCnt\). 
 
 #### **Are there any heartbeat requirements for WebSocket access?** 
 
