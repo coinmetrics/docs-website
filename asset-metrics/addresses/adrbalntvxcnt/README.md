@@ -15,7 +15,7 @@ The sum count of unique addresses holding at least X native units as of the end 
 | Addr Cnt of Bal ≥ 1K \(native units\) | [AdrBalNtv1KCnt](adrbalntv1kcnt.md) | Addresses | Balance | Sum | Addresses | 1 day |
 | Addr Cnt of Bal ≥ 10K \(native units\) | [AdrBalNtv10KCnt](adrbalntv10kcnt.md) | Addresses | Balance | Sum | Addresses | 1 day |
 | Addr Cnt of Bal ≥ 100K \(native units\) | [AdrBalNtv100KCnt](adrbalntv100kcnt.md) | Addresses | Balance | Sum | Addresses | 1 day |
-| Addr Cnt of Bal ≥ 1M \(native units\) | [AdrBalNtv1MCnt](addrbalntv1mcnt.md) | Addresses | Balance | Sum | Addresses | 1 day |
+| Addr Cnt of Bal ≥ 1M \(native units\) | [AdrBalNtv1MCnt](adrbalntv1mcnt.md) | Addresses | Balance | Sum | Addresses | 1 day |
 
 ## Details
 

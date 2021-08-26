@@ -33,7 +33,7 @@
     * [Addr Cnt with ≥ .0000001% Supply](asset-metrics/addresses/adrbal1inxcnt/adrbal1in1bcnt.md)
     * [Addr Cnt with ≥ .00000001% Supply](asset-metrics/addresses/adrbal1inxcnt/adrbal1in10bcnt.md)
   * [Addr Cnt of Bal ≥ X \(native units\)](asset-metrics/addresses/adrbalntvxcnt/README.md)
-    * [Addr Cnt of Bal ≥ 1M \(native units\)](asset-metrics/addresses/adrbalntvxcnt/addrbalntv1mcnt.md)
+    * [Addr Cnt of Bal ≥ 1M \(native units\)](asset-metrics/addresses/adrbalntvxcnt/adrbalntv1mcnt.md)
     * [Addr Cnt of Bal ≥ 100K \(native units\)](asset-metrics/addresses/adrbalntvxcnt/adrbalntv100kcnt.md)
     * [Addr Cnt of Bal ≥ 10K \(native units\)](asset-metrics/addresses/adrbalntvxcnt/adrbalntv10kcnt.md)
     * [Addr Cnt of Bal ≥ 1K \(native units\)](asset-metrics/addresses/adrbalntvxcnt/adrbalntv1kcnt.md)
