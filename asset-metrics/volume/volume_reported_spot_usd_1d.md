@@ -6,12 +6,12 @@ The sum of all reported volume from the spot markets in Coin Metrics' coverage i
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Reported Volume | volume\_reported\_spot\_usd\_1d | Market | Volume | NA | USD | 1d |
-| Reported Volume, 1 Hour | volume\_reported\_spot\_usd\_1h | Market | Volume | NA | USD | 1h |
+| Reported Spot Volume | volume\_reported\_spot\_usd\_1d | Market | Volume | NA | USD | 1d |
+| Reported Spot Volume, 1 Hour | volume\_reported\_spot\_usd\_1h | Market | Volume | NA | USD | 1h |
 
 ## Details
 
-Our trusted volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
+Our reported volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
 ## Examples
 
@@ -35,6 +35,11 @@ A sample of the daily reported spot volume for Bitcoin is shown below:
 ## See Also
 
 * [Trusted Volume](volume_trusted_spot_usd_1d.md)
+* [Reported Future Volume](volume_reported_future_usd_1d.md)
+* [Reported Coin-Margined Future Volume](volume_reported_future_coin_margined_usd_1d.md)
+* [Reported Non-Perpetual Future Volume](volume_reported_future_nonperpetual_usd_1d.md)
+* [Reported Perpetual Future Volume](volume_reported_future_perpetual_usd_1d.md)
+* [Reported Tether-Margined Future Volume](volume_reported_future_tether_margined_usd_1d.md)
 
 ## Availability for Assets
 

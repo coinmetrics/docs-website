@@ -1,4 +1,4 @@
-# Trusted Volume
+# Trusted Spot Volume
 
 ## Definition
 
@@ -7,8 +7,8 @@ The sum of all volume from the spot markets of a set of trusted exchanges in uni
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Trusted Volume | volume\_trusted\_spot\_usd\_1d | Market | Volume | NA | USD | 1d |
-| Trusted Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Market | Volume | NA | USD | 1h |
+| Trusted Spot Volume | volume\_trusted\_spot\_usd\_1d | Market | Volume | NA | USD | 1d |
+| Trusted Spot Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Market | Volume | NA | USD | 1h |
 
 ## Details
 
@@ -49,7 +49,7 @@ A sample of the hourly trusted volumes data for Bitcoin is shown below:
 
 ## Release History
 
-* Release Version. Market Data Feed v2.2 - Jan 21, 2021 rollout \(not a seperate MDF version\)
+* Release Version. Market Data Feed v2.2 - Jan 21, 2021 rollout \(not a separate MDF version\)
 
 ## Interpretation
 
@@ -58,6 +58,7 @@ Fake trading volume is a persistent problem on crypto exchanges. With little reg
 ## See Also
 
 * [Trusted Volume Framework](https://coinmetrics.io/q3-refresh-of-trusted-spot-volume-framework/%20)
+* [Reported Spot Volume](volume_reported_spot_usd_1d.md)
 
 ## Availability for Assets
 
