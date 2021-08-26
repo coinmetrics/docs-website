@@ -58,6 +58,7 @@
   * [Miner Cap to Realized Cap \(MCRC\)](asset-metrics/economics/mcrc.md)
   * [Miner Outflow to Miner Revenue \(MOMR\)](asset-metrics/economics/momr.md)
   * [Realized Cap to Thermo Cap \(RCTC\)](asset-metrics/economics/rctc.md)
+  * [Free Float NVT](asset-metrics/economics/nvtadjff.md)
   * [NVT](asset-metrics/economics/nvtadj.md)
   * [RVT](asset-metrics/economics/rvtadj.md)
   * [Free Float NVT 90-day Moving Avg](asset-metrics/economics/nvtadjff90.md)
