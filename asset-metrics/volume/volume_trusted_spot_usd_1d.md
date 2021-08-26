@@ -8,6 +8,7 @@ The sum of all volume from the spot markets of a set of trusted exchanges in uni
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Trusted Volume | volume\_trusted\_spot\_usd\_1d | Market | Volume | NA | USD | 1d |
+| Trusted Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Market | Volume | NA | USD | 1h |
 
 ## Details
 
@@ -34,7 +35,7 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 
 ## Examples
 
-A sample of the hourly reference rates data for Bitcoin is shown below:
+A sample of the hourly trusted volumes data for Bitcoin is shown below:
 
 | assets | time | volume\_trusted\_spot\_usd\_1d |
 | :--- | :--- | :--- |
@@ -46,9 +47,9 @@ A sample of the hourly reference rates data for Bitcoin is shown below:
 * time. The reference rate time in ISO 8601 date-time format.
 * volume\_trusted\_spot\_usd\_1d. The trusted volume value in units of U.S. dollars.
 
-## Resource History
+## Release History
 
-* Release Version. Reference Rates v1.0 \(Jan 27, 2021\) - initial version
+* Release Version. Market Data Feed v2.2 - Jan 21, 2021 rollout \(not a seperate MDF version\)
 
 ## Interpretation
 
@@ -56,7 +57,6 @@ Fake trading volume is a persistent problem on crypto exchanges. With little reg
 
 ## See Also
 
-* [Trusted Volume, 1 Hour](volume_trusted_spot_usd_1d.md)
 * [Trusted Volume Framework](https://coinmetrics.io/q3-refresh-of-trusted-spot-volume-framework/%20)
 
 ## Availability for Assets

@@ -445,7 +445,7 @@
   * [Destroyed Contracts Cnt](asset-metrics/transactions/txcontdestcnt.md)
 * [Volume](asset-metrics/volume/README.md)
   * [Trusted Volume](asset-metrics/volume/volume_trusted_spot_usd_1d.md)
-  * [Trusted Volume, 1 Hour](asset-metrics/volume/volume_trusted_spot_usd_1hr.md)
+  * [Reported Spot Volume](asset-metrics/volume/reported-spot-volume.md)
 * [Availability](asset-metrics/availability/README.md)
   * [Completion Time](asset-metrics/availability/asseteodcompletiontime.md)
 * [Asset Metrics FAQs](asset-metrics/asset-metrics-faqs.md)
