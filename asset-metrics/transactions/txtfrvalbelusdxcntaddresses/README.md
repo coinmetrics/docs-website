@@ -8,8 +8,8 @@ The sum count of payments \(transfers\) below a specific USD amount. This family
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | XfersBelow $100, Count | TxTfrValBelUSD100CntAddresses | Transactions | Transactions | Sum | Txs | 1d |
 | XfersBelow $500, Count | TxTfrValBelUSD500CntAddresses | Transactions | Transactions | Sum | Txs | 1d |
-| XfersBelow $1000, Count | TxTfrValBelUSD1000CntAddresses | Transactions | Transactions | Sum | Txs | 1d |
-| XfersBelow $10000, Count | TxTfrValBelUSD10000CntAddresses | Transactions | Transactions | Sum | Txs | 1d |
+| XfersBelow $1000, Count | TxTfrValBelUSD1kCntAddresses | Transactions | Transactions | Sum | Txs | 1d |
+| XfersBelow $10000, Count | TxTfrValBelUSD10kCntAddresses | Transactions | Transactions | Sum | Txs | 1d |
 
 ## Details
 

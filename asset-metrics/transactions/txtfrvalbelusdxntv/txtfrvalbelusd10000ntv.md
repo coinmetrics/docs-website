@@ -4,7 +4,7 @@ The sum of all payments \(transfers\) that have occurred in the measuring interv
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| XfersBelow $10,000, Sum \(native units\) | TxTfrValBelUSD10000Ntv | Addresses | Balance | Sum | Ntv | 1 day |
+| XfersBelow $10,000, Sum \(native units\) | TxTfrValBelUSD10kNtv | Addresses | Balance | Sum | Ntv | 1 day |
 
 ## Details
 

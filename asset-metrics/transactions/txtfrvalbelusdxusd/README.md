@@ -8,8 +8,8 @@ The sum of all payments \(transfers\) that have occured in the measuring interva
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | XfersBelow $100, Sum \(USD\) | TxTfrValBelUSD100USD | Transactions | Transactions | Sum | USD | 1d |
 | XfersBelow $500, Sum \(USD\) | TxTfrValBelUSD500USD | Transactions | Transactions | Sum | USD | 1d |
-| XfersBelow $1000, Sum \(USD\) | TxTfrValBelUSD1000USD | Transactions | Transactions | Sum | USD | 1d |
-| XfersBelow $10000, Sum \(USD\) | TxTfrValBelUSD10000USD | Transactions | Transactions | Sum | USD | 1d |
+| XfersBelow $1000, Sum \(USD\) | TxTfrValBelUSD1kUSD | Transactions | Transactions | Sum | USD | 1d |
+| XfersBelow $10000, Sum \(USD\) | TxTfrValBelUSD10kUSD | Transactions | Transactions | Sum | USD | 1d |
 
 ## Details
 
