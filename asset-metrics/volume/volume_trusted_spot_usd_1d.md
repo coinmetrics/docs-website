@@ -33,6 +33,10 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 * The Rock Trading \(New\)
 * UpBit \(New\)
 
+## Chart
+
+![Trusted volume as a portion of total volume](../../.gitbook/assets/btc_trusted_and_non-trusted_volume.png)
+
 ## Examples
 
 A sample of the hourly trusted volumes data for Bitcoin is shown below:

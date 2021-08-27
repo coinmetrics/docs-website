@@ -13,6 +13,10 @@ The sum of all reported future volume from the spot markets in Coin Metrics' cov
 
 Our reported future volume metric is an aggregation of the reported future volume from all futures exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
+## Chart
+
+![Spot volume and futures volume](../../.gitbook/assets/coin_metrics_network_data_2021-08-26t18-41.png)
+
 ## Release History
 
 * Release Version. Market Data Feed 2.4 \(August 2021\) 

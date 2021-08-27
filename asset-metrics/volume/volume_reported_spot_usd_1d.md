@@ -13,6 +13,10 @@ The sum of all reported volume from the spot markets in Coin Metrics' coverage i
 
 Our reported volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
+## Chart
+
+![Spot volume and futures volume](../../.gitbook/assets/coin_metrics_network_data_2021-08-26t18-41.png)
+
 ## Examples
 
 A sample of the daily reported spot volume for Bitcoin is shown below:
