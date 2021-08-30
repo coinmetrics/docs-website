@@ -19,6 +19,7 @@ The sum of all native units being held in addresses whose balance was 0.1 native
 * For Ripple, escrows are taken into account.
 * This metric is not available for assets that have full privacy, like Monero and Grin.
 * For assets that have opt-in privacy features, like ZCash, it only takes the non-private balances into account.
+* For DOT, the address [balance minimum](https://support.polkadot.network/support/solutions/articles/65000168651-what-is-the-existential-deposit-) is 1 DOT. As such, SplyAdrBalNtv0.1 will be the same as SplyAdrBalNtv1. 
 
 ## Release History
 
