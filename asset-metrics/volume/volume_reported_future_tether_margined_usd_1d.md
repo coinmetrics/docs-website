@@ -23,8 +23,8 @@ The sum of all reported volume from futures markets where the margin asset is Te
         <p>volume_reported_tether_</p>
         <p>margined_usd_1d</p>
       </td>
-      <td style="text-align:left">Market</td>
       <td style="text-align:left">Volume</td>
+      <td style="text-align:left">Future</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1d</td>
@@ -35,8 +35,8 @@ The sum of all reported volume from futures markets where the margin asset is Te
         <p>volume_reported_tether_</p>
         <p>margined_usd_1h</p>
       </td>
-      <td style="text-align:left">Market</td>
       <td style="text-align:left">Volume</td>
+      <td style="text-align:left">Future</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1h</td>

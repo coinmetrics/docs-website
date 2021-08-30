@@ -24,8 +24,8 @@ The sum of all reported volume from perpetual futures markets in units of U.S. d
         <p>volume_reported_future_</p>
         <p>perpetual_usd_1d</p>
       </td>
-      <td style="text-align:left">Market</td>
       <td style="text-align:left">Volume</td>
+      <td style="text-align:left">Future</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1d</td>
@@ -36,8 +36,8 @@ The sum of all reported volume from perpetual futures markets in units of U.S. d
         <p>volume_reported_future_</p>
         <p>perpetual_usd_1h</p>
       </td>
-      <td style="text-align:left">Market</td>
       <td style="text-align:left">Volume</td>
+      <td style="text-align:left">Future</td>
       <td style="text-align:left">NA</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1h</td>
