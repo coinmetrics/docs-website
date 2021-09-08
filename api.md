@@ -35,7 +35,7 @@ All numbers in API responses are surrounded by quotes, which allows JavaScript c
 
 ### Monetary Amount Formats
 
-Monetary amounts are provided as strings and with the same order of magnitude as the one sued for pricing. For Bitcoin, the primary format is the native BTC unit \(e.g., 1 BTC, 0.29938 BTC\) as opposed to any subformat, such as satoshis, which represent one hundred millionth of a Bitcoin.
+Monetary amounts are provided as strings and with the same order of magnitude as the one used for pricing. For Bitcoin, the primary format is the native BTC unit \(e.g., 1 BTC, 0.29938 BTC\) as opposed to any subformat, such as satoshis, which represent one hundred millionth of a Bitcoin.
 
 ## Pagination
 
