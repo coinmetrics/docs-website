@@ -1,0 +1,6 @@
+redirects:
+  asset-metrics/market/referenceratelondon1030am: ./asset-metrics/market/referenceratesusd
+  asset-metrics/market/referenceratelondon1100am: ./asset-metrics/market/referenceratesusd
+  asset-metrics/market/referenceratenewyork1200pm: ./asset-metrics/market/referenceratesusd
+  asset-metrics/market/referenceratenewyork0400pm: ./asset-metrics/market/referenceratesusd
+  asset-metrics/market/referenceratechicago0315pm: ./asset-metrics/market/referenceratesusd
