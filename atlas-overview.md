@@ -57,7 +57,7 @@ The miner timestamp is exactly as it sounds - the timestamp put in the block hea
 
 ### Consensus Timestamp
 
-To provide accurate ordering, we employe the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks than the height does \(i.e., a block's Consensus Timestamp is always greater than or equal to it's parent's\).  This providers a uniform time series that accurately reflect the ordering of transactions.  
+To provide accurate ordering, we employ the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks as height \(i.e., a block's Consensus Timestamp is always greater than or equal to its parent's\).  This providers a uniform time series that accurately reflects the ordering of transactions.  
 
 ## Chain Sequencing
 
