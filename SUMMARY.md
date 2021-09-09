@@ -317,12 +317,12 @@
   * [UTXO Median Age \(Days\)](asset-metrics/network-usage/utxoagemed.md)
   * [UTXO Cnt in Profit](asset-metrics/network-usage/utxoprofcnt.md)
   * [UTXO Cnt in Loss](asset-metrics/network-usage/utxolosscnt.md)
-* [Open Interest](asset-metrics/open_interest/README.md)
-  * [Reported Coin-Margined Future Open Interest](asset-metrics/open_interest/open_interest_reported_future_coin_margined_usd.md)
-  * [Reported Non-Perpetual Future Open Interest](asset-metrics/open_interest/open_interest_reported_future_nonperpetual_usd.md)
-  * [Reported Perpetual Future Open Interest](asset-metrics/open_interest/open_interest_reported_future_perpetual_usd.md)
-  * [Reported Tether-Margined Future Open Interest](asset-metrics/open_interest/open_interest_reported_future_tether_margined_usd.md)
-  * [Reported Future Open Interest](asset-metrics/open_interest/open_interest_reported_future_usd.md)
+* [Open Interest](asset-metrics/open-interest/README.md)
+  * [Reported Coin-Margined Future Open Interest](asset-metrics/open-interest/open_interest_reported_future_coin_margined_usd.md)
+  * [Reported Non-Perpetual Future Open Interest](asset-metrics/open-interest/open_interest_reported_future_nonperpetual_usd.md)
+  * [Reported Perpetual Future Open Interest](asset-metrics/open-interest/open_interest_reported_future_perpetual_usd.md)
+  * [Reported Tether-Margined Future Open Interest](asset-metrics/open-interest/open_interest_reported_future_tether_margined_usd.md)
+  * [Reported Future Open Interest](asset-metrics/open-interest/open_interest_reported_future_usd.md)
 * [Supply](asset-metrics/supply/README.md)
   * [Total Base Fees Burnt \(native units\)](asset-metrics/supply/splyburntntv.md)
   * [Total Base Fees Burnt \(USD\)](asset-metrics/supply/splyburntusd.md)
@@ -465,16 +465,14 @@
 
 ## Block Explorer \(ATLAS\) <a id="atlas"></a>
 
----
-
-* [Atlas Overview](atlas-overview.md)
-* [Accounts](accounts.md)
-* [Blocks](blocks/README.md)
-  * [Full Block](blocks/full-block.md)
-* [Transactions](transactions/README.md)
-  * [Full Transaction](transactions/full-transaction/README.md)
-    * [Full Transaction Info for Block](transactions/full-transaction/full-transaction-for-block.md)
-* [Balance Updates](balance-updates.md)
+* [Atlas Overview](atlas/atlas-overview.md)
+* [Accounts](atlas/accounts.md)
+* [Blocks](atlas/blocks/README.md)
+  * [Full Block](atlas/blocks/full-block.md)
+* [Transactions](atlas/transactions/README.md)
+  * [Full Transaction](atlas/transactions/full-transaction/README.md)
+    * [Full Transaction Info for Block](atlas/transactions/full-transaction/full-transaction-for-block.md)
+* [Balance Updates](atlas/balance-updates.md)
 
 ## Market Data
 
