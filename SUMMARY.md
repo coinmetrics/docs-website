@@ -180,7 +180,7 @@
   * [Median Miner Tip \(USD\)](asset-metrics/fees-and-revenue/feepriomedusd.md)
   * [Total Miner Tips \(native units\)](asset-metrics/fees-and-revenue/feepriototntv.md)
   * [Total Miner Tips \(USD\)](asset-metrics/fees-and-revenue/feepriototusd.md)
-  * [Mean Tx Fee \(native units\)](asset-metrics/fees-and-revenue/feemeantvfees.md)
+  * [Mean Tx Fee \(native units\)](asset-metrics/fees-and-revenue/feemeanntv.md)
   * [Mean Tx Fee \(USD\)](asset-metrics/fees-and-revenue/feemeanusd.md)
   * [Median Tx Fee \(native units\)](asset-metrics/fees-and-revenue/feemedntv.md)
   * [Median Tx Fee \(USD\)](asset-metrics/fees-and-revenue/feemedusd.md)
