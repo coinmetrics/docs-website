@@ -1,6 +1,6 @@
 # API Basics
 
-## API Versions 
+## API Versions
 
 * \*\*\*\*[**API v4**](https://docs.coinmetrics.io/api/v4) **\(stable\)**
 * API [v2](https://docs.coinmetrics.io/api/v2), [v3](https://docs.coinmetrics.io/api/v3) \(deprecated\)
@@ -9,7 +9,7 @@
 
 ### Free Tier \(Community API\)
 
-Our community data can be accessed without an API key. Simply run queries against the`community-api.coinmetrics.io` endpoint. This data is available for free for non-commercial use under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license. See our [Terms of Use](https://coinmetrics.io/terms-of-use/) for more details.  
+Our community data can be accessed without an API key. Simply run queries against the`community-api.coinmetrics.io` endpoint. This data is available for free for non-commercial use under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license. See our [Terms of Use](https://coinmetrics.io/terms-of-use/) for more details.
 
 ### Paid Tier \(Pro API\)
 
@@ -39,9 +39,9 @@ Monetary amounts are provided as strings and with the same order of magnitude as
 
 ## Pagination
 
-Large lists may be split into pages.  In accordance with Coin Metrics' API v4, page size has a default value of **100** and can be changed using a `page_size` parameter. The **maximum** page size supported is **10,000**.
+Large lists may be split into pages. In accordance with Coin Metrics' API v4, page size has a default value of **100** and can be changed using a `page_size` parameter. The **maximum** page size supported is **10,000**.
 
-If a response contains the `next_page_url` field at the top level of the JSON response, it means the client can request the next page of results by fetching the provided URL without any modifications. 
+If a response contains the `next_page_url` field at the top level of the JSON response, it means the client can request the next page of results by fetching the provided URL without any modifications.
 
 ## Protocol
 
@@ -51,7 +51,7 @@ Coin Metrics' API v4 API uses the HTTP/2 protocol.
 
 To ensure the quality of Coin Metrics services, our API is subject to rate limiting. If you reach the limit, the API will begin to return `429 Too Many Requests` HTTP response status. The API also provides `X-RateLimit-*` response headers formatted according to [https://tools.ietf.org/html/draft-polli-ratelimit-headers-03](https://tools.ietf.org/html/draft-polli-ratelimit-headers-03).
 
-### Community API 
+### Community API
 
 The community version of API has a limit of 1,000 requests per 10 minutes sliding window for an **IP address**. It corresponds to 1.6 RPS.
 
@@ -124,6 +124,5 @@ These changes can only be introduced in a new major API version or unstable majo
 
 Generally, changes to the API interface and functionality will follow this policy as outlined above. However, breaking changes may still be made without introducing a new major version, if it is needed for continuous operation of Coin Metrics' services, for security reasons, or for other reasons, if following this policy is deemed to be infeasible. That may include, but is not limited to, the following: introducing or changing request rate limits, applying specific limits per specific API key, immediate disabling of specific methods or features, etc. Changes also can be made to this policy.
 
-Such emergency changes are expected to be rare exceptions and would be conducted only after careful assessment of the impact to clients. In the event of such a change, Coin Metrics would provide as much advance notice as possible.  
-
+Such emergency changes are expected to be rare exceptions and would be conducted only after careful assessment of the impact to clients. In the event of such a change, Coin Metrics would provide as much advance notice as possible.
 

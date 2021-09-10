@@ -15,7 +15,7 @@ Welcome to **Coin Metrics Data Encyclopedia**. At Coin Metrics, we organize the 
 
 ### [Blockchain Explorer \(Atlas\)](https://coinmetrics.io/atlas/)
 
-* **Atlas** is a complete blockchain search engine that enables users to look up information on transactions, addresses, and blocks through a high-performance [API](api.md). An API key is required to query the `/blockchain/` endpoint via our API. Specifics on the format of the API output are described below in the [**Atlas**](atlas-overview.md) ****section of this Encyclopedia.
+* **Atlas** is a complete blockchain search engine that enables users to look up information on transactions, addresses, and blocks through a high-performance [API](api.md). An API key is required to query the `/blockchain/` endpoint via our API. Specifics on the format of the API output are described below in the [**Atlas**](atlas/atlas-overview.md) ****section of this Encyclopedia.
 
 ## Market Data
 

@@ -4,7 +4,7 @@ description: /blockchain
 
 # Atlas Overview
 
-Atlas is a blockchain search tool designed to standardize and simplify raw blockchain data.  It provides a uniform way to query data from various blockchain full nodes using the double-entry accounting format, thereby bridging the underlying intricacies of different blockchain data models. The basis of Atlas is our Universal Blockchain Data Model \(UBDM\).
+Atlas is a blockchain search tool designed to standardize and simplify raw blockchain data. It provides a uniform way to query data from various blockchain full nodes using the double-entry accounting format, thereby bridging the underlying intricacies of different blockchain data models. The basis of Atlas is our Universal Blockchain Data Model \(UBDM\).
 
 ## Asset Coverage
 
@@ -31,41 +31,41 @@ Atlas currently supports the following assets:
 
 ## Accounts
 
-Accounts in the UBDM can be **User Accounts**, which are addresses that belong to network participants, or **Virtual Accounts**, which denote things like new asset issuance \(inflation\) and fees.  These Virtual Accounts serve to balance transactions and blocks.
+Accounts in the UBDM can be **User Accounts**, which are addresses that belong to network participants, or **Virtual Accounts**, which denote things like new asset issuance \(inflation\) and fees. These Virtual Accounts serve to balance transactions and blocks.
 
 ### Virtual Accounts
 
 #### Issuance Account
 
-Protocols like Bitcoin subsidize network security for a period of time by issuing new assets to successful miners in so-called _coinbase transactions._  Since new units sent to miners create an imbalance in the ledger, the virtual Issuance Account is debited with every new coinbase transaction.  There have been instances where, due to miner error, part of the funds that would have been otherwise fully claimed by a miner are inadvertently locked and irredeemable.  In such circumstances, the Issuance Account is credited when units are permanently locked in, or burned.  
+Protocols like Bitcoin subsidize network security for a period of time by issuing new assets to successful miners in so-called _coinbase transactions._ Since new units sent to miners create an imbalance in the ledger, the virtual Issuance Account is debited with every new coinbase transaction. There have been instances where, due to miner error, part of the funds that would have been otherwise fully claimed by a miner are inadvertently locked and irredeemable. In such circumstances, the Issuance Account is credited when units are permanently locked in, or burned.
 
 #### Fees Account
 
-Certain protocols, like Bitcoin, transactions are composed of inputs and outputs.  Users pay fees to miners for including their transactions in a block, but that fee is not showcased in the transaction's output list.  As a result, there is an imbalance between inputs and outputs \(the difference of which being the miner fees\), which is only settled when a block containing the transaction is mined.  To account for this imbalance, a virtual Fee Account is credited when users pay feeds and debited when miners claim these fees by mining a block.
+Certain protocols, like Bitcoin, transactions are composed of inputs and outputs. Users pay fees to miners for including their transactions in a block, but that fee is not showcased in the transaction's output list. As a result, there is an imbalance between inputs and outputs \(the difference of which being the miner fees\), which is only settled when a block containing the transaction is mined. To account for this imbalance, a virtual Fee Account is credited when users pay feeds and debited when miners claim these fees by mining a block.
 
 ### Non-Transactional Debits and Credits
 
-Even though the overwhelming majority of debits and credits take place within a transaction, some protocols have balance updates that occur outside of transactions \(for example, Ethereum blocks rewards are credited implicitly, outside of any transaction\).  There are also unusual circumstances where a block may carry additional credits and debits so that the ledger can be accurately balanced.  For example, the irregular ledger update following Ethereum's notorious DAO hack required us to append additional credits and debits to that block in order for the irregular ledger change to be accounted for.
+Even though the overwhelming majority of debits and credits take place within a transaction, some protocols have balance updates that occur outside of transactions \(for example, Ethereum blocks rewards are credited implicitly, outside of any transaction\). There are also unusual circumstances where a block may carry additional credits and debits so that the ledger can be accurately balanced. For example, the irregular ledger update following Ethereum's notorious DAO hack required us to append additional credits and debits to that block in order for the irregular ledger change to be accounted for.
 
 ## Timestamps: Consensus Timestamp vs. Miner Timestamp
 
-The UBDM accounts for two different types of timestamps: miner-reported and consensus.  
+The UBDM accounts for two different types of timestamps: miner-reported and consensus.
 
 ### Miner Timestamps
 
-The miner timestamp is exactly as it sounds - the timestamp put in the block header by the miner.  Most UTXO-based chains do not guarantee that the miner timestamps are accurate or even have to follow the same order as the height.  A timestamp for Bitcoin is considered valid if it is greater than the median timestamp of the previous 11 blocks, and less than the network adjusted time + 2 hours \(network adjusted time is the median of the timestamps returned by all nodes connected to the miner\).  As a result, block 1 could have a timestamp younger than block 2, which complicates any analysis that requires the correct ordering of transactions.  
+The miner timestamp is exactly as it sounds - the timestamp put in the block header by the miner. Most UTXO-based chains do not guarantee that the miner timestamps are accurate or even have to follow the same order as the height. A timestamp for Bitcoin is considered valid if it is greater than the median timestamp of the previous 11 blocks, and less than the network adjusted time + 2 hours \(network adjusted time is the median of the timestamps returned by all nodes connected to the miner\). As a result, block 1 could have a timestamp younger than block 2, which complicates any analysis that requires the correct ordering of transactions.
 
 ### Consensus Timestamp
 
-To provide accurate ordering, we employ the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks as height \(i.e., a block's Consensus Timestamp is always greater than or equal to its parent's\).  This providers a uniform time series that accurately reflects the ordering of transactions.  
+To provide accurate ordering, we employ the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks as height \(i.e., a block's Consensus Timestamp is always greater than or equal to its parent's\). This providers a uniform time series that accurately reflects the ordering of transactions.
 
 ## Chain Sequencing
 
-The global sequence number denotes the ordering of a transaction's updates relative to all other balance updates that have taken place up until that point.  For example, the very first credit to the miner of the Genesis block \(the first block to be confirmed in the ledger\) for the chain has a chain\_sequence\_number of 0.  The operations n the transactions immediately after that, be it a credit or a debit, would have the chain\_sequence\_number of 1.  In many ways, this is analogous to the block height \(for the block ordering\), but we take it a step further with the UBDM and apply the ordering to all operations that have ever taken place.  
+The global sequence number denotes the ordering of a transaction's updates relative to all other balance updates that have taken place up until that point. For example, the very first credit to the miner of the Genesis block \(the first block to be confirmed in the ledger\) for the chain has a chain\_sequence\_number of 0. The operations n the transactions immediately after that, be it a credit or a debit, would have the chain\_sequence\_number of 1. In many ways, this is analogous to the block height \(for the block ordering\), but we take it a step further with the UBDM and apply the ordering to all operations that have ever taken place.
 
 ## Transaction Sequencing
 
-The transaction sequence number serves to order and match sets of credits and debits inside a transaction.  If in a single transaction, Alice sent Bob 1 token, then Bob sent Charlie 1 token we would have the following order of events.
+The transaction sequence number serves to order and match sets of credits and debits inside a transaction. If in a single transaction, Alice sent Bob 1 token, then Bob sent Charlie 1 token we would have the following order of events.
 
 {% hint style="info" %}
 `transaction_sequence_number=0`
@@ -178,19 +178,18 @@ Taking this transaction that pays a fee of 0.25 BTC as an example, we have:
  } 
  ] 
 }
-
 ```
 
 ## API Endpoints
 
- The Atlas API endpoints are located under the common `/blockchain` prefix.  There are four primary data sets returned by the Atlas endpoints:
+The Atlas API endpoints are located under the common `/blockchain` prefix. There are four primary data sets returned by the Atlas endpoints:
 
 * [Accounts](accounts.md) `/blockchain/{asset}/accounts`
 * [Blocks](blocks/) `/blockchain/{asset}/blocks`
 * [Transactions](transactions/) `/blockchain/{asset}/transactions`
 * [Balance Updates](balance-updates.md) `/blockchain/{asset}/balance-updates`
 
-These endpoints \(with no additional query parameters\) return the full list of accounts, blocks, transactions, or balance updates for the asset queried with fields listed in each relevant section that follows.   The result can also be filtered for specific accounts or transactions, or for specific start/end times, heights, and chain sequence numbers.
+These endpoints \(with no additional query parameters\) return the full list of accounts, blocks, transactions, or balance updates for the asset queried with fields listed in each relevant section that follows. The result can also be filtered for specific accounts or transactions, or for specific start/end times, heights, and chain sequence numbers.
 
 So if you want a list of balance updates for a specific set of Bitcoin accounts, you'd use the `/blockchain/btc/balance-updates` endpoint with the `accounts=` parameter.
 
@@ -201,7 +200,7 @@ There are also two additional endpoints that can be used to get a:
 * Single full Block with all Transactions `/blockchain/{asset}/blocks/block_hash` 
 * Single full Transaction with all Balance Updates `/blockchain/{asset}/transactions/transaction_hash`
 
-These endpoints do not support any query parameters and return full block info and full transaction info.  The objects returned are the same as those without the full prefix with **additional JSON fields**.  
+These endpoints do not support any query parameters and return full block info and full transaction info. The objects returned are the same as those without the full prefix with **additional JSON fields**.
 
 ### Sample Queries
 
@@ -209,7 +208,4 @@ These endpoints do not support any query parameters and return full block info a
 * **Account info for only specified accounts**:  /{asset}/accounts?accounts=account1,account2
 * **Block info for all blocks created in the blockchain**: /{asset}/blocks
 * \[NEED TO FINISH\]
-
-   
-
 

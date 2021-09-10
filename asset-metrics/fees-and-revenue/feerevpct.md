@@ -6,7 +6,7 @@ The percentage of miner revenue derived from fees that interval. This is equal t
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-|  | FeeRevPct | Fees and revenue | Fees | Percentage | Dimensionless | 1 day |
+| Miner Revenue from Fees \(%\) | FeeRevPct | Fees and revenue | Fees | Percentage | Dimensionless | 1 day |
 
 ## Details
 
