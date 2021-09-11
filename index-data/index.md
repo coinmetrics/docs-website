@@ -17,4 +17,5 @@ The Coin Metrics Bletchley Indexes \(“CMBI”\) are an independent, transparen
 | [CMBIHASH](https://cmbi-indexes.coinmetrics.io/cmbihash) | CMBI Hashrate | 2015-01-01 |
 | [CMBILTC](https://cmbi-indexes.coinmetrics.io/cmbiltc) | CMBI Litecoin | 2013-04-01 |
 | [CMBIWORK](https://cmbi-indexes.coinmetrics.io/cmbiwork) | CMBI Observed Work | 2015-01-02 |
+| [CMBI10M](https://cmbi-indexes.coinmetrics.io/cmbi10m) | CMBI Momentum | 2017-01-09 |
 
