@@ -34,6 +34,8 @@ A sample of the daily levels for the CMBI10 is shown below:
 CMBI Single Asset Series 
 
 * Release Version:  v1.0 \(January 2020\) - Methodology launch and release of CMBIBTC, CMBIBTCT, CMBIETH and CMBIETHT
+* Release Version: v1.1 \(March 2021\) - Added CMBILTC
+* Release Version: v1.2 \(September 2021\) - Added CMBISOL
 
 CMBI Multi Asset Series 
 
@@ -42,6 +44,10 @@ CMBI Multi Asset Series
 CMBI Mining Series
 
 * Release Version: v1.0 \(May 2020\) - Methodology launch and release of CMBIWORK and CMBIHASH
+
+CMBI Momentum Series
+
+* Release Version: v1.0 \(June 2020\) - Methodology launch and release of CMBI10M
 
 ## **Availability**
 
