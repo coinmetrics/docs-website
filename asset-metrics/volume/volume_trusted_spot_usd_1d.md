@@ -7,8 +7,8 @@ The sum of all volume from the spot markets of a set of trusted exchanges in uni
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Trusted Spot Volume | volume\_trusted\_spot\_usd\_1d | Volume | Spot | NA | USD | 1d |
-| Trusted Spot Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Volume | Spot | NA | USD | 1h |
+| Trusted Spot Volume | volume\_trusted\_spot\_usd\_1d | Volume | Spot | Sum | USD | 1d |
+| Trusted Spot Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Volume | Spot | Sum | USD | 1h |
 
 ## Details
 

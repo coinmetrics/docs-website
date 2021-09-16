@@ -6,8 +6,8 @@ The sum of all reported future volume from the spot markets in Coin Metrics' cov
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Reported Future Volume | volume\_reported\_future\_usd\_1d | Volume | Future | NA | USD | 1d |
-| Reported Future Volume, 1 Hour | volume\_reported\_future\_usd\_1h | Volume | Future | NA | USD | 1h |
+| Reported Future Volume | volume\_reported\_future\_usd\_1d | Volume | Future | Sum | USD | 1d |
+| Reported Future Volume, 1 Hour | volume\_reported\_future\_usd\_1h | Volume | Future | Sum | USD | 1h |
 
 ## Details
 

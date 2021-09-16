@@ -6,8 +6,8 @@ The sum of all reported volume from the spot markets in Coin Metrics' coverage i
 
 | Name | MetricID | Category | Subcategory | Type | Unit | Interval |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Reported Spot Volume | volume\_reported\_spot\_usd\_1d | Volume | Spot | NA | USD | 1d |
-| Reported Spot Volume, 1 Hour | volume\_reported\_spot\_usd\_1h | Volume | Spot | NA | USD | 1h |
+| Reported Spot Volume | volume\_reported\_spot\_usd\_1d | Volume | Spot | Sum | USD | 1d |
+| Reported Spot Volume, 1 Hour | volume\_reported\_spot\_usd\_1h | Volume | Spot | Sum | USD | 1h |
 
 ## Details
 

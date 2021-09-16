@@ -25,7 +25,7 @@ The sum of all reported volume from futures markets where the margin asset is Te
       </td>
       <td style="text-align:left">Volume</td>
       <td style="text-align:left">Future</td>
-      <td style="text-align:left">NA</td>
+      <td style="text-align:left">Sum</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1d</td>
     </tr>
@@ -37,7 +37,7 @@ The sum of all reported volume from futures markets where the margin asset is Te
       </td>
       <td style="text-align:left">Volume</td>
       <td style="text-align:left">Future</td>
-      <td style="text-align:left">NA</td>
+      <td style="text-align:left">Sum</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1h</td>
     </tr>

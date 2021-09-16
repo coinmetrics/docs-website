@@ -14,7 +14,7 @@ The sum of all reported open interest from perpetual futures markets in units of
       <th style="text-align:left">Subcategory</th>
       <th style="text-align:left">Type</th>
       <th style="text-align:left">Unit</th>
-      <th style="text-align:left">Interval</th>
+      <th style="text-align:left">Frequency</th>
     </tr>
   </thead>
   <tbody>
@@ -25,8 +25,8 @@ The sum of all reported open interest from perpetual futures markets in units of
         <p>perpetual_usd</p>
       </td>
       <td style="text-align:left">Open Interest</td>
-      <td style="text-align:left">NA</td>
-      <td style="text-align:left">NA</td>
+      <td style="text-align:left">Future</td>
+      <td style="text-align:left">Sum</td>
       <td style="text-align:left">USD</td>
       <td style="text-align:left">1h, 1d</td>
     </tr>

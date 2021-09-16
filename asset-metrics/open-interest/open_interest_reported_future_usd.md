@@ -4,9 +4,9 @@
 
 The sum of all reported future open interest from the spot markets in Coin Metrics' coverage in units of U.S. dollars.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| Name | MetricID | Category | Subcategory | Type | Unit | Frequency |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Reported Future Open Interest | open\_interest\_reported\_future\_usd | Open Interest | NA | NA | USD | 1h, 1d |
+| Reported Future Open Interest | open\_interest\_reported\_future\_usd | Open Interest | Future | Sum | USD | 1h, 1d |
 
 ## Details
 
