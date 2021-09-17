@@ -32,8 +32,8 @@ Exchanges which offer futures markets utilize a risk management system that will
       <td style="text-align:left">Liquidations</td>
       <td style="text-align:left">Market Data</td>
       <td style="text-align:left">
-        <p><code>amount</code>: amount in units of number of contracts</p>
-        <p><code>price</code>: price in units of the underlying quote asset</p>
+        <p>Amount: amount in units of number of contracts</p>
+        <p>Price: price in units of the underlying quote asset</p>
       </td>
       <td style="text-align:left">n/a</td>
     </tr>
@@ -70,14 +70,14 @@ We harmonize the data in the following way:
 
 ![Source: CM Market Data Feed](../.gitbook/assets/0%20%289%29.png)
 
-* `market`: The id of the market. Market ids use the following naming convention: `exchangeName-baseAsset-quoteAsset-spot` for spot markets, `exchangeName-futuresSymbol-future` for futures markets, and `exchangeName-optionsSymbol-option` for options markets.  
-* `time`: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format. 
-* `coin_metrics_id`: The id of a liquidation \(unique per exchange\). We are using exchange reported value if exchange reports a numeric liquidation id, otherwise we convert to numeric using Bijective mapping from exchange reported liquidation id’s string. 
-* `amount`: The amount that is liquidated in units of number of contracts. 
-* `price`: The price of the underlying base asset quoted in the underlying quote asset that the liquidation trade was executed at or liquidation order was set at. 
-* `type`: The liquidation type. `trade` means that the liquidation was executed. `order` means that the order was placed for the liquidation at the timestamp of the data entry but it wasn’t necessarily executed yet. 
-* `database_time`: The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. 
-* `side`: The market order side. `buy` means that an ask was removed from the book by an incoming buy order, `sell` means that a bid was removed from the book by an incoming sell order. We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. 
+* **market**: The id of the market. Market ids use the following naming convention: `exchangeName-baseAsset-quoteAsset-spot` for spot markets, `exchangeName-futuresSymbol-future` for futures markets, and `exchangeName-optionsSymbol-option` for options markets.  
+* **time**: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format. 
+* **coin\_metrics\_id**: The id of a liquidation \(unique per exchange\). We are using exchange reported value if exchange reports a numeric liquidation id, otherwise we convert to numeric using Bijective mapping from exchange reported liquidation id’s string. 
+* **amount**: The amount that is liquidated in units of number of contracts. 
+* **price**: The price of the underlying base asset quoted in the underlying quote asset that the liquidation trade was executed at or liquidation order was set at. 
+* **type**: The liquidation type. `trade` means that the liquidation was executed. `order` means that the order was placed for the liquidation at the timestamp of the data entry but it wasn’t necessarily executed yet. 
+* **database\_time**: The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. 
+* **side**: The market order side. `buy` means that an ask was removed from the book by an incoming buy order, `sell` means that a bid was removed from the book by an incoming sell order. We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. 
 
 ## Frequently Asked Questions 
 
