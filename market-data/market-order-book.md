@@ -16,6 +16,10 @@ An order book represents the list of buy orders and the list of sell orders for 
 
 The price and amount that a trader is willing to buy is referred to as the bid. The price and amount that a trader is willing to sell is referred to as the ask. When a trade is executed between a buyer and a seller, an order is removed from the order book. While an order book is constantly updated in real-time as traders post new orders and as orders are matched, this data type represents a snapshot of the order book at a given moment in time. 
 
+Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full order book snapshot \(every bid and every ask\) taken once every hour. Both of these snapshots are served through our HTTP API endpoint [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks).
+
+Coin Metrics also serves order book snapshots and updates for the top 100 bids and 100 asks for major markets through our websocket API endpoint [`/timeseries-stream/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamMarketOrderbooks). The first message that the client receives is an order book snapshot. All subsequent messages are updates to the order book. 
+
 ## **Example**
 
 A sample of the order book data from the `coinbase-btc-usd-spot`market is provided below. The bid side of the order book and the ask side of the order book are displayed in separate tables. 
@@ -73,8 +77,6 @@ A sample of the order book data in json format is also provided below.
 ## **Availability**
 
 The previous 24 hours of order book data is available through our Community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our order book data is available through our professional API with higher rate limits.  
-
-Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full orde book snapshot \(every bid and every ask\) taken once every hour. 
 
 Our coverage universe is changing rapidly. Please contact us at info@coinmetrics.io for the latest order book coverage. 
 
