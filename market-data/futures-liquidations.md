@@ -32,8 +32,8 @@ Exchanges which offer futures markets utilize a risk management system that will
       <td style="text-align:left">Liquidations</td>
       <td style="text-align:left">Market Data</td>
       <td style="text-align:left">
-        <p>Amount: amount in units of number of contracts</p>
-        <p>Price: price in units of the underlying quote asset</p>
+        <p><code>amount</code>: amount in units of number of contracts</p>
+        <p><code>price</code>: price in units of the underlying quote asset</p>
       </td>
       <td style="text-align:left">n/a</td>
     </tr>
@@ -42,7 +42,7 @@ Exchanges which offer futures markets utilize a risk management system that will
 
 ## **Details**
 
-Futures contracts enable market participants to trade with leverage – that is, market participants are allowed to have a position with notional value greater than the amount of money they have in their account. This raises the possibility that market participants can lose more money than have in their account. To address this possibility, exchanges which offer futures products have a liquidation system that will attempt to close a market participant’s position before the point at which the market participant begins to owe more than what is in his account. 
+Futures contracts enable market participants to trade with leverage – that is, market participants are allowed to have a position with notional value greater than the amount of money they have in their account. This raises the possibility that market participants can lose more money than have in their account. To address this possibility, exchanges which offer futures products have a liquidation system that will attempt to close a market participant’s position before the point at which the market participant begins to owe more than what is in their account. 
 
 A simplified example illustrates the process. Suppose a trader deposits $100 into an exchange and buys $10,000 worth of Bitcoin perpetual contracts resulting in a leverage of 100x. Also, suppose the current price of Bitcoin is $10,000. If the price declines to $9,900 \(the “bankruptcy price”\), the trader would be bankrupt. Therefore, the exchange sets the liquidation price for this trader’s position at $9,925 \(the “liquidation price”\). If the price declines to this liquidation price, the exchange will forcibly initiate a sell liquidation order to attempt to close the trader’s position.
 
@@ -70,14 +70,14 @@ We harmonize the data in the following way:
 
 ![Source: CM Market Data Feed](../.gitbook/assets/0%20%289%29.png)
 
-* **market**: The id of the market. Market ids use the following naming convention: `exchangeName-baseAsset-quoteAsset-spot` for spot markets, `exchangeName-futuresSymbol-future` for futures markets, and `exchangeName-optionsSymbol-option` for options markets.  
-* **time**: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format. 
-* **coin\_metrics\_id**: The id of a liquidation \(unique per exchange\). We are using exchange reported value if exchange reports a numeric liquidation id, otherwise we convert to numeric using Bijective mapping from exchange reported liquidation id’s string. 
-* **amount**: The amount that is liquidated in units of number of contracts. 
-* **price**: The price of the underlying base asset quoted in the underlying quote asset that the liquidation trade was executed at or liquidation order was set at. 
-* **type**: The liquidation type. `trade` means that the liquidation was executed. `order` means that the order was placed for the liquidation at the timestamp of the data entry but it wasn’t necessarily executed yet. 
-* **database\_time**: The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. 
-* **side**: The market order side. `buy` means that an ask was removed from the book by an incoming buy order, `sell` means that a bid was removed from the book by an incoming sell order. We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. 
+* `market`: The id of the market. Market ids use the following naming convention: `exchangeName-baseAsset-quoteAsset-spot` for spot markets, `exchangeName-futuresSymbol-future` for futures markets, and `exchangeName-optionsSymbol-option` for options markets.  
+* `time`: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format. 
+* `coin_metrics_id`: The id of a liquidation \(unique per exchange\). We are using exchange reported value if exchange reports a numeric liquidation id, otherwise we convert to numeric using Bijective mapping from exchange reported liquidation id’s string. 
+* `amount`: The amount that is liquidated in units of number of contracts. 
+* `price`: The price of the underlying base asset quoted in the underlying quote asset that the liquidation trade was executed at or liquidation order was set at. 
+* `type`: The liquidation type. `trade` means that the liquidation was executed. `order` means that the order was placed for the liquidation at the timestamp of the data entry but it wasn’t necessarily executed yet. 
+* `database_time`: The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. 
+* `side`: The market order side. `buy` means that an ask was removed from the book by an incoming buy order, `sell` means that a bid was removed from the book by an incoming sell order. We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. 
 
 ## Frequently Asked Questions 
 
@@ -90,6 +90,8 @@ We report the side of the trade or order that was used to close the position und
 * Release Version: MDF v2.2 \(December 7, 2020\) - initial version
 
 ## **Availability**
+
+The previous 24 hours of liquidations data is available through our Community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our liquidations data is available through our professional API with higher rate limits.  
 
 ### Markets
 
