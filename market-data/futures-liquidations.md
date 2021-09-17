@@ -2,7 +2,7 @@
 description: /timeseries/market-liquidations
 ---
 
-# Futures Liquidations
+# Market Liquidations
 
 ## **Definition**
 

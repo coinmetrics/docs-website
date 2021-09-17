@@ -1,8 +1,8 @@
 ---
-description: /catalog-all/markets
+description: /catalog/markets and /catalog-all/markets
 ---
 
-# Futures Contract Specifications
+# Derivatives Contract Specifications
 
 ## **Definition**
 

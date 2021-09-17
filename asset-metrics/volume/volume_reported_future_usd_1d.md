@@ -23,7 +23,7 @@ Our reported future volume metric is an aggregation of the reported future volum
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/futures-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
 * [Trusted Spot Volume](volume_trusted_spot_usd_1d.md)
 * [Reported Spot Volume](volume_reported_spot_usd_1d.md)
 * [Reported Coin-Margined Future Volume](volume_reported_future_coin_margined_usd_1d.md)

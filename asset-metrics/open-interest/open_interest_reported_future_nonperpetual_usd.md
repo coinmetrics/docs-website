@@ -43,7 +43,7 @@ Our non-perpetual future open interest metric is an aggregation of the reported 
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/futures-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
 * [Market Open Interest](../../market-data/market-open-interest.md)
 * [Reported Non-Perpetual Future Volume ](../volume/volume_reported_future_nonperpetual_usd_1d.md)
 

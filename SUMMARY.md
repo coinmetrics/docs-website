@@ -468,6 +468,36 @@
 * [Asset Metrics FAQs](asset-metrics/asset-metrics-faqs.md)
 * [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
 
+## Institution Metrics \(Time Series\) <a id="institution-metrics"></a>
+
+* [Institution Metrics Overview](institution-metrics/institution-metrics-overview.md)
+* [Grayscale](institution-metrics/grayscale/README.md)
+  * [Shares Outstanding](institution-metrics/grayscale/shares-outstanding.md)
+  * [Market Price](institution-metrics/grayscale/market-price.md)
+  * [Net Asset Value](institution-metrics/grayscale/net-asset-value.md)
+  * [Coin Per Share](institution-metrics/grayscale/coin-per-share.md)
+  * [Total Assets](institution-metrics/grayscale/total-assets.md)
+
+## Market Data
+
+* [Market Data Overview](market-data/market-data-overview.md)
+* [Market Order Book](market-data/market-order-book.md)
+* [Market Quotes](market-data/market-quotes.md)
+* [Market Trades](market-data/market-trades.md)
+* [Market Candles](market-data/market-candles.md)
+* [Market Open Interest](market-data/market-open-interest.md)
+* [Market Liquidations](market-data/futures-liquidations.md)
+* [Market Funding Rates](market-data/futures-funding-rates.md)
+* [Derivatives Contract Specifications](market-data/derivatives-contract-specifications.md)
+* [Market Data FAQs](market-data/market-data-faqs.md)
+
+## Index Data
+
+* [Index Overview](index-data/index.md)
+* [Index Levels](index-data/index-levels.md)
+* [Index Constituents](index-data/index-constituents.md)
+* [Index FAQs](index-data/index-faqs.md)
+
 ## Block Explorer \(ATLAS\) <a id="atlas"></a>
 
 * [Atlas Overview](atlas/atlas-overview.md)
@@ -478,26 +508,6 @@
   * [Full Transaction](atlas/transactions/full-transaction/README.md)
     * [Full Transaction Info for Block](atlas/transactions/full-transaction/full-transaction-for-block.md)
 * [Balance Updates](atlas/balance-updates.md)
-
-## Market Data
-
-* [Market Data Overview](market-data/market-data-overview.md)
-* [Market Order Book](market-data/market-order-book.md)
-* [Market Quotes](market-data/market-quotes.md)
-* [Market Trades](market-data/market-trades.md)
-* [Market Candles](market-data/market-candles.md)
-* [Futures Contract Specifications](market-data/futures-contract-specifications.md)
-* [Market Open Interest](market-data/market-open-interest.md)
-* [Futures Liquidations](market-data/futures-liquidations.md)
-* [Futures Funding Rates](market-data/futures-funding-rates.md)
-* [Market Data FAQs](market-data/market-data-faqs.md)
-
-## Index Data
-
-* [Index Overview](index-data/index.md)
-* [Index Levels](index-data/index-levels.md)
-* [Index Constituents](index-data/index-constituents.md)
-* [Index FAQs](index-data/index-faqs.md)
 
 ## Charting Tools
 

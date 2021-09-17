@@ -2,7 +2,7 @@
 description: /timeseries/market-funding-rates
 ---
 
-# Futures Funding Rates
+# Market Funding Rates
 
 ## **Definition**
 
