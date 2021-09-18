@@ -481,14 +481,14 @@
 ## Market Data
 
 * [Market Data Overview](market-data/market-data-overview.md)
-* [Market Order Book](market-data/market-order-book.md)
-* [Market Quotes](market-data/market-quotes.md)
+* [Derivatives Contract Specifications](market-data/derivatives-contract-specifications.md)
 * [Market Trades](market-data/market-trades.md)
-* [Market Candles](market-data/market-candles.md)
 * [Market Open Interest](market-data/market-open-interest.md)
 * [Market Liquidations](market-data/futures-liquidations.md)
 * [Market Funding Rates](market-data/futures-funding-rates.md)
-* [Derivatives Contract Specifications](market-data/derivatives-contract-specifications.md)
+* [Market Order Book](market-data/market-order-book.md)
+* [Market Quotes](market-data/market-quotes.md)
+* [Market Candles](market-data/market-candles.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
 
 ## Index Data

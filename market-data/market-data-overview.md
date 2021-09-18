@@ -75,7 +75,7 @@ Data available at the exchange-asset level is available through the [`/timeserie
 
 ## Data Available at Asset Pair Level 
 
-Coin Metrics calculates several metrics for asset pairs such as `grayscale`. The institution coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints.
+Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `eth-usd`. The institution coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints.
 
 Data available at the asset pair level is available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
