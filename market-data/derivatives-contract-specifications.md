@@ -16,7 +16,7 @@ The contract specifications include information such as the underlying base and 
 
 Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures.  
 
-##  Harmonization Discussion 
+## Harmonization Discussion 
 
 Harmonization of derivatives contracts in the cryptoasset domain is difficult because there is wide disparity in contract design and exchange conventions. Some of the sources of difficulty include:
 
@@ -34,7 +34,7 @@ We harmonize the data in the following way:
 
 ## **Example**
 
-A sample of the futures and options contract specification data is shown below. 
+A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.is shown below. 
 
 ```text
 {
@@ -124,12 +124,12 @@ The contract specifications and our coverage can be found by querying our [`/cat
 
 | Type | Market Count |
 | :--- | :---: |
-| Futures | 6874 |
+| Future | 6874 |
 | Option | 18560 |
 
 ### Exchanges
 
-| Exchange | Futures Market Count | Option Market Count | Start Date |
+| Exchange | Future Market Count | Option Market Count | Start Date |
 | :--- | :---: | :---: | :---: |
 | Binance | 220 |  | 2019-09-08 |
 | Bitfinex | 35 |  | 2019-07-03 |
