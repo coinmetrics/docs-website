@@ -463,24 +463,24 @@
 * [Asset Metrics FAQs](asset-metrics/asset-metrics-faqs.md)
 * [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
 
-## Exchange Metrics \(Time Series\)
+## Exchange Metrics \(Time Series\) <a id="exchange-metrics"></a>
 
-* [Exchange Metrics Overview](exchange-metrics-time-series/exchange-metrics-overview.md)
-* [Open Interest](exchange-metrics-time-series/open-interest.md)
-* [Volume](exchange-metrics-time-series/volume.md)
+* [Exchange Metrics Overview](exchange-metrics/exchange-metrics-overview.md)
+* [Open Interest](exchange-metrics/open-interest.md)
+* [Volume](exchange-metrics/volume.md)
 
-## Exchange-Asset Metrics \(Time Series\)
+## Exchange-Asset Metrics \(Time Series\) <a id="exchange-asset-metrics"></a>
 
-* [Exchange-Asset Metrics Overview](exchange-asset-metrics-time-series/exchange-asset-metrics-overview.md)
-* [Basis](exchange-asset-metrics-time-series/basis/README.md)
-  * [Annualized Futures Basis, 30 day expiration](exchange-asset-metrics-time-series/basis/annualized-futures-basis-30-day-expiration.md)
-  * [Annualized Futures Basis, 60 day expiration](exchange-asset-metrics-time-series/basis/annualized-futures-basis-60-day-expiration.md)
-  * [Annualized Futures Basis, 90 day expiration](exchange-asset-metrics-time-series/basis/annualized-futures-basis-90-day-expiration.md)
-  * [Annualized Futures Basis, 120 day expiration](exchange-asset-metrics-time-series/basis/annualized-futures-basis-120-day-expiration.md)
-* [Open Interest](exchange-asset-metrics-time-series/open-interest.md)
-* [Volume](exchange-asset-metrics-time-series/volume.md)
+* [Exchange-Asset Metrics Overview](exchange-asset-metrics/exchange-asset-metrics-overview.md)
+* [Basis](exchange-asset-metrics/basis/README.md)
+  * [Annualized Futures Basis, 30 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-30-day-expiration.md)
+  * [Annualized Futures Basis, 60 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-60-day-expiration.md)
+  * [Annualized Futures Basis, 90 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-90-day-expiration.md)
+  * [Annualized Futures Basis, 120 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-120-day-expiration.md)
+* [Open Interest](exchange-asset-metrics/open-interest.md)
+* [Volume](exchange-asset-metrics/volume.md)
 
-## Pair Metrics
+## Pair Metrics \(Time Series\) <a id="pair-metrics"></a>
 
 * [Pair Metrics Overview](pair-metrics/pair-metrics-overview.md)
 * [Open Interest](pair-metrics/open-interest.md)

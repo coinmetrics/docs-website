@@ -57,9 +57,9 @@ Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binan
 
 Data available at the exchange level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
-{% page-ref page="../exchange-metrics-time-series/open-interest.md" %}
+{% page-ref page="../exchange-metrics/open-interest.md" %}
 
-{% page-ref page="../exchange-metrics-time-series/volume.md" %}
+{% page-ref page="../exchange-metrics/volume.md" %}
 
 ## Data Available at Exchange-Asset Pair Level 
 
@@ -67,11 +67,11 @@ Coin Metrics calculates several metrics for exchange-asset pairs such as `coinba
 
 Data available at the exchange-asset level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
-{% page-ref page="../exchange-asset-metrics-time-series/basis/" %}
+{% page-ref page="../exchange-asset-metrics/basis/" %}
 
-{% page-ref page="../exchange-asset-metrics-time-series/open-interest.md" %}
+{% page-ref page="../exchange-asset-metrics/open-interest.md" %}
 
-{% page-ref page="../exchange-asset-metrics-time-series/volume.md" %}
+{% page-ref page="../exchange-asset-metrics/volume.md" %}
 
 ## Data Available at Asset Pair Level 
 

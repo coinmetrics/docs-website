@@ -12,7 +12,7 @@ The available exchanges and the metrics available for each exchange can be found
 
 ## Metrics Coverage
 
-The metrics listed below are available at the exchange level: 
+The metric categories listed below are available at the exchange level: 
 
 {% page-ref page="open-interest.md" %}
 

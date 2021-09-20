@@ -46,7 +46,7 @@ Futures contracts enable market participants to trade with leverage – that is,
 
 A simplified example illustrates the process. Suppose a trader deposits $100 into an exchange and buys $10,000 worth of Bitcoin perpetual contracts resulting in a leverage of 100x. Also, suppose the current price of Bitcoin is $10,000. If the price declines to $9,900 \(the “bankruptcy price”\), the trader would be bankrupt. Therefore, the exchange sets the liquidation price for this trader’s position at $9,925 \(the “liquidation price”\). If the price declines to this liquidation price, the exchange will forcibly initiate a sell liquidation order to attempt to close the trader’s position.
 
-### **Harmonization Discussion**
+## **Harmonization Discussion**
 
 Our liquidation data harmonizes liquidation data across various exchanges. Here we discuss some differences in how various exchanges report their liquidations data.
 
