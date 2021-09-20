@@ -57,9 +57,9 @@ Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binan
 
 Data available at the exchange level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
-{% page-ref page="../asset-metrics/volume/" %}
+{% page-ref page="../exchange-metrics-time-series/open-interest.md" %}
 
-{% page-ref page="../asset-metrics/open-interest/" %}
+{% page-ref page="../exchange-metrics-time-series/volume.md" %}
 
 ## Data Available at Exchange-Asset Pair Level 
 
@@ -67,11 +67,11 @@ Coin Metrics calculates several metrics for exchange-asset pairs such as `coinba
 
 Data available at the exchange-asset level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
-{% page-ref page="../asset-metrics/volume/" %}
+{% page-ref page="../exchange-asset-metrics-time-series/basis/" %}
 
-{% page-ref page="../asset-metrics/open-interest/" %}
+{% page-ref page="../exchange-asset-metrics-time-series/open-interest.md" %}
 
-{% page-ref page="../asset-metrics/basis/" %}
+{% page-ref page="../exchange-asset-metrics-time-series/volume.md" %}
 
 ## Data Available at Asset Pair Level 
 
@@ -79,9 +79,9 @@ Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `e
 
 Data available at the asset pair level is available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
-{% page-ref page="../asset-metrics/volume/" %}
+{% page-ref page="../pair-metrics/open-interest.md" %}
 
-{% page-ref page="../asset-metrics/open-interest/" %}
+{% page-ref page="../pair-metrics/volume.md" %}
 
 ## Data Available at Institution Level 
 
@@ -90,6 +90,4 @@ Coin Metrics calculates several metrics for institutions such as `grayscale`. Th
 Data available at the institution level is available through the [`/timeseries/institution-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesInstitutionMetrics) API endpoint and specific metrics are described in the pages linked in this section: 
 
 {% page-ref page="../institution-metrics/grayscale/" %}
-
-
 

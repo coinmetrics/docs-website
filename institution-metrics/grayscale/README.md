@@ -1,6 +1,6 @@
 # Grayscale
 
-Grayscale sponsors several single-asset investment trusts and manages several funds that allow investment exposure to some of the largest cryptocurrencies by market capitalization. We offer institution metrics for all of Grayscale's investment products. 
+Grayscale sponsors several single-asset investment trusts and manages several funds that allow investment exposure to several cryptocurrencies. We offer institution metrics for all of Grayscale's investment products. 
 
 The following metrics are available for Grayscale's investment products: 
 
