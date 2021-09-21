@@ -72,7 +72,7 @@ A sample of the order book data in json format is also provided below.
 
 ## **Availability**
 
-The previous 24 hours of order book data is available through our Community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our order book data is available through our professional API with higher rate limits.  
+The previous 24 hours of order book data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our order book data is available through our professional API with higher rate limits.  
 
 Our coverage universe is expanding rapidly. Please contact us at info@coinmetrics.io for the latest order book coverage. 
 

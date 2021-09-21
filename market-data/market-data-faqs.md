@@ -1,9 +1,5 @@
 # Market Data FAQs
 
-#### **What is the latency of your Real-Time Market Data Trades?**
-
-Latency varies depending on the exchange, but we are confident that we capture more than 95% of trades after 0.3 seconds or so, and 99% of trades after 0.4 seconds. 
-
 #### **In perpetual futures/swaps, is the margin\_asset the asset of settlement?** 
 
 Yes, the margin\_asset is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires. 

@@ -16,22 +16,6 @@ The contract specifications include information such as the underlying base and 
 
 Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures.  
 
-## Harmonization Discussion 
-
-Harmonization of derivatives contracts in the cryptoasset domain is difficult because there is wide disparity in contract design and exchange conventions. Some of the sources of difficulty include:
-
-* The margin asset can be in the form of the underlying base asset, a stablecoin such as Tether, or a fiat currency.  
-* The contract size \(the amount of notional exposure that a single contract is worth\) can be in the form of varying units such as the underlying base asset or a fiat currency. Some exchanges use exotic futures design \(such as BitMEX's quanto contracts\) where the contract size is not fixed but rather a function of the current price.  
-* Some exchanges offer exotic futures contracts where the underlying is not a cryptoasset. Instead, it could be a custom index, an equity, or something else like Bitcoin's hash rate.  
-* Some exchanges hide the complexity involved with contract sizes and do not use contract sizes. Instead, they allow users to define the amount of units of the underlying base asset when trading and allow users to purchase fractional contracts \(representing fractional units of the underlying\) to simulate spot trading. Other exchanges explicitly define contract sizes and do not allow users to purchase fractional contracts. 
-* Some exchanges separate perpetual swap contracts that have no expiration date and traditional futures contracts with a specified expiration date. These exchanges serve contract information via two different endpoints with different response schema. 
-* Some exchanges do not provide all contract specification data via their API but instead define it in documentation.
-
-We harmonize the data in the following way: 
-
-* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1.  
-* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.   
-
 ## **Example**
 
 A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.is shown below. 
@@ -108,6 +92,22 @@ A sample of the futures and options contract specification data from our [`/cata
 * **`tick_size`**:  The minimum price increment of the contract’s price. 
 * **`listing`**:  The timestamp that the contract first became available for trading 
 * **`expiration`**:  The timestamp that the contract expires; equals null if the contract is a perpetual future that never expires.
+
+## Harmonization Discussion 
+
+Harmonization of derivatives contracts in the cryptoasset domain is difficult because there is wide disparity in contract design and exchange conventions. Some of the sources of difficulty include:
+
+* The margin asset can be in the form of the underlying base asset, a stablecoin such as Tether, or a fiat currency.  
+* The contract size \(the amount of notional exposure that a single contract is worth\) can be in the form of varying units such as the underlying base asset or a fiat currency. Some exchanges use exotic futures design \(such as BitMEX's quanto contracts\) where the contract size is not fixed but rather a function of the current price.  
+* Some exchanges offer exotic futures contracts where the underlying is not a cryptoasset. Instead, it could be a custom index, an equity, or something else like Bitcoin's hash rate.  
+* Some exchanges hide the complexity involved with contract sizes and do not use contract sizes. Instead, they allow users to define the amount of units of the underlying base asset when trading and allow users to purchase fractional contracts \(representing fractional units of the underlying\) to simulate spot trading. Other exchanges explicitly define contract sizes and do not allow users to purchase fractional contracts. 
+* Some exchanges separate perpetual swap contracts that have no expiration date and traditional futures contracts with a specified expiration date. These exchanges serve contract information via two different endpoints with different response schema. 
+* Some exchanges do not provide all contract specification data via their API but instead define it in documentation.
+
+We harmonize the data in the following way: 
+
+* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1.  
+* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.   
 
 ## Release History
 
