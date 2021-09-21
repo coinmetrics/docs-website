@@ -89,6 +89,10 @@ When spot markets that involve a new asset are listed on an exchange, there is a
 
 We support spot markets that involve existing assets that are already in our security master without any delay. We also collect new futures and options markets without any delay.  
 
+**Do you support decentralized exchanges such as Uniswap?** 
+
+We currently support centralized exchanges. Support for decentralized exchanges and defi protocols is coming soon! 
+
 **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
 Please take a look at the answer in the Market Data FAQs page linked below. 
@@ -109,7 +113,9 @@ Please take a look at the answer in the Market Data FAQs page linked below.
 
 The previous 24 hours of trades data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our trades data is available through our professional API with higher rate limits.  
 
-### Markets
+Our coverage can be found by querying our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) or [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints. Alternatively, you can query our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges)or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints which contain the same information but organized by exchange. 
+
+### Availability by Market Type 
 
 | Type | Number of Markets |
 | :--- | :---: |
@@ -117,7 +123,7 @@ The previous 24 hours of trades data is available through our community API.  Co
 | Futures | 6874 |
 | Option  | 18560 |
 
-### Exchanges
+### Availability by Exchange
 
 | Exchange | Spot Market Count | Future Market Count | Option Market Count | Start Date |
 | :--- | :---: | :---: | :---: | :---: |

@@ -8,38 +8,6 @@ description: /timeseries/market-openinterest
 
 Open interest represents the number of futures contracts that are currently outstanding and not settled. Each contract has a specified contract value that can be described by the size asset and contract size. 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Name</b>
-      </th>
-      <th style="text-align:left"><b>Category</b>
-      </th>
-      <th style="text-align:left"><b>Subcategory</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Unit</b>
-      </th>
-      <th style="text-align:left"><b>Interval</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Market open interest</td>
-      <td style="text-align:left">Market</td>
-      <td style="text-align:left">Futures open interest</td>
-      <td style="text-align:left">Market data</td>
-      <td style="text-align:left">
-        <p>Price: quote asset</p>
-        <p>Size: Units of base asset</p>
-      </td>
-      <td style="text-align:left">1 min</td>
-    </tr>
-  </tbody>
-</table>
-
 ## Details
 
 * A derivatives market represents a venue where contracts of a financial derivative are bought and sold.  Instead of an exchange rate, the price of a derivative represents the price of one contract.  Each financial derivatives contract has unique contract specifications which describe how the contract is quoted and the amount of notional exposure that a contract represents.  

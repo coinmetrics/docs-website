@@ -120,14 +120,14 @@ Contract specification data is available through our community API.  Community d
 
 The contract specifications and our coverage can be found by querying our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) or [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.
 
-### Markets
+### Availability by Market Type
 
 | Type | Market Count |
 | :--- | :---: |
 | Future | 6874 |
 | Option | 18560 |
 
-### Exchanges
+### Availability by Exchange
 
 | Exchange | Future Market Count | Option Market Count | Start Date |
 | :--- | :---: | :---: | :---: |
