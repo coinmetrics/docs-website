@@ -42,10 +42,6 @@ Our funding rates data updates based on the funding interval.
 
 There is no set time frequency for liquidations, since these are event-based just like trades. Whenever an exchange liquidates a traders position, that data is pulled in real time. In theory, if the market is trading flat and not moving much in either direction, you won't see many liquidations, whereas if there is high volatility you'll see a higher frequency stream of liquidations.
 
-#### Why is there no way to set specific frequencies/intervals for open interest data?  
-
-Nearly all exchanges only allow users to query the current open interest. So at the individual market level, our scrapers collect open interest snapshots at a high frequency -- roughly once every 1m, but it depends on network traffic and when it cycles. Currently no exchanges allow us to get open interest as a time-series with regularly spaced observations through time. 
-
 #### What is the 'coin\_metrics\_id' when pulling trades or liquidations data, and what is its purpose?
 
 'coin\_metrics\_id' is an identifier for an event that is unique per exchange. If an observation has a unique coin\_metrics\_id that means that the exchange reported it as a unique observation. For more background, our market data collection system is designed to use multiple instances of each scraper for redundancy purposes. Although we run multiple instances of each scraper, we deduplicate observations using a composite primary key. For trades and liquidations data, the primary key consists of exchange, futures symbol, and trade id. This ensures that each observation that we insert into our database is unique.

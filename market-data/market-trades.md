@@ -12,7 +12,7 @@ A trade is the exchange of a financial asset between a buyer and seller from a m
 
 Market participants can submit a buy order or sell order that indicate the amount and price level that a buyer or seller wishes to trade at. When the exchange receives an order, the order can be matched with another order or placed on the order book. An order book represents the list of unmatched buy orders and the list of unmatched sell orders for a given market organized by price level. When a market participant submits an order that matches with an existing order on the order book, the result is a trade. 
 
-Coin Metrics collects trades data from **spot**, **future**, and **option** markets that are listed on our exchange coverage universe. 
+Coin Metrics collects trades data from **spot**, **future**, and **option** markets from exchanges that are listed on our exchange coverage universe. 
 
 ## **Example**
 
@@ -117,7 +117,7 @@ Our coverage can be found by querying our [`/catalog/markets`](https://docs.coin
 
 ### Availability by Market Type 
 
-| Type | Number of Markets |
+| Type | Market Count |
 | :--- | :---: |
 | Spot | 13440 |
 | Futures | 6874 |

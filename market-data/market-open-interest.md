@@ -6,62 +6,105 @@ description: /timeseries/market-openinterest
 
 ## **Definition**
 
-Open interest represents the number of contracts that are currently outstanding and not settled for a specific derivatives market.  
+Open interest represents the number of contracts that are currently outstanding and not settled for a specific derivatives market. 
 
 ## Details
 
-Each contract has a specified contract value that can be described by the size asset and contract size. 
+Each contract has a specified contract value that can be described by the size asset and contract size. For example, the contract value for `bitmex-XBTUSD-future` is `1 usd` and the contract value for `cme-BTCF1-future` is `5 btc`. For more information, please take a look at our page about [derivatives contract specifications](https://docs.coinmetrics.io/market-data/derivatives-contract-specifications).  
 
-
-
-A derivatives market represents a venue where contracts of a financial derivative are bought and sold.  Instead of an exchange rate, the price of a derivative represents the price of one contract.  Each financial derivatives contract has unique contract specifications which describe how the contract is quoted and the amount of notional exposure that a contract represents.  
-
-* A futures contract is a financial derivative traded on an exchange that allows a buyer and seller to enter into a legal agreement to buy or sell an underlying asset. The term futures contract refers to both traditional futures contracts, which specify a defined time when the futures contract expires, and perpetual futures which simulate a traditional futures contract with the exception that it never expires.
-* Certain exchanges follow an integer contract size convention – buyers and sellers buy or sell a specified integer number of contracts and transacting in fractional contracts are not possible. However, some exchanges’s perpetual futures contracts do not follow the integer contract size convention. Instead, they allow traders to trade these futures contracts much like how spot markets trade. In- stead of buying and selling a specified integer number of contracts, traders can buy or sell a specified exposure in fractional units of the base asset. Therefore, certain exchanges report their open interest in fractional amounts. 
-* Each contract has a specified contract value that can be described by the size asset and contract size.   For instance, one contract of BitMEX’s XBTUSD contract allows for notional exposure worth 1 USD. Other exchanges have their own contract specifications.
+Coin Metrics collects open interest in units of number of contracts and in units of U.S. dollars at one minute snapshot frequency. We collect open interest snapshots from **future** and **option** markets from exchanges that are listed on our exchange coverage universe. 
 
 ## **Example**
 
-A sample of the futures open interest data from BitMEX is shown below. 
+A sample of the futures open interest data from the `binance-BTCUSDT-future` market from our  [`/timeseries/market-openinterest`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOpenIntereset) API endpoint is also provided below. 
 
-![Source: CM Market Data Feed](../.gitbook/assets/0%20%286%29.png)
+```text
+{
+  "data": [
+    {
+      "market": "binance-BTCUSDT-future",
+      "time": "2020-08-05T23:05:00.000000000Z",
+      "contract_count": "35074.075",
+      "value_usd": "408810440.79225",
+      "database_time": "2020-08-05T23:05:00.000000000Z",
+      "exchange_time": "2020-08-05T23:05:00.000000000Z"
+    },
+    {
+      "market": "binance-BTCUSDT-future",
+      "time": "2020-08-05T23:06:00.000000000Z",
+      "contract_count": "35061.142",
+      "value_usd": "409113039.09552",
+      "database_time": "2020-08-05T23:06:00.000000000Z",
+      "exchange_time": "2020-08-05T23:06:00.000000000Z"
+    }
+  ]
+}
+```
 
-* market:  The IDs of the market.  Market IDs use the following naming convention:  exchangeName-futuresSymbol-future for futures markets. 
-* time: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format.
-* contract\_count:  The open interest denominated in number of contracts.
-* value\_USD:  The open interest denominated in US dollars.
-* database\_time:  The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision.
-* exchange\_time:  The timestamp reported by the exchange.  Can be null if the exchange does not report a timestamp.
+* **`market`**:  The id of the market. Market ids use the following naming convention: `exchangeName-baseAsset-quoteAsset-spot` for spot markets, `exchangeName-futuresSymbol-future` for futures markets, and `exchangeName-optionsSymbol-option` for options markets.  
+* **`time`**: The time at which Coin Metrics queried the open interest data from an exchange in ISO 8601 date-time format. Always with nanoseconds precision. 
+* **`contract_count`**:  The open interest denominated in number of contracts. 
+* **`value_usd`**:  The open interest denominated in U.S. dollars. 
+* **`database_time`**:  The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. Always with nanoseconds precision. 
+* **`exchange_time`**:  The timestamp reported by the exchange.  Can be null if the exchange does not report a timestamp.
+
+## Frequently Asked Questions
+
+**Why do some markets have snapshot frequency of one minute but other markets have a different snapshot frequency?** 
+
+Most exchanges report their open interest in real-time and for these exchanges we collect open interest at one minute snapshot frequency. Binance only updates their open interest once every 15 minutes and CME only updates their open interest once a day, so for these two exchanges our snapshot frequency matches their update frequency. 
+
+**Is your open interest snapshot taken exactly on the minute?** 
+
+For exchanges that report an actual timestamp that is not the time of the request \(such as Binance and CME\), our `time`  field is the exchange-reported time. For all other exchanges, we truncate the `time` field to the minute. We try to cycle our scrapers as close to the minute as possible, but most exchanges do not allow us to query the open interest at a specific timestamp. Therefore, if you require a more precise timestamp for exactly when open interest was measured, we recommend using the `database_time` field which represents the time that we saved it in the database. 
+
+**Do you have open interest metrics for assets, exchanges, asset pairs, or exchange-asset pairs?** 
+
+Yes! We calculate various types of total open interest for assets like `btc`, exchanges like `binance`, asset pairs like `btc-usd`, and exchange-asset pairs like `binance-btc`. For more information, please take a look at our [open interest metrics](https://docs.coinmetrics.io/asset-metrics/open-interest). 
 
 ## Release History
 
-* Release Version: MDF v2.2 \(December 7, 2020\) - initial version
+* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added open interest for futures markets on Binance, Bitfinex, bitFlyer, BitMEX, Deribit, FTX, Huobi, Kraken, and OKEx. 
+*  [**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added open interest for futures markets on CME.  
+*  [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Added open interest for futures markets on Bybit. Added open interest for options markets on Deribit. Extended open interest for Ethereum markets on CME. Created several open interest metrics. Added enhanced open interest deduplication logic. 
+
+## See Also
+
+Coin Metrics also calculates several open interest metrics at the asset, exchange, and exchange-asset level. For instance, you could see the total open interest for a specific asset like `btc`, for a specific exchange like `binance` , or for a specific asset that trades on a specific exchange like `binance-btc`.
+
+Please see the following pages on open interest below to learn more.
+
+{% page-ref page="../asset-metrics/open-interest/" %}
+
+{% page-ref page="../exchange-metrics/open-interest.md" %}
+
+{% page-ref page="../exchange-asset-metrics/open-interest.md" %}
 
 ## **Availability**
 
-24 hours of futures open interest is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. 
+The previous 24 hours of open interest data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our open interest data is available through our professional API with higher rate limits. The professional API supports trades data through both our HTTP API and websocket API. 
 
-For a full list of assets, exchanges, and markets, please consult the Coin Metrics Data Coverage file or the ‘/catalog-all/markets’ via the API. 
-
-### Markets
+### Availability by Market Type
 
 | Type | Number of Markets |
 | :--- | :---: |
-| Futures | 5645 |
+| Futures | 4720 |
+| Option | 7163 |
 
-### Exchanges
+### Availability by Exchange
 
-| Exchange | \# of Futures Markets | Start Date |
-| :--- | :---: | :---: |
-| Binance | 101 | 2019-09-08 |
-| Bitfinex | 15 | 2019-07-03 |
-| Bitflyer | 22 | 2020-07-27 |
-| BitMEX | 226 | 2014-11-22 |
-| Deribit | 54 | 2017-01-06 |
-| FTX | 487 | 2019-03-05 |
-| Huobi | 1236 | 2020-06-12 |
-| Kraken | 29 | 2020-09-06 |
-| OKEx | 778 | 2019-12-25 |
+| Exchange | Future Market Count | Option Market Count | Start Date |
+| :--- | :---: | :--- | :---: |
+| Binance | 207 |  | 2020-07-27 |
+| Bitfinex | 25 |  | 2020-07-27 |
+| BitMEX | 86 |  | 2020-07-27 |
+| Bybit | 24 |  | 2021-05-01 |
+| CME | 61 |  | 2017-12-19 |
+| Deribit | 67 | 7163 | 2020-07-27 |
+| FTX | 1027 |  | 2020-07-27 |
+| Huobi | 1673 |  | 2020-07-27 |
+| Kraken | 67 |  | 2020-10-09 |
+| OKEx | 1483 |  | 2020-07-27 |
 
 
 
