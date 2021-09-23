@@ -14,11 +14,11 @@ Futures and options contracts are standardized contracts that allow counterparti
 
 The contract specifications include information such as the underlying base and quote asset, the margin asset, the contract size, the listing time, expiration time, and other terms. 
 
-Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures.  
+Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures \(sometimes called perpetual swaps\).  
 
 ## **Example**
 
-A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.is shown below. 
+A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints is shown below. 
 
 ```text
 {
@@ -111,7 +111,7 @@ We harmonize the data in the following way:
 
 ## Release History
 
-* **CM MDF v2.2 on December 7, 2020:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.  
+* \*\*\*\*[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.  
 * \*\*\*\*[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx. 
 
 ## **Availability**

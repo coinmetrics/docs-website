@@ -6,11 +6,16 @@ description: /timeseries/market-openinterest
 
 ## **Definition**
 
-Open interest represents the number of futures contracts that are currently outstanding and not settled. Each contract has a specified contract value that can be described by the size asset and contract size. 
+Open interest represents the number of contracts that are currently outstanding and not settled for a specific derivatives market.  
 
 ## Details
 
-* A derivatives market represents a venue where contracts of a financial derivative are bought and sold.  Instead of an exchange rate, the price of a derivative represents the price of one contract.  Each financial derivatives contract has unique contract specifications which describe how the contract is quoted and the amount of notional exposure that a contract represents.  
+Each contract has a specified contract value that can be described by the size asset and contract size. 
+
+
+
+A derivatives market represents a venue where contracts of a financial derivative are bought and sold.  Instead of an exchange rate, the price of a derivative represents the price of one contract.  Each financial derivatives contract has unique contract specifications which describe how the contract is quoted and the amount of notional exposure that a contract represents.  
+
 * A futures contract is a financial derivative traded on an exchange that allows a buyer and seller to enter into a legal agreement to buy or sell an underlying asset. The term futures contract refers to both traditional futures contracts, which specify a defined time when the futures contract expires, and perpetual futures which simulate a traditional futures contract with the exception that it never expires.
 * Certain exchanges follow an integer contract size convention – buyers and sellers buy or sell a specified integer number of contracts and transacting in fractional contracts are not possible. However, some exchanges’s perpetual futures contracts do not follow the integer contract size convention. Instead, they allow traders to trade these futures contracts much like how spot markets trade. In- stead of buying and selling a specified integer number of contracts, traders can buy or sell a specified exposure in fractional units of the base asset. Therefore, certain exchanges report their open interest in fractional amounts. 
 * Each contract has a specified contract value that can be described by the size asset and contract size.   For instance, one contract of BitMEX’s XBTUSD contract allows for notional exposure worth 1 USD. Other exchanges have their own contract specifications.

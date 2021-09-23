@@ -6,7 +6,7 @@ description: /timeseries/market-trades
 
 ## **Definition**
 
-A trade is the exchange of a financial asset between a buyer and seller from a market on an exchange. A financial asset can be a cryptoasset, a fiat currency, or a cryptoasset derivatives contract. 
+A trade is the exchange of a financial asset between a buyer and seller from a market on a trading venue. A financial asset can be a cryptoasset, a fiat currency, or a cryptoasset derivatives contract. 
 
 ## **Details**
 
@@ -20,7 +20,7 @@ A sample of the trades data from the `coinbase-btc-usd-spot` market is provided 
 
 ![](../.gitbook/assets/0%20%285%29.png)
 
-A sample of the trades data in json format is also provided below. 
+A sample of the trades data in json format from our [`/timeseries/market-trades`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketTrades) API endpoint is also provided below. 
 
 ```text
 {
@@ -77,7 +77,7 @@ Some exchanges use an incremental trade id that is represented by an integer tha
 
 **How do you ensure that the data contains no duplicate trades?**
 
-Our market data collection system is designed to use multiple instances of each scraper for redundancy purposes. Although we run multiple instances of each scraper, we deduplicate observations using a composite primary key. For trades and liquidations data, the primary key consists of exchange, futures symbol, and trade id. This ensures that each observation that we insert into our database is unique.
+Our market data collection system is designed to use multiple instances of each scraper for redundancy purposes. Although we run multiple instances of each scraper, we deduplicate observations using a composite primary key. For trades and liquidations data, the primary key consists of exchange, market id, and trade id. This ensures that each observation that we insert into our database is unique.
 
 #### **Is there a way to pull data for multiple markets in one API call?**
 
@@ -87,7 +87,7 @@ Yes! All of our endpoints that use the `markets` parameter support wildcard patt
 
 When spot markets that involve a new asset are listed on an exchange, there is a short period of time before we can support it. It involves adding this new asset to our security master file so that our market data collection system recognizes it. Please contact us at info@coinmetrics.io if you do not see a particular market, and we will investigate it. 
 
-We support spot markets that involve existing assets that are already in our security master without any delay. We also collect new futures and options markets without any delay.  
+We collect data for spot markets in real-time that consist of existing assets that are already in our security master file without any delay. We also collect data for new futures and options markets in real-time without any delay.  
 
 **Do you support decentralized exchanges such as Uniswap?** 
 
@@ -95,14 +95,14 @@ We currently support centralized exchanges. Support for decentralized exchanges 
 
 **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
-Please take a look at the answer in the Market Data FAQs page linked below. 
+Please take a look at this question in the Market Data FAQs page linked below. 
 
 {% page-ref page="market-data-faqs.md" %}
 
 ## **Release History**
 
 * **CM MDF v1.0 on April 2020**: Added trades data for all spot markets on major exchanges.  
-* **CM MDF v1.0 update on July 30, 2019**: Minor changes to trades weboscket messages.  
+* **CM MDF v1.0 update on July 30, 2019**: Minor changes to trades websocket messages.  
 * \*\*\*\*[**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/): Added trades data for spot markets on Binance.US. Added trades data for futures markets on BitMEX and Huobi.  
 * \*\*\*\*[**CM MDF v2.1 on May 5, 2020**](https://coinmetrics.io/market-data-feed-v2-1-release-notes/): Added trades data for spot markets on Kucoin and FTX. Added trades data for futures markets on Deribit, OKEx, Binance, FTX, and Bitfinex.  
 * \*\*\*\*[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added trades data for futures markets on bitFlyer and Kraken.  
