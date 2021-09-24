@@ -80,5 +80,7 @@ Exchange flows are estimated using the [common-input-ownership heuristic](https:
 
 Miner flows are estimated by basing clustering on an address’s distance in hops from the coinbase transaction. Addresses that have received a coinbase reward, or 0-hop addresses, are assumed to belong to mining pools. 1-hop addresses that have received payment from a 0-hop address are tagged as belonging to miners. This heuristic is less precise than the common-input-ownership heuristic, but roughly [mirrors the structure](https://braiins.com/blog/when-and-why-bitcoin-miners-sell-btc) of mining pool wallets and provides better coverage. ****You can find a bit more context around these methodologies in this [research piece](https://coinmetrics.io/following-flows-ii-where-do-miners-sell/). 
 
-\*\*\*\*
+#### What are the exchanges that serve as constituents for your Trusted Volume metric? 
+
+Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume is [here](https://docs.coinmetrics.io/asset-metrics/volume/volume_trusted_spot_usd_1d). 
 

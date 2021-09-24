@@ -10,6 +10,14 @@ Coin Metrics utilizes a multifaceted approach to ensure high levels of data qual
 * **Deployment process**: Our deployment process is governed by a series of SOC 2-compliant policies that include code reviews, extensive testing, manual review and quality control of historical values, and approvals prior to release. We received our SOC 2 Type 1 certification from Deloitte in August 2021 in the areas of security, availability, and processing integrity.  
 * **Human review**: For certain critical data types, we employ regular human review to detect anomalies and assess the quality of our data. For instance, our reference rates are reviewed by a dedicated staff member every day, 365 times a year, at 16:00 New York time. Our reference rates are checked for several issues, including timeliness, data anomalies, sufficient data inputs, and a comparison against external sources. 
 
+**Can you explain your historical data coverage?** 
+
+When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. 
+
+Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken. 
+
+Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination. 
+
 #### **Is there a way to pull data for multiple markets \(such as all the markets for a particular exchange\) in one API call?**   
 
 Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
@@ -25,8 +33,4 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 {% page-ref page="../exchange-asset-metrics/volume.md" %}
 
 {% page-ref page="../pair-metrics/volume.md" %}
-
-#### What are the exchanges that serve as constituents for your Trusted Volume metric? 
-
-Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume is [here](https://docs.coinmetrics.io/asset-metrics/volume/volume_trusted_spot_usd_1d). 
 
