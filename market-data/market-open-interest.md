@@ -64,7 +64,7 @@ Yes! We calculate various types of total open interest for assets like `btc`, ex
 
 ## Release History
 
-* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added open interest for futures markets on Binance, Bitfinex, bitFlyer, BitMEX, Deribit, FTX, Huobi, Kraken, and OKEx. 
+* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added open interest for futures markets on Binance, Bitfinex,  BitMEX, Deribit, FTX, Huobi, Kraken, and OKEx. 
 *  [**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added open interest for futures markets on CME.  
 *  [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Added open interest for futures markets on Bybit. Added open interest for options markets on Deribit. Extended open interest for Ethereum markets on CME. Created several open interest metrics. Added enhanced open interest deduplication logic. 
 
@@ -94,7 +94,7 @@ The previous 24 hours of open interest data is available through our community A
 ### Availability by Exchange
 
 | Exchange | Future Market Count | Option Market Count | Start Date |
-| :--- | :---: | :--- | :---: |
+| :--- | :---: | :---: | :---: |
 | Binance | 207 |  | 2020-07-27 |
 | Bitfinex | 25 |  | 2020-07-27 |
 | BitMEX | 86 |  | 2020-07-27 |

@@ -4,10 +4,6 @@
 
 Yes, the margin\_asset is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires. 
 
-#### **In the liquidations data schema, how should I interpret the output “side”, and how is it different from the “side” in the trades data schema?**
-
-The interpretation of the liquidation side is the side of the trade that liquidates the trader's position. For instance, if a trader is long a futures contract and the price declines such that the value of his position falls below the trader's maintenance margin, the exchange would execute a liquidation sell order to close the traders' position. So in liquidations, “side” is the side of the trade that liquidates the trader’s position.  And in trades, “side” is the side of the trade that removes an ask or a bid from the book.
-
 #### **Is there a way to pull data for multiple markets \(such as all the markets for a particular exchange\) in one API call?**   
 
 All of our endpoints in API v4 that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
@@ -37,10 +33,6 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 #### What determines the frequency/intervals of funding rates data?
 
 Our funding rates data updates based on the funding interval. 
-
-#### What determines the frequency/intervals of liquidations data?
-
-There is no set time frequency for liquidations, since these are event-based just like trades. Whenever an exchange liquidates a traders position, that data is pulled in real time. In theory, if the market is trading flat and not moving much in either direction, you won't see many liquidations, whereas if there is high volatility you'll see a higher frequency stream of liquidations.
 
 #### What is the 'coin\_metrics\_id' when pulling trades or liquidations data, and what is its purpose?
 
