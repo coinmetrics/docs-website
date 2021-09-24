@@ -106,5 +106,3 @@ The previous 24 hours of open interest data is available through our community A
 | Kraken | 67 |  | 2020-10-09 |
 | OKEx | 1483 |  | 2020-07-27 |
 
-
-
