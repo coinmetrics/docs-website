@@ -207,5 +207,4 @@ These endpoints do not support any query parameters and return full block info a
 * **Accounts info for all accounts created in the blockchain**: /{asset}/accounts
 * **Account info for only specified accounts**:  /{asset}/accounts?accounts=account1,account2
 * **Block info for all blocks created in the blockchain**: /{asset}/blocks
-* \[NEED TO FINISH\]
 
