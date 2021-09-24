@@ -18,11 +18,7 @@ Coin Metrics also serves quotes in real-time for major markets through our webso
 
 ## **Example**
 
-An sample of the quotes data the `coinbase-btc-usd-spot` market is provided below:
-
-![](../.gitbook/assets/0%20%283%29.png)
-
-A sample of the quotes data in json format is also provided below. 
+An sample of the quotes data the `coinbase-btc-usd-spot` market is provided below.
 
 ```text
 {
@@ -53,7 +49,7 @@ A sample of the quotes data in json format is also provided below.
 
 * **CM MDF v1.0 on April 2019:** Quotes for major `btc-usd` and `eth-usd` markets.  
 * **CM MDF v1.0 on July 30, 2019:** Added support for websocket endpoint which serves quotes in real-time.  
-* **CM MDF v2.0 on December 9, 2019:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`. 
+* \*\*\*\*[**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/)**:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`. 
 * \*\*\*\*[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)**:** Expanded our coverage universe to additional markets on Coinbase, Binance, FTX, Bitfinex, itBit.
 
 ## **Availability**

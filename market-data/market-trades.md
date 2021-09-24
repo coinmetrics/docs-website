@@ -16,11 +16,7 @@ Coin Metrics collects trades data from **spot**, **future**, and **option** mark
 
 ## **Example**
 
-A sample of the trades data from the `coinbase-btc-usd-spot` market is provided below:
-
-![](../.gitbook/assets/0%20%285%29.png)
-
-A sample of the trades data in json format from our [`/timeseries/market-trades`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketTrades) API endpoint is also provided below. 
+A sample of the trades data from the `coinbase-btc-usd-spot` market from our [`/timeseries/market-trades`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketTrades) API endpoint is provided below. 
 
 ```text
 {

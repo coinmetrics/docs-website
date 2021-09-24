@@ -18,11 +18,7 @@ Coin Metrics also serves order book snapshots and updates for the top 100 bids a
 
 ## **Example**
 
-A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market is provided below. The bid side of the order book and the ask side of the order book are displayed in separate tables. 
-
-![](../.gitbook/assets/0%20%284%29.png)
-
-A sample of the order book data in json format is also provided below. 
+A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market is provided below. 
 
 ```text
 {
@@ -67,7 +63,7 @@ A sample of the order book data in json format is also provided below.
 
 * **CM MDF v1.0 on April 2019:** Partial snapshots for major `btc-usd` and `eth-usd` markets.  
 * **CM MDF v1.0 on July 30, 2019:** Added support for websocket endpoint which serves an initial snapshot and order book updates.  
-* **CM MDF v2.0 on December 9, 2019:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`. 
+* \*\*\*\*[**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/)**:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`. 
 * \*\*\*\*[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)**:** Expanded both the depth of our order book snapshot coverage and our coverage universe. For important markets, we maintain a snapshot of the top 100 levels at 10 second intervals. Started storing full order book snapshots at hourly intervals. Expanded our coverage universe to additional markets on Coinbase, Binance, FTX, Bitfinex, itBit.
 
 ## **Availability**
