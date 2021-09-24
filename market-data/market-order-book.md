@@ -72,7 +72,3 @@ The previous 24 hours of order book data is available through our community API.
 
 Our coverage universe is expanding rapidly. Please contact us at info@coinmetrics.io for the latest order book coverage. 
 
-
-
-
-

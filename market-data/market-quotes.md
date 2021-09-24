@@ -58,7 +58,3 @@ The previous 24 hours of quotes data is available through our Community API.  Co
 
 Our coverage universe is expanding rapidly. Please contact us at info@coinmetrics.io for the latest quotes coverage. 
 
-
-
-
-
