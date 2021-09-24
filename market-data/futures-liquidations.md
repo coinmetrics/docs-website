@@ -103,7 +103,7 @@ The previous 24 hours of liquidations data is available through our community AP
 
 ### Availability by Exchange
 
-| Exchange | \# of Futures Markets | Start Date |
+| Exchange | Futures Market Count | Start Date |
 | :--- | :---: | :---: |
 | Binance | 203 | 2019-09-10 |
 | Bitfinex | 26 | 2019-08-01 |
