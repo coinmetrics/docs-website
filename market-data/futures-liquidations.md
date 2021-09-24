@@ -101,7 +101,7 @@ The previous 24 hours of liquidations data is available through our community AP
 | :--- | :---: |
 | Futures | 3817 |
 
-### Exchanges
+### Availability by Exchange
 
 | Exchange | \# of Futures Markets | Start Date |
 | :--- | :---: | :---: |
