@@ -87,6 +87,8 @@ Exchanges differ in their funding rate mechanism design and how they report the 
 
 ## **Availability**
 
+The previous 24 hours of funding rates data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our funding rates data is available through our professional API with higher rate limits.  
+
 ### **Availability by Market Type**
 
 | Type | Market Count |
