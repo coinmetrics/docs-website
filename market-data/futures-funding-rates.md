@@ -63,6 +63,14 @@ Exchanges also differ in how they report the rate. For some exchanges, the rate 
 
 You can use the `period` field. The formula is to annualize the funding rate is `rate * (1 year) / (period in years)`. Please note that funding payments are always applied to the value of the long or short position and represent a payment that does not change the value of the long or short position, so funding rates are not compounded. 
 
+#### What determines the frequency of funding rates data?
+
+Our funding rates data updates based on the funding interval. 
+
+#### **Why are there so many funding rate values of 0 for Bitfinex?**
+
+Bitfinex funding rate allows for 0% funding rates or no funding payments. [Bitfinex's funding rate methodology](https://www.bitfinex.com/legal/derivative/funding%20) statses that an obligation to make a funding payment arises whenever the average spread is greater than 0.05% or less than -0.05%. When the average spread over the funding period is equal to or within -0.05% and 0.05%, a funding payment will not be required. 
+
 ## **Harmonization Discussion**
 
 Exchanges differ in their funding rate mechanism design and how they report the data through their API. This section will discuss the key differences between exchanges and our approach to creating a harmonized data model.

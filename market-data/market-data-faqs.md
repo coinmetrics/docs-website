@@ -1,46 +1,24 @@
 # Market Data FAQs
 
-#### **In perpetual futures/swaps, is the margin\_asset the asset of settlement?** 
-
-Yes, the margin\_asset is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires. 
-
 #### **Is there a way to pull data for multiple markets \(such as all the markets for a particular exchange\) in one API call?**   
 
-All of our endpoints in API v4 that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
+Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
 
-**Is there a way to pull data for trading volume across a specific exchange or asset?**
+**Is there a way to pull data for trading volume across a specific exchange or asset?** 
 
-Yes, there is a way to query and calculate this via our API. With your API key you can pull candles data for all the markets listed on an exchange from our timeseries/market-candles endpoint.  Then you sum the volume by exchange. Here is a sample query that will pull candles from the coinbase-btc-usd-spot market: 
+We have pre-calculated volume metrics that represent total volume by asset, by exchange, by pair, or by exchange-asset pair. Please take a look at the following volume metrics below. 
 
-https://api.coinmetrics.io/v4/timeseries/market-candles?start\_time=2020-01-01&paging\_from=start&markets=coinbase-btc-usd-spot&pretty=true&api\_key=\[INSERT YOUR API KEY HERE\]
+{% page-ref page="../asset-metrics/volume/" %}
 
-You can add all of the volumes across pair/exchange to come to a total trading volume across an asset/exchange. 
+{% page-ref page="../exchange-metrics/volume.md" %}
 
-#### Is there a way to filter out just BTC-USD futures markets for analysis?
+{% page-ref page="../exchange-asset-metrics/volume.md" %}
 
-We use exchange-reported futures contract names, and unfortunately the exchanges haven't converged on any sort of standardized naming convention. For instance, BitMEX's BTC-USD perpetual contract is called XBTUSD.  To determine which futures contracts use BTC-USD as the underlying, you can take a look at our contract specifications from the /catalog/markets endpoint and keep markets that have type=future, base=btc, and quote=usd. You might also want to consider keeping markets with quote=usdt too since the futures based on BTC-USDT underlying are quite actively traded as well.   
-
-#### **Why are there so many funding rate values of 0, particularly with Bitfinex?**
-
-Bitfinex funding rate does allow for 0% funding rates or no funding payments. For their BTCF0-USTF0 contract, there are many periods of zero funding rate: [https://trading.bitfinex.com/t/BTCF0:USTF0/details](https://trading.bitfinex.com/t/BTCF0:USTF0/details)
-
-Table 1 shows, for example, that for the Perpetual Contract on BTCF0:USTF0, an obligation to make a Funding Payment arises whenever the Average Spread is greater than 0.05% or less than -0.05%. When the Average Spread over the Funding Period is equal to or within -0.05% and 0.05%, a Funding Payment will not be required: [https://www.bitfinex.com/legal/derivative/funding](https://www.bitfinex.com/legal/derivative/funding) 
+{% page-ref page="../pair-metrics/volume.md" %}
 
 #### What are the exchanges that serve as constituents for your Trusted Volume metric? 
 
 Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume is [here](https://docs.coinmetrics.io/asset-metrics/volume/volume_trusted_spot_usd_1d). 
-
-#### What determines the frequency/intervals of funding rates data?
-
-Our funding rates data updates based on the funding interval. 
-
-#### What is the 'coin\_metrics\_id' when pulling trades or liquidations data, and what is its purpose?
-
-'coin\_metrics\_id' is an identifier for an event that is unique per exchange. If an observation has a unique coin\_metrics\_id that means that the exchange reported it as a unique observation. For more background, our market data collection system is designed to use multiple instances of each scraper for redundancy purposes. Although we run multiple instances of each scraper, we deduplicate observations using a composite primary key. For trades and liquidations data, the primary key consists of exchange, futures symbol, and trade id. This ensures that each observation that we insert into our database is unique.
-
-Exchanges serve each trades and liquidations observations with a unique identifier, typically labeled as trade id or uid. If an exchange’s unique identifier is an integer, we store the integer as is. If an exchange’s unique identifier is a base 16 encoded string, we convert the string to an integer and store that value. In general, if an exchange’s unique identifier is a string, we convert it to an integer using a bijective mapping function.
-
-As such, when storing/ingesting our trades and liquidations data, we recommend adding the 'coin\_metrics\_id 'field to the table's composite primary key to ensure that you are not storing any duplicates. The coin\_metrics\_id is also useful when the exchange reports it as an incremental integer -- an integer that increments by 1 for every trade. Most exchanges will start this id at 1, so you can see how many trades have occurred in its lifetime. Also, it is useful for sequencing trades and determining whether all trades have been collected. Coinbase and Binance are two exchanges that report their trade ids in this format.
 
 **How does Coin Metrics ensure high levels of data quality and data integrity?**  
   
@@ -51,6 +29,4 @@ Coin Metrics utilizes a multifaceted approach to ensure high levels of data qual
 * **Monitoring and logging**: A dedicated team of engineers monitor logs and telemetry from our servers, databases, and applications in real-time using a suite of dashboards and automated alerts. We also have dedicated monitoring to detect interruptions of service from an exchange. 
 * **Deployment process**: Our deployment process is governed by a series of SOC 2-compliant policies that include code reviews, extensive testing, manual review and quality control of historical values, and approvals prior to release. We received our SOC 2 Type 1 certification from Deloitte in August 2021 in the areas of security, availability, and processing integrity.  
 * **Human review**: For certain critical data types, we employ regular human review to detect anomalies and assess the quality of our data. For instance, our reference rates are reviewed by a dedicated staff member every day, 365 times a year, at 16:00 New York time. Our reference rates are checked for several issues, including timeliness, data anomalies, sufficient data inputs, and a comparison against external sources. 
-
-
 

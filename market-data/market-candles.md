@@ -75,7 +75,7 @@ Our candles are calculated from trades data that we collect. Some exchanges allo
 
 #### **Is there a way to pull data for multiple markets in one API call?**
 
-Yes! All of our endpoints that use the `markets` parameter support wildcard patterns like `exchange-*` or `exchange-*-spot` or `*USDT-future`. 
+Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
 
 #### **When are candles calculated?** 
 

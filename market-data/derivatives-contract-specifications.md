@@ -93,6 +93,12 @@ A sample of the futures and options contract specification data from our [`/cata
 * **`listing`**:  The timestamp that the contract first became available for trading 
 * **`expiration`**:  The timestamp that the contract expires; equals null if the contract is a perpetual future that never expires.
 
+## Frequently Asked Questions 
+
+#### **Is the `margin_asset` the asset of settlement?** 
+
+Yes, the `margin_asset` is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires. 
+
 ## Harmonization Discussion 
 
 Harmonization of derivatives contracts in the cryptoasset domain is difficult because there is wide disparity in contract design and exchange conventions. Some of the sources of difficulty include:
