@@ -18,7 +18,7 @@ Coin Metrics also serves order book snapshots and updates for the top 100 bids a
 
 ## **Example**
 
-A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market is provided below. 
+A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market from our  [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks) API endpoint is provided below. 
 
 ```text
 {

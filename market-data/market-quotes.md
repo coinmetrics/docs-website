@@ -18,7 +18,7 @@ Coin Metrics also serves quotes in real-time for major markets through our webso
 
 ## **Example**
 
-An sample of the quotes data the `coinbase-btc-usd-spot` market is provided below.
+An sample of the quotes data the `coinbase-btc-usd-spot` market from our [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketQuotes) API endpoint is provided below.
 
 ```text
 {

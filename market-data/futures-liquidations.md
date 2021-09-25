@@ -16,7 +16,7 @@ A simplified example illustrates the process. Suppose a trader deposits $100 int
 
 ## **Example**
 
-A sample of the liquidations data from the `binance-BTCUSDT-future` market from our  [`/timeseries/market-liquidations`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketLiquidations) API endpoint is also provided below. 
+A sample of the liquidations data from the `binance-BTCUSDT-future` market from our  [`/timeseries/market-liquidations`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketLiquidations) API endpoint is provided below. 
 
 ```text
 {

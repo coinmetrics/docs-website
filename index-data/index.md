@@ -14,18 +14,18 @@ The data types listed below are available for each index:
 
 The following CMBI indexes are available. 
 
-**Single Asset Series**
+### **Single Asset Series**
 
 | **Index Ticker** | **Index Name** | Start Date |
 | :--- | :--- | :--- |
 | [CMBIBTC](https://cmbi-indexes.coinmetrics.io/cmbibtc) | CMBI Bitcoin  | 2010-07-18 |
-| [CMBIBTCT](https://cmbi-indexes.coinmetrics.io/cmbibtct) | CMBI Bitcoin - Total Return | 2010-07-18 |
+| [CMBIBTCT](https://cmbi-indexes.coinmetrics.io/cmbibtct) | CMBI Bitcoin Total Return | 2010-07-18 |
 | [CMBIETH](https://cmbi-indexes.coinmetrics.io/cmbieth) | CMBI Ethereum | 2015-08-08 |
-| [CMBIETHT](https://cmbi-indexes.coinmetrics.io/cmbietht) | CMBI Ethereum - Total Return | 2015-08-08 |
+| [CMBIETHT](https://cmbi-indexes.coinmetrics.io/cmbietht) | CMBI Ethereum Total Return | 2015-08-08 |
 | [CMBILTC](https://cmbi-indexes.coinmetrics.io/cmbiltc) | CMBI Litecoin | 2013-04-01 |
 | [CMBISOL](https://cmbi-indexes.coinmetrics.io/cmbisol) | CMBI Solana | 2020-04-11 |
 
-**Multi Asset Series**
+### **Multi Asset Series**
 
 | **Index Ticker** | **Index Name** | Start Date |
 | :--- | :--- | :--- |
@@ -35,10 +35,10 @@ The following CMBI indexes are available.
 | [CMBIBE](https://cmbi-indexes.coinmetrics.io/cmbibe) | CMBI Bitcoin and Ethereum | 2015-08-08 |
 | [CMBI10M](https://cmbi-indexes.coinmetrics.io/cmbi10m) | CMBI Momentum | 2017-01-09 |
 
-**Mining Series**
+### **Mining Series**
 
 | **Index Ticker** | **Index Name** | **Start Date** |
 | :--- | :--- | :--- |
-| [CMBIHASH](https://cmbi-indexes.coinmetrics.io/cmbihash) | CMBI Hashrate | 2015-01-01 |
-| [CMBIWORK](https://cmbi-indexes.coinmetrics.io/cmbiwork) | CMBI Observed Work | 2015-01-02 |
+| [CMBIHASH](https://cmbi-indexes.coinmetrics.io/cmbihash) | CMBI Bitcoin Hash Rate | 2015-01-01 |
+| [CMBIWORK](https://cmbi-indexes.coinmetrics.io/cmbiwork) | CMBI Bitcoin Observed Work | 2015-01-02 |
 

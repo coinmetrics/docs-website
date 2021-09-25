@@ -20,7 +20,7 @@ Coin Metrics calculates candles for **spot** and **future** markets from exchang
 
 ## **Example**
 
-An sample of the candles data from the `coinbase-btc-usd-spot` market is provided below:
+An sample of the candles data from the `coinbase-btc-usd-spot` market from our [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketCandles) API endpoint is provided below. 
 
 ```text
 {

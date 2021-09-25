@@ -18,7 +18,7 @@ While the formula for how the funding rate is calculated varies by exchange, the
 
 ## **Example**
 
-A sample of the funding rates data from the `bitmex-XBTUSD-future` market from our  [`/timeseries/market-funding-rates`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketFundingRates) API endpoint is also provided below. 
+A sample of the funding rates data from the `bitmex-XBTUSD-future` market from our  [`/timeseries/market-funding-rates`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketFundingRates) API endpoint is provided below. 
 
 ```text
 {

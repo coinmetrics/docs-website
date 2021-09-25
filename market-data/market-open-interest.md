@@ -16,7 +16,7 @@ Coin Metrics collects open interest in units of number of contracts and in units
 
 ## **Example**
 
-A sample of the futures open interest data from the `binance-BTCUSDT-future` market from our  [`/timeseries/market-openinterest`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOpenIntereset) API endpoint is also provided below. 
+A sample of the futures open interest data from the `binance-BTCUSDT-future` market from our  [`/timeseries/market-openinterest`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOpenIntereset) API endpoint is provided below. 
 
 ```text
 {
