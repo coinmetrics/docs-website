@@ -1,117 +1,43 @@
 # Index FAQs
 
-#### **How are the CMBI Single Asset Index prices calculated?** 
+#### **How are the CMBI Single Asset Index and CMBI Multi Asset Index levels calculated?** 
 
-The pricing inputs for our Indexes are informed by our Reference Rates methodologies.  We have methodologies for both hourly rates and real time rates. 
+The price inputs for our indexes are informed by our reference rates methodologies.  We have methodologies for both hourly rates and real-time rates. Our hourly and daily levels use our Hourly Reference Rates methodology and our 15 second levels use our Real-Time Reference Rates methodology. Links to the methodology documents are listed below. 
 
-* [Real Time Reference Rates  ](https://coinmetrics.io/wp-content/uploads/2021/04/rtrr-methodology.pdf)
-* [Hourly Reference Rates  ](https://coinmetrics.io/wp-content/uploads/2021/04/reference-rates-methodology.pdf)
-
-Our hourly and daily CMBI levels use our Hourly Reference Rates and our 15 second levels use our Real Time Reference Rates.   
+* [Hourly Reference Rates Methodology](https://coinmetrics.io/reference-rates-methodology/) 
+* [Real-Time Reference Rates Methodology](https://coinmetrics.io/rtrr-methodology/)\*\*\*\*
 
 **What's the difference between your reference rate and a single-asset index for the same asset?** 
 
-The calculation methodology for reference rates and single-asset indexes are identical and they both represent the price for a specific asset. However, the constituent markets can be different for indexes \(depending on the asset\) due to a higher consideration for investability. Additionally, single-asset indexes are administered under different policies that are specific for indexes, such as additional reporting requirements and policies for dealing with corporate actions like hard forks and airdrops. Additional information on the differences can be found here: 
+The calculation methodology for reference rates and single asset indexes are identical and they both represent the price for a specific asset. However, the constituent markets used in the calculation can be different because our indexes require a higher consideration for investability. Additionally, single asset indexes are administered under different policies that are specific for indexes, such as additional reporting requirements and policies for dealing with corporate actions like hard forks and airdrops. 
 
-* Single-asset indexes tend to use regulated U.S.-based exchanges as the constituent markets, while a reference rate for the same asset would not have this restriction and choose from a larger pool of global constituent markets. You can learn more about our Market Selection Framework [here](https://coinmetrics.io/wp-content/uploads/2021/02/reference-rates-market-selection-framework-v1-0-2.pdf). 
-* Since single-asset indexes are investable financial products, there is a lot stricter change/consultation process in the case of any significant methodology changes.
-* Since single-asset indexes are investable financial products, we generally don't recalculate history since trades or fund accounting may have occurred around printed levels \(defined in our recalculation policy\), whereas if we change the reference rate history, we may conduct a full historical value recalculation.
+Single asset indexes tend to select markets from regulated U.S.-based exchanges, while a reference rate for the same asset evaluates a larger pool of global constituent markets. You can learn more about our [Market Selection Framework](https://coinmetrics.io/reference-rates-market-selection-framework/) which selects high quality constituent markets for our reference rates. Our indexes then use these markets and excludes certain markets to enhance the investability of the index.  
 
-#### **Is there an Index equivalent of AssetEODCompletionTime for Indexes? When should I expect an EOD Index to complete its computation?**
+Our single asset indexes are linked to investable financial products, so there is a stricter change and consultation process in the case of any methodology changes. Single asset indexes also have a different revision policy than our reference rates since trades or fund accounting may have occurred around printed levels, whereas we occasionally conduct recalculations of limited portions of reference rates history to increase the quality of the rates.  
 
-Completion timing is less relevant for indexes as the publishing time for those values is largely deterministic and doesn't vary.  Blockchain metrics have to wait a few blocks for finality and suffer from the non-deterministic block mining times. However, the index rates for EOD \(either NYC, UTC, or Singapore\) are computed at 5 minutes past the hour and usually available within a minute or so. 
+#### **Is there an index equivalent of the metric `AssetEODCompletionTime` for indexes? When should I expect an end-of-day index value to be published?**
 
-#### **What are all of the Constituent Exchanges included in the Bitcoin Index, along with details such as the domicile, regulation and legal compliance?**
+Completion timing is less relevant for indexes as the publishing time for index values is largely deterministic. Blockchain metrics must wait a few blocks for finality and are impacted by non-deterministic block mining times. The index rates for end-of-day values \(New York, Singapore, or UTC\) are computed at 5 minutes past the hour and usually available within a minute. 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Exchange</b>
-      </th>
-      <th style="text-align:left"><b>Domicile</b>
-      </th>
-      <th style="text-align:left"><b>NY Bit License  </b>
-      </th>
-      <th style="text-align:left"><b>Money Service Business</b>
-      </th>
-      <th style="text-align:left"><b>Broker Dealer</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Coinbase</td>
-      <td style="text-align:left">Delaware Corporation</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Kraken</td>
-      <td style="text-align:left">Delaware Corporation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Bitstamp (USA)</td>
-      <td style="text-align:left">Delaware Corporation</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Gemini</td>
-      <td style="text-align:left">New York Trust Company</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">itBit</td>
-      <td style="text-align:left">New York Trust Company</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>Binance.US (Operated by</p>
-        <p>BAM trading Services)</p>
-      </td>
-      <td style="text-align:left">California</td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Bittrex</td>
-      <td style="text-align:left">Delaware Corporation</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Yes</td>
-      <td style="text-align:left">Yes</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><em>As of 2021-05-01</em>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+#### **What are of the constituent exchanges included in the CMBI Bitcoin Index, along with details such as the domicile, regulation and legal compliance?**
 
-You can find the latest constituent markets in the single asset [fact sheet](https://coinmetrics.io/wp-content/uploads/2021/05/CMBI-Single-Asset-Series-Factsheet.pdf).
+| **Exchange** | **Domicile** | **NY Bit License**   | **Money Service Business** | **Broker Dealer** |
+| :--- | :--- | :--- | :--- | :--- |
+| Coinbase  | Delaware Corporation | Yes | Yes | Yes |
+| Kraken  | Delaware Corporation |  | Yes |  |
+| Bitstamp \(USA\)  | Delaware Corporation | Yes | Yes |  |
+| Gemini  | New York Trust Company | Yes | Yes |  |
+| itBit  | New York Trust Company | Yes | Yes |  |
+| Binance.US | California | Yes |  |  |
+| Bittrex  | Delaware Corporation |  | Yes | Yes |
+
+Binance.US is operated by BAM Trading Services. You can find the latest constituent markets in our [fact sheet](https://cmbi-indexes.coinmetrics.io/cmbibtc).
 
 #### **What are the criteria considered for an exchange to become a Constituent Exchange?**
 
-Please refer to our [market selection framework](https://coinmetrics.io/wp-content/uploads/2021/02/reference-rates-market-selection-framework-v1-0-2.pdf) for detailed information on this. 
+Please refer to our [Market Selection Framework](https://coinmetrics.io/reference-rates-market-selection-framework/) for more information. 
 
-**You state that the Index does not currently utilize data from over-the-counter markets or derivatives platforms but that may decide to do so in the future. What are the factors that the Index Provider considers in determining whether to utilize data from the over-the-counter markets or derivative platforms?**
+**The methodology states that the index does not utilize data from over-the-counter markets or derivatives platforms but may do so in the future. What are the factors in determining whether to utilize data from the over-the-counter markets or derivative platforms?**
 
-This provides us with future optionality. Our expectation is that given the current market structure and momentum, public spot markets with transparent pricing will remain and we will not have to leverage OTC markets. But there is a non zero chance that OTC markets become more dominant \(similar to Gold whose primary market is the London Bullion Market which is OTC\), in which case the Oversight Committee may determine OTC markets as the best venue to derive index pricing from.  
-  
-  
-****
+This clause in the methodology provides us with future optionality. Given the current market structure, our expectation is that spot markets with transparent pricing will retain meaningful trading volume, and we will not have to select over-the-counter or derivatives markets. That being said, there is a non-zero chance that over-the-counter or derivatives markets become more dominant \(similar to gold in which the primary market is the London Bullion Market, an over-the-counter market\), in which case the Coin Metrics Oversight Committee may determine that these markets serve as the best venues to derive index pricing from.
 
