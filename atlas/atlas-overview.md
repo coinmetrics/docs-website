@@ -12,22 +12,22 @@ Atlas currently supports the following assets:
 
 | Asset | Symbol |
 | :--- | :--- |
-| Bitcoin | btc |
-| Bitcoin Cash | bch |
-| Binance USD | busd |
-| Dash | dash |
-| Ethereum | eth |
-| Litecoin | ltc |
-| Huobi USD | husd |
-| Paxos Standard | pax |
-| Paxos Gold | paxg |
-| USDC | usdc |
-| USDT\_Omni | usdt |
-| USDT\_ETH | usdt\_eth |
-| USDT\_TRX | usdt\_trx |
-| WBTC | wbtc |
-| XRP | xrp |
-| Zcash | zec |
+| Bitcoin | `btc` |
+| Bitcoin Cash | `bch` |
+| Binance USD | `busd` |
+| Dash | `dash` |
+| Ethereum | `eth` |
+| Litecoin | `ltc` |
+| Huobi USD | `husd` |
+| Paxos Standard | `pax` |
+| Paxos Gold | `paxg` |
+| USDC | `usdc` |
+| USDT\_Omni | `usdt` |
+| USDT\_ETH | `usdt_eth` |
+| USDT\_TRX | `usdt_trx` |
+| WBTC | `wbtc` |
+| XRP | `xrp` |
+| Zcash | `zec` |
 
 ## Accounts
 
@@ -41,27 +41,27 @@ Protocols like Bitcoin subsidize network security for a period of time by issuin
 
 #### Fees Account
 
-Certain protocols, like Bitcoin, transactions are composed of inputs and outputs. Users pay fees to miners for including their transactions in a block, but that fee is not showcased in the transaction's output list. As a result, there is an imbalance between inputs and outputs \(the difference of which being the miner fees\), which is only settled when a block containing the transaction is mined. To account for this imbalance, a virtual Fee Account is credited when users pay feeds and debited when miners claim these fees by mining a block.
+For certain protocols, like Bitcoin, transactions are composed of inputs and outputs. Users pay fees to miners for including their transactions in a block, but that fee is not showcased in the transaction's output list. As a result, there is an imbalance between inputs and outputs \(the difference of which being the miner fees\), which is only settled when a block containing the transaction is mined. To account for this imbalance, a virtual Fee Account is credited when users pay fees and debited when miners claim these fees by mining a block.
 
 ### Non-Transactional Debits and Credits
 
 Even though the overwhelming majority of debits and credits take place within a transaction, some protocols have balance updates that occur outside of transactions \(for example, Ethereum blocks rewards are credited implicitly, outside of any transaction\). There are also unusual circumstances where a block may carry additional credits and debits so that the ledger can be accurately balanced. For example, the irregular ledger update following Ethereum's notorious DAO hack required us to append additional credits and debits to that block in order for the irregular ledger change to be accounted for.
 
-## Timestamps: Consensus Timestamp vs. Miner Timestamp
+## Timestamps: Miner Timestamp vs. Consensus Timestamp
 
 The UBDM accounts for two different types of timestamps: miner-reported and consensus.
 
 ### Miner Timestamps
 
-The miner timestamp is exactly as it sounds - the timestamp put in the block header by the miner. Most UTXO-based chains do not guarantee that the miner timestamps are accurate or even have to follow the same order as the height. A timestamp for Bitcoin is considered valid if it is greater than the median timestamp of the previous 11 blocks, and less than the network adjusted time + 2 hours \(network adjusted time is the median of the timestamps returned by all nodes connected to the miner\). As a result, block 1 could have a timestamp younger than block 2, which complicates any analysis that requires the correct ordering of transactions.
+The miner timestamp is exactly as it sounds - the timestamp put in the block header by the miner. Most UTXO-based chains do not guarantee that the miner timestamps are accurate or even have to follow the same order as the height. A timestamp for Bitcoin is considered valid if it is greater than the median timestamp of the previous 11 blocks, and less than the network-adjusted time + 2 hours \(network-adjusted time is the median of the timestamps returned by all nodes connected to the miner\). As a result, block 1 could have a timestamp younger than block 2, which complicates any analysis that requires the correct ordering of transactions.
 
 ### Consensus Timestamp
 
-To provide accurate ordering, we employ the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks as height \(i.e., a block's Consensus Timestamp is always greater than or equal to its parent's\). This providers a uniform time series that accurately reflects the ordering of transactions.
+To provide accurate ordering, we employ the concept of a Consensus Timestamp, which has the property of providing the same or partial order over blocks as height \(i.e., a block's Consensus Timestamp is always greater than or equal to its parent's\). This provides a uniform time series that accurately reflects the ordering of transactions.
 
 ## Chain Sequencing
 
-The global sequence number denotes the ordering of a transaction's updates relative to all other balance updates that have taken place up until that point. For example, the very first credit to the miner of the Genesis block \(the first block to be confirmed in the ledger\) for the chain has a chain\_sequence\_number of 0. The operations n the transactions immediately after that, be it a credit or a debit, would have the chain\_sequence\_number of 1. In many ways, this is analogous to the block height \(for the block ordering\), but we take it a step further with the UBDM and apply the ordering to all operations that have ever taken place.
+The global sequence number denotes the ordering of a transaction's updates relative to all other balance updates that have taken place up until that point. For example, the very first credit to the miner of the genesis block \(the first block to be confirmed in the ledger\) for the chain has a `chain_sequence_number` of 0. The operations in the transactions immediately after that, be it a credit or a debit, would have the `chain_sequence_number` of 1. In many ways, this is analogous to the block height \(for the block ordering\), but we take it a step further with the UBDM and apply the ordering to all operations that have ever taken place.
 
 ## Transaction Sequencing
 
@@ -85,10 +85,10 @@ Credits and debits inside a transaction are grouped by transaction sequence numb
 
 UTXO transactions \(used in Bitcoin and derivative assets\) are comprised of 2 parts:
 
-* Inputs \(debits\) which list the previously unspent outputs spent by this transaction
+* Inputs \(debits\) which list the previously unspent outputs spent by this transaction 
 * Outputs \(credits\) which list the newly created unspent outputs by this transaction
 
-Since UTXO transactions are applied atomically, all credits and debits have `tx_sequence_number=0.`
+Since UTXO transactions are applied atomically, all credits and debits have `tx_sequence_number` of 0.
 
 Taking this transaction that pays a fee of 0.25 BTC as an example, we have:
 
