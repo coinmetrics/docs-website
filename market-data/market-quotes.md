@@ -16,6 +16,8 @@ Coin Metrics stores two types of order book snapshots. One type consists of a sn
 
 Coin Metrics also serves quotes in real-time for major markets through our websocket API endpoint [`/timeseries-stream/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamMarketQuotes). 
 
+For more information about our quotes data, please reference our [market order book](https://docs.coinmetrics.io/market-data/market-order-book) page. 
+
 ## **Example**
 
 An sample of the quotes data the `coinbase-btc-usd-spot` market from our [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketQuotes) API endpoint is provided below.
@@ -44,6 +46,12 @@ An sample of the quotes data the `coinbase-btc-usd-spot` market from our [`/time
 * **`ask_size`**: The size of the ask on the order book in units of the base asset for a spot market or number of contracts for a derivatives market. 
 * **`bid_price`**:  The price of the bid on the order book in units of the quote currency. 
 * **`bid_size`**: The size of the bid on the order book in units of the base asset for a spot market or number of contracts for a derivatives market.
+
+## Frequently Asked Questions 
+
+Since our quotes data is derived from our order book data, please reference our [market order book](https://docs.coinmetrics.io/market-data/market-order-book) page for many frequently asked questions about order book data. 
+
+{% page-ref page="market-order-book.md" %}
 
 ## **Release History**
 
