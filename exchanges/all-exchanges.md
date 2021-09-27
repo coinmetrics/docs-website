@@ -2,9 +2,13 @@
 
 The following lists all exchanges in our coverage universe along with the number of spot, futures and options markets, and the start date of coverage for each. 
 
-We collect data from 30 exchanges with **spot** data, 11 exchanges with **futures** data, and 2 exchanges with **options** data. Market data for these exchanges is served through our [market data endpoints](https://docs.coinmetrics.io/market-data/market-data-overview).
+We collect data from 34 exchanges, consisting of 30 exchanges with **spot** data, 11 exchanges with **futures** data, and 2 exchanges with **options** data. Market data for these exchanges is served through our [market data endpoints](https://docs.coinmetrics.io/market-data/market-data-overview).
 
-## Coverage for Exchanges With Spot Market Data 
+## Coverage for Exchanges by Market Type 
+
+The coverage for exchanges for spot, futures, and options market data is provided below. 
+
+### Coverage for Exchanges With Spot Market Data 
 
 | Exchange | Spot Market Count | Start Date |
 | :--- | :---: | :---: |
@@ -39,7 +43,7 @@ We collect data from 30 exchanges with **spot** data, 11 exchanges with **future
 | Upbit | 452 | 2019-03-14 |
 | ZB.com | 456 | 2019-03-04 |
 
-## Coverage for Exchanges With Futures Market Data 
+### Coverage for Exchanges With Futures Market Data 
 
 
 
@@ -57,10 +61,20 @@ We collect data from 30 exchanges with **spot** data, 11 exchanges with **future
 | Kraken | 84 | 2020-08-24 |
 | OKEx | 1979 | 2019-12-25 |
 
-## Coverage for Exchanges With Options Market Data 
+### Coverage for Exchanges With Options Market Data 
 
 | Exchange | Options Market Count | Start Date |
 | :--- | :---: | :---: |
 | Deribit | 12162 | 2021-03-27 |
 | OKEx | 6865 | 2021-04-06 |
+
+## **Frequently Asked Questions**
+
+**Can you explain your historical data coverage?** 
+
+When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. For a given data type, some exchanges allow us to get the complete history, some exchanges allow us to get a short window of history, and some exchanges do not allow us to get any history. 
+
+Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken. 
+
+Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination. 
 

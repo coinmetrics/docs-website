@@ -31,7 +31,9 @@ Completion timing is less relevant for indexes as the publishing time for index 
 | Binance.US | California | Yes |  |  |
 | Bittrex  | Delaware Corporation |  | Yes | Yes |
 
-Binance.US is operated by BAM Trading Services. You can find the latest constituent markets in our [fact sheet](https://cmbi-indexes.coinmetrics.io/cmbibtc).
+Note: Binance.US is operated by BAM Trading Services. 
+
+You can find the latest constituent markets in our [fact sheet](https://cmbi-indexes.coinmetrics.io/cmbibtc).
 
 #### **What are the criteria considered for an exchange to become a constituent exchange?**
 
