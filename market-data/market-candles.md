@@ -87,6 +87,10 @@ Please take a look at this question in the Market Data FAQs page linked below.
 
 {% page-ref page="market-data-faqs.md" %}
 
+**Why are there some observations where the candle vwap is higher than the high price or lower than the low price?**
+
+We construct gapless candles which means that if there are no trades in a candle interval, we fill forward candles through time, setting the open, high, low, and close to the close of the previous candle, setting the vwap to the vwap of the previous candle, and setting the volume to zero. In cases where there are no trades in a candle interval, it is expected that the vwap may be higher than the high price or lower than the low price due to our fill forward logic. 
+
 ## **Known Data Issues** 
 
 * **Candles data is filled forward longer than needed for markets that are delisted.** We are working on a future upgrade to our candles that will correct this. 
