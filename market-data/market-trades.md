@@ -57,7 +57,7 @@ A sample of the trades data from the `coinbase-btc-usd-spot` market from our [`/
 
 The exact latency varies depending on the exchange, but our median latency is approximately 150 milliseconds. The 95th percentile latency is 300 milliseconds, and the 99th percentile latency is 400 milliseconds. 
 
-**What is the historical coverage of your trades data?** 
+**What is the historical coverage of your trades data?**
 
 Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken. 
 
@@ -79,13 +79,17 @@ Our market data collection system is designed to use multiple instances of each 
 
 Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets. 
 
-**How come there is no trades data for a particular market?** 
+**What is the timestamp resolution of your trades data?** 
+
+We always preserve the exchange-reported timestamp resolution, and the maximum resolution reported by some exchanges is at microsecond level. Our API serves time always using nanosecond precision. 
+
+**How come there is no trades data for a particular market?**
 
 When spot markets that involve a new asset are listed on an exchange, there is a short period of time before we can support it. It involves adding this new asset to our security master file so that our market data collection system recognizes it. Please contact us at info@coinmetrics.io if you do not see a particular market, and we will investigate it. 
 
 We collect data for spot markets in real-time that consist of existing assets that are already in our security master file without any delay. We also collect data for new futures and options markets in real-time without any delay.  
 
-**Do you support decentralized exchanges such as Uniswap?** 
+**Do you support decentralized exchanges such as Uniswap?**
 
 We currently support centralized exchanges. Support for decentralized exchanges and defi protocols is coming soon! 
 

@@ -12,7 +12,7 @@ An order book represents the list of buy orders and the list of sell orders for 
 
 The price and amount that a trader is willing to buy is referred to as the bid. The price and amount that a trader is willing to sell is referred to as the ask. When a trade is executed between a buyer and a seller, an order is removed from the order book. While an order book is constantly updated in real-time as traders post new orders and as orders are matched, this data type represents a snapshot of the order book at a given moment in time. 
 
-Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full order book snapshot \(every bid and every ask\) taken once every hour. Both of these snapshots are served through our HTTP API endpoint [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks).
+Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds for major markets.  The second type consists of a full order book snapshot \(every bid and every ask\) taken once every hour for all markets that we are collecting order book data for. Both of these snapshots are served through our HTTP API endpoint [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks).
 
 Coin Metrics also serves order book snapshots and updates for the top 100 bids and 100 asks for major markets through our websocket API endpoint [`/timeseries-stream/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamMarketOrderbooks). The first message that the client receives is an order book snapshot. All subsequent messages are updates to the order book. This allows a user to maintain the current state of the order book at all times by storing the order book state locally and applying updates to it.  
 
@@ -58,6 +58,38 @@ A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market 
 * **`coin_metrics_id`**:   Unique identifier of the order snapshot. 
 * **`price`**:  The price of the bid or ask on the order book in units of the quote currency. 
 * **`size`**: The size of the bid or ask on the order book in units of the base asset for a spot market or number of contracts for a derivatives market.
+
+## Frequently Asked Questions 
+
+**What are order book snapshots and order book updates?** 
+
+An **order book snapshot** represents the state of the order book at a specific point in time. It contains the price level and amount for each bid and ask order in the order book. 
+
+We store two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full order book snapshot \(every bid and every ask\) taken once every hour. 
+
+An **order book update** represents a single change to the state of the order book via an addition, change, or removal of a bid or ask order. Cryptocurrency exchanges typically report order book updates as a new  `[side, price, size]` tuple where the size represents the new value and not the delta from the previous value. 
+
+We do not store historical data for order book updates yet, but we serve them in real-time via our websocket feed. By using a recent order book snapshot and applying all order book updates, a user can locally maintain the current state of the order book at all times. 
+
+**What is the difference between level 1, level 2, and level 3 order book data?** 
+
+**Level 1** order book data ****refers to the top of the book, i.e. the price and amount of the best bid and the price and amount of the best ask. The level 1 data can be derived by extracting the best bid and best ask from our order book snapshots. We also serve this data through our [market quotes](https://docs.coinmetrics.io/market-data/market-quotes) API endpoint. 
+
+**Level 2** order book refers to snapshots or updates where individual orders with identical price level are aggregated to one observation. The majority of cryptocurrency exchanges serve their order book snapshots and updates at level 2 resolution. Coin Metrics currently stores level 2 order book data. If an exchange reports order book data at level 3 resolution, we aggregate it to level 2 resolution before storing it.  
+  
+**Level 3** order book data refers to snapshots or updates where each individual order is present. Individual orders with identical price level are not aggregated. Only a small number of cryptocurrency exchanges serve their order book snapshots and updates at level 3 resolution. 
+
+**Do you offer order book updates in the form of new orders, cancels, and changes to existing orders?**
+
+The majority of cryptocurrency exchanges do not report their order book updates with this information. Cryptocurrency exchanges typically report order book updates as a new  `[side, price, size]` tuple where the size represents the new value and not the delta from the previous value. However, some of this information can be derived by examining the change as a result of applying an order book update. If an update contains a tuple with a `size` of 0, this means that the order was matched with an incoming order \(if at the top of the book\) or canceled. If an update contains a tuple with `size` that is greater than the current size, this means that a new order was added to the order book or an existing order was changed.  
+
+#### **What is the latency of your order book data?**
+
+The exact latency varies depending on the exchange, but our median latency is approximately 150 milliseconds. The 95th percentile latency is 300 milliseconds, and the 99th percentile latency is 400 milliseconds. 
+
+**Are your order book snapshots taken on exactly the second or hour?** 
+
+Coin Metrics collects two different sized snapshots for order book data. One snapshot takes the top 100 bids ****and asks every 10 seconds for major markets. The second snapshot takes a a full order book snapshot for all markets that we are collecting order book data for. Although the value of  `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release. 
 
 ## Release History
 
