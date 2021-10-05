@@ -36,8 +36,6 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 
 **What metric naming conventions does Coin Metrics use?**
 
-Coin Metrics adheres to a few conventions when naming our metrics:
-
 In general, we use snake case \(ex: snake\_case\) when naming our metrics in which each space is placed by an underscore \(\_\) character, and the first letter of each word is written in lowercase. 
 
 The order of terms is ordered from the most general to most specific and ends with the unit used, if applicable. For example, the order of terms in the metric `volume_reported_future_perpetual_usd_1d` is ordered such that the `volume` term is first and all subsequent terms are modifiers to what type of volume the metric represents. 
