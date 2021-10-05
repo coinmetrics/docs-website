@@ -38,10 +38,11 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 
 Coin Metrics adheres to a few conventions when naming our metrics:
 
-* In general, we use snake case \(ex: snake\_case\) when naming our metrics in which each space is placed by an underscore \(\_\) character, and the first letter of each word is written in lowercase.  
-* The order of terms is ordered from the most general to most specific and ends with the unit used, if applicable. For example, the order of terms in the metric `volume_reported_future_perpetual_usd_1d` is ordered such that the `volume` term is first and all subsequent terms are modifiers to what type of volume the metric represents.  
-* Some metrics are naturally represented as an aggregation \(such as a sum or mean\) over a time interval \(such as a block, an hour, or day\). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix.
+In general, we use snake case \(ex: snake\_case\) when naming our metrics in which each space is placed by an underscore \(\_\) character, and the first letter of each word is written in lowercase. 
 
-The exception to this convention is that all Network Data Pro metrics use upper camel case \(ex: CamelCase\) in which names omit spaces and the separation of words is indicated by a single capitalized letter. The first word is also capitalized. Network Data Pro metrics used the upper camel case naming convention prior to our adoption of the snake case naming convention for all other metrics, so we maintain the upper camel case naming convention for Network Data Pro metrics for consistency and backwards compatibility.  
+The order of terms is ordered from the most general to most specific and ends with the unit used, if applicable. For example, the order of terms in the metric `volume_reported_future_perpetual_usd_1d` is ordered such that the `volume` term is first and all subsequent terms are modifiers to what type of volume the metric represents. 
 
+Some metrics are naturally represented as an aggregation \(such as a sum or mean\) over a time interval \(such as a block, an hour, or day\). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix.
+
+The exception to this convention is that all Network Data Pro metrics use upper camel case \(ex: CamelCase\) in which names omit spaces and the separation of words is indicated by a single capitalized letter. The first word is also capitalized. Network Data Pro metrics used the upper camel case naming convention prior to our adoption of the snake case naming convention for all other metrics, so we maintain the upper camel case naming convention for Network Data Pro metrics for consistency and backwards compatibility.
 
