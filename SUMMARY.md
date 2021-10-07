@@ -539,3 +539,10 @@
 * [Pro Charts](charting-tools/cmpro/README.md)
   * [Troubleshooting](charting-tools/cmpro/troubleshooting.md)
 
+## Methodologies
+
+* [Reference Rates](methodologies/reference-rates/README.md)
+  * [Hourly Reference Rates Methodology](methodologies/reference-rates/hourly-reference-rates-methodology.md)
+  * [Real-Time Reference Rates Methodology](methodologies/reference-rates/real-time-reference-rates-methodology.md)
+  * [Market Selection Framework](methodologies/reference-rates/market-selection-framework.md)
+
