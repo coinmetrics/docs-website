@@ -36,7 +36,7 @@ The Market Selection Framework consists of a fully-systematized process for eval
 6. **Volume**: An assessment of the quality of the market’s volume data, including testing for manipulated volume figures, and implementing tests that determine whether the market functions as an active markets in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The size of the exchange’s markets are also considered. 
 7. **Order Book**: An assessment of the quality of the market’s order book data, including tests for manipulated orders, and implementing tests that determine whether the market functions as an active market in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The liquidity of the market is also considered.
 
-The full Market Selection Framework can be found [here](https://coinmetrics.io/reference-rates-market-selection-framework).
+The full Market Selection Framework can be found [here](https://docs.coinmetrics.io/methodologies/reference-rates/market-selection-framework).
 
 ### Data Inputs
 
