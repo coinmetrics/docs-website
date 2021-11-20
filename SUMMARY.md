@@ -547,3 +547,7 @@
   * [Market Selection Framework](methodologies/reference-rates/market-selection-framework.md)
 * [Coin Metrics Bletchley Indexes (CMBI)](methodologies/coin-metrics-bletchley-indexes-cmbi/README.md)
   * [CMBI Single Asset Series Methodology](methodologies/coin-metrics-bletchley-indexes-cmbi/cmbi-single-asset-series-methodology.md)
+
+## Glossary
+
+* [Indexes](glossary/indexes.md)

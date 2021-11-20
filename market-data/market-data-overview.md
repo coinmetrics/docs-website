@@ -2,7 +2,7 @@
 
 The [CM Market Data Feed](https://coinmetrics.io/market-data-feed/) (MDF) provides access to historical and real-time data from the world’s leading spot and derivatives crypto exchanges. We offer a wide range of harmonized datasets such as trades, candles, order book snapshots, futures-specific data types, and options-specific data types. We also offer metrics at the asset, exchange, exchange-asset, pair, and institution level.&#x20;
 
-Our data is available at several different levels: asset, exchange, market, asset pair, exchange-asset pair, and institution. Our coverage universe consists of 2,172 assets, 34 exchanges, 12,553 spot markets, 6,353 futures markets, 14,883 options markets, 2,698 asset pairs, 2,595 exchange-asset pairs, and one institution.&#x20;
+Our data is available at several different levels: asset, exchange, market, asset pair, exchange-asset pair, and institution. Our coverage universe consists of 2,173 assets, 34 exchanges, 12,553 spot markets, 6,353 futures markets, 14,883 options markets, 2,698 asset pairs, 2,595 exchange-asset pairs, and one institution.&#x20;
 
 ## Data Available at Market Level&#x20;
 
