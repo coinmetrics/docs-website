@@ -32,7 +32,7 @@ Pricing for options markets works slightly differently from other types of marke
 
 ## **Example**
 
-A sample of the options implied volatility data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints is shown below for the `deribit-ETH-25MAR22-1200-P-option` market.
+A sample of the options implied volatility data from our [`/timeseries/market-implied-volatility`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketImpliedVolatility) API endpoint is shown below for the `deribit-ETH-25MAR22-1200-P-option` market.
 
 ```
 {
