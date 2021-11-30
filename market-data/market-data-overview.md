@@ -18,7 +18,6 @@ Data available at the market level is served through the API endpoints below, wh
 * [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks)
 * [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketQuotes)
 * [`/timeseries/market-candles`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketCandles)
-* ``[`/timeseries/market-greeks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketGreeks)
 
 {% content-ref url="derivatives-contract-specifications.md" %}
 [derivatives-contract-specifications.md](derivatives-contract-specifications.md)
@@ -50,14 +49,6 @@ Data available at the market level is served through the API endpoints below, wh
 
 {% content-ref url="market-candles.md" %}
 [market-candles.md](market-candles.md)
-{% endcontent-ref %}
-
-{% content-ref url="market-implied-volatility.md" %}
-[market-implied-volatility.md](market-implied-volatility.md)
-{% endcontent-ref %}
-
-{% content-ref url="market-greeks.md" %}
-[market-greeks.md](market-greeks.md)
 {% endcontent-ref %}
 
 {% content-ref url="market-data-faqs.md" %}
