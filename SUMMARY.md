@@ -7,12 +7,12 @@
 * [CM Labs](cm-labs.md)
 * [Status Page](status-page.md)
 
-## Exchange Coverage <a href="exchanges" id="exchanges"></a>
+## Exchange Coverage <a href="#exchanges" id="exchanges"></a>
 
 * [On-Chain Exchange Coverage](exchanges/on-chain-exchange-coverage.md)
 * [Market Data Exchange Coverage](exchanges/all-exchanges.md)
 
-## Asset Metrics (Time Series) <a href="asset-metrics" id="asset-metrics"></a>
+## Asset Metrics (Time Series) <a href="#asset-metrics" id="asset-metrics"></a>
 
 * [Asset Metrics Overview](asset-metrics/asset-metrics-overview.md)
 * [Addresses](asset-metrics/addresses/README.md)
@@ -463,13 +463,13 @@
 * [Asset Metrics FAQs](asset-metrics/asset-metrics-faqs.md)
 * [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
 
-## Exchange Metrics (Time Series) <a href="exchange-metrics" id="exchange-metrics"></a>
+## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 
 * [Exchange Metrics Overview](exchange-metrics/exchange-metrics-overview.md)
 * [Open Interest](exchange-metrics/open-interest.md)
 * [Volume](exchange-metrics/volume.md)
 
-## Exchange-Asset Metrics (Time Series) <a href="exchange-asset-metrics" id="exchange-asset-metrics"></a>
+## Exchange-Asset Metrics (Time Series) <a href="#exchange-asset-metrics" id="exchange-asset-metrics"></a>
 
 * [Exchange-Asset Metrics Overview](exchange-asset-metrics/exchange-asset-metrics-overview.md)
 * [Basis](exchange-asset-metrics/basis/README.md)
@@ -480,13 +480,13 @@
 * [Open Interest](exchange-asset-metrics/open-interest.md)
 * [Volume](exchange-asset-metrics/volume.md)
 
-## Pair Metrics (Time Series) <a href="pair-metrics" id="pair-metrics"></a>
+## Pair Metrics (Time Series) <a href="#pair-metrics" id="pair-metrics"></a>
 
 * [Pair Metrics Overview](pair-metrics/pair-metrics-overview.md)
 * [Open Interest](pair-metrics/open-interest.md)
 * [Volume](pair-metrics/volume.md)
 
-## Institution Metrics (Time Series) <a href="institution-metrics" id="institution-metrics"></a>
+## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 
 * [Institution Metrics Overview](institution-metrics/institution-metrics-overview.md)
 * [Grayscale](institution-metrics/grayscale/README.md)
@@ -507,6 +507,7 @@
 * [Market Order Book](market-data/market-order-book.md)
 * [Market Quotes](market-data/market-quotes.md)
 * [Market Candles](market-data/market-candles.md)
+* [Market Implied Volatility](market-data/market-implied-volatility.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
 
 ## Index Data
@@ -516,7 +517,7 @@
 * [Index Constituents](index-data/index-constituents.md)
 * [Index FAQs](index-data/index-faqs.md)
 
-## Block Explorer (ATLAS) <a href="atlas" id="atlas"></a>
+## Block Explorer (ATLAS) <a href="#atlas" id="atlas"></a>
 
 * [Atlas Overview](atlas/atlas-overview.md)
 * [Accounts](atlas/accounts.md)
