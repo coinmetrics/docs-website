@@ -4,9 +4,9 @@
 
 The sum count of unique contracts implementing the ERC-721 standard that exist in the ledger at the end of the interval. A contract is a special address that contains and can execute code. ERC-165 is used to determine a contract’s compliance with ERC-721.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ERC-721 Contracts Cnt | ContERC721Cnt | Blockchain / Ledger | Contracts | Sum | Contracts | 1 day |
+| Name                  | MetricID      | Category      | Subcategory | Type | Unit      | Interval |
+| --------------------- | ------------- | ------------- | ----------- | ---- | --------- | -------- |
+| ERC-721 Contracts Cnt | ContERC721Cnt | Network Usage | Contracts   | Sum  | Contracts | 1 day    |
 
 ## Details
 
@@ -19,12 +19,11 @@ The sum count of unique contracts implementing the ERC-721 standard that exist i
 
 ## Release History
 
-* Version 4.3 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.3 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-| Asset | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
-| :--- | :--- | :--- |
-| [ETC](https://docs.coinmetrics.io/info/assets/etc) |  |  |
-| [ETH](https://docs.coinmetrics.io/info/assets/eth) |  |  |
-
+| Asset                                              | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
+| -------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| [ETC](https://docs.coinmetrics.io/info/assets/etc) |                                                                                |                                                                    |
+| [ETH](https://docs.coinmetrics.io/info/assets/eth) |                                                                                |                                                                    |

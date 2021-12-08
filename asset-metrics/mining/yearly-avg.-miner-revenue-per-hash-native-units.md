@@ -1,12 +1,14 @@
-# Miner Revenue per Hash per Sec (native units)
+# Yearly Avg. Miner Revenue per Hash (native units)
 
 ## Definition
 
-The mean daily miner reward per estimated hash unit per second performed during the period, in native units. The unit of hashpower measurement depends on the protocol.
+The trailing one-year average miner reward per estimated hash unit performed during the period, in native units. The unit of hashpower measurement depends on the protocol.
 
-| Name                                          | MetricID       | Category | Subcategory | Type | Unit         | Interval |
-| --------------------------------------------- | -------------- | -------- | ----------- | ---- | ------------ | -------- |
-| Miner Revenue per Hash per Sec (native units) | RevHashRateNtv | Mining   | Hash Rate   | Mean | Native units | 1 day    |
+## Dictionary
+
+| Name                                              | MetricID        | Category | Subcategory | Type | Unit         | Interval |
+| ------------------------------------------------- | --------------- | -------- | ----------- | ---- | ------------ | -------- |
+| Yearly Avg. Miner Revenue per Hash (native units) | RevHash1yAvgNtv | Mining   | Revenue     | Mean | Native Units | 1 day    |
 
 ## Details
 
@@ -22,12 +24,10 @@ The mean daily miner reward per estimated hash unit per second performed during 
 | ZEC            | ((DiffMean / 150) \* 7000) / 10^9                     | GH/s |
 | ETH, ETC       | (DiffMean / BlkIntMean) / 10^12                       | TH/s |
 
-
-
 ## Release History
 
-* Released in the version 4.9 of Network Data Pro
+* Released in Network Data Pro (NDP) version 5.1&#x20;
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHashRateNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/RevHash1yAvgNtv" %}
