@@ -6,21 +6,21 @@ description: /catalog/markets and /catalog-all/markets
 
 ## **Definition**
 
-Derivatives contracts can be described by their contract specifications which define the standardized legal agreement that market participants enter into. 
+Derivatives contracts can be described by their contract specifications which define the standardized legal agreement that market participants enter into.&#x20;
 
 ## Details
 
-Futures and options contracts are standardized contracts that allow counterparties to enter into an agreement to buy or sell a standardized asset under contract specifications that are defined by the exchange. Each specific futures contract offered by a specific exchange will have identical contract specifications regardless of the who is counterparty. 
+Futures and options contracts are standardized contracts that allow counterparties to enter into an agreement to buy or sell a standardized asset under contract specifications that are defined by the exchange. Each specific futures contract offered by a specific exchange will have identical contract specifications regardless of the who is counterparty.&#x20;
 
-The contract specifications include information such as the underlying base and quote asset, the margin asset, the contract size, the listing time, expiration time, and other terms. 
+The contract specifications include information such as the underlying base and quote asset, the margin asset, the contract size, the listing time, expiration time, and other terms.&#x20;
 
-Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures \(sometimes called perpetual swaps\).  
+Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures (sometimes called perpetual swaps). &#x20;
 
 ## **Example**
 
-A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints is shown below. 
+A sample of the futures and options contract specification data from our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints is shown below.&#x20;
 
-```text
+```
 {
   "data": [
     {
@@ -75,77 +75,99 @@ A sample of the futures and options contract specification data from our [`/cata
 }
 ```
 
-* **`market`**:  Unique name of the market.  
-* **`min_time`**:  Minimal available time for data from this market in ISO 8601 date-time format. 
-* **`max_time`**:  Maximal available time for data from this market in ISO 8601 date-time format. 
-* **`exchange`**: Name of the exchange. 
-* **`base`**:  The contract’s underlying base asset. 
-* **`quote`**:  The contract's underlying quote asset. 
-* **`symbol`**: The unique name of the derivative market symbol. 
-* **`type`**: The type of the market. Can take values `spot` or `future` or `option`. 
-* **`size_asset`**: The asset that the contract’s size is denominated in. 
-* **`margin_asset`**:  The name of the asset that the contract’s margin is denominated in. 
-* **`strike`**: Strike price for option contract.  
-* **`option_contract_type`**: The type of option. Can take values `call` or `put`. 
-* **`is_european`**: Shows if the options contract is european or not.  
-* **`contract_size`**:   The number of units of `size_asset` that one contract represents.  
-* **`tick_size`**:  The minimum price increment of the contract’s price. 
-* **`listing`**:  The timestamp that the contract first became available for trading 
+* **`market`**:  Unique name of the market. \
+
+* **`min_time`**:  Minimal available time for data from this market in ISO 8601 date-time format.\
+
+* **`max_time`**:  Maximal available time for data from this market in ISO 8601 date-time format.\
+
+* **`exchange`**: Name of the exchange.\
+
+* **`base`**:  The contract’s underlying base asset.\
+
+* **`quote`**:  The contract's underlying quote asset.\
+
+* **`symbol`**: The unique name of the derivative market symbol.\
+
+* **`type`**: The type of the market. Can take values `spot` or `future` or `option`.\
+
+* **`size_asset`**: The asset that the contract’s size is denominated in.\
+
+* **`margin_asset`**:  The name of the asset that the contract’s margin is denominated in.\
+
+* **`strike`**: Strike price for option contract. \
+
+* **`option_contract_type`**: The type of option. Can take values `call` or `put`.\
+
+* **`is_european`**: Shows if the options contract is european or not. \
+
+* **`contract_size`**:   The number of units of `size_asset` that one contract represents. \
+
+* **`tick_size`**:  The minimum price increment of the contract’s price.\
+
+* **`listing`**:  The timestamp that the contract first became available for trading\
+
 * **`expiration`**:  The timestamp that the contract expires; equals null if the contract is a perpetual future that never expires.
 
-## Frequently Asked Questions 
+## Frequently Asked Questions&#x20;
 
-#### **Is the `margin_asset` the asset of settlement?** 
+#### **Is the `margin_asset` the asset of settlement?**&#x20;
 
-Yes, the `margin_asset` is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires. 
+Yes, the `margin_asset` is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires.&#x20;
 
-## Harmonization Discussion 
+## Harmonization Discussion&#x20;
 
 Harmonization of derivatives contracts in the cryptoasset domain is difficult because there is wide disparity in contract design and exchange conventions. Some of the sources of difficulty include:
 
-* The margin asset can be in the form of the underlying base asset, a stablecoin such as Tether, or a fiat currency.  
-* The contract size \(the amount of notional exposure that a single contract is worth\) can be in the form of varying units such as the underlying base asset or a fiat currency. Some exchanges use exotic futures design \(such as BitMEX's quanto contracts\) where the contract size is not fixed but rather a function of the current price.  
-* Some exchanges offer exotic futures contracts where the underlying is not a cryptoasset. Instead, it could be a custom index, an equity, or something else like Bitcoin's hash rate.  
-* Some exchanges hide the complexity involved with contract sizes and do not use contract sizes. Instead, they allow users to define the amount of units of the underlying base asset when trading and allow users to purchase fractional contracts \(representing fractional units of the underlying\) to simulate spot trading. Other exchanges explicitly define contract sizes and do not allow users to purchase fractional contracts. 
-* Some exchanges separate perpetual swap contracts that have no expiration date and traditional futures contracts with a specified expiration date. These exchanges serve contract information via two different endpoints with different response schema. 
+* The margin asset can be in the form of the underlying base asset, a stablecoin such as Tether, or a fiat currency. \
+
+* The contract size (the amount of notional exposure that a single contract is worth) can be in the form of varying units such as the underlying base asset or a fiat currency. Some exchanges use exotic futures design (such as BitMEX's quanto contracts) where the contract size is not fixed but rather a function of the current price. \
+
+* Some exchanges offer exotic futures contracts where the underlying is not a cryptoasset. Instead, it could be a custom index, an equity, or something else like Bitcoin's hash rate. \
+
+* Some exchanges hide the complexity involved with contract sizes and do not use contract sizes. Instead, they allow users to define the amount of units of the underlying base asset when trading and allow users to purchase fractional contracts (representing fractional units of the underlying) to simulate spot trading. Other exchanges explicitly define contract sizes and do not allow users to purchase fractional contracts.\
+
+* Some exchanges separate perpetual swap contracts that have no expiration date and traditional futures contracts with a specified expiration date. These exchanges serve contract information via two different endpoints with different response schema.\
+
 * Some exchanges do not provide all contract specification data via their API but instead define it in documentation.
 
-We harmonize the data in the following way: 
+We harmonize the data in the following way:&#x20;
 
-* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1.  
-* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.   
+* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1. \
+
+* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.  &#x20;
 
 ## Release History
 
-* \*\*\*\*[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.  
-* \*\*\*\*[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx. 
+* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx. \
+
+* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx.&#x20;
 
 ## **Availability**
 
-Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our contract specification data is available through our professional API with higher rate limits.  
+Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our contract specification data is available through our professional API with higher rate limits. &#x20;
 
 The contract specifications and our coverage can be found by querying our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) or [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.
 
 ### Availability by Market Type
 
-| Type | Market Count |
-| :--- | :---: |
-| Future | 6874 |
-| Option | 18560 |
+| Type   | Market Count |
+| ------ | :----------: |
+| Future |     6874     |
+| Option |     18560    |
 
 ### Availability by Exchange
 
 | Exchange | Future Market Count | Option Market Count | Start Date |
-| :--- | :---: | :---: | :---: |
-| Binance | 220 |  | 2019-09-08 |
-| Bitfinex | 35 |  | 2019-07-03 |
-| Bitflyer | 64 |  | 2020-07-27 |
-| BitMEX | 302 |  | 2014-11-22 |
-| Bybit | 31 |  | 2019-10-01 |
-| CME | 252 |  | 2017-12-17 |
-| Deribit | 121 | 11894 | 2017-01-06 |
-| FTX | 1189 |  | 2019-03-05 |
-| Huobi | 2630 |  | 2019-10-11 |
-| Kraken | 79 |  | 2020-08-24 |
-| OKEx | 1951 | 6666 | 2019-12-25 |
-
+| -------- | :-----------------: | :-----------------: | :--------: |
+| Binance  |         220         |                     | 2019-09-08 |
+| Bitfinex |          35         |                     | 2019-07-03 |
+| Bitflyer |          64         |                     | 2020-07-27 |
+| BitMEX   |         302         |                     | 2014-11-22 |
+| Bybit    |          31         |                     | 2019-10-01 |
+| CME      |         252         |                     | 2017-12-17 |
+| Deribit  |         121         |        11894        | 2017-01-06 |
+| FTX      |         1189        |                     | 2019-03-05 |
+| Huobi    |         2630        |                     | 2019-10-11 |
+| Kraken   |          79         |                     | 2020-08-24 |
+| OKEx     |         1951        |         6666        | 2019-12-25 |

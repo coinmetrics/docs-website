@@ -16,7 +16,7 @@ Indexes whose constituents are weighted using alternative methodologies other th
 
 **Factor (or Smart Beta) Indexes** Index constituents are selected and weighted according to popular investment strategies that hope to capture return profiles that differ from traditional market capitalization weighted indexes. Such factors may include Value, Volatility and Momentum.&#x20;
 
-**Equally Weighted **The same weight is applied to all Index constituents regardless of their market capitalization.&#x20;
+**Equally Weighted** The same weight is applied to all Index constituents regardless of their market capitalization.&#x20;
 
 **Fundamental Indexes** Index constituents are selected and weighted according to on-chain measures of economic activity, these may include: hash rate, transaction value, transaction volume, staking yield or network value distribution.
 

@@ -4,10 +4,10 @@
 
 The sum of all reported future volume from the spot markets in Coin Metrics' coverage in units of U.S. dollars.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Reported Future Volume | volume\_reported\_future\_usd\_1d | Volume | Future | Sum | USD | 1d |
-| Reported Future Volume, 1 Hour | volume\_reported\_future\_usd\_1h | Volume | Future | Sum | USD | 1h |
+| Name                           | MetricID                          | Category | Subcategory | Type | Unit | Interval |
+| ------------------------------ | --------------------------------- | -------- | ----------- | ---- | ---- | -------- |
+| Reported Future Volume         | volume\_reported\_future\_usd\_1d | Volume   | Future      | Sum  | USD  | 1d       |
+| Reported Future Volume, 1 Hour | volume\_reported\_future\_usd\_1h | Volume   | Future      | Sum  | USD  | 1h       |
 
 ## Details
 
@@ -15,25 +15,25 @@ Our reported future volume metric is an aggregation of the reported future volum
 
 ## Chart
 
-![Spot volume and futures volume](../../.gitbook/assets/coin_metrics_network_data_2021-08-26t18-41.png)
+![Spot volume and futures volume](../../.gitbook/assets/coin\_metrics\_network\_data\_2021-08-26t18-41.png)
 
 ## Release History
 
-* Release Version. Market Data Feed 2.4 \(August 2021\) 
+* Release Version. Market Data Feed 2.4 (August 2021)&#x20;
 
 ## See Also
 
 * [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
-* [Trusted Spot Volume](volume_trusted_spot_usd_1d.md)
-* [Reported Spot Volume](volume_reported_spot_usd_1d.md)
-* [Reported Coin-Margined Future Volume](volume_reported_future_coin_margined_usd_1d.md)
-* [Reported Non-Perpetual Future Volume](volume_reported_future_nonperpetual_usd_1d.md)
-* [Reported Perpetual Future Volume](volume_reported_future_perpetual_usd_1d.md)
-* [Reported Tether-Margined Future Volume](volume_reported_future_tether_margined_usd_1d.md)
+* [Trusted Spot Volume](volume\_trusted\_spot\_usd\_1d.md)
+* [Reported Spot Volume](volume\_reported\_spot\_usd\_1d.md)
+* [Reported Coin-Margined Future Volume](volume\_reported\_future\_coin\_margined\_usd\_1d.md)
+* [Reported Non-Perpetual Future Volume](volume\_reported\_future\_nonperpetual\_usd\_1d.md)
+* [Reported Perpetual Future Volume](volume\_reported\_future\_perpetual\_usd\_1d.md)
+*   [Reported Tether-Margined Future Volume](volume\_reported\_future\_tether\_margined\_usd\_1d.md)
+
+
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/volume\_reported\_future\_usd\_1d" %}
-
-
+{% embed url="https://docs.coinmetrics.io/info/metrics/volume_reported_future_usd_1d" %}
 
