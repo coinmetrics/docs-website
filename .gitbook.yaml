@@ -4,3 +4,35 @@ redirects:
   asset-metrics/market/referenceratenewyork1200pm: asset-metrics/market/referenceratesusd.md
   asset-metrics/market/referenceratenewyork0400pm: asset-metrics/market/referenceratesusd.md
   asset-metrics/market/referenceratechicago0315pm: asset-metrics/market/referenceratesusd.md
+  asset-metrics/wallets/WalActCnt: asset-metrics/wallets/active-wallets-cnt/WalActCnt.md
+  asset-metrics/wallets/WalActRecCnt: asset-metrics/wallets/active-wallets-cnt/WalActRecCnt.md
+  asset-metrics/wallets/WalActSentCnt: asset-metrics/wallets/active-wallets-cnt/WalActSentCnt.md
+  asset-metrics/wallets/WalBalCnt: asset-metrics/wallets/active-wallets-cnt/WalBalCnt.md
+  asset-metrics/wallets/SplyWalBal1in1k: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in1k.md
+  asset-metrics/wallets/SplyWalBal1in10k: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in10k.md
+  asset-metrics/wallets/SplyWalBal1in100k: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in100k.md
+  asset-metrics/wallets/SplyWalBal1in1M: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in1M.md
+  asset-metrics/wallets/SplyWalBal1in10M: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in10M.md
+  asset-metrics/wallets/SplyWalBal1in100M: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in100M.md
+  asset-metrics/wallets/SplyWalBal1in1B: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in1B.md
+  asset-metrics/wallets/SplyWalBal1in10B: asset-metrics/wallets/val-in-wallets-w-bal-x-of-current-supply/SplyWalBal1in10B.md
+  asset-metrics/wallets/SplyWalBalUSD1: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD1.md
+  asset-metrics/wallets/SplyWalBalUSD10: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD10.md
+  asset-metrics/wallets/SplyWalBalUSD100: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD100.md
+  asset-metrics/wallets/SplyWalBalUSD1k: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD1k.md
+  asset-metrics/wallets/SplyWalBalUSD10k: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD10k.md
+  asset-metrics/wallets/SplyWalBalUSD100k: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD100k.md
+  asset-metrics/wallets/SplyWalBalUSD1M: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD1M.md
+  asset-metrics/wallets/SplyWalBalUSD10M: asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/SplyWalBalUSD10M.md
+  asset-metrics/transactions/TxTfrValAbUSD100kCnt: asset-metrics/transactions/payments-xfers-above-usdx-count/TxTfrValAbUSD100kCnt.md
+  asset-metrics/transactions/TxTfrValAbUSD1MCnt: asset-metrics/transactions/payments-xfers-above-usdx-count/TxTfrValAbUSD1MCnt.md
+  asset-metrics/transactions/TxTfrValAbUSD10MCnt: asset-metrics/transactions/payments-xfers-above-usdx-count/TxTfrValAbUSD10MCnt.md
+  asset-metrics/transactions/TxTfrValAbUSD100MCnt: asset-metrics/transactions/payments-xfers-above-usdx-count/TxTfrValAbUSD100MCnt.md
+  asset-metrics/transactions/TxTfrValAbUSD100kNtv: asset-metrics/transactions/payments-xfers-above-usdx-sum-native-units/TxTfrValAbUSD100kNtv.md
+  asset-metrics/transactions/TxTfrValAbUSD1MNtv: asset-metrics/transactions/payments-xfers-above-usdx-sum-native-units/TxTfrValAbUSD1MNtv.md
+  asset-metrics/transactions/TxTfrValAbUSD10MNtv: asset-metrics/transactions/payments-xfers-above-usdx-sum-native-units/TxTfrValAbUSD10MNtv.md
+  asset-metrics/transactions/TxTfrValAbUSD100MNtv: asset-metrics/transactions/payments-xfers-above-usdx-sum-native-units/TxTfrValAbUSD100MNtv.md
+  asset-metrics/transactions/TxTfrValAbUSD100kUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD100kUSD.md
+  asset-metrics/transactions/TxTfrValAbUSD1MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD1MUSD.md
+  asset-metrics/transactions/TxTfrValAbUSD10MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD10MUSD.md
+  asset-metrics/transactions/TxTfrValAbUSD100MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD100MUSD.md
