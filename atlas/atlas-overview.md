@@ -14,6 +14,7 @@ Atlas currently supports the following assets:
 | -------------- | ----------- |
 | 0x             | `zrx`       |
 | Aave           | `aave`      |
+| Algorand\*     | `algo`      |
 | Audius         | `audio`     |
 | Bitcoin        | `btc`       |
 | Bitcoin Cash   | `bch`       |
