@@ -10,7 +10,7 @@ Atlas is a blockchain search tool designed to standardize and simplify raw block
 
 Atlas currently supports the following assets:
 
-| Asset          | Symbol      |
+| **Asset**      | **Symbol**  |
 | -------------- | ----------- |
 | 0x             | `zrx`       |
 | Aave           | `aave`      |
@@ -41,7 +41,6 @@ Atlas currently supports the following assets:
 | XRP            | `xrp`       |
 | Yearn.Finance  | `yfi`       |
 | Zcash          | `zec`       |
-|                |             |
 
 \*These assets are experimental and offered through [CM Labs](../cm-labs.md)
 
