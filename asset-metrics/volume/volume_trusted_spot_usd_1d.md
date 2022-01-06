@@ -2,13 +2,13 @@
 
 ## Definition
 
-The sum of all volume from the spot markets of a set of trusted exchanges in units of U.S. dollars.[  
-](https://docs.coinmetrics.io/info/metrics/volume_trusted_spot_usd_1d)
+The sum of all volume from the spot markets of a set of trusted exchanges in units of U.S. dollars.[\
+](https://docs.coinmetrics.io/info/metrics/volume\_trusted\_spot\_usd\_1d)
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Trusted Spot Volume | volume\_trusted\_spot\_usd\_1d | Volume | Spot | Sum | USD | 1d |
-| Trusted Spot Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Volume | Spot | Sum | USD | 1h |
+| Name                        | MetricID                       | Category | Subcategory | Type | Unit | Interval |
+| --------------------------- | ------------------------------ | -------- | ----------- | ---- | ---- | -------- |
+| Trusted Spot Volume         | volume\_trusted\_spot\_usd\_1d | Volume   | Spot        | Sum  | USD  | 1d       |
+| Trusted Spot Volume, 1 Hour | volume\_trusted\_spot\_usd\_1h | Volume   | Spot        | Sum  | USD  | 1h       |
 
 ## Details
 
@@ -22,30 +22,30 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 * Bittrex
 * CEX.io
 * Coinbase
-* FTX \(New\)
+* FTX (New)
 * Gate.io
 * Gemini
 * itBit
 * Kraken
-* Lbank \(New\)
-* Liquid \(New\)
+* Lbank (New)
+* Liquid (New)
 * Poloniex
-* The Rock Trading \(New\)
-* UpBit \(New\)
+* The Rock Trading (New)
+* UpBit (New)
 
 ## Chart
 
-![Trusted volume as a portion of total volume](../../.gitbook/assets/btc_trusted_and_non-trusted_volume.png)
+![Trusted volume as a portion of total volume](../../.gitbook/assets/btc\_trusted\_and\_non-trusted\_volume.png)
 
 ## Examples
 
 A sample of the hourly trusted volumes data for Bitcoin is shown below:
 
-| assets | time | volume\_trusted\_spot\_usd\_1d |
-| :--- | :--- | :--- |
-| btc | 2020-09-21 00:00:00 | 44395555400 |
-| btc | 2020-09-22 00:00:00 | 60004540100 |
-| btc | 2020-09-23 00:00:00 | 45919134800 |
+| assets | time                | volume\_trusted\_spot\_usd\_1d |
+| ------ | ------------------- | ------------------------------ |
+| btc    | 2020-09-21 00:00:00 | 44395555400                    |
+| btc    | 2020-09-22 00:00:00 | 60004540100                    |
+| btc    | 2020-09-23 00:00:00 | 45919134800                    |
 
 * asset. The IDs of the asset.
 * time. The reference rate time in ISO 8601 date-time format.
@@ -53,7 +53,7 @@ A sample of the hourly trusted volumes data for Bitcoin is shown below:
 
 ## Release History
 
-* Release Version. Market Data Feed v2.2 - Jan 21, 2021 rollout \(not a separate MDF version\)
+* Release Version. Market Data Feed v2.2 - Jan 21, 2021 rollout (not a separate MDF version)
 
 ## Interpretation
 
@@ -61,10 +61,9 @@ Fake trading volume is a persistent problem on crypto exchanges. With little reg
 
 ## See Also
 
-* [Trusted Volume Framework](https://coinmetrics.io/q3-refresh-of-trusted-spot-volume-framework/%20)
-* [Reported Spot Volume](volume_reported_spot_usd_1d.md)
+* [Trusted Volume Framework](https://coinmetrics.io/q3-refresh-of-trusted-spot-volume-framework/)
+* [Reported Spot Volume](volume\_reported\_spot\_usd\_1d.md)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/volume\_trusted\_spot\_usd\_1d" %}
-
+{% embed url="https://docs.coinmetrics.io/info/metrics/volume_trusted_spot_usd_1d" %}

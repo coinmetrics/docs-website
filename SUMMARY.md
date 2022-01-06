@@ -588,7 +588,8 @@
 ## Charting Tools
 
 * [Data Visualization](charting-tools/data-visualization/README.md)
-  * [Charting Tool](charting-tools/data-visualization/charting-tool.md)
+  * [Charting Tool](charting-tools/data-visualization/charting-tool/README.md)
+    * [Embeded Charts](charting-tools/data-visualization/charting-tool/embeded-charts.md)
   * [Formula Builder](charting-tools/data-visualization/formula-builder.md)
   * [Correlation Tool](charting-tools/data-visualization/correlation-tool.md)
   * [Troubleshooting](charting-tools/data-visualization/trouble-shooting.md)
