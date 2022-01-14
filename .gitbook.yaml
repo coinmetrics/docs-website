@@ -36,3 +36,7 @@ redirects:
   asset-metrics/transactions/TxTfrValAbUSD1MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD1MUSD.md
   asset-metrics/transactions/TxTfrValAbUSD10MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD10MUSD.md
   asset-metrics/transactions/TxTfrValAbUSD100MUSD: asset-metrics/transactions/payments-xfers-above-usdx-sum-usd/TxTfrValAbUSD100MUSD.md
+  asset-metrics/addresses/WalActCnt: asset-metrics/addresses/active-wallets-cnt/WalActCnt.md
+  asset-metrics/addresses/WalActRecCnt: asset-metrics/addresses/active-wallets-cnt/WalActRecCnt.md
+  asset-metrics/addresses/WalActSentCnt: asset-metrics/addresses/active-wallets-cnt/WalActSentCnt.md
+  asset-metrics/addresses/WalBalCnt: asset-metrics/addresses/active-wallets-cnt/WalBalCnt.md
