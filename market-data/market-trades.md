@@ -95,6 +95,10 @@ When spot markets that involve a new asset are listed on an exchange, there is a
 
 We collect data for spot markets in real-time that consist of existing assets that are already in our security master file without any delay. We also collect data for new futures and options markets in real-time without any delay. &#x20;
 
+**How come there are multiple trades with the same timestamp for a particular market?**
+
+Sometimes there may be multiple trades that all occur with the same timestamp. The likely explanation is that an incoming taker order simultaneously matched with multiple existing orders on the order book, although from the available data it is not possible to determine how a particular order is matched with other orders. However, we are certain that each trade is unique even if one or more trades have identical timestamp, price, and amount with other trades.
+
 **Do you support decentralized exchanges such as Uniswap?**
 
 We currently support centralized exchanges. Support for decentralized exchanges and defi protocols is coming soon!&#x20;

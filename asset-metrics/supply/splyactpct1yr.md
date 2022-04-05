@@ -4,19 +4,19 @@
 
 The percentage of the current supply that has been active in the trailing 1 year up to that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 Year Active Supply % | SplyActPct1yr | Supply | Active supply | Percentage | Dimensionless | 1 day |
+| Name                   | MetricID      | Category | Subcategory   | Type       | Unit          | Interval |
+| ---------------------- | ------------- | -------- | ------------- | ---------- | ------------- | -------- |
+| 1 Year Active Supply % | SplyActPct1yr | Supply   | Active supply | Percentage | Dimensionless | 1 day    |
 
 ## Details
 
 * Computed as SplyAct1yr / SplyCur
-* For UTXO chains, active supply is considered as the outputs created during the considered time interval. Mining reward outputs are not considered active. \(If an address has an output created outside the time interval, and inside the time interval, only the latter output will be considered active\).
-* For account based chains, active supply is the sum of the balances of accounts that were either created outside of token generation events \(genesis, mining, etc.\) during the considered time interval, or that had at least one outgoing native units movement during that time period.
+* For UTXO chains, active supply is considered as the outputs created during the considered time interval. Mining reward outputs are not considered active. (If an address has an output created outside the time interval, and inside the time interval, only the latter output will be considered active).
+* For account based chains, active supply is the sum of the balances of accounts that were either created outside of token generation events (genesis, mining, etc.) during the considered time interval, or that had at least one outgoing native units movement during that time period.
 
 ## Chart
 
-![https://charts.coinmetrics.io/network-data/\#574](../../.gitbook/assets/1yr_active_supply__.png)
+![https://charts.coinmetrics.io/network-data/#574](../../.gitbook/assets/1yr\_Active\_Supply\_\_.png)
 
 ## Asset-Specific Details
 
@@ -35,4 +35,3 @@ The percentage of the current supply that has been active in the trailing 1 year
 ## Availability for Assets
 
 {% embed url="https://docs.coinmetrics.io/info/metrics/SplyActPct1yr" %}
-

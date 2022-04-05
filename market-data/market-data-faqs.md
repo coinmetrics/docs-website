@@ -1,12 +1,12 @@
 # Market Data FAQs
 
-**How does Coin Metrics ensure high levels of data quality and data integrity?**\
-\
+**How does Coin Metrics ensure high levels of data quality and data integrity?**
+
 Coin Metrics utilizes a multifaceted approach to ensure high levels of data quality and data integrity. We carefully curate our exchange coverage universe, employ a market data collection system with high levels of redundancy and resiliency, use a robust system of logging and monitoring that alerts staff members in real-time to any anomalies, and our software releases are governed by a series of SOC 2-compliant policies that include extensive testing prior to release. For certain critical data types, such as our reference rates, we also employ regular human review to screen for data quality issues. Each of these facets is described in more detail below.
 
 * **Exchange coverage universe**: While there are over 400 digital asset exchanges in existence, Coin Metrics has curated our exchange coverage universe to include only high quality exchanges with legitimate trading activity. The presence of fake volume and wash trading is widely acknowledged in the industry, and Coin Metrics has independently confirmed the findings of several prominent researchers who have studied this problem. When deciding whether to include an exchange in our coverage universe, we consult a series of qualitative and quantitative features that are described in our [Market Selection Framework](https://coinmetrics.io/reference-rates-market-selection-framework/) and our [Trusted Volume Framework](https://coinmetrics.io/introducing-coin-metrics-trusted-volume-framework/). We also consult feedback from our institutional user base. The exchanges in our coverage universe are widely recognized by market participants and researchers who have studied the fake volume problem to be of high quality.\
 
-* **Market data collection system**: Our market data collection system is engineered to have high levels of redundancy and resiliency. We collect data from exchanges using two instances of each application each located in an independent data center. For certain data types, we collect data from an exchange's HTTP endpoint and websocket endpoint simultaneously as an added redundancy measure. Our market data collection system utilizes a fleet of proxy servers to circumvent rate limits imposed by the exchange. Each server that hosts our market data collection system has local database storage as a fault tolerant measure in case of a failure in our primary database. These measures ensure high levels of availability for our market data collection applications and that no observations are missed.  \
+* **Market data collection system**: Our market data collection system is engineered to have high levels of redundancy and resiliency. We collect data from exchanges using two instances of each application each located in an independent data center. For certain data types, we collect data from an exchange's HTTP endpoint and websocket endpoint simultaneously as an added redundancy measure. CM utilizes multiple proxy servers to ensure that rate limits imposed by some exchanges do not impact data collection. Each server that hosts our market data collection system has local database storage as a fault tolerant measure in case of a failure in our primary database. These measures ensure high levels of availability for our market data collection applications and that no observations are missed.  \
 
 * **Monitoring and logging**: A dedicated team of engineers monitor logs and telemetry from our servers, databases, and applications in real-time using a suite of dashboards and automated alerts. We also have dedicated monitoring to detect interruptions of service from an exchange.\
 
@@ -52,6 +52,41 @@ In general, we use snake case (ex: snake\_case) when naming our metrics in which
 
 The order of terms is ordered from the most general to most specific and ends with the unit used, if applicable. For example, the order of terms in the metric `volume_reported_future_perpetual_usd_1d` is ordered such that the `volume` term is first and all subsequent terms are modifiers to what type of volume the metric represents.&#x20;
 
-Some metrics are naturally represented as an aggregation (such as a sum or mean) over a time interval (such as a block, an hour, or day). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix.
+Some metrics are naturally represented as an aggregation (such as a sum or mean) over a time interval (such as a block, an hour, or day). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix. Please see the frequently asked question "What timestamp conventions does Coin Metrics use?".
 
 The exception to this convention is that all Network Data Pro metrics use upper camel case (ex: CamelCase) in which names omit spaces and the separation of words is indicated by a single capitalized letter. The first word is also capitalized. Network Data Pro metrics used the upper camel case naming convention prior to our adoption of the snake case naming convention for all other metrics, so we maintain the upper camel case naming convention for Network Data Pro metrics for consistency and backwards compatibility.
+
+**What timestamp conventions does Coin Metrics use?**&#x20;
+
+We use two timestamp conventions for our data types: point-in-time and beginning-of-interval.
+
+For any data type where the value represents a measurement at a point in time, we set the timestamp to that specific point in time. This is referred to as the “point-in-time” timestamp convention. We use this timestamp convention for any data type that represents a discrete event (such as a trade or order book update) or any data type that represents the snapshot of the state of something (such as an open interest snapshot or order book snapshot). For instance, if the `time` for a trade is `2021-08-04 23:56:00.356749000`, that means that the trade was executed exactly at that timestamp.
+
+For any data type that represents a summary statistic over an interval of time, we set the timestamp to the beginning of the time interval. This is referred to as the "beginning-of-interval" timestamp convention. Summary statistics can include transformations such as sum, mean, median, and count. Our candles is an example of a data type that follows this convention because it represents the open, high, low, close, and volume over an interval of time such as a day. For instance, if the `time` for a daily candle is `2021-08-04 00:00:00.000000000`, that means the candle represents the daily interval from `2021-08-04 00:00:00.000000000` to `2021-08-04 23:59:59.999999999`, inclusive. Here we represent `00:00:00.000000000` as the beginning of the day according to the [ISO 8601 standard](https://en.wikipedia.org/wiki/ISO\_8601).
+
+The following API endpoints serve data using the point-in-time convention:
+
+* `/timeseries/market-trades`
+* `/timeseries/market-openinterest`
+* `/timeseries/market-liquidations`
+* `/timeseries/market-funding-rates`
+* `/timeseries/market-orderbooks`
+* `/timeseries/market-quotes`
+* `/timeseries/market-contract-prices`
+* `/timeseries/market-implied-volatility`
+* `/timeseries/market-greeks`
+* `/timeseries/index-levels`
+* `/timeseries/index-constituents`
+* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` with `snake_case` naming convention and without an interval suffix, such as `open_interest_reported_future_usd`
+
+The following API endpoints serve data using the beginning-of-interval convention:
+
+* `/timeseries/market-candles`
+* Any metric in `/timeseries/asset-metrics` with upper camel case (ex: `UpperCamelCase`) naming convention
+* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` with snake case (ex: `snake_case`) naming convention and with an interval suffix, such as `volume_reported_future_perpetual_usd_1d`
+
+**Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
+
+The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention. ****&#x20;
+
+For more discussion on these timestamp conventions, please see the frequently asked question "What timestamp conventions does Coin Metrics use?".

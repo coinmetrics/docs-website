@@ -102,6 +102,12 @@ Please take a look at this question in the Market Data FAQs page linked below.&#
 
 We construct gapless candles which means that if there are no trades in a candle interval, we fill forward candles through time, setting the open, high, low, and close to the close of the previous candle, setting the vwap to the vwap of the previous candle, and setting the volume to zero. In cases where there are no trades in a candle interval, it is expected that the vwap may be higher than the high price or lower than the low price due to our fill forward logic.&#x20;
 
+**What does the time for each candle observation represent?**
+
+Since candles represent a set of summary statistics measured over an interval of time (such as one calendar day), by convention we set the `time` field to the beginning of the candle interval.
+
+For instance, if the `time` for a daily candle is `2022-02-17 00:00:00`, this means that the `price_open` represents the price of the first trade after`2022-02-17 00:00:00.000000` while the `price_close` represents the price of the last trade before `2022-02-17 23:59:59.999999`. And the volume represents the sum of the trades amounts from `2022-02-17 00:00:00.00000` to `2022-02-17 23:59:59.999999`, inclusive. Here we represent `00:00:00` as the beginning of a calendar day according to the [ISO 8601 standard](https://en.wikipedia.org/wiki/ISO\_8601).
+
 ## **Known Data Issues**&#x20;
 
 * **Candles data is filled forward longer than needed for markets that are delisted.** We are working on a future upgrade to our candles that will correct this.&#x20;

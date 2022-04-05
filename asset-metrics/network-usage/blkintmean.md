@@ -24,7 +24,7 @@ The mean time (in seconds) between all the blocks created that interval.
 
 If for a day, the blocks are:
 
-![](../../.gitbook/assets/screen-shot-2020-12-13-at-10.45.13-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-13 at 10.45.13 PM.png>)
 
 The value of BlkIntMean would be (120 + 20 + 160 + 60) / 4 = 90 seconds
 

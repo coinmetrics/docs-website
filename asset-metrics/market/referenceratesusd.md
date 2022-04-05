@@ -23,11 +23,11 @@ Reference Rates are designed to represent the price of a cryptoasset in an arms 
 
 A sample of the hourly reference rates data for Bitcoin is shown below:
 
-![](<../../.gitbook/assets/0 (10).png>)
+![](<../../.gitbook/assets/0 (3).png>)
 
 A sample of the real-time reference rates data for Bitcoin is shown below:
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](../../.gitbook/assets/1.png)
 
 * asset:  The IDs of the asset.  &#x20;
 * time: The reference rate time in ISO 8601 date-time format.

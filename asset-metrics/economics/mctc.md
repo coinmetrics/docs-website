@@ -1,12 +1,12 @@
-# Miner Cap to Thermo Cap \(MCTC\)
+# Miner Cap to Thermo Cap (MCTC)
 
 ## Definition
 
-The ratio of Miner Cap relative to Thermo Cap at the end of that interval. Miner Cap represents all funds held by mining pools and miners and is calculated as the sum of SplyMiner0HopAllUSD \(supply held by mining pools\) and SplyMiner1HopAllUSD \(supply held by miners\). Thermo Cap is RevAllTimeUSD and represents the USD value of all funds disbursed to miners at the time of issuance. 
+The ratio of Miner Cap relative to Thermo Cap at the end of that interval. Miner Cap represents all funds held by mining pools and miners and is calculated as the sum of SplyMiner0HopAllUSD (supply held by mining pools) and SplyMiner1HopAllUSD (supply held by miners). Thermo Cap is RevAllTimeUSD and represents the USD value of all funds disbursed to miners at the time of issuance.&#x20;
 
-| Name | IMetricD | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Miner Cap to Thermo Cap \(MCTC\) | MCTC | Economics | Mining | Ratio | Dimensionless | 1 day |
+| Name                           | IMetricD | Category  | Subcategory | Type  | Unit          | Interval |
+| ------------------------------ | -------- | --------- | ----------- | ----- | ------------- | -------- |
+| Miner Cap to Thermo Cap (MCTC) | MCTC     | Economics | Mining      | Ratio | Dimensionless | 1 day    |
 
 ## Details
 
@@ -17,30 +17,29 @@ The ratio of Miner Cap relative to Thermo Cap at the end of that interval. Miner
 
 ## Chart
 
-![](../../.gitbook/assets/mctc-1-.png)
+![](../../.gitbook/assets/MCTC\(1\).png)
 
 ## Interpretation
 
-* Historically, a threshold of 10 has been indicative of market tops. 
-* When this threshold is breached, it might indicate that miners are more willing to sell their assets, as their profit margins have widened. 
-* Conversely, as this ratio dips below 2, it might indicate market bottoms as miner's willingness to sell decreases. 
+* Historically, a threshold of 10 has been indicative of market tops.&#x20;
+* When this threshold is breached, it might indicate that miners are more willing to sell their assets, as their profit margins have widened.&#x20;
+*   Conversely, as this ratio dips below 2, it might indicate market bottoms as miner's willingness to sell decreases.&#x20;
 
- 
+    &#x20;
 
 ## Asset-Specific Details
 
-Only applicable to assets for which we have SplyMiner0HopAllUSD \(supply held by mining pools\), SplyMiner1HopAllUSD \(supply held by miners\) and Thermo Cap \(RevAllTimeUSD\).
+Only applicable to assets for which we have SplyMiner0HopAllUSD (supply held by mining pools), SplyMiner1HopAllUSD (supply held by miners) and Thermo Cap (RevAllTimeUSD).
 
 ## Release History
 
-* Release Version: NDP 5.0 \(August, 2021\)
+* Release Version: NDP 5.0 (August, 2021)
 
 ## See Also:
 
-* [MCRC \(Market Cap / Realized Cap\)](mcrc.md)
-* [MVRV \(Market Cap / Realized Market Cap\)](../market/capmvrvcur.md)
+* [MCRC (Market Cap / Realized Cap)](mcrc.md)
+* [MVRV (Market Cap / Realized Market Cap)](../market/capmvrvcur.md)
 
 ## Availability for Assets
 
 {% embed url="https://docs.coinmetrics.io/info/metrics/CapMVRVFF" %}
-

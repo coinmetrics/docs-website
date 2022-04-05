@@ -1,12 +1,12 @@
-# Miner Cap to Realized Cap \(MCRC\)
+# Miner Cap to Realized Cap (MCRC)
 
 ## Definition
 
-The ratio of Miner Cap over Realized Cap at the end of that interval. Miner Cap represents all funds held by mining pools and miners and is calculated as the sum of SplyMiner0HopAllUSD \(supply held by mining pools\) and SplyMiner1HopAllUSD \(supply held by miners\). [Realized Cap](../market/caprealusd.md) \(CapRealUSD\) is defined as the sum USD value based on the USD closing price on the day that a native unit last moved \(i.e., last transacted\) for all native units.
+The ratio of Miner Cap over Realized Cap at the end of that interval. Miner Cap represents all funds held by mining pools and miners and is calculated as the sum of SplyMiner0HopAllUSD (supply held by mining pools) and SplyMiner1HopAllUSD (supply held by miners). [Realized Cap](../market/caprealusd.md) (CapRealUSD) is defined as the sum USD value based on the USD closing price on the day that a native unit last moved (i.e., last transacted) for all native units.
 
-| Name | IMetricD | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Miner Cap to Realized Cap \(MCRC\) | MCRC | Economics | Mining | Ratio | Dimensionless | 1 day |
+| Name                             | IMetricD | Category  | Subcategory | Type  | Unit          | Interval |
+| -------------------------------- | -------- | --------- | ----------- | ----- | ------------- | -------- |
+| Miner Cap to Realized Cap (MCRC) | MCRC     | Economics | Mining      | Ratio | Dimensionless | 1 day    |
 
 ## Details
 
@@ -17,30 +17,28 @@ The ratio of Miner Cap over Realized Cap at the end of that interval. Miner Cap 
 
 ## Chart
 
-![](../../.gitbook/assets/mcrc-1-.png)
+![](../../.gitbook/assets/MCRC\(1\).png)
 
 ## Interpretation
 
 * When comparing the USD value of what miners have in custody relative to the cost basis of the network as a whole, a natural threshold of 1 is relevant.
-* When this threshold is breached, it might indicate that miners are more willing to sell their assets, as their profit margins have widened. 
+* When this threshold is breached, it might indicate that miners are more willing to sell their assets, as their profit margins have widened.&#x20;
 * Conversely, as this ratio nears zero, it might indicate miners are selling at a loss.
 
 ## Asset-Specific Details
 
-Only applicable to assets for which we have SplyMiner0HopAllUSD \(supply held by mining pools\), SplyMiner1HopAllUSD \(supply held by miners\) and Realized Cap \(CapRealUSD\).
+Only applicable to assets for which we have SplyMiner0HopAllUSD (supply held by mining pools), SplyMiner1HopAllUSD (supply held by miners) and Realized Cap (CapRealUSD).
 
 ## Release History
 
-* Release Version: NDP 5.0 \(August, 2021\)
+* Release Version: NDP 5.0 (August, 2021)
 
 ## See Also:
 
-* [MCTC \(Miner Cap / Thermo Cap\)](mctc.md)
-* [MVRV \(Market Cap / Realized Market Cap\)](../market/capmvrvcur.md)
+* [MCTC (Miner Cap / Thermo Cap)](mctc.md)
+* [MVRV (Market Cap / Realized Market Cap)](../market/capmvrvcur.md)
 
 ## Availability for Assets
 
 {% embed url="https://docs.coinmetrics.io/info/metrics/MCTC" %}
-
-
 

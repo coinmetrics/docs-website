@@ -38,7 +38,7 @@ If you do not have an API key, simply leave the "API KEY" pop-up blank and click
 
 If you are a client of our professional data and you have an API Viz key, you can enter your key in the "API KEY" pop-up when you load the tool.  If you are a client, and you do not have a Viz key, contact us to obtain one.  Each user needs their own Viz key, as these keys have special permisssions.  Also, any charts saved to our cloud are saved to your user-specific key. &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-21-at-12.08.29-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-21 at 12.08.29 PM.png>)
 
 ## Charting a Data Series
 
@@ -49,7 +49,7 @@ If you are a client of our professional data and you have an API Viz key, you ca
 
 
 
-![Symbol Entry Window and Data Categories Menu](../../.gitbook/assets/screen-shot-2021-05-20-at-10.02.17-am.png)
+![Symbol Entry Window and Data Categories Menu](<../../.gitbook/assets/Screen Shot 2021-05-20 at 10.02.17 AM.png>)
 
 ## Data Categories
 
@@ -57,11 +57,11 @@ If you are a client of our professional data and you have an API Viz key, you ca
 
 Candles are available for all our (spot and futures) market pairs.   Typing _BTC-USD-SPOT_ in the symbol entry window, and selecting the ExchCandles category will filter the BTC-USD spot markets for each supported exchange.  &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-3.21.04-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 3.21.04 PM.png>)
 
 Our CM Pro visualization tool supports 5 min, 10 min, 15 min, 30  min, 1 hour, 4 hour and daily candles.  The default view is 1D (daily).  CM's daily close is 00:00 UTC.  To view a different candle, click the "D" (or current resolution) next to the symbol entry window, and select a different resolution.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-3.27.28-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 3.27.28 PM.png>)
 
 &#x20;
 
@@ -77,7 +77,7 @@ The trades update every 1.5 seconds and include all activity that took place in 
 
 Our Coin Metrics reference rates are available for 300+ assets. Typing the asset (e.g., _BTC_) in the symbol entry window will enable you to select the desired increment.  Increments supported include 1 min, 1 hour, daily 00:00 UTC close, and daily 4:00PM NYC close. We also have real-time (RT) rates that are computed every 1.5 seconds and update live on the chart.  All reference rate data will show up in the chosen resolution, except the real-time data, which will appear in the tool's 1 minute resolution (updating every 1.5 seconds) due to a limitation of the Trading View library's "seconds" resolutions.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-3.49.48-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 3.49.48 PM.png>)
 
 Note:  Our UTC Reference Rate represents the 00:00 UTC price, which is the price as of midnight UTC (midnight UTC is the beginning of the day per ISO 8601 standard).  For the sake of extreme clarity, this price is the same price found in the CM-Metrics category labeled BTC-PriceUSD for the prior day.&#x20;
 
@@ -103,17 +103,17 @@ These are the 3rd party data sets described in [Data Sources](./#data-sources). 
 
 Address balance information from over time sourced from our Atlas search tool.  These values are updated each time the address has a balance change.  To plot the balances, you need to specify the asset (e.g., "btc") and the specific address of interest.  You open the Atlas search window by clicking on "Atlas" in the top menu.
 
-![](../../.gitbook/assets/screen-shot-2021-05-26-at-7.38.33-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-26 at 7.38.33 PM.png>)
 
 You then type your address in the form of \[asset]:\[address] (e.g.,  btc:bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh). in the search window.
 
-![](../../.gitbook/assets/screen-shot-2021-05-26-at-7.36.43-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-26 at 7.36.43 PM.png>)
 
 ## Changing the Chart Type&#x20;
 
 Next to the symbol entry window, you can adjust the chart type by selecting the current chart type from the menu.  Upon selecting the chart type image, you will see other chart types.  In the example below, the data was presented as a line chart and selecting the small image that looks like a line chart, you will see other chart options. &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-9.50.08-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 9.50.08 PM.png>)
 
 The only data category with true candles is the [ExchCandles](../../market-data/market-candles.md) category.  Selecting Candles for the other data types will result in "manufactured candles".  For instance, daily NYC close reference rates are created from the timeseries whereby the open price is the previous day's close price and the close price is the current day's close price.  The High/Low are simply either the open or close (not the intraday high and low prices).   &#x20;
 
@@ -121,29 +121,29 @@ The only data category with true candles is the [ExchCandles](../../market-data/
 
 To compare multiple timeseries, click "Compare" in the menu after plotting your primary timeseries.  &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-9.30.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 9.30.19 PM.png>)
 
 In the compare dialog, ensure that "Add Symbol" is selected.  Add your second timeseries using the data category menus and symbol entry in the same way that you plotted your primary timeseries.  Repeat this process for each additional timeseries you'd like to compare.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-9.35.28-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 9.35.28 PM.png>)
 
 Each timeseries will auto-scale on its own axis.  To view these timeseries on a single axis, right click on the left hand (primary) axis and select "Merge All Scales Into One".  Select "On The Left" or "On The Right", depending on your preference.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-9.44.54-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 9.44.54 PM.png>)
 
 ## Using Indicators
 
 The TradingView library has many built-in indicators.  These indicators can be easily accessed  by clicking "Indicators" in the menu. &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-10.08.39-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 10.08.39 PM.png>)
 
 Upon clicking "Indicators", you will see all available indictors and a search window.  Simply select the desired indicator or begin typing to auto-filter for the indicator desired. &#x20;
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-10.16.15-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 10.16.15 PM.png>)
 
 For example, if you select the "Spread" indicator, the fields required to display the spread (difference) will appear and the "Spread" between the primary series and the series entered (via symbol) will display in the window below your primary plot.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-10.19.42-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 10.19.42 PM.png>)
 
 For more information on these indicators, visit [TradingView's documentation](https://www.tradingview.com/ideas/indicator/). &#x20;
 
@@ -159,7 +159,7 @@ The Save and Load functions are only available to users with an API Viz Key.  Bo
 
 Use the "Snapshot" feature (camera icon in the top right hand corner of your chart).  A dialog will appear with your "Image URL" and an option to save your chart (image) &#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-05-13-at-4.40.32-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-13 at 4.40.32 PM.png>)
 
 ## Export
 
@@ -185,6 +185,6 @@ _For more easterly time zones_&#x20;
 
 The Live Prices in the menu launches a dialog that shows the top assets' real-time prices.
 
-![](../../.gitbook/assets/screen-shot-2020-12-28-at-9.22.46-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2020-12-28 at 9.22.46 PM.png>)
 
 Every 3 seconds, we use the CM Reference Rate and the Rate from 24 hours ago to compute the % change for each asset. This is a scrolling and draggable window.

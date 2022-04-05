@@ -2,7 +2,9 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/rtrr-methodology.pdf" %}
+{% file src="../../.gitbook/assets/rtrr-methodology (1).pdf" %}
+Fiat Currencies
+{% endfile %}
 
 ## Introduction
 
@@ -28,19 +30,13 @@ A candidate market can be nominated for inclusion and an existing constituent ma
 
 The Market Selection Framework consists of a fully-systematized process for evaluating markets to serve as input pricing sources for the calculation of the Reference Rates. It produces a unique set of candidate selected markets for each asset in the coverage universe that are then subsequently reviewed by the Oversight Committee. The market selection framework evaluates markets based on the following criteria:
 
-1. **Technology**: An assessment of whether the technology infrastructure of the market’s exchange provides sufficient availability and reliability for input data collection. Evaluates whether the exchange offers a REST API, Websocket feed, or FIX API suitable for data collection. Evaluates the performance of the API in terms of reliability and latency.\
-
-2. **Legal and Compliance**: An assessment of whether the market’s exchange complies with laws and regulations. Evaluates the exchange’s legal risk exposure, and whether it adheres to regulatory best practices. Evaluates whether the exchange has publicly-disclosed trading policies, uses market surveillance technology, and complies with national regulatory organizations, and enforces KYC and AML requirements. Evaluates whether the exchange has functioning fiat and cryptocurrency withdrawals processed within a normal timeframe. Evaluates whether a data sharing license can be executed with the exchange.\
-
-3. **Business Model**: An assessment of the market’s exchange with respect to its business model, including its fee structure and asset listing standards.\
-
-4. **Data Availability**: An assessment of the available data the market’s exchange offers for the given asset, including the number of markets where the given asset is the base currency, whether the markets are quoted in fiat currencies or other cryptocurrencies, and the type of markets offered.\
-
-5. **Price**: An assessment of the quality of the market’s price data, including testing for the occurrence of price outliers and impactful price deviations from other markets, and implementing tests that determine whether the market functions as an active market in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers.\
-
-6. **Volume**: An assessment of the quality of the market’s volume data, including testing for manipulated volume figures, and implementing tests that determine whether the market functions as an active markets in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The size of the exchange’s markets are also considered.\
-
-7. **Order Book**: An assessment of the quality of the market’s order book data, including tests for manipulated orders, and implementing tests that determine whether the market functions as an active market in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The liquidity of the market is also considered.
+1. _Technology_: An assessment of whether the technology infrastructure of the market’s exchange provides sufficient availability and reliability for input data collection. Evaluates whether the exchange offers a REST API, Websocket feed, or FIX API suitable for data collection. Evaluates the performance of the API in terms of reliability and latency.
+2. _Legal and Compliance_: An assessment of whether the market’s exchange complies with laws and regulations. Evaluates the exchange’s legal risk exposure, and whether it adheres to regulatory best practices. Evaluates whether the exchange has publicly-disclosed trading policies, uses market surveillance technology, and complies with national regulatory organizations, and enforces KYC and AML requirements. Evaluates whether the exchange has functioning fiat and cryptocurrency withdrawals processed within a normal timeframe. Evaluates whether a data sharing license can be executed with the exchange.
+3. _Business Model_: An assessment of the market’s exchange with respect to its business model, including its fee structure and asset listing standards.
+4. _Data Availability_: An assessment of the available data the market’s exchange offers for the given asset, including the number of markets where the given asset is the base currency, whether the markets are quoted in fiat currencies or other cryptocurrencies, and the type of markets offered.
+5. _Price_: An assessment of the quality of the market’s price data, including testing for the occurrence of price outliers and impactful price deviations from other markets, and implementing tests that determine whether the market functions as an active market in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers.
+6. _Volume_: An assessment of the quality of the market’s volume data, including testing for manipulated volume figures, and implementing tests that determine whether the market functions as an active markets in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The size of the exchange’s markets are also considered.
+7. _Order Book_: An assessment of the quality of the market’s order book data, including tests for manipulated orders, and implementing tests that determine whether the market functions as an active market in the underlying asset and are anchored by observable transactions entered into at arm’s length between buyers and sellers. The liquidity of the market is also considered.
 
 The full Market Selection Framework can be found [here](https://docs.coinmetrics.io/methodologies/reference-rates/market-selection-framework).
 
@@ -52,29 +48,28 @@ The data inputs for the calculation of the Real-Time Reference Rates are observa
 
 The pool of candidate markets that are evaluated for the calculation of the Real-Time Reference Rates for Bitcoin (BTC) and Ethereum (ETH) are determined using the following data hierarchy:
 
-1. The primary data input is observable transactions in an active market where the given cryptocurrency is the base currency and the quote currency is U.S. dollars.\
-
+1. The primary data input is observable transactions in an active market where the given cryptocurrency is the base currency and the quote currency is U.S. dollars.
 2. Markets where the given cryptocurrency is the base currency and the quote currency is not U.S. dollars are not considered, including markets quoted in other fiat currencies or markets quoted in stablecoins.
 
 #### Other Cryptocurrencies Excluding Stablecoins
 
 The pool of candidate markets that are evaluated for the calculation of the Real-Time Reference Rates for other cryptocurrencies, excluding Bitcoin (BTC), Ethereum (ETH), and stablecoins are determined using the following data hierarchy:
 
-1. The primary data input is observable transactions in an active market where the given cryptocurrency is the base currency and the quote currency is U.S. dollars.\
-
-2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is BTC.\
-
-3. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is ETH.
+1. The primary data input is observable transactions in an active market where the given cryptocurrency is the base currency and the quote currency is U.S. dollars.
+2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is Bitcoin (BTC).
+3. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is Ethereum (ETH).
+4. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is USD Coin (USDC).
+5. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given cryptocurrency is the base currency and quote currency is Tether (USDT).
 
 #### Stablecoins
 
 The pool of candidate markets that are evaluated for the calculation of the Real-Time Reference Rates for stablecoins are determined using the following data hierarchy:
 
-1. The primary data input is observable transactions in an active market where the given stablecoin is the base currency and the quote currency is U.S. dollars.\
-
-2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Bitcoin (BTC) is the base currency and quote currency is the given stablecoin.\
-
+1. The primary data input is observable transactions in an active market where the given stablecoin is the base currency and the quote currency is U.S. dollars.
+2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Bitcoin (BTC) is the base currency and quote currency is the given stablecoin.
 3. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Ethereum (ETH) is the base currency and quote currency is the given stablecoin.
+4. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given stablecoin is the base currency and quote currency is USD Coin (USDC).
+5. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where the given stablecoin is the base currency and quote currency is Tether (USDT).
 
 The data hierarchy for stablecoins differs from other cryptocurrencies because market convention sets stablecoins as the quote currency for the majority of active markets. The following assets in the coverage universe are considered to be stablecoins:
 
@@ -82,7 +77,6 @@ The data hierarchy for stablecoins differs from other cryptocurrencies because m
 | -------------- | ------ |
 | Tether         | usdt   |
 | TrueUSD        | tusd   |
-| STASIS EURS    | eurs   |
 | USD Coin       | usdc   |
 | Paxos Standard | pax    |
 | Gemini Dollar  | gusd   |
@@ -93,15 +87,16 @@ The data hierarchy for stablecoins differs from other cryptocurrencies because m
 | Binance IDR    | bidr   |
 | sUSD           | susd   |
 | Neutrino USD   | usdn   |
+| TerraUSD       | ust    |
+| mStable USD    | musd   |
+| USD Paxos      | usdp   |
 
 #### Fiat Currencies
 
 The pool of candidate markets that are evaluated for the calculation of the Reference Rates for fiat currencies are determined using the following data hierarchy:
 
-1. The primary data input is observable transactions in an active market where the given fiat currency is the base currency and the quote currency is U.S. dollars.\
-
-2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Bitcoin (BTC) is the base currency and quote currency is the given fiat currency.\
-
+1. The primary data input is observable transactions in an active market where the given fiat currency is the base currency and the quote currency is U.S. dollars.
+2. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Bitcoin (BTC) is the base currency and quote currency is the given fiat currency.
 3. If the above data inputs do not exist or the Oversight Committee makes a determination that the above data inputs are insufficient to calculate the reference rate, the universe of data inputs will expand to include observable transactions in an active market where Ethereum (ETH) is the base currency and quote currency is the given fiat currency.
 
 The data hierarchy for fiat currencies differs from other cryptocurrencies because market convention sets fiat currencies as the quote currency for the majority of active markets. The following assets in the coverage universe are considered to be fiat currencies:
@@ -127,22 +122,17 @@ The data hierarchy for fiat currencies differs from other cryptocurrencies becau
 
 The calculation algorithm of the Real-Time Reference Rates is described below.
 
-1. Calculate the volume denominated in units of the given asset from observable transactions that occurred over the trailing 60 minutes for each of the Constituent Markets. Calculate the volume weight for each of the Constituent Markets by dividing the volume figure for each of the Constituent Markets by the total volume across all Constituent Markets. The resulting figure is referred to as the volume weight.\
-
-2. Convert the trade price of all observable transactions over the trailing 60 minutes for each of the Constituent Markets to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC) or Ethereum (ETH). Calculate the inverse variance of the trade price converted to U.S. dollars for each of the Constituent Markets using the population mean in the calculation of variance, where the population mean is defined as the mean price of all trades from Constituent Markets over the trailing 60 minutes. If a Constituent Market has an infinite or undefined inverse price variance, the inverse price variance for that Constituent Market is set to zero. Calculate the inverse price variance weight for each of the Constituent Markets by dividing the inverse price variance by the total inverse price variance across all Constituent Markets. The resulting figure is referred to as the inverse price variance weight.\
-
-3. Calculate the final weight for each of the Constituent Markets by taking a mean of the volume weight and the inverse price variance weight.\
-
-4. Extract the most recent observable transaction from each of the Constituent Markets. Convert the trade price of the most recent observable transactions to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC) or Ethereum (ETH).\
-
+1. Calculate the volume denominated in units of the given asset from observable transactions that occurred over the trailing 60 minutes for each of the Constituent Markets. Calculate the volume weight for each of the Constituent Markets by dividing the volume figure for each of the Constituent Markets by the total volume across all Constituent Markets. The resulting figure is referred to as the volume weight.
+2. Convert the trade price of all observable transactions over the trailing 60 minutes for each of the Constituent Markets to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC) or Ethereum (ETH). Calculate the inverse variance of the trade price converted to U.S. dollars for each of the Constituent Markets using the population mean in the calculation of variance, where the population mean is defined as the mean price of all trades from Constituent Markets over the trailing 60 minutes. If a Constituent Market has an infinite or undefined inverse price variance, the inverse price variance for that Constituent Market is set to zero. Calculate the inverse price variance weight for each of the Constituent Markets by dividing the inverse price variance by the total inverse price variance across all Constituent Markets. The resulting figure is referred to as the inverse price variance weight.
+3. Calculate the final weight for each of the Constituent Markets by taking a mean of the volume weight and the inverse price variance weight.
+4. Extract the most recent observable transaction from each of the Constituent Markets. Convert the trade price of the most recent observable transactions to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC) or Ethereum (ETH).
 5. Calculate the weighted median price of the most recent observable transactions using the price calculated in step 4 and the final weight calculated in step 3. The weighted median price is calculated by ordering the transactions from lowest to highest price, and identifying the price associated with the trades at the 50th percentile of final weight. The resulting figure is the Real-Time Reference Rate for the given asset.
 
 ### Data Contingency Rules
 
 The following contingency rules are followed to address situations where data is delayed, missing, or unavailable due to periods of illiquidity, extraordinary market circumstances, or outside factors beyond the control of Coin Metrics.
 
-1. If observable transactions from a constituent market are unable to be collected due to technical problems specific to the constituent market’s exchange during the calculation of a real-time reference rate, the observable transactions from the constituent market are not included in the calculation of the specific instance of the given real-time reference rate.\
-
+1. If observable transactions from a constituent market are unable to be collected due to technical problems specific to the constituent market’s exchange during the calculation of a real-time reference rate, the observable transactions from the constituent market are not included in the calculation of the specific instance of the given real-time reference rate.
 2. If no observable transactions from constituent markets exist during the trailing 60 minutes, the value of the real-time reference rate will be determined to equal the value calculated during the previous second.
 
 ### Data Exclusion Rules
@@ -153,18 +143,12 @@ All observable transactions from constituent markets are evaluated using a syste
 
 If errors are discovered in the calculation process subsequent to the publication of the real-time reference rate, a recalculated real-time reference rate may be published. Such errors can include the following events:
 
-1. A constituent market begins trading at a spread against other constituent markets due to a temporary halting of withdrawals or deposits or an increase in solvency risk for a specific exchange\
-
-2. A constituent market is temporarily halted due to unplanned exchange maintenance\
-
-3. Data from constituent markets is interrupted due to network delays or instability\
-
-4. Data from constituent markets is interrupted due to an unplanned change in an exchange’s API\
-
-5. Suspected trade manipulation is observed on a constituent market\
-
-6. A ticker change or token swap for a constituent market is missed or misapplied\
-
+1. A constituent market begins trading at a spread against other constituent markets due to a temporary halting of withdrawals or deposits or an increase in solvency risk for a specific exchange
+2. A constituent market is temporarily halted due to unplanned exchange maintenance
+3. Data from constituent markets is interrupted due to network delays or instability
+4. Data from constituent markets is interrupted due to an unplanned change in an exchange’s API
+5. Suspected trade manipulation is observed on a constituent market
+6. A ticker change or token swap for a constituent market is missed or misapplied
 7. Calculation methodology is incorrectly applied
 
 Recalculations to the real-time reference rates are assessed on a case-by-case basis in consultation with the Oversight Committee. Decisions regarding recalculations take into consideration all the available data and the potential negative impact or disruption involved in a recalculation. All recalculations are announced simultaneously to all clients.
@@ -187,10 +171,8 @@ Coin Metrics enforces policies and procedures relating to conflicts of interest 
 
 Coin Metrics may initiate material changes to or terminate a real-time reference rate due to certain extraordinary market circumstances or external factors. These circumstances or external factors include, but are not limited to:
 
-1. The real-time reference rate no longer serves, and could not be modified to serve, as a transparent and independent pricing source for the underlying asset\
-
-2. The market liquidity in the underlying asset declines to an extent that the input data sources no longer function as active markets\
-
+1. The real-time reference rate no longer serves, and could not be modified to serve, as a transparent and independent pricing source for the underlying asset
+2. The market liquidity in the underlying asset declines to an extent that the input data sources no longer function as active markets
 3. The underlying asset experiences a contentious hard fork in which both forks survive
 
 In such circumstances, Coin Metrics will review the Real-Time Reference Rates to ensure the Real-Time Reference Rates are properly reflecting their underlying assets, and if necessary, make changes to the methodology or definition of the Real-Time Reference Rates to properly account for changing market structure, circumstances, and industry conventions in the underlying asset. Any such change or termination will be reviewed and approved by the Oversight Committee. Any approved change or termination will be publicly disclosed to external stakeholders with a detailed explanation of the rationale. In a manner appropriate to the circumstances, Coin Metrics will develop a plan to notify, solicit comments from, and consult with external stakeholders before implementing any material change or termination. Any change or termination will include a timeline explaining the timing of changes or termination and include steps to mitigate any negative effects on external stakeholders.
@@ -203,10 +185,8 @@ Coin Metrics has implemented internal controls to protect the integrity of the R
 
 Complaints about the calculation methodology of the Real-Time Reference Rates or the value of a published real-time reference rate should be submitted in writing to `support@coinmetrics.io`. Coin Metrics will investigate any complaints and respond to the complainant in a fair and timely manner. Any investigation of the complaint will adhere to the following procedures:
 
-1. The personnel receiving and investigating the complaint will be independent of any personnel who may have been involved in the subject of the complaint.\
-
-2. All records and documents submitted by the complainant and related to the investigation into the complaint will be retained for a period of at least five years and submitted to the Oversight Committee for review.\
-
+1. The personnel receiving and investigating the complaint will be independent of any personnel who may have been involved in the subject of the complaint.
+2. All records and documents submitted by the complainant and related to the investigation into the complaint will be retained for a period of at least five years and submitted to the Oversight Committee for review.
 3. Any complaint that results in a change in the determination of the Real-Time Reference Rates, its calculation methodology, or its policies will be publicly disclosed and will explain the action taken.
 
 ## Internal Audit
@@ -217,14 +197,10 @@ The Oversight Committee appoints an independent internal auditor to review the R
 
 Coin Metrics retains records, for at least five years, on the following items:
 
-1. All market data that is collected and used in the calculation of the Real-Time Reference Rates\
-
-2. Any use of expert judgment in the calculation of the Real-Time Reference Rates\
-
-3. Any use of non-standard procedures in the calculation of the Real-Time Reference Rates\
-
-4. The identities of staff responsible for the calculation of the Real-Time Reference Rates\
-
+1. All market data that is collected and used in the calculation of the Real-Time Reference Rates
+2. Any use of expert judgment in the calculation of the Real-Time Reference Rates
+3. Any use of non-standard procedures in the calculation of the Real-Time Reference Rates
+4. The identities of staff responsible for the calculation of the Real-Time Reference Rates
 5. Any responses, questions, or complaints received in connection with the calculation of the Real-Time Reference Rates
 
 ## Compliance
@@ -233,27 +209,18 @@ Coin Metrics maintains records and has processes in place to comply with request
 
 ## Change Log
 
-1. **Version 0.11 on September 28, 2021**: The coverage universe is expanded to include the following assets: `amp`, `axs`, `shib`, `audio`, `bake`, `med`, `dag`, `slp`, `xdb`. The publication of reference rates is terminated for the following assets: `agi` ,`btmx`, `dgx`, `ethos`, `mco`, `sngls`, `cpay`, `eng`, `lun`, `pnt`.\
-
-2. **Version 0.10 on May 27, 2021**: The coverage universe is expanded to include the following assets: `icp`, `cope`, `maps`, `btcst`, `ctsi`, `erg`, `woo`, `prom`, `strax`, `usdn`, `cfx`, `mdx`, `nkn`, `sand`, `fx`, `pha`. The publication of reference rates is terminated for the following assets: `tnt`, `npxs`, `zar`.\
-
-3. **Version 0.9 on April 25, 2021**: The methodology was modified to add fiat currencies to the coverage universe. The coverage universe is expanded to include the following assets: `eur`, `krw`, `gbp`, `jpy`, `aud`, `try`, `brl`, `rub`, `sgd`, `bidr`, `ngn`, `cad`, `chf`, `zar`, `idrt`, `hkd`, `uah`, `qc`, `klay`, `cake`, `btmx`, `flow`, `zks`, `stmx`, `skl`, `reef`, `dodo`, `coti`, `bora`, `cream`, `ray`, `tryb`, `rook`. The publication of reference rates is terminated for the following assets: `xzc`, `bcpt`, `yamv2`, `xns`, `tmtg`, `kp3r`.\
-
-4. **Version 0.8 on February 23, 2021**: The coverage universe is expanded to include the following assets: `1inch`, `alpha`, `octo`, `perp`, `scrt`, `grt`, `keep`, `xvs`, `nu`, `tel`, `badger`.\
-
-5. **Version 0.7 on January 26, 2021**: The coverage universe is expanded to include the following assets: `susd`, `pols`, `ust`, `lto`, `swap`, `nim,` `lbc`, `mta`, `kp3r`, `glm`, `near`, `noia`, `rose`, `inj`. The publication of reference rates is terminated for the following assets: `gnt`, `fxc`, `bht`, `cmct`, `strat`, `loki`. The constituent markets for all assets in the coverage universe are updated.\
-
-6. **Version 0.6 on October 14, 2020**: The coverage universe is expanded to include the following assets: `akro`, `ampl`, `ar`, `bal`, `bzrx`, `celo`, `comp`, `crv`, `csp`, `dmg`, `dot`, `foam`, `kin`, `oxt`, `rune`, `sol`, `srm`, `vtho`, `wbtc`, `wnxm`, `xhv`, `xyo`, `yamv2`, `yfi`, `yfii`, `uma`, `ewt`, `rev`, `rsr`, `avax`, `tmtg`, `jst`, `hnt`, `trac`, `vlx`, `mxc`, `fet`, `aoa`, `iris`, `pnk`, `mln`, `shr`, `uqc`, `one_harmony`, `trb`, `ogn`, `ava`, `loki`, `hxro`, `wxt`, `cpay`, `fil`, `uni`, `swrv`, `sushi`, `aave`, `egld`, `hns`, `dia`, `boa`, `uos`, `ctc`, `renbtc`. The publication of reference rates is terminated for the following assets: `arn`, `pma`, `erd`, `man`, `iq`, `lend`. The Market Selection Framework was amended such that extremely low volume markets are less likely to be selected as a constituent market if higher volume markets of similar quality are available. The constituent markets for all assets in the coverage universe are updated.\
-
-7. **Version 0.5 on July 29, 2020**: The coverage universe is expanded to include the following assets: `wrx`, `band`, `ksm`, `usdk`, `snx`, `stx`, `fxc`, `kcs`, `hive`, `nrg`, `cel`, `ubt`, `chsb`, `crpt`, `bht`, `cvt`, `data`, `eurs`, `xns`, `gt`, `dgtx`, `kava`, `tt`, `sxp`, `mx`, `ocean`, `erd`, `lpt`. The publication of reference rates is terminated for the following assets: `storm`, `gto`. A revision policy was amended. The constituent markets for all assets in the coverage universe are updated.\
-
-8. **Version 0.4 on February 27, 2020**: The coverage universe is expanded to include the following assets: `xaut`, `paxg`, `husd`, `dgx`, `busd`, `ftt`, `hedg`, `okb`, `zb`, `hbar`, `ckb`, `mof`, `vsys`, `cennz`, `luna`, `chz`, `seele`, `dx`, `matic`, `abbc`, `rif`, `tomo`, `hpt`, and `ant`.\
-
-9. **Version 0.3 on February 6, 2020**: The constituent markets for all assets in the coverage universe are updated. The coverage universe is adjusted to remove the following assets: `box`, `cosm`, `fsn`, `medx`, `pst`, and `ttc_protocol`. The coverage universe was expanded to include Dai and the previous asset with this name was renamed to Sai to appropriately reflect MakerDAO’s transition from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai).\
-
-10. **Version 0.2 on December 9, 2019**: Updated calculation methodology to include price inverse variance weighting to reduce the impact of outliers. The coverage universe is expanded to include the following assets: `algo` and `beam`.\
-
-11. **Version 0.1 on August 30, 2019**: Initial publication of Real-Time Reference Rates Methodology.
+1. **Version 0.12 on February 15, 2022**: The coverage universe is expanded to include the following assets: `xec`, `kda`, `mina`, `xdc`, `elon`, `flux`, `movr`, `ceek`, `win_wink`, `dvi`, `dusk`, `asd`, `gala`, `spell`, `ens`, `tru`, `alcx`, `clv`, `imx`, `agld`, `jasmy`, `farm`, `alice`, `chr`, `dydx`, `tlm`, `mdt`, `gtc`, `sun`, `c98`, `people`, `lina`, `rndr`, `ach`, `super`, `mask`, `quick`, `arpa`, `qi`, `idex`, `rad`, `bond`, `mir`, `joe`, `gods`, `front`, `pla`, `orn`, `ramp`, `rgt`, `fida`, `forth`, `tribe`, `wluna`, `coval`, `rbn`, `lcx`, `asm`, `ddx`, `suku`, `krl`, `rari`, `mco2`, `gyen`, `btrst`, `api3`, `rly`, `wcfg`, `musd`, `ilv`, `atlas`, `usdp`, `joe`, `ldo`, `cvx`, `fxs`, `kp3r`, `alpaca`, `bnx`, `boson`, `dora`, `ghst`, `nft`, `ohm`, `om`, `pond`, `rare`, `revv`, `stpt`, `torn`, `tvk`, `wncg`, `xym`, `ygg`. The publication of reference rates is terminated for the following assets: `hedg`, `eurs`, `bzrx`, `poa`, `wpr`, `dmg`, `cdt`, `phx`, `appc`, `btt`, `idrt`, `rdn`, `via`, `evx`. The section “Data Inputs”, subsections “Other Cryptocurrencies Excluding Stablecoins” and “Stablecoins”, was modified to consider markets quoted in USD Coin or Tether to serve as constituent markets. The constituent markets for all assets in the coverage universe are updated.
+2. **Version 0.11 on September 28, 2021**: The coverage universe is expanded to include the following assets: `amp`, `axs`, `shib`, `audio`, `bake`, `med`, `dag`, `slp`, `xdb`. The publication of reference rates is terminated for the following assets: `agi` ,`btmx`, `dgx`, `ethos`, `mco`, `sngls`, `cpay`, `eng`, `lun`, `pnt`. The constituent markets for all assets in the coverage universe are updated.
+3. **Version 0.10 on May 27, 2021**: The coverage universe is expanded to include the following assets: `icp`, `cope`, `maps`, `btcst`, `ctsi`, `erg`, `woo`, `prom`, `strax`, `usdn`, `cfx`, `mdx`, `nkn`, `sand`, `fx`, `pha`. The publication of reference rates is terminated for the following assets: `tnt`, `npxs`, `zar`. The constituent markets for all assets in the coverage universe are updated.
+4. **Version 0.9 on April 25, 2021**: The methodology was modified to add fiat currencies to the coverage universe. The coverage universe is expanded to include the following assets: `eur`, `krw`, `gbp`, `jpy`, `aud`, `try`, `brl`, `rub`, `sgd`, `bidr`, `ngn`, `cad`, `chf`, `zar`, `idrt`, `hkd`, `uah`, `qc`, `klay`, `cake`, `btmx`, `flow`, `zks`, `stmx`, `skl`, `reef`, `dodo`, `coti`, `bora`, `cream`, `ray`, `tryb`, `rook`. The publication of reference rates is terminated for the following assets: `xzc`, `bcpt`, `yamv2`, `xns`, `tmtg`, `kp3r`.
+5. **Version 0.8 on February 23, 2021**: The coverage universe is expanded to include the following assets: `1inch`, `alpha`, `octo`, `perp`, `scrt`, `grt`, `keep`, `xvs`, `nu`, `tel`, `badger`.
+6. **Version 0.7 on January 26, 2021**: The coverage universe is expanded to include the following assets: `susd`, `pols`, `ust`, `lto`, `swap`, `nim,` `lbc`, `mta`, `kp3r`, `glm`, `near`, `noia`, `rose`, `inj`. The publication of reference rates is terminated for the following assets: `gnt`, `fxc`, `bht`, `cmct`, `strat`, `loki`. The constituent markets for all assets in the coverage universe are updated.
+7. **Version 0.6 on October 14, 2020**: The coverage universe is expanded to include the following assets: `akro`, `ampl`, `ar`, `bal`, `bzrx`, `celo`, `comp`, `crv`, `csp`, `dmg`, `dot`, `foam`, `kin`, `oxt`, `rune`, `sol`, `srm`, `vtho`, `wbtc`, `wnxm`, `xhv`, `xyo`, `yamv2`, `yfi`, `yfii`, `uma`, `ewt`, `rev`, `rsr`, `avax`, `tmtg`, `jst`, `hnt`, `trac`, `vlx`, `mxc`, `fet`, `aoa`, `iris`, `pnk`, `mln`, `shr`, `uqc`, `one_harmony`, `trb`, `ogn`, `ava`, `loki`, `hxro`, `wxt`, `cpay`, `fil`, `uni`, `swrv`, `sushi`, `aave`, `egld`, `hns`, `dia`, `boa`, `uos`, `ctc`, `renbtc`. The publication of reference rates is terminated for the following assets: `arn`, `pma`, `erd`, `man`, `iq`, `lend`. The Market Selection Framework was amended such that extremely low volume markets are less likely to be selected as a constituent market if higher volume markets of similar quality are available. The constituent markets for all assets in the coverage universe are updated.
+8. **Version 0.5 on July 29, 2020**: The coverage universe is expanded to include the following assets: `wrx`, `band`, `ksm`, `usdk`, `snx`, `stx`, `fxc`, `kcs`, `hive`, `nrg`, `cel`, `ubt`, `chsb`, `crpt`, `bht`, `cvt`, `data`, `eurs`, `xns`, `gt`, `dgtx`, `kava`, `tt`, `sxp`, `mx`, `ocean`, `erd`, `lpt`. The publication of reference rates is terminated for the following assets: `storm`, `gto`. A revision policy was amended. The constituent markets for all assets in the coverage universe are updated.
+9. **Version 0.4 on February 27, 2020**: The coverage universe is expanded to include the following assets: `xaut`, `paxg`, `husd`, `dgx`, `busd`, `ftt`, `hedg`, `okb`, `zb`, `hbar`, `ckb`, `mof`, `vsys`, `cennz`, `luna`, `chz`, `seele`, `dx`, `matic`, `abbc`, `rif`, `tomo`, `hpt`, and `ant`.
+10. **Version 0.3 on February 6, 2020**: The constituent markets for all assets in the coverage universe are updated. The coverage universe is adjusted to remove the following assets: `box`, `cosm`, `fsn`, `medx`, `pst`, and `ttc_protocol`. The coverage universe was expanded to include Dai and the previous asset with this name was renamed to Sai to appropriately reflect MakerDAO’s transition from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai).
+11. **Version 0.2 on December 9, 2019**: Updated calculation methodology to include price inverse variance weighting to reduce the impact of outliers. The coverage universe is expanded to include the following assets: `algo` and `beam`.
+12. **Version 0.1 on August 30, 2019**: Initial publication of Real-Time Reference Rates Methodology.
 
 ## Appendix A
 
@@ -289,7 +256,6 @@ The following table lists the current coverage universe:
 | FUNToken                             | fun                     |
 | 0x                                   | zrx                     |
 | Time New Bank                        | tnb                     |
-| POA                                  | poa                     |
 | TRON                                 | trx                     |
 | iExec RLC                            | rlc                     |
 | Augur                                | rep                     |
@@ -297,7 +263,6 @@ The following table lists the current coverage universe:
 | IOST                                 | iost                    |
 | Aion                                 | aion                    |
 | Request                              | req                     |
-| Raiden Network Token                 | rdn                     |
 | Loopring                             | lrc                     |
 | WAX                                  | waxp                    |
 | BnkToTheFuture                       | bft                     |
@@ -318,7 +283,6 @@ The following table lists the current coverage universe:
 | Cortex                               | ctxc                    |
 | Project Pai                          | pai                     |
 | DATA                                 | dta                     |
-| WePower                              | wpr                     |
 | Zilliqa                              | zil                     |
 | Bancor                               | bnt                     |
 | MonaCoin                             | mona                    |
@@ -333,7 +297,6 @@ The following table lists the current coverage universe:
 | Moeda Loyalty Points                 | mda                     |
 | Metal                                | mtl\_metal              |
 | AirSwap                              | ast                     |
-| Everex                               | evx                     |
 | Viberate                             | vib                     |
 | Power Ledger                         | powr                    |
 | Ark                                  | ark                     |
@@ -341,7 +304,6 @@ The following table lists the current coverage universe:
 | Komodo                               | kmd                     |
 | NULS                                 | nuls                    |
 | Ambrosus                             | amb                     |
-| Blox                                 | cdt                     |
 | GXChain                              | gxs                     |
 | Quantstamp                           | qsp                     |
 | BitShares                            | bts                     |
@@ -357,12 +319,10 @@ The following table lists the current coverage universe:
 | PIVX                                 | pivx                    |
 | OST                                  | ost                     |
 | Navcoin                              | nav                     |
-| AppCoins                             | appc                    |
 | ChatCoin                             | chat                    |
 | Civic                                | cvc                     |
 | Steem                                | steem                   |
 | Nano                                 | nano                    |
-| Viacoin                              | via                     |
 | Bluzelle                             | blz                     |
 | Aeternity                            | ae                      |
 | Ontology                             | ont                     |
@@ -396,6 +356,7 @@ The following table lists the current coverage universe:
 | DigiByte                             | dgb                     |
 | IoT Chain                            | itc                     |
 | Cred                                 | lba                     |
+| Measurable Data Token                | mdt                     |
 | Molecular Future                     | mof                     |
 | TenX                                 | pay                     |
 | Revain                               | rev                     |
@@ -418,7 +379,6 @@ The following table lists the current coverage universe:
 | Kin                                  | kin                     |
 | SwissBorg                            | chsb                    |
 | Centrality                           | cennz                   |
-| STASIS EURS                          | eurs                    |
 | OriginTrail                          | trac                    |
 | Nexo                                 | nexo                    |
 | Telcoin                              | tel                     |
@@ -426,6 +386,7 @@ The following table lists the current coverage universe:
 | IHT Real Estate Protocol             | iht                     |
 | VeThor Token                         | vtho                    |
 | DxChain Token                        | dx                      |
+| CEEK VR                              | ceek                    |
 | UNUS SED LEO                         | leo                     |
 | Factom                               | fct                     |
 | Vertcoin                             | vtc                     |
@@ -460,7 +421,6 @@ The following table lists the current coverage universe:
 | Constellation                        | dag                     |
 | Nimiq                                | nim                     |
 | GoChain                              | go                      |
-| Phoenix Global                       | phx                     |
 | Electroneum                          | etn                     |
 | Bitcoin SV                           | bsv                     |
 | ZB Token                             | zb                      |
@@ -476,10 +436,11 @@ The following table lists the current coverage universe:
 | HUSD                                 | husd                    |
 | Lambda                               | lamb                    |
 | Huobi Pool Token                     | hpt                     |
-| BitTorrent                           | btt                     |
+| Dora Factory                         | dora                    |
 | Beam                                 | beam                    |
 | Unibright                            | ubt                     |
 | FTX Token                            | ftt                     |
+| Kryll                                | krl                     |
 | Fetch.ai                             | fet                     |
 | Ontology Gas                         | ong\_ontologygas        |
 | Ankr                                 | ankr                    |
@@ -487,6 +448,7 @@ The following table lists the current coverage universe:
 | Haven Protocol                       | xhv                     |
 | Quant                                | qnt                     |
 | SOLVE                                | solve                   |
+| Circuits of Value                    | coval                   |
 | Crypto.com Coin                      | cro                     |
 | Hxro                                 | hxro                    |
 | Cosmos                               | atom                    |
@@ -501,26 +463,29 @@ The following table lists the current coverage universe:
 | Polygon                              | matic                   |
 | Fantom                               | ftm                     |
 | Algorand                             | algo                    |
+| Dusk Network                         | dusk                    |
 | XYO                                  | xyo                     |
 | Ocean Protocol                       | ocean                   |
 | Celsius                              | cel                     |
 | Synthetix                            | snx                     |
 | Thunder Token                        | tt                      |
 | Reserve Rights                       | rsr                     |
+| Standard Tokenization Protocol       | stpt                    |
 | Harmony                              | one\_harmony            |
+| ARPA Chain                           | arpa                    |
+| WINk                                 | win\_wink               |
 | Binance USD                          | busd                    |
 | Dai                                  | dai                     |
 | Tether Gold                          | xaut                    |
 | PAX Gold                             | paxg                    |
-| HedgeTrade                           | hedg                    |
 | OKB                                  | okb                     |
 | Hedera Hashgraph                     | hbar                    |
 | Nervos Network                       | ckb                     |
 | Swipe                                | sxp                     |
 | Terra                                | luna                    |
 | Chiliz                               | chz                     |
-| Rupiah Token                         | idrt                    |
 | Orchid                               | oxt                     |
+| LCX                                  | lcx                     |
 | USDK                                 | usdk                    |
 | WazirX                               | wrx                     |
 | Band Protocol                        | band                    |
@@ -535,10 +500,12 @@ The following table lists the current coverage universe:
 | NuCypher                             | nu                      |
 | Keep Network                         | keep                    |
 | Origin Protocol                      | ogn                     |
+| Render Token                         | rndr                    |
 | LTO Network                          | lto                     |
 | COTI                                 | coti                    |
 | Solana                               | sol                     |
 | Cartesi                              | ctsi                    |
+| Chromia                              | chr                     |
 | StormX                               | stmx                    |
 | Binance IDR                          | bidr                    |
 | Caspian                              | csp                     |
@@ -560,16 +527,19 @@ The following table lists the current coverage universe:
 | Avalanche                            | avax                    |
 | BOSAGORA                             | boa                     |
 | JUST                                 | jst                     |
-| bZx Protocol                         | bzrx                    |
 | DIA                                  | dia                     |
-| DMM: Governance                      | dmg                     |
 | Helium                               | hnt                     |
+| IDEX                                 | idex                    |
+| Kadena                               | kda                     |
 | Klaytn                               | klay                    |
 | mStable Governance Token: Meta (MTA) | mta                     |
+| MANTRA DAO                           | om                      |
+| Orion Protocol                       | orn                     |
 | Prometeus                            | prom                    |
 | THORChain                            | rune                    |
 | ShareToken                           | shr                     |
 | Serum                                | srm                     |
+| SUKU                                 | suku                    |
 | Tellor                               | trb                     |
 | BiLira                               | tryb                    |
 | Curve DAO Token                      | crv                     |
@@ -580,35 +550,54 @@ The following table lists the current coverage universe:
 | SushiSwap                            | sushi                   |
 | Swerve                               | swrv                    |
 | Cream Finance                        | cream                   |
+| SUN                                  | sun                     |
 | Elrond                               | egld                    |
 | Uniswap                              | uni                     |
+| Alchemy Pay                          | ach                     |
+| Frontier                             | front                   |
 | TrustSwap                            | swap                    |
 | TerraUSD                             | ust                     |
 | Handshake                            | hns                     |
 | Ultra                                | uos                     |
 | BakeryToken                          | bake                    |
+| Aavegotchi                           | ghst                    |
+| Rarible                              | rari                    |
 | Aave                                 | aave                    |
 | PancakeSwap                          | cake                    |
 | DODO                                 | dodo                    |
+| Harvest Finance                      | farm                    |
 | Polkastarter                         | pols                    |
 | Secret                               | scrt                    |
 | Venus                                | xvs                     |
 | Ergo                                 | erg                     |
 | NEAR Protocol                        | near                    |
+| RAMP                                 | ramp                    |
 | Audius                               | audio                   |
 | Axie Infinity                        | axs                     |
 | Conflux                              | cfx                     |
 | Injective Protocol                   | inj                     |
+| Keep3rV1                             | kp3r                    |
+| mStable USD                          | musd                    |
 | Smooth Love Potion                   | slp                     |
 | Oasis Network                        | rose                    |
+| TrueFi                               | tru                     |
 | Golem                                | glm                     |
+| API3                                 | api3                    |
 | Badger DAO                           | badger                  |
+| Terra Virtua Kolect                  | tvk                     |
 | The Graph                            | grt                     |
 | 1inch                                | 1inch                   |
 | Alpha Finance Lab                    | alpha                   |
 | OctoFi                               | octo                    |
 | Perpetual Protocol                   | perp                    |
+| BarnBridge                           | bond                    |
+| Bonfida                              | fida                    |
+| Frax Share                           | fxs                     |
+| Linear                               | lina                    |
 | Mdex                                 | mdx                     |
+| Mirror Protocol                      | mir                     |
+| Marlin                               | pond                    |
+| REVV                                 | revv                    |
 | KeeperDAO                            | rook                    |
 | ZKSwap                               | zks                     |
 | Flow                                 | flow                    |
@@ -620,7 +609,64 @@ The following table lists the current coverage universe:
 | Phala Network                        | pha                     |
 | WOO Network                          | woo                     |
 | Raydium                              | ray                     |
+| Alchemix                             | alcx                    |
+| DerivaDAO                            | ddx                     |
 | MAPS                                 | maps                    |
+| Mask Network                         | mask                    |
+| BENQI                                | qi                      |
+| Radicle                              | rad                     |
+| Rally                                | rly                     |
+| SuperFarm                            | super                   |
+| Tornado Cash                         | torn                    |
+| Alpaca Finance                       | alpaca                  |
+| Boson Protocol                       | boson                   |
 | Cope                                 | cope                    |
+| Flux                                 | flux                    |
+| Illuvium                             | ilv                     |
+| Jasmy                                | jasmy                   |
+| Alien Worlds                         | tlm                     |
+| Tribe                                | tribe                   |
+| Symbol                               | xym                     |
 | Internet Computer                    | icp                     |
 | Shiba Inu                            | shib                    |
+| Dogelon Mars                         | elon                    |
+| Ampleforth Governance Token          | forth                   |
+| Gitcoin                              | gtc                     |
+| APENFT                               | nft                     |
+| QuickSwap                            | quick                   |
+| Rari Governance Token                | rgt                     |
+| Lido DAO                             | ldo                     |
+| Coin98                               | c98                     |
+| Clover Finance                       | clv                     |
+| Convex Finance                       | cvx                     |
+| Dvision Network                      | dvi                     |
+| Gala                                 | gala                    |
+| Moonriver                            | movr                    |
+| PlayDapp                             | pla                     |
+| SuperRare                            | rare                    |
+| Wrapped LUNA Token                   | wluna                   |
+| Wrapped NCG                          | wncg                    |
+| eCash                                | xec                     |
+| Yield Guild Games                    | ygg                     |
+| USD Paxos                            | usdp                    |
+| My Neighbor Alice                    | alice                   |
+| ASD                                  | asd                     |
+| XDC Network                          | xdc                     |
+| Mina                                 | mina                    |
+| Adventure Gold                       | agld                    |
+| dYdX                                 | dydx                    |
+| Spell Token                          | spell                   |
+| Assemble Protocol                    | asm                     |
+| Star Atlas                           | atlas                   |
+| BinaryX                              | bnx                     |
+| Braintrust                           | btrst                   |
+| Gods Unchained                       | gods                    |
+| JOE                                  | joe                     |
+| Moss Carbon Credit                   | mco2                    |
+| Olympus                              | ohm                     |
+| Ribbon Finance                       | rbn                     |
+| Wrapped Centrifuge                   | wcfg                    |
+| Ethereum Name Service                | ens                     |
+| GYEN                                 | gyen                    |
+| Immutable X                          | imx                     |
+| ConstitutionDAO                      | people                  |

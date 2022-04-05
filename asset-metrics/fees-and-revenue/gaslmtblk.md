@@ -4,9 +4,9 @@
 
 The sum gas limit of all blocks that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Block Gas Limit | GasLmtBlk | Fees and revenue | Fees | Sum | Gas | 1 block, 1 day |
+| Name            | MetricID  | Category         | Subcategory | Type | Unit | Interval       |
+| --------------- | --------- | ---------------- | ----------- | ---- | ---- | -------------- |
+| Block Gas Limit | GasLmtBlk | Fees and revenue | Fees        | Sum  | Gas  | 1 block, 1 day |
 
 ## Details
 
@@ -15,7 +15,7 @@ The sum gas limit of all blocks that day.
 
 ## Chart
 
-![](../../.gitbook/assets/screen-shot-2021-05-24-at-6.00.07-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-05-24 at 6.00.07 PM.png>)
 
 ## Asset-Specific Details
 
@@ -23,7 +23,7 @@ The sum gas limit of all blocks that day.
 
 ## Interpretation
 
-Ethereum blocks are mined roughly every 15 seconds. Each Ethereum block has a maximum size, which limits the amount of data that can be included. The current maximum block size is set at  about 15M gas per block on April 22 \(seen in green on the chart above\).  Prior to that, the gas limit was 12.5M per block, which set in July 2020. Since the maximum block size is denominated in gas and different transactions have different gas usages based on complexity, there isn’t a consistent maximum number of transactions that can be included in a block. But on average, about 160-200 transactions are included per block.
+Ethereum blocks are mined roughly every 15 seconds. Each Ethereum block has a maximum size, which limits the amount of data that can be included. The current maximum block size is set at  about 15M gas per block on April 22 (seen in green on the chart above).  Prior to that, the gas limit was 12.5M per block, which set in July 2020. Since the maximum block size is denominated in gas and different transactions have different gas usages based on complexity, there isn’t a consistent maximum number of transactions that can be included in a block. But on average, about 160-200 transactions are included per block.
 
 The greater the gas limit, the more space is available per block, which can help push down the average gas price.
 
@@ -34,6 +34,4 @@ The greater the gas limit, the more space is available per block, which can help
 ## Availability for Assets
 
 {% embed url="https://docs.coinmetrics.io/info/metrics/GasLmtBlk" %}
-
-
 

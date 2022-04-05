@@ -24,7 +24,7 @@ The tool offers the user several options for determining the correlation coeffic
 
 Our tool presents two options for correlation:  Pearson and Spearman Correlation.
 
-![Find this toggle below the chart](../../.gitbook/assets/screen-shot-2020-12-19-at-4.07.39-pm.png)
+![Find this toggle below the chart](<../../.gitbook/assets/Screen Shot 2020-12-19 at 4.07.39 PM.png>)
 
 The orthodox and conventional way of doing things in finance is to take the **Pearson** correlation of **logarithmic daily** asset **returns**, preferably over a long period.  If you aren’t interested in getting into any additional complexity, you can stop there and use those settings on the charts.
 
@@ -48,13 +48,13 @@ For more on this, we suggest reading this [excellent breakdown](http://support.m
 
 While Arithmetic Returns are easily understood, as mentioned above, there are some good reasons for using a Logarithmic Return in certain occasions.  Our took allows you to choose Arithmetic or Logarithmic returns.&#x20;
 
-![Find this toggle below the chart](../../.gitbook/assets/screen-shot-2020-12-19-at-5.17.07-pm.png)
+![Find this toggle below the chart](<../../.gitbook/assets/Screen Shot 2020-12-19 at 5.17.07 PM.png>)
 
 ## &#x20;Timeframe
 
 The tool allows you to  select the number of daily observations to consider when comparing returns to determine the data sets' correlation. &#x20;
 
-![Find the timeframe options below the chart](../../.gitbook/assets/screen-shot-2020-12-19-at-4.46.22-pm.png)
+![Find the timeframe options below the chart](<../../.gitbook/assets/Screen Shot 2020-12-19 at 4.46.22 PM.png>)
 
 If, for example, you picked 180 days, the 180 daily returns prior to the point/date on the chart were considered when determining the correlation coefficient returned for the two data series at that point/date on the chart.  In other words, the number you see for _today_ refers to a sample of the previous 180 days.
 
@@ -69,7 +69,7 @@ On occasion, you may want to compare a continuous data series with one with gaps
 
 The tool will default to "excluding" data where gaps are identified.  You can adjust this setting from the settings menu on the right toolbar.
 
-![Click on the "gear" to find the settings for Data Gaps](../../.gitbook/assets/screen-shot-2020-12-19-at-4.48.10-pm.png)
+![Click on the "gear" to find the settings for Data Gaps](<../../.gitbook/assets/Screen Shot 2020-12-19 at 4.48.10 PM.png>)
 
 ## Interpretation
 

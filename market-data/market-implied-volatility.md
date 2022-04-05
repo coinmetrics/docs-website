@@ -85,7 +85,9 @@ Implied volatility can also be used as a measure of valuation. Option prices can
 
 Implied volatility also serves as the market’s expectation for future volatility and can be used to calculate the likelihood of future price movements in the underlying or to gauge market sentiment.
 
-****
+**Why is the implied volatility for some Deribit options set to zero?**
+
+Deribit sets the `iv_bid` __ to zero if there are no bids on the order book and sets the `iv_ask` __ to zero if there are no asks. This can happen for options with very low liquidity.
 
 ## Release History
 

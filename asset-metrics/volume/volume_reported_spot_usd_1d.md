@@ -15,7 +15,7 @@ Our reported volume metric is an aggregation of the reported volume from all exc
 
 ## Chart
 
-![Spot volume and futures volume](../../.gitbook/assets/coin\_metrics\_network\_data\_2021-08-26t18-41.png)
+![Spot volume and futures volume](../../.gitbook/assets/Coin\_Metrics\_Network\_Data\_2021-08-26T18-41.png)
 
 ## Examples
 

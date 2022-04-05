@@ -35,7 +35,7 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 
 ## Chart
 
-![Trusted volume as a portion of total volume](../../.gitbook/assets/btc\_trusted\_and\_non-trusted\_volume.png)
+![Trusted volume as a portion of total volume](../../.gitbook/assets/BTC\_Trusted\_and\_Non-Trusted\_Volume.png)
 
 ## Examples
 

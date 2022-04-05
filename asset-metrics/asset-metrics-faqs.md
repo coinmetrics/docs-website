@@ -32,19 +32,19 @@ Another way to think about our Market Cap is to equate it to the Fully Diluted M
 
 No, but we do have a metric for[ Sum Block Size (in bytes) ](network-usage/blksizebyte.md)(BlkSizeByte), **** which you can sum up to get blockchain size.  You can also use our runningTotal function in our Formula Builder to show the size over time.&#x20;
 
-![ https://charts.coinmetrics.io/formulas/#1178](../.gitbook/assets/btc\_total\_blockchain\_size\_-in\_bytes-.png)
+![ https://charts.coinmetrics.io/formulas/#1178](../.gitbook/assets/BTC\_Total\_Blockchain\_Size\_\(in\_bytes\).png)
 
 #### **Do you have metrics for total transactions?**&#x20;
 
 No, we don’t have total transactions, but we have [Tx Cnt](transactions/txcnt.md) (TxCnt or Transactions per interval), which you can sum up to get total transactions.  You can also use our runningTotal function in our Formula Builder to show total transactions over time.&#x20;
 
-![https://charts.coinmetrics.io/formulas/#1179](../.gitbook/assets/btc\_total\_transaction\_count.png)
+![https://charts.coinmetrics.io/formulas/#1179](../.gitbook/assets/BTC\_Total\_Transaction\_Count.png)
 
 #### **How can you calculate total transfer value on the Ethereum Blockchain (ETH + other ERC20s)?**&#x20;
 
 You can calculate this manually by summing the [transfer value](transactions/txtfrvalntv.md) for ETH and ERC20s.  You can all use our charting tool to create a stacked view of all ERC20s' Transfer Values, or our formula builder to create an aggregate.
 
-![https://charts.coinmetrics.io/network-data/#1181](../.gitbook/assets/eth\_erc20\_xfer\_val\_-usd-.png)
+![https://charts.coinmetrics.io/network-data/#1181](../.gitbook/assets/ETH\_ERC20\_Xfer\_Val\_\(USD\).png)
 
 #### **What is the best source for daily volume for Tether-Omni, Tether-ERC20, USDC and DAI?**
 

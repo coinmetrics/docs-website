@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/reference-rates-market-selection-framework.pdf" %}
+{% file src="../../.gitbook/assets/reference-rates-market-selection-framework (1).pdf" %}
 
 ## Introduction
 
@@ -191,4 +191,10 @@ The rating algorithm uses a weighted sum using a custom weighting function of th
 
 ## Selection Algorithm
 
-Markets with a rating higher than 22.5 are selected For each asset in the coverage universe, markets that are in the top 4 by rank are also selected, regardless of the market’s rating. Any market with volume, measured in U.S. dollars over the past 90 days, of less than 1 percent of the volume of the selected market with the largest volume is excluded.
+Markets with a rating higher than 22.5 are selected For each asset in the coverage universe, markets that are in the top 4 by rank are also selected, regardless of the market’s rating. Any market with volume, measured in U.S. dollars over the past 90 days, of less than 5 percent of the volume of the selected market with the largest volume is excluded.
+
+## Change Log
+
+1. **Version 1.0.2 on February 15, 2022**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 5 percent of the volume of the selected market with the largest volume is excluded.
+2. **Version 1.0.1 on November 5, 2020**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 1 percent of the volume of the selected market with the largest volume is excluded.
+3. **Version 1.0.0 on May 13, 2019**: Initial publication of Market Selection Framework.
