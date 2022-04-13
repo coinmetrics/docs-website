@@ -4,33 +4,9 @@
 
 The sum of all reported open interest from futures markets where the margin asset is Tether in units of U.S. dollars.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">MetricID</th>
-      <th style="text-align:left">Category</th>
-      <th style="text-align:left">Subcategory</th>
-      <th style="text-align:left">Type</th>
-      <th style="text-align:left">Unit</th>
-      <th style="text-align:left">Frequency</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Reported Tether-Margined Future Open Interest</td>
-      <td style="text-align:left">
-        <p>open_interest_reported_tether_</p>
-        <p>margined_usd</p>
-      </td>
-      <td style="text-align:left">Open Interest</td>
-      <td style="text-align:left">Future</td>
-      <td style="text-align:left">Sum</td>
-      <td style="text-align:left">USD</td>
-      <td style="text-align:left">1h, 1d</td>
-    </tr>
-  </tbody>
-</table>
+| Name                                          | MetricID                                                | Category      | Subcategory | Type | Unit | Frequency |
+| --------------------------------------------- | ------------------------------------------------------- | ------------- | ----------- | ---- | ---- | --------- |
+| Reported Tether-Margined Future Open Interest | open\_interest\_reported\_future\_tether\_margined\_usd | Open Interest | Future      | Sum  | USD  | 1h, 1d    |
 
 ## Details
 
@@ -38,13 +14,12 @@ Our reported Tether-margined future open interest metric is an aggregation of th
 
 ## Release History
 
-* Release Version. Market Data Feed 2.4 \(August 2021\) 
+* Release Version. Market Data Feed 2.4 (August 2021)&#x20;
 
 ## See Also
 
 * [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
 * [Market Open Interest](../../market-data/market-open-interest.md)
-* [Reported Tether-Margined Future Volume](../volume/volume_reported_future_tether_margined_usd_1d.md)
+* [Reported Tether-Margined Future Volume](../volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
 
 ## Availability for Assets
-
