@@ -28,7 +28,7 @@ _volatility = g(option price, underlying price, strike price, time, interest rat
 
 The volatility calculated from this equation is the implied volatility, or in other words, the market’s expectation of future volatility implied by option prices. By convention, implied volatility represents the standard deviation of returns of the underlying asset calculated on an annualized basis.
 
-Pricing for options markets works slightly differently from other types of markets. Trading occurs frequently in other types of markets, so the price that is given the most prominence is usually the last trade price. But trading in options markets is sparse and usually distributed over several hundred active options contracts. **** Since trading occurs to infrequently, the bid, ask and mark price can vary depending on which price is being used.
+Trading in options markets is sparse and usually distributed over several hundred active options contracts. **** Since trades for a particular option contract can occur infrequently, the bid, ask, last and mark price of a particular option contract can vary significantly. To the extent possible, Coin Metrics reports the implied volatility derived from each of the various prices.&#x20;
 
 ## **Example**
 
@@ -88,6 +88,10 @@ Implied volatility also serves as the market’s expectation for future volatili
 **Why is the implied volatility for some Deribit options set to zero?**
 
 Deribit sets the `iv_bid` __ to zero if there are no bids on the order book and sets the `iv_ask` __ to zero if there are no asks. This can happen for options with very low liquidity.
+
+**How is your implied volatility calculated?**
+
+We currently report the exchange-reported implied volatility, so the figures are calculated using each exchange's proprietary option pricing model. In the future, we plan on developing our own option pricing model to calculate more implied volatility-related metrics.&#x20;
 
 ## Release History
 
