@@ -10,7 +10,7 @@ description: >-
 
 We understand that a reliable data-feed with maximum uptime is critical to our customers. To monitor our data pipelines, we run numerous automated bots across all of our data production systems to ensure continuous production and alerting when unexpected delays/issues arise.&#x20;
 
-When issues are detected, we alert our clients immediately through our [Status Page](https://status.coinmetrics.io) and work to resolve the issue as expediently as possible. We provide updates as they are available, and notify clients as soon as we’ve implemented a resolution. In addition to notifications for ongoing incidents, we also publish our change-log for historical recalculations and data cleanses.
+When issues are detected, we alert our clients immediately through our [Status Page](https://status.coinmetrics.io/) and work to resolve the issue as expediently as possible. We provide updates as they are available, and notify clients as soon as we’ve implemented a resolution. In addition to notifications for ongoing incidents, we also publish our change-log for historical recalculations and data cleanses.
 
 We highly recommend that our customers subscribe to our Status Page for the operational statuses of anything that impacts the usage of our products:
 

@@ -30,7 +30,7 @@ The latest 10,000 data points for any dataset are available in our CM Pro tool. 
 
 ## Getting Started
 
-The CM Pro tool can be accessed directly at [CMTV](https://cmtv.coinmetrics.io) with or without an API key.   Without an API key, you will have access to the community data from the above [data sources](./#data-sources). \
+The CM Pro tool can be accessed directly at [CMTV](https://cmtv.coinmetrics.io/) with or without an API key.   Without an API key, you will have access to the community data from the above [data sources](./#data-sources). \
 \
 If you do not have an API key, simply leave the "API KEY" pop-up blank and click "GO".
 
@@ -83,7 +83,7 @@ Note:  Our UTC Reference Rate represents the 00:00 UTC price, which is the price
 
 ### CMBI & Bletchley Index Levels (CMBI-Indices)
 
-Here you can find our [Coin Metrics Bletchley Indexes ](../../index-data/index-levels.md)(CMBI), as well as our experimental family of [Bletchley Indexes.](https://bletchleyindexes.com)   If you select the CMBI-Indices category, you can scroll through to view the available index levels.
+Here you can find our [Coin Metrics Bletchley Indexes ](../../index-data/index-levels.md)(CMBI), as well as our experimental family of [Bletchley Indexes.](https://bletchleyindexes.com/)   If you select the CMBI-Indices category, you can scroll through to view the available index levels.
 
 If you chose the 1 minute resolution on any of the CMBI indexes you will see our live candles updating every 15 seconds.  This is due to a limitation of the Trading View library and their "seconds" resolutions.
 

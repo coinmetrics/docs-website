@@ -28,7 +28,7 @@ We also offer five external benchmarks sourced from the FRED API.  This data is 
 
 ## Getting Started
 
-This suite of charting tools can be accessed directly at [Charts](https://network-charts.coinmetrics.io) with or without an API key.   Without an API key, you will have access to the community data from the above[ data sources. ](./#data-sources)
+This suite of charting tools can be accessed directly at [Charts](https://network-charts.coinmetrics.io/) with or without an API key.   Without an API key, you will have access to the community data from the above[ data sources. ](./#data-sources)
 
 ### Using an API Key
 
