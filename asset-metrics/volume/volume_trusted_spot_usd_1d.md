@@ -12,7 +12,7 @@ The sum of all volume from the spot markets of a set of trusted exchanges in uni
 
 ## Details
 
-Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume as of Q3 2020 are:
+Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume as of Q1 2022 are:
 
 * Binance and Binance.us
 * Bitbank
@@ -27,7 +27,6 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 * Gemini
 * itBit
 * Kraken
-* Lbank (New)
 * Liquid (New)
 * Poloniex
 * The Rock Trading (New)
