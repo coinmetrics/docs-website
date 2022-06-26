@@ -54,7 +54,5 @@ Like Active Addresses, New Funded Addresses is a popular measure to proxy the nu
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActCnt" %}
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActCnt" %}
 

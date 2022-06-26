@@ -24,7 +24,4 @@ This metric is not available for assets that have full privacy, like Monero and 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/WalActSentCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/WalActSentCnt" %}

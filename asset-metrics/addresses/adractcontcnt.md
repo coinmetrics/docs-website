@@ -34,7 +34,4 @@ This metric is only available for assets that feature the notion of smart contra
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActContCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActContCnt" %}

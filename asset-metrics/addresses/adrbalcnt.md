@@ -1,18 +1,18 @@
-# Addr Cnt of Bal &gt; 0
+# Addr Cnt of Bal > 0
 
 ## Definition
 
-The sum count of unique addresses holding any amount of native units as of the end of that day. Only native units are considered \(e.g., a 0 ETH balance address with ERC-20 tokens would not be considered\).
+The sum count of unique addresses holding any amount of native units as of the end of that day. Only native units are considered (e.g., a 0 ETH balance address with ERC-20 tokens would not be considered).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Address Cnt Bal &gt; 0 | AdrBalCnt | Addresses | Balance | Sum | Addresses | 1 day |
+| Name                | MetricID  | Category  | Subcategory | Type | Unit      | Interval |
+| ------------------- | --------- | --------- | ----------- | ---- | --------- | -------- |
+| Address Cnt Bal > 0 | AdrBalCnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
 
 ## Details
 
 * This metric is the count of how many addresses own any positive amount of the native units.
 * The state of the ledger is the one at the last available block for that day.
-* Only the native units balance is considered, L2 tokens \(ERC-20, etc..\) are not taken into account.
+* Only the native units balance is considered, L2 tokens (ERC-20, etc..) are not taken into account.
 * Addresses owning 0 native units are not considered.
 
 ## Address-Specific Details
@@ -30,7 +30,4 @@ This metric gives you an indication of how many addresses hold a nonzero balance
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrBalCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrBalCnt" %}

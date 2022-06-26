@@ -8,6 +8,4 @@ The sum count of unique addresses holding at least one hundred-thousandth (0.001
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrBal1in100KCnt" %}
-
 {% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrBal1in100KCnt" %}
