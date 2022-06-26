@@ -41,7 +41,4 @@ Only applicable to assets for which we have SplyMiner0HopAllUSD (supply held by 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/MOMR" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/MOMR" %}

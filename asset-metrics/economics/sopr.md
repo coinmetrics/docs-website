@@ -59,21 +59,4 @@ Historically, a high SOPR has signaled that bitcoin price is reaching a local ma
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SOPR" %}
-
-
-
-| Asset                                                | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| [BCH](https://docs.coinmetrics.io/info/assets/bch)   |                                                                                |                                                                    |
-| [BSV](https://docs.coinmetrics.io/info/assets/bsv)   |                                                                                |                                                                    |
-| [BTC](https://docs.coinmetrics.io/info/assets/btc)   |                                                                                |                                                                    |
-| [BTG](https://docs.coinmetrics.io/info/assets/btg)   |                                                                                |                                                                    |
-| [DASH](https://docs.coinmetrics.io/info/assets/dash) |                                                                                |                                                                    |
-| [DCR](https://docs.coinmetrics.io/info/assets/dcr)   |                                                                                |                                                                    |
-| [DGB](https://docs.coinmetrics.io/info/assets/dgb)   |                                                                                |                                                                    |
-| [DOGE](https://docs.coinmetrics.io/info/assets/doge) |                                                                                |                                                                    |
-| [LTC](https://docs.coinmetrics.io/info/assets/ltc)   |                                                                                |                                                                    |
-| [VTC](https://docs.coinmetrics.io/info/assets/vtc)   |                                                                                |                                                                    |
-| [XVG](https://docs.coinmetrics.io/info/assets/xvg)   |                                                                                |                                                                    |
-| [ZEC](https://docs.coinmetrics.io/info/assets/zec)   |                                                                                |                                                                    |
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SOPR" %}

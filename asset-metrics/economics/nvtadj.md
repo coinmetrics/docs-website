@@ -28,4 +28,4 @@ NVT has been much discussed; in short, it compares market capitalization to on-c
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/NVTAdj" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/NVTAdj" %}

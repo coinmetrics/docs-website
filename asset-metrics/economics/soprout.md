@@ -2,11 +2,11 @@
 
 ## Definition
 
-The ratio of the sum of spent value over the sum of creation value of all spent and created outputs for that interval. There are two versions of this metric. For this version, a spent output’s “spent value” is the market value of that output \(i.e., price multiplied by 1\). A created output’s “creation value” is the market value of that output \(i.e., price multiplied by 1\).
+The ratio of the sum of spent value over the sum of creation value of all spent and created outputs for that interval. There are two versions of this metric. For this version, a spent output’s “spent value” is the market value of that output (i.e., price multiplied by 1). A created output’s “creation value” is the market value of that output (i.e., price multiplied by 1).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| SOPR Out | SOPROut | Valuation | Valuation | Ratio | Dimensionless | 1 day |
+| Name     | MetricID | Category  | Subcategory | Type  | Unit          | Interval |
+| -------- | -------- | --------- | ----------- | ----- | ------------- | -------- |
+| SOPR Out | SOPROut  | Valuation | Valuation   | Ratio | Dimensionless | 1 day    |
 
 ## Details
 
@@ -34,5 +34,4 @@ The ratio of the sum of spent value over the sum of creation value of all spent 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SOPROut" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SOPROut" %}

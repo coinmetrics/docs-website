@@ -39,4 +39,4 @@ Only applicable to assets for which we have RevAllTimeUSD and CapRealUSD.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapMVRVFF" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapMVRVFF" %}
