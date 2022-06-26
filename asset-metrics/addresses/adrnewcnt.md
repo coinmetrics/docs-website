@@ -55,7 +55,4 @@ Like Active Addresses, New Addresses is a popular measure to proxy the number of
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActCnt" %}

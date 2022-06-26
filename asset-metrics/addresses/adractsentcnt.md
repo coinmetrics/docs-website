@@ -1,14 +1,14 @@
-# Active Addr Cnt \(Sent\)
+# Active Addr Cnt (Sent)
 
 ## **Definition**
 
-The sum count of unique addresses that were active in the network \(as an originator of a ledger change\) that day.   Individual source addresses are counted.  Individual addresses are not double-counted if previously active. 
+The sum count of unique addresses that were active in the network (as an originator of a ledger change) that day.   Individual source addresses are counted.  Individual addresses are not double-counted if previously active.&#x20;
 
 **Dictionary**
 
-| **Name** | Metric ID | **Category** | **Sub-category** | **Type** | **Unit** | **Interval** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Active Addresses \(Sent\) | AdrActSentCnt | Addresses | Activity | Sum | Addresses | 1 day |
+| **Name**                | Metric ID     | **Category** | **Sub-category** | **Type** | **Unit**  | **Interval** |
+| ----------------------- | ------------- | ------------ | ---------------- | -------- | --------- | ------------ |
+| Active Addresses (Sent) | AdrActSentCnt | Addresses    | Activity         | Sum      | Addresses | 1 day        |
 
 ## **Details**
 
@@ -45,11 +45,8 @@ We would count as active senders: A, B, D and F. The value of the metric would t
 ## **See Also**
 
 * [Active Addresses](adractcnt.md)
-* [Active Addresses \(Received\)](adractreccnt.md)
+* [Active Addresses (Received)](adractreccnt.md)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActSentCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActSentCnt" %}

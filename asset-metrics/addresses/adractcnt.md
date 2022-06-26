@@ -56,7 +56,4 @@ Active addresses is a popular measure to proxy the number of users on a blockcha
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActCnt" %}

@@ -1,18 +1,18 @@
-# Active Addr Cnt \(Received\)
+# Active Addr Cnt (Received)
 
 ## **Definition**
 
-The sum count of unique addresses that were active in the network \(as a recipient of a ledger change\) that day.  Individual destination addresses are counted.  Individual addresses are not double-counted if previously active. 
+The sum count of unique addresses that were active in the network (as a recipient of a ledger change) that day.  Individual destination addresses are counted.  Individual addresses are not double-counted if previously active.&#x20;
 
 **Dictionary**
 
-| **Name** | Metric ID | **Category** | **Sub-category** | **Type** | **Unit** | **Interval** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Active Addresses \(Received\) | AdrActRecCnt | Addresses | Activity | Sum | Addresses | 1 day |
+| **Name**                    | Metric ID    | **Category** | **Sub-category** | **Type** | **Unit**  | **Interval** |
+| --------------------------- | ------------ | ------------ | ---------------- | -------- | --------- | ------------ |
+| Active Addresses (Received) | AdrActRecCnt | Addresses    | Activity         | Sum      | Addresses | 1 day        |
 
 ## **Details**
 
-* Active Addresses \(Received\) is the sum count of unique addresses that where the receiving end of a ledger change
+* Active Addresses (Received) is the sum count of unique addresses that where the receiving end of a ledger change
 * For this unadjusted version of the metric, all ledger change scenarios are considered.
 * Such ledger changes can include mining, staking, transacting, account creation, etc..
 * If an address was active multiple times as recipient during that interval, it is counted only once.
@@ -46,13 +46,8 @@ We would count as active recipients: A, C, D and E. The value of the metric woul
 ## **See Also**
 
 * [Active Addresses](adractcnt.md)
-* [Active Addresses \(Sent\)](adractsentcnt.md)
+* [Active Addresses (Sent)](adractsentcnt.md)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AdrActRecCnt" %}
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AdrActRecCnt" %}
