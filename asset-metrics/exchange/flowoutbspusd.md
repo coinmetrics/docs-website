@@ -1,12 +1,12 @@
-# Bitstamp Withdrawals (USD)
+# Bitstamp Withdrawals \(USD\)
 
 ## Definition
 
 The sum USD value withdrawn from Bitstamp that day.
 
-| Name                       | MetricID      | Category | Subcategory | Type | Unit | Interval       |
-| -------------------------- | ------------- | -------- | ----------- | ---- | ---- | -------------- |
-| Bitstamp Withdrawals (USD) | FlowOutBSPUSD | Exchange | Withdrawals | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bitstamp Withdrawals \(USD\) | FlowOutBSPUSD | Exchange | Withdrawals | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -15,10 +15,9 @@ The sum USD value withdrawn from Bitstamp that day.
 
 ## Asset-Specific Details
 
-* This metric might not be available for all assets. Either that exchange doesn’t support this asset (BitMEX only trades in BTC for example), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
+* This metric might not be available for all assets. Either that exchange doesn’t support this asset \(BitMEX only trades in BTC for example\), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
-*
-  * If a transaction spends 100 BTC from exchange A but 90 BTC are sent back to it as change, the flow is -10 BTC, not -100 BTC.
+* * If a transaction spends 100 BTC from exchange A but 90 BTC are sent back to it as change, the flow is -10 BTC, not -100 BTC.
 
 ## Release History
 
@@ -26,4 +25,5 @@ The sum USD value withdrawn from Bitstamp that day.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowOutBSPUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowOutBSPUSD" %}
+
