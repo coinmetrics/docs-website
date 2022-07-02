@@ -1,10 +1,10 @@
-# Kraken Deposits \(USD\)
+# Kraken Deposits (USD)
 
 The sum USD value sent to Kraken that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Kraken Deposits \(USD\) | FlowInKRKUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
+| Name                  | MetricID     | Category | Subcategory | Type | Unit | Interval       |
+| --------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
+| Kraken Deposits (USD) | FlowInKRKUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
 
 ## Details
 
@@ -15,7 +15,8 @@ The sum USD value sent to Kraken that interval.
 
 * This metric might not be available for all assets. Either that exchange doesn’t support this asset, or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
-* * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
+*
+  * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
 
 ## Release History
 
@@ -23,5 +24,4 @@ The sum USD value sent to Kraken that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInKRKUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInKRKUSD" %}

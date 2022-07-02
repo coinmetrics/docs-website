@@ -1,12 +1,12 @@
-# Gemini Deposits \(USD\)
+# Gemini Deposits (USD)
 
 ## Definition
 
 The sum USD value sent to Gemini that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Gemini Deposits \(USD\) | FlowInGEMUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
+| Name                  | MetricID     | Category | Subcategory | Type | Unit | Interval       |
+| --------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
+| Gemini Deposits (USD) | FlowInGEMUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
 
 ## Details
 
@@ -25,7 +25,4 @@ The sum USD value sent to Gemini that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInGEMUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInGEMUSD" %}

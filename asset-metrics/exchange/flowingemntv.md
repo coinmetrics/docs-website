@@ -1,12 +1,12 @@
-# Gemini Deposits \(native units\)
+# Gemini Deposits (native units)
 
 ## Defintion
 
 The sum in native units sent to Gemini that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Gemini Deposits \(native units\) | FlowInGEMNtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
+| Name                           | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
+| ------------------------------ | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
+| Gemini Deposits (native units) | FlowInGEMNtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -24,5 +24,4 @@ The sum in native units sent to Gemini that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInGEMNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInGEMNtv" %}

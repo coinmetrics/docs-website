@@ -1,12 +1,12 @@
-# Binance Net Flows \(USD\)
+# Binance Net Flows (USD)
 
 ## Definition
 
 The net USD value sent or withdrawn to/from Binance that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Binance Net Flows \(USD\) | FlowNetBNBUSD | Exchange | Net Flows | Sum | USD | 1 day |
+| Name                    | MetricID      | Category | Subcategory | Type | Unit | Interval |
+| ----------------------- | ------------- | -------- | ----------- | ---- | ---- | -------- |
+| Binance Net Flows (USD) | FlowNetBNBUSD | Exchange | Net Flows   | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -17,7 +17,7 @@ The net USD value sent or withdrawn to/from Binance that interval.
 
 ## Asset-Specific Details
 
-* This metric might not be available for all assets. Either that exchange doesn’t support this asset \(BitMEX only trades in BTC for example\), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
+* This metric might not be available for all assets. Either that exchange doesn’t support this asset (BitMEX only trades in BTC for example), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
   * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
 
@@ -27,7 +27,4 @@ The net USD value sent or withdrawn to/from Binance that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowNetBNBUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowNetBNBUSD" %}
