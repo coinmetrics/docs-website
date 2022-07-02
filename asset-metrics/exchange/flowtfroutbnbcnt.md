@@ -4,13 +4,13 @@
 
 The sum count of transfers from any address belonging to exchange Binance in that interval. If the recipient address also belongs to Binance, the transfer is not counted.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Binance Withdrawal Cnt | FlowTfrOutBNBCnt | Exchange | Withdrawals | Sum | Native units | 1 block, 1 day |
+| Name                   | MetricID         | Category | Subcategory | Type | Unit         | Interval       |
+| ---------------------- | ---------------- | -------- | ----------- | ---- | ------------ | -------------- |
+| Binance Withdrawal Cnt | FlowTfrOutBNBCnt | Exchange | Withdrawals | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
-* Coinbase \(i.e., miner reward\) transactions are not counted.
+* Coinbase (i.e., miner reward) transactions are not counted.
 
 ## Asset-Based Details
 
@@ -20,11 +20,8 @@ The sum count of transfers from any address belonging to exchange Binance in tha
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowTfrOutBNBCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowTfrOutBNBCnt" %}

@@ -1,12 +1,12 @@
-# Exchange Withdrawals \(USD\)
+# Exchange Withdrawals (USD)
 
 ## Definition
 
 The sum USD value withdrawn from exchanges that day, excluding exchange to exchange activity
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Exchange Withdrawals \(USD\) | FlowOutExUSD | Exchange | Withdrawals | Sum | USD | 1 block, 1 day |
+| Name                       | MetricID     | Category | Subcategory | Type | Unit | Interval       |
+| -------------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
+| Exchange Withdrawals (USD) | FlowOutExUSD | Exchange | Withdrawals | Sum  | USD  | 1 block, 1 day |
 
 ## Details
 
@@ -20,5 +20,4 @@ The sum USD value withdrawn from exchanges that day, excluding exchange to excha
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowOutExUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowOutExUSD" %}
