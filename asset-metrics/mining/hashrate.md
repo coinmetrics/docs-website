@@ -4,24 +4,24 @@
 
 The mean rate at which miners are solving hashes that day. Hash rate is the speed at which computations are being completed across all miners in the network. The unit of measurement varies depending on the protocol.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Hash Rate | HashRate | Mining | Hash Rate | Mean | Varies | 1 day |
+| Name           | MetricID | Category | Subcategory | Type | Unit   | Interval |
+| -------------- | -------- | -------- | ----------- | ---- | ------ | -------- |
+| Mean Hash Rate | HashRate | Mining   | Hash Rate   | Mean | Varies | 1 day    |
 
 ## Details
 
-* Hash rate is derived from difficulty \(DiffMean\), the rate at which block came in \(BlkIntMean\) and depending on the protocols, some other pieces of data. It gives an estimate of how much hash power is mining a given chain.
+* Hash rate is derived from difficulty (DiffMean), the rate at which block came in (BlkIntMean) and depending on the protocols, some other pieces of data. It gives an estimate of how much hash power is mining a given chain.
 
 ## Asset-Specific Details
 
-| Asset | Formula | Hash Rate Unit |
-| :--- | :--- | :--- |
-| BTC, BCH, BSV | \(BlkCnt / 144\) \* DiffMean \* \(\(2^32 / 10^12\) / 600\)\) | TH/s |
-| DASH, BTG, VTC | Daily chainwork / 86400 / 10^9 | GH/s |
-| LTC | \(BlkCnt / 576\) \* DiffMean \* \(\(2^32 / 10^12\) / 150\)\) | TH/s |
-| XMR | \(BlkCnt / 720\) \* DiffMean \* 1000000 | MH/s |
-| ZEC | \(\(DiffMean / 150\) \* 7000\) / 10^9 | GH/s |
-| ETH, ETC | \(DiffMean / BlkIntMean\) / 10^12 | TH/s |
+| Asset          | Formula                                               | Hash Rate Unit |
+| -------------- | ----------------------------------------------------- | -------------- |
+| BTC, BCH, BSV  | (BlkCnt / 144) \* DiffMean \* ((2^32 / 10^12) / 600)) | TH/s           |
+| DASH, BTG, VTC | Daily chainwork / 86400 / 10^9                        | GH/s           |
+| LTC            | (BlkCnt / 576) \* DiffMean \* ((2^32 / 10^12) / 150)) | TH/s           |
+| XMR            | (BlkCnt / 720) \* DiffMean \* 1000000                 | MH/s           |
+| ZEC            | ((DiffMean / 150) \* 7000) / 10^9                     | GH/s           |
+| ETH, ETC       | (DiffMean / BlkIntMean) / 10^12                       | TH/s           |
 
 ## Release History
 
@@ -29,7 +29,7 @@ The mean rate at which miners are solving hashes that day. Hash rate is the spee
 
 ## Interpretation
 
-Given that proof-of-work cryptocurrencies share a great variety of algorithms, with widely diverging features, hashrate is not comparable between them. The exception is cases where distinct assets share the same hash function, as is the case with BTC, BCH, and BSV for instance. To benchmark security between assets with different hash functions, a metric like security spend \(Issuance, Total, USD\) might be consulted instead.
+Given that proof-of-work cryptocurrencies share a great variety of algorithms, with widely diverging features, hashrate is not comparable between them. The exception is cases where distinct assets share the same hash function, as is the case with BTC, BCH, and BSV for instance. To benchmark security between assets with different hash functions, a metric like security spend (Issuance, Total, USD) might be consulted instead.
 
 ## See Also
 
@@ -37,5 +37,4 @@ Given that proof-of-work cryptocurrencies share a great variety of algorithms, w
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/HashRate" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/HashRate" %}

@@ -30,4 +30,4 @@ The mean miner reward per estimated hash unit performed during the period, in na
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHashNtv" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevHashNtv" %}

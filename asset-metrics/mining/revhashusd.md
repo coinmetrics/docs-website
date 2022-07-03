@@ -30,4 +30,4 @@ The mean miner reward per estimated hash unit performed during the period, in US
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHashUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevHashUSD" %}

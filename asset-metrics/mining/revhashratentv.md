@@ -30,4 +30,4 @@ The mean daily miner reward per estimated hash unit per second performed during 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHashRateNtv" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevHashRateNtv" %}

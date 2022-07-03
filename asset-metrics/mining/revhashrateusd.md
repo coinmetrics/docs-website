@@ -32,4 +32,4 @@ The USD value of the mean daily miner reward per estimated hash unit per second 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHashRateUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevHashRateUSD" %}
