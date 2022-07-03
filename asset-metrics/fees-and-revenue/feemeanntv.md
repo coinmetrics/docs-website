@@ -1,12 +1,12 @@
-# Mean Tx Fee (native units)
+# Mean Tx Fee \(native units\)
 
 ## Definition
 
 The mean fee per transaction in native units that interval.
 
-| Name                       | MetricID   | Category         | Subcategory | Type | Unit         | Interval |
-| -------------------------- | ---------- | ---------------- | ----------- | ---- | ------------ | -------- |
-| Mean Tx Fee (native units) | FeeMeanNtv | Fees and revenue | Fees        | Mean | Native units | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mean Tx Fee \(native units\) | FeeMeanNtv | Fees and revenue | Fees | Mean | Native units | 1 day |
 
 ## Details
 
@@ -20,4 +20,5 @@ The mean fee per transaction in native units that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FeeMeanNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FeeMeanNtv" %}
+

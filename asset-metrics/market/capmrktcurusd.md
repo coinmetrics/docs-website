@@ -1,12 +1,12 @@
-# Market Cap \(USD\)
+# Market Cap (USD)
 
 ## Definition
 
 The sum USD value of the current supply. Also referred to as network value or market capitalization.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Market Cap \(USD\) | CapMrktCurUSD | Market | Market Capitalization | Product | USD | 1 day |
+| Name             | MetricID      | Category | Subcategory           | Type    | Unit | Interval |
+| ---------------- | ------------- | -------- | --------------------- | ------- | ---- | -------- |
+| Market Cap (USD) | CapMrktCurUSD | Market   | Market Capitalization | Product | USD  | 1 day    |
 
 ## Details
 
@@ -27,5 +27,4 @@ Informally called ‘market cap,’ our formulation differs in that we do consid
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapMrktCurUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapMrktCurUSD" %}

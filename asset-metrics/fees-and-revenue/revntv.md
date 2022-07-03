@@ -1,12 +1,12 @@
-# Miner Revenue (native units)
+# Miner Revenue \(native units\)
 
 ## Definition
 
-The sum native units of miner revenue (fees plus newly issued native units) that interval.
+The sum native units of miner revenue \(fees plus newly issued native units\) that interval.
 
-| Name                         | MetricID | Category         | Subcategory | Type | Unit         | Interval       |
-| ---------------------------- | -------- | ---------------- | ----------- | ---- | ------------ | -------------- |
-| Miner Revenue (native units) | RevNtv   | Fees and revenue | Revenue     | Sum  | Native units | 1 day, 1 block |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Miner Revenue \(native units\) | RevNtv | Fees and revenue | Revenue | Sum | Native units | 1 day, 1 block |
 
 ## Details
 
@@ -18,4 +18,5 @@ The sum native units of miner revenue (fees plus newly issued native units) that
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/RevNtv" %}
+

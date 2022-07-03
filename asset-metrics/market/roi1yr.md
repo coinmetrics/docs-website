@@ -2,16 +2,16 @@
 
 ## Definition
 
-The return on investment for the asset assuming a purchase 12 months prior.[  
+The return on investment for the asset assuming a purchase 12 months prior.[\
 ](https://docs.coinmetrics.io/info/metrics/ROI1yr)
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ROI, 1 Year | ROI1yr | Market | Returns | Ratio | Dimensionless | 1 day |
+| Name        | MetricID | Category | Subcategory | Type  | Unit          | Interval |
+| ----------- | -------- | -------- | ----------- | ----- | ------------- | -------- |
+| ROI, 1 Year | ROI1yr   | Market   | Returns     | Ratio | Dimensionless | 1 day    |
 
 ## Details
 
-Calculated as PriceUSD Change/PriceUSD Previous\*100  
+Calculated as PriceUSD Change/PriceUSD Previous\*100 &#x20;
 
 ## Release History
 
@@ -19,5 +19,4 @@ Calculated as PriceUSD Change/PriceUSD Previous\*100
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/ROI1yr" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ROI1yr" %}

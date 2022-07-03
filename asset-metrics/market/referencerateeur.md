@@ -22,11 +22,4 @@ Reference Rates are designed to represent the price of a cryptoasset in an arms 
 
 Community and pro asset availability does not differ.  Community is available via HTTP API only, is limited to 1,000 API requests per 10 minutes per IP address and only showcases the last 24 hours of history for the 1 hour, 1 min and 1 second rates.&#x20;
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/ReferenceRateEUR" %}
-
-
-
-| Asset                                              | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
-| -------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| [BTC](https://docs.coinmetrics.io/info/assets/btc) |                                                                                |                                                                    |
-| [ETH](https://docs.coinmetrics.io/info/assets/eth) |                                                                                |                                                                    |
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateEUR" %}

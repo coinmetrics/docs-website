@@ -4,9 +4,9 @@
 
 The mean gas limit per transaction that day.
 
-| Name                  | MetricID     | Category         | Subcategory | Type | Unit | Interval       |
-| --------------------- | ------------ | ---------------- | ----------- | ---- | ---- | -------------- |
-| Mean Gas Limit per Tx | GasLmtTxMean | Fees and revenue | Fees        | Mean | Gas  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mean Gas Limit per Tx | GasLmtTxMean | Fees and revenue | Fees | Mean | Gas | 1 block, 1 day |
 
 ## Details
 
@@ -23,4 +23,5 @@ The mean gas limit per transaction that day.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/GasLmtTxMean" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/GasLmtTxMean" %}
+

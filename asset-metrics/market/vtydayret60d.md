@@ -4,9 +4,9 @@
 
 The 60 days volatility, measured as the deviation of log returns
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 60 Day Volatility | VtyDayRet60d | Market | Returns | Ratio | Dimensionless | 60 days |
+| Name              | MetricID     | Category | Subcategory | Type  | Unit          | Interval |
+| ----------------- | ------------ | -------- | ----------- | ----- | ------------- | -------- |
+| 60 Day Volatility | VtyDayRet60d | Market   | Returns     | Ratio | Dimensionless | 60 days  |
 
 ## Details
 
@@ -18,5 +18,4 @@ The 60 days volatility, measured as the deviation of log returns
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/VtyDayRet60d" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/VtyDayRet60d" %}

@@ -2,11 +2,11 @@
 
 ## Definition
 
-The fixed closing price of the asset as of 00:00 UTC the following day \(i.e., midnight UTC of the current day\) denominated in BTC.
+The fixed closing price of the asset as of 00:00 UTC the following day (i.e., midnight UTC of the current day) denominated in BTC.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| BTC Denominated Price | PriceBTC | Market | Price | NA | BTC | 1 day |
+| Name                  | MetricID | Category | Subcategory | Type | Unit | Interval |
+| --------------------- | -------- | -------- | ----------- | ---- | ---- | -------- |
+| BTC Denominated Price | PriceBTC | Market   | Price       | NA   | BTC  | 1 day    |
 
 ## Details
 
@@ -18,5 +18,4 @@ The fixed closing price of the asset as of 00:00 UTC the following day \(i.e., m
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/PriceBTC" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/PriceBTC" %}

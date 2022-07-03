@@ -4,9 +4,9 @@
 
 The 30 days volatility, measured as the deviation of log returns
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 30 Day Volatility | VtyDayRet30d | Market | Returns | Ratio | Dimensionless | 30 days |
+| Name              | MetricID     | Category | Subcategory | Type  | Unit          | Interval |
+| ----------------- | ------------ | -------- | ----------- | ----- | ------------- | -------- |
+| 30 Day Volatility | VtyDayRet30d | Market   | Returns     | Ratio | Dimensionless | 30 days  |
 
 ## Details
 
@@ -18,5 +18,4 @@ The 30 days volatility, measured as the deviation of log returns
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/VtyDayRet30d" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/VtyDayRet30d" %}

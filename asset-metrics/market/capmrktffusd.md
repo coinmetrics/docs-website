@@ -1,12 +1,12 @@
-# Free Float Market Cap \(USD\)
+# Free Float Market Cap (USD)
 
 ## Definition
 
 The sum USD value of the free float supply. Also referred to as free float network value or free float market capitalization.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Free Float Market Cap \(USD\) | CapMrktFFUSD | Market | Market Capitalization | Product | USD | 1 day |
+| Name                        | MetricID     | Category | Subcategory           | Type    | Unit | Interval |
+| --------------------------- | ------------ | -------- | --------------------- | ------- | ---- | -------- |
+| Free Float Market Cap (USD) | CapMrktFFUSD | Market   | Market Capitalization | Product | USD  | 1 day    |
 
 ## Details
 
@@ -16,11 +16,11 @@ The sum USD value of the free float supply. Also referred to as free float netwo
 
 ## Asset-Specific Details
 
-* Only applicable to assets for which we have Free Float Supply \(SplyFF\) data available.
+* Only applicable to assets for which we have Free Float Supply (SplyFF) data available.
 
 ## Release History
 
-* Release Version: NDP-EOD 4.8 \(Nov, 2020\)
+* Release Version: NDP-EOD 4.8 (Nov, 2020)
 
 ## See Also
 
@@ -28,5 +28,4 @@ The sum USD value of the free float supply. Also referred to as free float netwo
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapMrktFFUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapMrktFFUSD" %}

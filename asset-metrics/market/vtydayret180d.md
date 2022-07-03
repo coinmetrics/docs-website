@@ -4,9 +4,9 @@
 
 The 180 days volatility, measured as the deviation of log returns
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 180 Day Volatility | VtyDayRet180d | Market | Returns | Ratio | Dimensionless | 180 days |
+| Name               | MetricID      | Category | Subcategory | Type  | Unit          | Interval |
+| ------------------ | ------------- | -------- | ----------- | ----- | ------------- | -------- |
+| 180 Day Volatility | VtyDayRet180d | Market   | Returns     | Ratio | Dimensionless | 180 days |
 
 ## Details
 
@@ -18,5 +18,4 @@ The 180 days volatility, measured as the deviation of log returns
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/VtyDayRet180d" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/VtyDayRet180d" %}

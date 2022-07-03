@@ -1,12 +1,12 @@
-# Median Tx Fee (native units)
+# Median Tx Fee \(native units\)
 
 ## Definition
 
 The median fee per transaction in native units that interval.
 
-| Name                         | MetricID  | Category         | Subcategory | Type   | Unit         | Interval |
-| ---------------------------- | --------- | ---------------- | ----------- | ------ | ------------ | -------- |
-| Median Tx Fee (native units) | FeeMedNtv | Fees and revenue | Fees        | Median | Native units | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Median Tx Fee \(native units\) | FeeMedNtv | Fees and revenue | Fees | Median | Native units | 1 day |
 
 ## Details
 
@@ -20,4 +20,5 @@ The median fee per transaction in native units that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FeeMedNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FeeMedNtv" %}
+

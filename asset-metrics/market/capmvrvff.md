@@ -32,10 +32,10 @@ Market value to realized value (MVRV) has historically been one of the most reli
 
 Historically, a high ratio of market capitalization to realized capitalization has signaled that bitcoin price was near a local maximum, while a low ratio has indicated that price is near a local minimum. The few times that MVRV has dropped below one have historically been some of the best times to buy bitcoin. An increasing MVRV indicates that current sentiment is increasing fast relative to estimated aggregate cost basis, while decreasing MVRV signals the opposite.
 
-## See Also:
+## See Also
 
 * [MVRV (Market Cap / Realized Market Cap)](capmvrvcur.md)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapMVRVFF" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapMVRVFF" %}

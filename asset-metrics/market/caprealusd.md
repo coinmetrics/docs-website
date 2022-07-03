@@ -55,4 +55,4 @@ Realized capitalization (sometimes referred to as Realized Value) is one of Coin
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapRealUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapRealUSD" %}

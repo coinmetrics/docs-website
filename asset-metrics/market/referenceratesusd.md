@@ -53,4 +53,6 @@ A sample of the real-time reference rates data for Bitcoin is shown below:
 
 Community and pro asset availability does not differ.  Community is available via HTTP API only, is limited to 1,000 API requests per 10 minutes per IP address and only showcases the last 24 hours of history for the 1 hour, 1 min and 1 second rates.&#x20;
 
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateUSD" %}
+
 {% embed url="https://docs.coinmetrics.io/info/metrics/ReferenceRateUSD" %}

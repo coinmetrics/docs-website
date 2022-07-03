@@ -1,12 +1,12 @@
-# Future Market Cap \(USD\)
+# Future Market Cap (USD)
 
 ## Definition
 
 The sum USD value of all native units counting the current supply and including those that will be issued over the next 10 years if the current known issuance schedule is followed.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Future Market Cap \(USD\) | CapFutExp10yrUSD | Market | Market Capitalization | Product | USD | 10 years |
+| Name                    | MetricID         | Category | Subcategory           | Type    | Unit | Interval |
+| ----------------------- | ---------------- | -------- | --------------------- | ------- | ---- | -------- |
+| Future Market Cap (USD) | CapFutExp10yrUSD | Market   | Market Capitalization | Product | USD  | 10 years |
 
 ## Details
 
@@ -26,7 +26,4 @@ The sum USD value of all native units counting the current supply and including 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapFutExp10yrUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapFutExp10yrUSD" %}

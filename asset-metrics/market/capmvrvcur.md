@@ -40,4 +40,4 @@ Historically, a high ratio of market capitalization to realized capitalization h
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/CapMVRVCur" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/CapMVRVCur" %}
