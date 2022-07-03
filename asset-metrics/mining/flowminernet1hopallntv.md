@@ -1,12 +1,12 @@
-# Net Flows One Hop from Miners (native units)
+# Net Flows One Hop from Miners \(native units\)
 
 ## Definition
 
-The difference between the sum of block rewards, fees, and other transfers received by all addresses within one hop of a mining entity during an interval, excluding transfers to another address within one hop of a mining entity, and those sent. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model (UBDM), or any address that has been credited in a transaction sent by such an address.
+The difference between the sum of block rewards, fees, and other transfers received by all addresses within one hop of a mining entity during an interval, excluding transfers to another address within one hop of a mining entity, and those sent. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model \(UBDM\), or any address that has been credited in a transaction sent by such an address.
 
-| Name                                         | MetricID               | Category | Subcategory | Type | Unit         | Interval |
-| -------------------------------------------- | ---------------------- | -------- | ----------- | ---- | ------------ | -------- |
-| Net Flows One Hop from Miners (native units) | FlowMinerNet1HopAllNtv | Mining   | Flows Net   | Sum  | Native units | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Net Flows One Hop from Miners \(native units\) | FlowMinerNet1HopAllNtv | Mining | Flows Net | Sum | Native units | 1 day |
 
 ## Details
 
@@ -18,8 +18,9 @@ The difference between the sum of block rewards, fees, and other transfers recei
 
 ## Release History
 
-* Release Version: NDP-EOD 4.8 (Nov, 2020)
+* Release Version: NDP-EOD 4.8 \(Nov, 2020\)
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowMinerNet1HopAllNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowMinerNet1HopAllNtv" %}
+
