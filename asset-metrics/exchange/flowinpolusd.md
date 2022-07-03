@@ -1,12 +1,12 @@
-# Poloniex Deposits (USD)
+# Poloniex Deposits \(USD\)
 
 ## Definiton
 
 The sum USD value sent to Poloniex that interval.
 
-| Name                    | MetricID     | Category | Subcategory | Type | Unit | Interval       |
-| ----------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
-| Poloniex Deposits (USD) | FlowInPOLUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Poloniex Deposits \(USD\) | FlowInPOLUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -25,4 +25,5 @@ The sum USD value sent to Poloniex that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInPOLUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInPOLUSD" %}
+

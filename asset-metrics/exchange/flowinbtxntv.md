@@ -1,12 +1,12 @@
-# Bittrex Deposits (native units)
+# Bittrex Deposits \(native units\)
 
 ## Definition
 
 The sum in native units sent to Bittrex that interval.
 
-| Name                            | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
-| ------------------------------- | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
-| Bittrex Deposits (native units) | FlowInBTCNtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bittrex Deposits \(native units\) | FlowInBTCNtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -24,4 +24,7 @@ The sum in native units sent to Bittrex that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowNetBTXNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowNetBTXNtv" %}
+
+
+

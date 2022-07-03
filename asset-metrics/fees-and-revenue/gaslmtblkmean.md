@@ -4,9 +4,9 @@
 
 The mean gas limit per block that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Block Gas Limit | GasLmtBlkMean | Fees and revenue | Fees | Mean | Gas | 1 day |
+| Name                 | MetricID      | Category         | Subcategory | Type | Unit | Interval |
+| -------------------- | ------------- | ---------------- | ----------- | ---- | ---- | -------- |
+| Mean Block Gas Limit | GasLmtBlkMean | Fees and revenue | Fees        | Mean | Gas  | 1 day    |
 
 ## Details
 
@@ -23,7 +23,4 @@ The mean gas limit per block that day.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/GasLmtBlkMean" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/GasLmtBlkMean" %}

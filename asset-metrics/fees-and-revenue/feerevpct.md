@@ -1,12 +1,12 @@
-# Miner Revenue from Fees \(%\)
+# Miner Revenue from Fees (%)
 
 ## Definition
 
 The percentage of miner revenue derived from fees that interval. This is equal to the fees divided by the miner revenue.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Miner Revenue from Fees \(%\) | FeeRevPct | Fees and revenue | Fees | Percentage | Dimensionless | 1 day |
+| Name                        | MetricID  | Category         | Subcategory | Type       | Unit          | Interval |
+| --------------------------- | --------- | ---------------- | ----------- | ---------- | ------------- | -------- |
+| Miner Revenue from Fees (%) | FeeRevPct | Fees and revenue | Fees        | Percentage | Dimensionless | 1 day    |
 
 ## Details
 
@@ -22,7 +22,4 @@ For blockchains aiming to retain a limited supply by weaning themselves off an i
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FeeRevPct" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FeeRevPct" %}

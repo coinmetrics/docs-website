@@ -1,12 +1,12 @@
-# Bitstamp Deposits (native units)
+# Bitstamp Deposits \(native units\)
 
 ## Definition
 
 The sum in native units sent to Bitstamp that interval.
 
-| Name                             | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
-| -------------------------------- | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
-| Bitstamp Deposits (native units) | FlowInBSPNtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bitstamp Deposits \(native units\) | FlowInBSPNtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -24,4 +24,5 @@ The sum in native units sent to Bitstamp that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInBSPNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInBSPNtv" %}
+

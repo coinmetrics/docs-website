@@ -1,12 +1,12 @@
-# Bitstamp Deposits (USD)
+# Bitstamp Deposits \(USD\)
 
 ## Definition
 
 The sum USD value sent to Bitstamp that interval.
 
-| Name                    | MetricID     | Category | Subcategory | Type | Unit | Interval       |
-| ----------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
-| Bitstamp Deposits (USD) | FlowInBSPUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Bitstamp Deposits \(USD\) | FlowInBSPUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -17,9 +17,7 @@ The sum USD value sent to Bitstamp that interval.
 
 * This metric might not be available for all assets. Either that exchange doesn’t support this asset, or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
-  *   If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
-
-
+  * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
 
 ## Release History
 
@@ -27,4 +25,5 @@ The sum USD value sent to Bitstamp that interval.
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInBSPUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInBSPUSD" %}
+

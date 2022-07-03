@@ -1,12 +1,12 @@
-# Huobi Deposits (USD)
+# Huobi Deposits \(USD\)
 
 ## Definition
 
 The sum USD value sent to Huobi that interval.
 
-| Name                 | MetricID     | Category | Subcategory | Type | Unit | Interval       |
-| -------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
-| Huobi Deposits (USD) | FlowInHUOUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Huobi Deposits \(USD\) | FlowInHUOUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -24,6 +24,4 @@ The sum USD value sent to Huobi that interval.
 * Released in the 4.0 release of NDP
 
 ## Availability for Assets
-
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInHUOUSD" %}
 

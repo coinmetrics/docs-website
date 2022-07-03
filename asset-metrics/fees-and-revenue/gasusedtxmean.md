@@ -2,11 +2,11 @@
 
 ## Definition
 
-The mean gas used \(i.e., paid\) per transaction that day.
+The mean gas used (i.e., paid) per transaction that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Gas Used per Tx | GasUsedTxMean | Fees and revenue | Fees | Mean | Gas | 1 block, 1 day |
+| Name                 | MetricID      | Category         | Subcategory | Type | Unit | Interval       |
+| -------------------- | ------------- | ---------------- | ----------- | ---- | ---- | -------------- |
+| Mean Gas Used per Tx | GasUsedTxMean | Fees and revenue | Fees        | Mean | Gas  | 1 block, 1 day |
 
 ## Details
 
@@ -23,7 +23,4 @@ The mean gas used \(i.e., paid\) per transaction that day.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/GasUsedTxMean" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/GasUsedTxMean" %}

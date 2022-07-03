@@ -1,12 +1,12 @@
-# Exchange Deposits, Incl EtoE (USD)
+# Exchange Deposits, Incl EtoE \(USD\)
 
 ## Definition
 
 The sum USD value sent to exchanges that interval, including exchange to exchange activity
 
-| Name                               | MetricID        | Category | Subcategory | Type | Unit | Interval       |
-| ---------------------------------- | --------------- | -------- | ----------- | ---- | ---- | -------------- |
-| Exchange Deposits, Incl EtoE (USD) | FlowInExInclUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Exchange Deposits, Incl EtoE \(USD\) | FlowInExInclUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -15,7 +15,7 @@ The sum USD value sent to exchanges that interval, including exchange to exchang
 ## Examples
 
 * If a transaction sends 90 units from exchange B to exchange A, it counts towards this metric.
-* If a transaction moves 90 units inside exchange A (cold to hot or equivalent), it doesn’t count towards this metric.
+* If a transaction moves 90 units inside exchange A \(cold to hot or equivalent\), it doesn’t count towards this metric.
 
 ## Release History
 
@@ -23,4 +23,5 @@ The sum USD value sent to exchanges that interval, including exchange to exchang
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInExInclUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInExInclUSD" %}
+

@@ -33,5 +33,4 @@ The greater the gas limit, the more space is available per block, which can help
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/GasLmtBlk" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/GasLmtBlk" %}

@@ -1,10 +1,10 @@
-# Exchange Deposits (USD)
+# Exchange Deposits \(USD\)
 
 The sum USD value sent to exchanges that interval, excluding exchange to exchange activity.
 
-| Name                    | MetricID    | Category | Subcategory | Type | Unit | Interval       |
-| ----------------------- | ----------- | -------- | ----------- | ---- | ---- | -------------- |
-| Exchange Deposits (USD) | FlowInExUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Exchange Deposits \(USD\) | FlowInExUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
 
 ## Details
 
@@ -21,4 +21,12 @@ The sum USD value sent to exchanges that interval, excluding exchange to exchang
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInExUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInExUSD" %}
+
+
+
+| Asset | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
+| :--- | :--- | :--- |
+| [BTC](https://docs.coinmetrics.io/info/assets/btc) |  |  |
+| [ETH](https://docs.coinmetrics.io/info/assets/eth) |  |  |
+

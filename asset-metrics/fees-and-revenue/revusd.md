@@ -1,12 +1,12 @@
-# Miner Revenue \(USD\)
+# Miner Revenue (USD)
 
 ## Definition
 
-The sum USD value of all miner revenue \(fees plus newly issued native units\) that day.
+The sum USD value of all miner revenue (fees plus newly issued native units) that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Miner Revenue \(USD\) | RevUSD | Fees and revenue | Revenue | Sum | USD | 1 day, 1 block |
+| Name                | MetricID | Category         | Subcategory | Type | Unit | Interval       |
+| ------------------- | -------- | ---------------- | ----------- | ---- | ---- | -------------- |
+| Miner Revenue (USD) | RevUSD   | Fees and revenue | Revenue     | Sum  | USD  | 1 day, 1 block |
 
 ## Details
 
@@ -19,7 +19,4 @@ The sum USD value of all miner revenue \(fees plus newly issued native units\) t
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevUSD" %}

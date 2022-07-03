@@ -2,11 +2,11 @@
 
 ## Definition
 
-The sum gas used \(i.e., paid\) across all transactions that day.
+The sum gas used (i.e., paid) across all transactions that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Tx Gas Used | GasUsedTx | Fees and revenue | Fees | Sum | Gas | 1 block, 1 day |
+| Name        | MetricID  | Category         | Subcategory | Type | Unit | Interval       |
+| ----------- | --------- | ---------------- | ----------- | ---- | ---- | -------------- |
+| Tx Gas Used | GasUsedTx | Fees and revenue | Fees        | Sum  | Gas  | 1 block, 1 day |
 
 ## Details
 
@@ -22,7 +22,4 @@ The sum gas used \(i.e., paid\) across all transactions that day.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/GasUsedTx" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/GasUsedTx" %}
