@@ -1,12 +1,12 @@
-# Miner Net Flows \(USD\)
+# Miner Net Flows (USD)
 
 ## Definition
 
-The net value sent or received by a mining entity in USD . A mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model \(UBDM\).
+The net value sent or received by a mining entity in USD . A mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model (UBDM).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Miner Net Flows \(USD\) | FlowMinerNet0HopAllUSD | Mining | Net Flows | Sum | USD | 1 day |
+| Name                  | MetricID               | Category | Subcategory | Type | Unit | Interval |
+| --------------------- | ---------------------- | -------- | ----------- | ---- | ---- | -------- |
+| Miner Net Flows (USD) | FlowMinerNet0HopAllUSD | Mining   | Net Flows   | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -18,9 +18,8 @@ The net value sent or received by a mining entity in USD . A mining entity is de
 
 ## Release History
 
-* Release Version: NDP-EOD 4.8 \(Nov, 2020\)
+* Release Version: NDP-EOD 4.8 (Nov, 2020)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowMinerNet0HopAllUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowMinerNet0HopAllUSD" %}
