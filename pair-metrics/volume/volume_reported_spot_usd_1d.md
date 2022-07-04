@@ -11,20 +11,20 @@ The sum of all reported volume from the spot markets in Coin Metrics' coverage i
 
 ## Details
 
-Our reported volume metric is an aggregation of the reported volume from an exchange.
+Our reported volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
 ## Examples
 
-A sample of the daily reported spot volume for Binance is shown below:
+A sample of the daily reported spot volume for Bitcoin-USD is shown below:
 
-| exchange | time                | volume\_reported\_spot\_usd\_1d |
-| -------- | ------------------- | ------------------------------- |
-| binance  | 2022-01-01 00:00:00 | 8988114373.91716                |
-| binance  | 2022-01-02 00:00:00 | 9686610104.12659                |
-| binance  | 2022-01-03 00:00:00 | 13513437237.6032                |
-| binance  | 2022-01-04 00:00:00 | 15006844836.1782                |
+| pair    | time                | volume\_reported\_spot\_usd\_1d |
+| ------- | ------------------- | ------------------------------- |
+| btc-usd | 2022-03-26 00:00:00 | 747285620.134155                |
+| btc-usd | 2021-03-27 00:00:00 | 1516874968.35287                |
+| btc-usd | 2021-03-28 00:00:00 | 2448850635.22872                |
+| btc-usd | 2021-03-28 00:00:00 | 1859520817.29794                |
 
-* exchange. The IDs of the exchanges.
+* pair. The IDs of the pair assets.
 * time. The reference rate time in ISO 8601 date-time format.
 * reported\_trusted\_spot\_usd\_1d. The reported volume value in units of U.S. dollars.
 
@@ -32,6 +32,6 @@ A sample of the daily reported spot volume for Binance is shown below:
 
 * Release Version. Market Data Feed 2.4 (August 2021)&#x20;
 
-## Availability for Exchanges
+## Availability for Pairs
 
-{% embed url="https://coverage.coinmetrics.io/exchange-metrics/volume_reported_spot_usd_1d" %}
+{% embed url="https://coverage.coinmetrics.io/pair-metrics/volume_reported_spot_usd_1d" %}

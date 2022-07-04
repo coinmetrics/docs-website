@@ -18,8 +18,8 @@ The metrics categories listed below are available at the pair level:&#x20;
 [open-interest](open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="volume.md" %}
-[volume.md](volume.md)
+{% content-ref url="volume/" %}
+[volume](volume/)
 {% endcontent-ref %}
 
 ## Endpoint Response
