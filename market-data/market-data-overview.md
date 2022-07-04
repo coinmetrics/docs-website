@@ -124,8 +124,8 @@ Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `e
 
 Data available at the asset pair level is available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
-{% content-ref url="../pair-metrics/open-interest.md" %}
-[open-interest.md](../pair-metrics/open-interest.md)
+{% content-ref url="../pair-metrics/open-interest/" %}
+[open-interest](../pair-metrics/open-interest/)
 {% endcontent-ref %}
 
 {% content-ref url="../pair-metrics/volume.md" %}

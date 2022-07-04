@@ -8,29 +8,33 @@ Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `e
 
 ## Pair Coverage
 
-The pair coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints. The pair coverage is defined as the combination \(cartesian product\) of all the top assets \(approximately the top 300 assets by market capitalization\). 
+The pair coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints. The pair coverage is defined as the combination (cartesian product) of all the top assets (approximately the top 300 assets by market capitalization).&#x20;
 
 ## Metrics Coverage
 
-The metrics categories listed below are available at the pair level: 
+The metrics categories listed below are available at the pair level:&#x20;
 
-{% page-ref page="open-interest.md" %}
+{% content-ref url="open-interest/" %}
+[open-interest](open-interest/)
+{% endcontent-ref %}
 
-{% page-ref page="volume.md" %}
+{% content-ref url="volume.md" %}
+[volume.md](volume.md)
+{% endcontent-ref %}
 
 ## Endpoint Response
 
 The [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) endpoint returns time series data for each pair and metric requested.  The response is formatted as follows:
 
-| Field | Description |
-| :--- | :--- |
-| `pair` | Pair name. |
-| `time` | The time in ISO 8601 date-time format. Always with nanoseconds precision. |
-| `{metric}` | Metric value for the specific pair and timestamp. |
+| Field      | Description                                                               |
+| ---------- | ------------------------------------------------------------------------- |
+| `pair`     | Pair name.                                                                |
+| `time`     | The time in ISO 8601 date-time format. Always with nanoseconds precision. |
+| `{metric}` | Metric value for the specific pair and timestamp.                         |
 
 A sample of the pair metrics data in json format is also provided below.
 
-```text
+```
 {
   "data": [
     {
@@ -56,6 +60,4 @@ A sample of the pair metrics data in json format is also provided below.
   ]
 }
 ```
-
-
 

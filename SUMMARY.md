@@ -550,7 +550,12 @@
 ## Pair Metrics (Time Series) <a href="#pair-metrics" id="pair-metrics"></a>
 
 * [Pair Metrics Overview](pair-metrics/pair-metrics-overview.md)
-* [Open Interest](pair-metrics/open-interest.md)
+* [Open Interest](pair-metrics/open-interest/README.md)
+  * [Reported Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_usd.md)
+  * [Reported Perpetual Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_perpetual\_usd.md)
+  * [Reported Non-Perpetual Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_nonperpetual\_usd.md)
+  * [Reported Coin-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
+  * [Reported Tether-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
 * [Volume](pair-metrics/volume.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
