@@ -6,9 +6,9 @@ The sum count of new contracts successfully created across all transactions in t
 
 ## Dictionary
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| New Created Contracts Cnt | TxContCreatCnt | Transactions | Internal | Sum | Contracts | 1 day |
+| Name                      | MetricID       | Category     | Subcategory | Type | Unit      | Interval |
+| ------------------------- | -------------- | ------------ | ----------- | ---- | --------- | -------- |
+| New Created Contracts Cnt | TxContCreatCnt | Transactions | Internal    | Sum  | Contracts | 1 day    |
 
 ## Details
 
@@ -20,9 +20,8 @@ The sum count of new contracts successfully created across all transactions in t
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxContCreatCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxContCreatCnt" %}

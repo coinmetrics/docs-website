@@ -1,15 +1,15 @@
-# Payments (Xfers) Above $X, Sum (native units)
+# Sum Value of Payments (Xfers) Above $X (native units)
 
 ## Definition
 
 The sum of all payments (transfers) that have occured in the measuring interval above a specific USD amount, displayed in native units (e.g. BTC). This family of metric supports $100k, $1M, $10M, and $100M USD value thresholds.
 
-| Name                                                      | MetricID             | Category     | Subcategory  | Type | Unit         | Interval |
-| --------------------------------------------------------- | -------------------- | ------------ | ------------ | ---- | ------------ | -------- |
-| Transactions, transfers, value, above $100k, native units | TxTfrValAbUSD100kNtv | Transactions | Transactions | Sum  | Native units | 1d       |
-| Transactions, transfers, value, above $1M, native units   | TxTfrValAbUSD1MNtv   | Transactions | Transactions | Sum  | Native units | 1d       |
-| Transactions, transfers, value, above $10M, native units  | TxTfrValAbUSD10MNtv  | Transactions | Transactions | Sum  | Native units | 1d       |
-| Transactions, transfers, value, above $100M, native units | TxTfrValAbUSD100MNtv | Transactions | Transactions | Sum  | Native units | 1d       |
+| Name                                             | MetricID             | Category     | Subcategory  | Type | Unit         | Interval |
+| ------------------------------------------------ | -------------------- | ------------ | ------------ | ---- | ------------ | -------- |
+| Sum Value of Payments Above $100k (native units) | TxTfrValAbUSD100kNtv | Transactions | Transactions | Sum  | Native units | 1d       |
+| Sum Value of Payments Above $1M (native units)   | TxTfrValAbUSD1MNtv   | Transactions | Transactions | Sum  | Native units | 1d       |
+| Sum Value of Payments Above $10M (native units)  | TxTfrValAbUSD10MNtv  | Transactions | Transactions | Sum  | Native units | 1d       |
+| Sum Value of Payments Above $100M (native units) | TxTfrValAbUSD100MNtv | Transactions | Transactions | Sum  | Native units | 1d       |
 
 ## Details
 

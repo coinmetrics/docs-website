@@ -4,9 +4,9 @@
 
 The sum count of contracts successfully destroyed across all transactions in that interval. A contract is a special address that contains and can execute code.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Destroyed Contracts Cnt | TxContDestCnt | Transactions | Internal | Sum | Contracts | 1 day |
+| Name                    | MetricID      | Category     | Subcategory | Type | Unit      | Interval |
+| ----------------------- | ------------- | ------------ | ----------- | ---- | --------- | -------- |
+| Destroyed Contracts Cnt | TxContDestCnt | Transactions | Internal    | Sum  | Contracts | 1 day    |
 
 ## Details
 
@@ -19,11 +19,8 @@ The sum count of contracts successfully destroyed across all transactions in tha
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxContDestCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxContDestCnt" %}

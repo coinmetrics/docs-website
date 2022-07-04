@@ -1,12 +1,12 @@
-# Median Tx Size \(USD\)
+# Median Tx Size (USD)
 
 ## Definition
 
-The median USD value transferred per transfer \(i.e., the median "size" in USD of a transfer\) that interval.
+The median USD value transferred per transfer (i.e., the median "size" in USD of a transfer) that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Median Tx Size \(USD\) | TxTfrValMedUSD | Transactions | Transfer value | Median | USD | 1 day |
+| Name                 | MetricID       | Category     | Subcategory    | Type   | Unit | Interval |
+| -------------------- | -------------- | ------------ | -------------- | ------ | ---- | -------- |
+| Median Tx Size (USD) | TxTfrValMedUSD | Transactions | Transfer value | Median | USD  | 1 day    |
 
 ## Details
 
@@ -23,5 +23,4 @@ The median USD value transferred per transfer \(i.e., the median "size" in USD o
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValMedUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValMedUSD" %}

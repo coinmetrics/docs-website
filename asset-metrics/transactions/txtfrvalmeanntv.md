@@ -1,12 +1,12 @@
-# Mean Tx Size \(native units\)
+# Mean Tx Size (native units)
 
 ## Definition
 
-The sum value of native units transferred divided by the count of transfers \(i.e., the mean size of a transfer\) between distinct addresses that interval.
+The sum value of native units transferred divided by the count of transfers (i.e., the mean size of a transfer) between distinct addresses that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Tx Size \(native units\) | TxTfrValMeanNtv | Transactions | Transfer value | Mean | Native units | 1 day |
+| Name                        | MetricID        | Category     | Subcategory    | Type | Unit         | Interval |
+| --------------------------- | --------------- | ------------ | -------------- | ---- | ------------ | -------- |
+| Mean Tx Size (native units) | TxTfrValMeanNtv | Transactions | Transfer value | Mean | Native units | 1 day    |
 
 ## Details
 
@@ -22,5 +22,4 @@ The sum value of native units transferred divided by the count of transfers \(i.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValMeanNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValMeanNtv" %}

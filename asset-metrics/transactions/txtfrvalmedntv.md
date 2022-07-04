@@ -1,14 +1,14 @@
-# Median Tx Size \(native units\)
+# Median Tx Size (native units)
 
 ## Definition
 
-The median count of native units transferred per transfer \(i.e., the median "size" of a transfer\) that interval.
+The median count of native units transferred per transfer (i.e., the median "size" of a transfer) that interval.
 
 ## Dictionary
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Median Tx Size \(native units\) | TxTfrValMedNtv | Transactions | Transfer value | Median | Native units | 1 day |
+| Name                          | MetricID       | Category     | Subcategory    | Type   | Unit         | Interval |
+| ----------------------------- | -------------- | ------------ | -------------- | ------ | ------------ | -------- |
+| Median Tx Size (native units) | TxTfrValMedNtv | Transactions | Transfer value | Median | Native units | 1 day    |
 
 ## Details
 
@@ -25,5 +25,4 @@ The median count of native units transferred per transfer \(i.e., the median "si
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValMedNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValMedNtv" %}

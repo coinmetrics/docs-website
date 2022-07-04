@@ -30,4 +30,4 @@ Velocity​ is a measurement of the rate at which an asset is exchanged. It can 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/VelCurAdj1yr" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/VelCurAdj1yr" %}

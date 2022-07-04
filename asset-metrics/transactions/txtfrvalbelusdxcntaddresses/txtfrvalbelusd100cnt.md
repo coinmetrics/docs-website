@@ -1,10 +1,10 @@
-# Payments (Xfers) Below $100, Count
+# Payments (Xfers) Below $100 Cnt
 
 The sum count of payments (transfers) below $100 USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name                   | MetricID             | Category  | Subcategory | Type | Unit      | Interval |
-| ---------------------- | -------------------- | --------- | ----------- | ---- | --------- | -------- |
-| XfersBelow $100, Count | TxTfrValBelUSD100Cnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
+| Name                    | MetricID             | Category  | Subcategory | Type | Unit      | Interval |
+| ----------------------- | -------------------- | --------- | ----------- | ---- | --------- | -------- |
+| Payments Below $100 Cnt | TxTfrValBelUSD100Cnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
 
 ## Details
 

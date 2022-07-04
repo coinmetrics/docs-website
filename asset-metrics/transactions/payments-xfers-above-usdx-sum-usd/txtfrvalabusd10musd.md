@@ -2,9 +2,9 @@
 
 The sum of all payments (transfers) that have occurred in the measuring interval above $10M USD worth of a cryptoasset, displayed in USD.
 
-| Name                                            | MetricID            | Category  | Subcategory | Type | Unit | Interval |
-| ----------------------------------------------- | ------------------- | --------- | ----------- | ---- | ---- | -------- |
-| Transactions, transfers, value, above $10M, USD | TxTfrValAbUSD10MUSD | Addresses | Balance     | Sum  | USD  | 1 day    |
+| Name                                   | MetricID            | Category  | Subcategory | Type | Unit | Interval |
+| -------------------------------------- | ------------------- | --------- | ----------- | ---- | ---- | -------- |
+| Sum Value of Payments Above $10M (USD) | TxTfrValAbUSD10MUSD | Addresses | Balance     | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -12,4 +12,4 @@ The sum of all payments (transfers) that have occurred in the measuring interval
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValAbUSD10MUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValAbUSD10MUSD" %}

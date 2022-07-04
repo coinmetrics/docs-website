@@ -2,9 +2,9 @@
 
 The sum of all payments (transfers) that have occurred in the measuring interval above $100k USD worth of a cryptoasset, displayed in native units (e.g. BTC).
 
-| Name                                                      | MetricID             | Category  | Subcategory | Type | Unit | Interval |
-| --------------------------------------------------------- | -------------------- | --------- | ----------- | ---- | ---- | -------- |
-| Transactions, transfers, value, above $100k, native units | TxTfrValAbUSD100kNtv | Addresses | Balance     | Sum  | Ntv  | 1 day    |
+| Name                                             | MetricID             | Category  | Subcategory | Type | Unit | Interval |
+| ------------------------------------------------ | -------------------- | --------- | ----------- | ---- | ---- | -------- |
+| Sum Value of Payments Above $100k (native units) | TxTfrValAbUSD100kNtv | Addresses | Balance     | Sum  | Ntv  | 1 day    |
 
 ## Details
 
@@ -12,9 +12,4 @@ The sum of all payments (transfers) that have occurred in the measuring interval
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValAbUSD100kNtv" %}
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValAbUSD100kNtv" %}

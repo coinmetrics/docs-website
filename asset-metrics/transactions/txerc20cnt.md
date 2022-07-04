@@ -4,9 +4,9 @@
 
 The sum count of transactions that resulted in any ERC-20 activity in that interval. Contracts that contain all of the following are considered to be ERC-20 contracts: the balanceOf function, the transfer function, and the Transfer event hash. Only Transfer or Approval events are counted as activity. If a transaction results in more than 1 transfer or approval, it’s only counted once.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ERC-20 Tx Cnt | TxERC20Cnt | Transactions | Transactions | Sum | Transactions | 1 day |
+| Name          | MetricID   | Category     | Subcategory  | Type | Unit         | Interval |
+| ------------- | ---------- | ------------ | ------------ | ---- | ------------ | -------- |
+| ERC-20 Tx Cnt | TxERC20Cnt | Transactions | Transactions | Sum  | Transactions | 1 day    |
 
 ## Details
 
@@ -22,9 +22,8 @@ The sum count of transactions that resulted in any ERC-20 activity in that inter
 
 ## Release History
 
-* Version 4.3 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.3 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxERC20Cnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxERC20Cnt" %}

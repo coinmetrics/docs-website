@@ -2,11 +2,11 @@
 
 ## Definition
 
-The mean size \(in bytes\) per transfer that interval.
+The mean size (in bytes) per transfer that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Xfer Mean Size | TxTfrMeanByte | Transactions | Transfers | Mean | Bytes | 1 day, 1 block |
+| Name           | MetricID      | Category     | Subcategory | Type | Unit  | Interval       |
+| -------------- | ------------- | ------------ | ----------- | ---- | ----- | -------------- |
+| Xfer Mean Size | TxTfrMeanByte | Transactions | Transfers   | Mean | Bytes | 1 day, 1 block |
 
 ## Details
 
@@ -18,5 +18,4 @@ The mean size \(in bytes\) per transfer that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrMeanByte" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrMeanByte" %}

@@ -25,4 +25,4 @@ The sum of native units transferred (i.e., the aggregate "size" of all transfers
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValNtv" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValNtv" %}

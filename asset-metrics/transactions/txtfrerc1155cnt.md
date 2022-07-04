@@ -23,4 +23,4 @@ The sum count of ERC-1155 transfers in that interval. Only transfers between two
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrERC1155Cnt" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrERC1155Cnt" %}

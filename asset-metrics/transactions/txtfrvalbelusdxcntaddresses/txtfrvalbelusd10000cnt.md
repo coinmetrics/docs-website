@@ -2,9 +2,9 @@
 
 The sum count of payments (transfers) below $10,000 USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name                      | MetricID             | Category  | Subcategory | Type | Unit      | Interval |
-| ------------------------- | -------------------- | --------- | ----------- | ---- | --------- | -------- |
-| XfersBelow $10,000, Count | TxTfrValBelUSD10kCnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
+| Name                       | MetricID             | Category  | Subcategory | Type | Unit      | Interval |
+| -------------------------- | -------------------- | --------- | ----------- | ---- | --------- | -------- |
+| Payments Below $10,000 Cnt | TxTfrValBelUSD10kCnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
 
 ## Details
 

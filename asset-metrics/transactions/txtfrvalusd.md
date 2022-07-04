@@ -23,4 +23,4 @@ The sum USD value of all native units transferred (i.e., the aggregate size in U
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValUSD" %}

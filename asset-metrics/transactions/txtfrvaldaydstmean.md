@@ -4,9 +4,9 @@
 
 The mean per transaction of the sum of all native units transferred multiplied by the sum of days since those native units were last transferred that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Xfer'd Days Destroyed | TxTfrValDayDstMean | Transactions | Transfer value | Mean | Dimensionless | 1 day |
+| Name                       | MetricID           | Category     | Subcategory    | Type | Unit          | Interval |
+| -------------------------- | ------------------ | ------------ | -------------- | ---- | ------------- | -------- |
+| Mean Xfer'd Days Destroyed | TxTfrValDayDstMean | Transactions | Transfer value | Mean | Dimensionless | 1 day    |
 
 ## Details
 
@@ -23,5 +23,4 @@ The mean per transaction of the sum of all native units transferred multiplied b
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValDayDstMean" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValDayDstMean" %}

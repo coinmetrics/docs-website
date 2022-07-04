@@ -1,15 +1,15 @@
-# Payments (Xfers) Above $X, Sum (USD)
+# Sum Value of Payments (Xfers) Above $X (USD)
 
 ## Definition
 
 The sum of all payments (transfers) that have occured in the measuring interval above a specific USD amount, displayed in USD. This family of metric supports $100k, $1M, $10M, and $100M USD value thresholds.
 
-| Name                                             | MetricID             | Category     | Subcategory  | Type | Unit | Interval |
-| ------------------------------------------------ | -------------------- | ------------ | ------------ | ---- | ---- | -------- |
-| Transactions, transfers, value, above $100k, USD | TxTfrValAbUSD100kUSD | Transactions | Transactions | Sum  | USD  | 1d       |
-| Transactions, transfers, value, above $1M, USD   | TxTfrValAbUSD1MUSD   | Transactions | Transactions | Sum  | USD  | 1d       |
-| Transactions, transfers, value, above $10M, USD  | TxTfrValAbUSD10MUSD  | Transactions | Transactions | Sum  | USD  | 1d       |
-| Transactions, transfers, value, above $100M, USD | TxTfrValAbUSD100MUSD | Transactions | Transactions | Sum  | USD  | 1d       |
+| Name                                    | MetricID             | Category     | Subcategory  | Type | Unit | Interval |
+| --------------------------------------- | -------------------- | ------------ | ------------ | ---- | ---- | -------- |
+| Sum Value of Payments Above $100k (USD) | TxTfrValAbUSD100kUSD | Transactions | Transactions | Sum  | USD  | 1d       |
+| Sum Value of Payments Above $1M (USD)   | TxTfrValAbUSD1MUSD   | Transactions | Transactions | Sum  | USD  | 1d       |
+| Sum Value of Payments Above $10M (USD)  | TxTfrValAbUSD10MUSD  | Transactions | Transactions | Sum  | USD  | 1d       |
+| Sum Value of Payments Above $100M (USD) | TxTfrValAbUSD100MUSD | Transactions | Transactions | Sum  | USD  | 1d       |
 
 ## Details
 

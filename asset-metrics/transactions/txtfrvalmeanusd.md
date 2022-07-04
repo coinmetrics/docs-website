@@ -1,12 +1,12 @@
-# Mean Tx Size \(USD\)
+# Mean Tx Size (USD)
 
 ## Definition
 
-The sum USD value of native units transferred divided by the count of transfers \(i.e., the mean "size" in USD of a transfer\) that interval.
+The sum USD value of native units transferred divided by the count of transfers (i.e., the mean "size" in USD of a transfer) that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mean Tx Size \(USD\) | TxTfrValMeanUSD | Transactions | Transfer value | Mean | USD | 1 day |
+| Name               | MetricID        | Category     | Subcategory    | Type | Unit | Interval |
+| ------------------ | --------------- | ------------ | -------------- | ---- | ---- | -------- |
+| Mean Tx Size (USD) | TxTfrValMeanUSD | Transactions | Transfer value | Mean | USD  | 1 day    |
 
 ## Details
 
@@ -22,5 +22,4 @@ The sum USD value of native units transferred divided by the count of transfers 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValMeanUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValMeanUSD" %}

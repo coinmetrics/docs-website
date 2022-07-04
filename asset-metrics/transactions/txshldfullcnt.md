@@ -2,11 +2,11 @@
 
 ## Definition
 
-The sum count of transactions using fully shielding privacy features that interval. Only fully shielding transactions are included \(transactions with partial or mixed shielding are not included\). Transactions represent a bundle of intended actions to alter the ledger initiated by a user \(human or machine\). Fully shielding a transaction hides all of the activity of a transaction \(except for the miner fee it paid\).
+The sum count of transactions using fully shielding privacy features that interval. Only fully shielding transactions are included (transactions with partial or mixed shielding are not included). Transactions represent a bundle of intended actions to alter the ledger initiated by a user (human or machine). Fully shielding a transaction hides all of the activity of a transaction (except for the miner fee it paid).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Fully Shielded Tx Cnt | TxShldFullCnt | Transactions | Transactions | Sum | Transactions | 1 day |
+| Name                  | MetricID      | Category     | Subcategory  | Type | Unit         | Interval |
+| --------------------- | ------------- | ------------ | ------------ | ---- | ------------ | -------- |
+| Fully Shielded Tx Cnt | TxShldFullCnt | Transactions | Transactions | Sum  | Transactions | 1 day    |
 
 ## Details
 
@@ -24,10 +24,9 @@ The sum count of transactions using fully shielding privacy features that interv
 
 ## Release History
 
-* Version 4.5 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.5 of CM Network Data Pro Daily Macro (End of Day)
 * Date Last Modified: 2019-01-10
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxShldFullCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxShldFullCnt" %}

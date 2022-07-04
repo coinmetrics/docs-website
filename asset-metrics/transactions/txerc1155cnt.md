@@ -23,4 +23,4 @@ The sum count of ERC-1155 transactions in that interval. Only transactions betwe
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxERC1155Cnt" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxERC1155Cnt" %}
