@@ -4,14 +4,14 @@
 
 The sum of all native units balances last active 30 days ago that became active in this interval.
 
-| Name                           | MetricID   | Category | Subcategory   | Type | Unit         | Interval |
-| ------------------------------ | ---------- | -------- | ------------- | ---- | ------------ | -------- |
-| Supply Revived in Last 30 Days | SplyRvv30d | Supply   | Active supply | Sum  | Native units | 30 days  |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Supply Revived in Last 30 Days | SplyRvv30d | Supply | Active supply | Sum | Native units | 30 days |
 
 ## Details
 
 * For UTXO chains, revived supply is considered as the outputs created before the considered time interval and spent at the time of the metric's computation. For example, if an address has one output created inside the time interval, and one output created outside of the time interval, only the latter will be considered revived.
-* For account based chains, revived supply is the sum of the balances of accounts that were either created before the considered time interval and that had no activity afterwards, or that had no outgoing native units movement during that period. Any type of movement is sufficient to mark an account as active (fees, transfers, etc.).
+* For account based chains, revived supply is the sum of the balances of accounts that were either created before the considered time interval and that had no activity afterwards, or that had no outgoing native units movement during that period. Any type of movement is sufficient to mark an account as active \(fees, transfers, etc.\).
 
 ## Asset-Specific Details
 
@@ -20,7 +20,7 @@ The sum of all native units balances last active 30 days ago that became active 
 
 ## Interpretation
 
-Revived supply gives a more granular look into supply activity. Revived supply is calculated by summing up the amount of supply that has become active after being inactive for at least X days(or years). For example, “Supply Revived in Last 30 Days” is the amount of supply reactivated (on a daily basis) after remaining dormant for at least 30 days.&#x20;
+Revived supply gives a more granular look into supply activity. Revived supply is calculated by summing up the amount of supply that has become active after being inactive for at least X days\(or years\). For example, “Supply Revived in Last 30 Days” is the amount of supply reactivated \(on a daily basis\) after remaining dormant for at least 30 days. 
 
 ## See Also
 
@@ -35,4 +35,7 @@ Revived supply gives a more granular look into supply activity. Revived supply i
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyRvv30d" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/SplyRvv30d" %}
+
+
+

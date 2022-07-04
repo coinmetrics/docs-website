@@ -39,4 +39,5 @@ Revived supply gives a more granular look into supply activity. Revived supply i
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyRvv3yr" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/SplyRvv3yr" %}
+

@@ -1,4 +1,4 @@
-# Payments (Xfers) Above $X, Count
+# Payments (Xfers) Above $X Cnt
 
 ## Definition
 
@@ -6,10 +6,10 @@ The sum count of payments (transfers) above a specific USD amount. This family o
 
 | Name                     | MetricID             | Category     | Subcategory  | Type | Unit | Interval |
 | ------------------------ | -------------------- | ------------ | ------------ | ---- | ---- | -------- |
-| Xfers Above $100k, Count | TxTfrValAbUSD100kCnt | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Xfers Above $1M, Count   | TxTfrValAbUSD1MCnt   | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Xfers Above $10M, Count  | TxTfrValAbUSD10MCnt  | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Xfers Above $100M, Count | TxTfrValAbUSD100MCnt | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Above $100k Cnt | TxTfrValAbUSD100kCnt | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Above $1M Cnt   | TxTfrValAbUSD1MCnt   | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Above $10M Cnt  | TxTfrValAbUSD10MCnt  | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Above $100M Cnt | TxTfrValAbUSD100MCnt | Transactions | Transactions | Sum  | Txs  | 1d       |
 
 ## Details
 

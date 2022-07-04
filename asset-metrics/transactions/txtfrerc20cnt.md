@@ -4,9 +4,9 @@
 
 The sum count of ERC-20 transfers in that interval. Only non-zero transfers between two distinct addresses are counted. Contracts that contain all of the following are considered to be ERC-20 contracts: the balanceOf function, the transfer function, and the Transfer event hash.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ERC-20 Xfer Cnt | TxTfrERC20Cnt | Transactions | Transfers | Sum | Transfers | 1 day |
+| Name            | MetricID      | Category     | Subcategory | Type | Unit      | Interval |
+| --------------- | ------------- | ------------ | ----------- | ---- | --------- | -------- |
+| ERC-20 Xfer Cnt | TxTfrERC20Cnt | Transactions | Transfers   | Sum  | Transfers | 1 day    |
 
 ## Details
 
@@ -22,9 +22,8 @@ The sum count of ERC-20 transfers in that interval. Only non-zero transfers betw
 
 ## Release History
 
-* Version 4.3 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.3 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrERC20Cnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrERC20Cnt" %}

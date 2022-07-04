@@ -27,4 +27,5 @@ The sum of all native units ever created and visible on the ledger excluding nat
 
 ## **Availability for Assets**
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyFF" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/SplyFF" %}
+

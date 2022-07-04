@@ -1,10 +1,10 @@
-# Payments \(Xfers\) Below $1,000, Count
+# Payments (Xfers) Below $1,000, Count
 
-The sum count of payments \(transfers\) below $1,000 USD worth of a cryptoasset at the time the transfer took place. 
+The sum count of payments (transfers) below $1,000 USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| XfersBelow $1,000, Count | TxTfrValBelUSD1000Cnt | Addresses | Balance | Sum | Addresses | 1 day |
+| Name                     | MetricID            | Category  | Subcategory | Type | Unit      | Interval |
+| ------------------------ | ------------------- | --------- | ----------- | ---- | --------- | -------- |
+| XfersBelow $1,000, Count | TxTfrValBelUSD1kCnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
 
 ## Details
 
@@ -12,13 +12,4 @@ The sum count of payments \(transfers\) below $1,000 USD worth of a cryptoasset 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValBelUSD1000CntAddresses" %}
-
-
-
-
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValBelUSD1kCnt" %}

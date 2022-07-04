@@ -1,12 +1,12 @@
-# Coinbase Issuance (USD)
+# Coinbase Issuance \(USD\)
 
 ## Definition
 
 The sum of USD value issued that day. Only those native units that are issued by a protocol-mandated continuous emission schedule are included.
 
-| Name                    | MetricID   | Category | Subcategory | Type | Unit         | Interval |
-| ----------------------- | ---------- | -------- | ----------- | ---- | ------------ | -------- |
-| Coinbase Issuance (USD) | IssContUSD | Supply   | Issuance    | Sum  | Native units | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Coinbase Issuance \(USD\) | IssContUSD | Supply | Issuance | Sum | Native units | 1 day |
 
 ## Details
 
@@ -24,4 +24,5 @@ The sum of USD value issued that day. Only those native units that are issued by
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/IssContUSD" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/IssContUSD" %}
+

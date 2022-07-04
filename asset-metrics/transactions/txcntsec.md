@@ -4,9 +4,9 @@
 
 The sum count of transactions divided by the number of seconds that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Tx per Second Cnt | TxCntSec | Transactions | Transactions | Sum | Transactions per second | 1 day |
+| Name              | MetricID | Category     | Subcategory  | Type | Unit                    | Interval |
+| ----------------- | -------- | ------------ | ------------ | ---- | ----------------------- | -------- |
+| Tx per Second Cnt | TxCntSec | Transactions | Transactions | Sum  | Transactions per second | 1 day    |
 
 ## Details
 
@@ -18,5 +18,4 @@ The sum count of transactions divided by the number of seconds that day.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxCntSec" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxCntSec" %}

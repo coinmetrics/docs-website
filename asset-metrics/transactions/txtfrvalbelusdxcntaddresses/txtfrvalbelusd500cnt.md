@@ -1,10 +1,10 @@
-# Payments \(Xfers\) Below $500, Count
+# Payments (Xfers) Below $500, Count
 
-The sum count of payments \(transfers\) below $100 USD worth of a cryptoasset at the time the transfer took place. 
+The sum count of payments (transfers) below $100 USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| XfersBelow $500, Count | TxTfrValBelUSD500Cnt | Addresses | Balance | Sum | Addresses | 1 day |
+| Name                   | MetricID             | Category  | Subcategory | Type | Unit      | Interval |
+| ---------------------- | -------------------- | --------- | ----------- | ---- | --------- | -------- |
+| XfersBelow $500, Count | TxTfrValBelUSD500Cnt | Addresses | Balance     | Sum  | Addresses | 1 day    |
 
 ## Details
 
@@ -12,11 +12,4 @@ The sum count of payments \(transfers\) below $100 USD worth of a cryptoasset at
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValBelUSD500CntAddresses" %}
-
-
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValBelUSD500Cnt" %}

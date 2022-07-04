@@ -1,10 +1,10 @@
-# Payments \(Xfers\) Below $10,000, Sum \(USD\)
+# Sum Value of Payments (Xfers) Below $10,000 (USD)
 
-The sum of all payments \(transfers\) that have occurred in the measuring interval below $10,000 USD, displayed in units of USD
+The sum of all payments (transfers) that have occurred in the measuring interval below $10,000 USD, displayed in units of USD
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| XfersBelow $10,000, Sum \(USD\) | TxTfrValBelUSD10kUSD | Addresses | Balance | Sum | USD | 1 day |
+| Name                                      | MetricID             | Category  | Subcategory | Type | Unit | Interval |
+| ----------------------------------------- | -------------------- | --------- | ----------- | ---- | ---- | -------- |
+| Sum Value of Payments Below $10,000 (USD) | TxTfrValBelUSD10kUSD | Addresses | Balance     | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -12,13 +12,4 @@ The sum of all payments \(transfers\) that have occurred in the measuring interv
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValBelUSD10000USD" %}
-
-
-
-
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValBelUSD10kUSD" %}

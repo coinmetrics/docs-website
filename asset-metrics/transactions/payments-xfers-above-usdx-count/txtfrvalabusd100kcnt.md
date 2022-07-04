@@ -2,9 +2,9 @@
 
 The sum count of payments (transfers) above $1 USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name                                               | MetricID             | Category     | Subcategory  | Type | Unit      | Interval |
-| -------------------------------------------------- | -------------------- | ------------ | ------------ | ---- | --------- | -------- |
-| Transactions, transfers, value, above $100k, count | TxTfrValAbUSD100kCnt | Transactions | Transactions | Sum  | Transfers | 1 day    |
+| Name                     | MetricID             | Category     | Subcategory  | Type | Unit      | Interval |
+| ------------------------ | -------------------- | ------------ | ------------ | ---- | --------- | -------- |
+| Payments Above $100k Cnt | TxTfrValAbUSD100kCnt | Transactions | Transactions | Sum  | Transfers | 1 day    |
 
 ## Details
 
@@ -12,7 +12,4 @@ The sum count of payments (transfers) above $1 USD worth of a cryptoasset at the
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValAbUSD100kCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValAbUSD100kCnt" %}

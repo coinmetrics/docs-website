@@ -1,17 +1,17 @@
-# Active Supply (transacted at least once)
+# Active Supply \(transacted at least once\)
 
 ## Definition
 
 The sum of unique native units held by accounts that transacted at least once up to that interval. Native units that transacted more than once are only counted once.
 
-| Name                                     | MetricID    | Category | Subcategory   | Type | Unit         | Interval |
-| ---------------------------------------- | ----------- | -------- | ------------- | ---- | ------------ | -------- |
-| Active Supply (transacted at least once) | SplyActEver | Supply   | Active supply | Sum  | Native units | All time |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Active Supply \(transacted at least once\) | SplyActEver | Supply | Active supply | Sum | Native units | All time |
 
 ## Details
 
 * For UTXO-based protocols, this includes all outputs in the UTXO set not created in mining reward transactions.
-* For account-based protocols, this includes the sum of the balances of accounts that were either created outside of token generation events (genesis, mining, etc.), or that had at least one outgoing native unit movement during a token generation event. Any type of movement suffice to mark an account as active (fees, transfers, etc.).
+* For account-based protocols, this includes the sum of the balances of accounts that were either created outside of token generation events \(genesis, mining, etc.\), or that had at least one outgoing native unit movement during a token generation event. Any type of movement suffice to mark an account as active \(fees, transfers, etc.\).
 
 ## Asset-Specific Details
 
@@ -21,8 +21,9 @@ The sum of unique native units held by accounts that transacted at least once up
 
 ## Release History
 
-* Version 4.3 of CM Network Data Pro Daily Macro (End of Day)
+* Version 4.3 of CM Network Data Pro Daily Macro \(End of Day\)
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyActEver" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/SplyActEver" %}
+

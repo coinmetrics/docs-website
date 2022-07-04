@@ -1,12 +1,12 @@
-# NDF (Network Distribution Factor)
+# NDF \(Network Distribution Factor\)
 
 ## Definition
 
 The ratio of supply held by addresses with at least one ten-thousandth of the current supply of native units to the current supply.
 
-| Name                              | MetricID | Category | Subcategory | Type  | Unit          | Interval |
-| --------------------------------- | -------- | -------- | ----------- | ----- | ------------- | -------- |
-| NDF (Network Distribution Factor) | NDF      | Supply   | Current     | Ratio | Dimensionless | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| NDF \(Network Distribution Factor\) | NDF | Supply | Current | Ratio | Dimensionless | 1 day |
 
 ## Release History
 
@@ -18,4 +18,5 @@ NDF is one way to assess Supply Dispersion. This ratio encompasses a broader eco
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/NDF" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/NDF" %}
+

@@ -2,10 +2,10 @@
 
 ## Definition
 
-The mean size \(in bytes\) per transaction for all transactions that interval.
+The mean size (in bytes) per transaction for all transactions that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Name         | MetricID   | Category     | Subcategory  | Type | Unit  | Interval       |
+| ------------ | ---------- | ------------ | ------------ | ---- | ----- | -------------- |
 | Tx Mean Size | TxMeanByte | Transactions | Transactions | Mean | Bytes | 1 day, 1 block |
 
 ## Details
@@ -18,5 +18,4 @@ The mean size \(in bytes\) per transaction for all transactions that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxMeanByte" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxMeanByte" %}

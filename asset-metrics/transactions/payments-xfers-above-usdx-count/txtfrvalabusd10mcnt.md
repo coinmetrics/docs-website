@@ -2,9 +2,9 @@
 
 The sum count of payments (transfers) above $10 M USD worth of a cryptoasset at the time the transfer took place.&#x20;
 
-| Name                                              | MetricID            | Category     | Subcategory  | Type | Unit      | Interval |
-| ------------------------------------------------- | ------------------- | ------------ | ------------ | ---- | --------- | -------- |
-| Transactions, transfers, value, above $10M, count | TxTfrValAbUSD10MCnt | Transactions | Transactions | Sum  | Transfers | 1 day    |
+| Name                    | MetricID            | Category     | Subcategory  | Type | Unit      | Interval |
+| ----------------------- | ------------------- | ------------ | ------------ | ---- | --------- | -------- |
+| Payments Above $10M Cnt | TxTfrValAbUSD10MCnt | Transactions | Transactions | Sum  | Transfers | 1 day    |
 
 ## Details
 
@@ -12,7 +12,4 @@ The sum count of payments (transfers) above $10 M USD worth of a cryptoasset at 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrValAbUSD10MCnt" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValAbUSD10MCnt" %}

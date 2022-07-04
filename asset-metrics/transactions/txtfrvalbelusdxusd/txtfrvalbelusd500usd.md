@@ -1,10 +1,10 @@
-# Payments \(Xfers\) Below $500, Sum \(USD\)
+# Sum Value of Payments (Xfers) Below $500 (USD)
 
-The sum of all payments \(transfers\) that have occurred in the measuring interval below $100 USD, displayed in units of USD
+The sum of all payments (transfers) that have occurred in the measuring interval below $100 USD, displayed in units of USD
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| XfersBelow $500, Sum \(USD\) | TxTfrValBelUSD500USD | Addresses | Balance | Sum | USD | 1 day |
+| Name                                   | MetricID             | Category  | Subcategory | Type | Unit | Interval |
+| -------------------------------------- | -------------------- | --------- | ----------- | ---- | ---- | -------- |
+| Sum Value of Payments Below $500 (USD) | TxTfrValBelUSD500USD | Addresses | Balance     | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -12,11 +12,4 @@ The sum of all payments \(transfers\) that have occurred in the measuring interv
 
 ## Availability for Assets
 
-[https://docs.coinmetrics.io/info/metrics/TxTfrValBelUSD500USD](https://docs.coinmetrics.io/info/metrics/TxTfrValBelUSD100USD)
-
-
-
-
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrValBelUSD500USD" %}

@@ -4,9 +4,9 @@
 
 The sum count of ERC-721 transfers in that interval. Only transfers between two distinct addresses are counted. ERC-165 is used to determine a contract’s compliance with ERC-721.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ERC-721 Xfer Cnt | TxTfrERC721Cnt | Transactions | Transfers | Sum | Transfers | 1 day |
+| Name             | MetricID       | Category     | Subcategory | Type | Unit      | Interval |
+| ---------------- | -------------- | ------------ | ----------- | ---- | --------- | -------- |
+| ERC-721 Xfer Cnt | TxTfrERC721Cnt | Transactions | Transfers   | Sum  | Transfers | 1 day    |
 
 ## Details
 
@@ -19,9 +19,8 @@ The sum count of ERC-721 transfers in that interval. Only transfers between two 
 
 ## Release History
 
-* Version 4.3 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.3 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/TxTfrERC721Cnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/TxTfrERC721Cnt" %}

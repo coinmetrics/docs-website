@@ -24,4 +24,5 @@ While SER provides a novel look into supply distribution that is not possible wi
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/SER" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/SER" %}
+

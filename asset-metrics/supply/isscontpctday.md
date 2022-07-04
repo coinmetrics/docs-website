@@ -2,11 +2,11 @@
 
 ## Definition
 
-The percentage of new native units (continuous) issued on that day divided by the current supply on that day. Also referred to as the daily inflation rate.
+The percentage of new native units \(continuous\) issued on that day divided by the current supply on that day. Also referred to as the daily inflation rate.
 
-| Name                 | MetricID      | Category | Subcategory | Type       | Unit          | Interval |
-| -------------------- | ------------- | -------- | ----------- | ---------- | ------------- | -------- |
-| Daily Inflation Rate | IssContPctDay | Supply   | Issuance    | Percentage | Dimensionless | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Daily Inflation Rate | IssContPctDay | Supply | Issuance | Percentage | Dimensionless | 1 day |
 
 ## Details
 
@@ -25,4 +25,5 @@ The percentage of new native units (continuous) issued on that day divided by th
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/IssContPctDay" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/IssContPctDay" %}
+

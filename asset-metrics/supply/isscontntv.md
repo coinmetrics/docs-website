@@ -1,12 +1,12 @@
-# Coinbase Issuance (native units)
+# Coinbase Issuance \(native units\)
 
 ## Definition
 
 The sum of native units issued that day. Only those native units that are issued by a protocol-mandated continuous emission schedule are included.
 
-| Name                             | MetricID   | Category | Subcategory | Type | Unit         | Interval |
-| -------------------------------- | ---------- | -------- | ----------- | ---- | ------------ | -------- |
-| Coinbase Issuance (native units) | IssContNtv | Supply   | Issuance    | Sum  | Native units | 1 day    |
+| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Coinbase Issuance \(native units\) | IssContNtv | Supply | Issuance | Sum | Native units | 1 day |
 
 ## Details
 
@@ -23,4 +23,5 @@ The sum of native units issued that day. Only those native units that are issued
 
 ## Availability for Assets
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/IssContNtv" %}
+{% embed url="https://docs.coinmetrics.io/info/metrics/IssContNtv" %}
+
