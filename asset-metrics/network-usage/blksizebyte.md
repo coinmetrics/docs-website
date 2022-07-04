@@ -2,19 +2,19 @@
 description: /timeseries/asset-metrics
 ---
 
-# Sum Block Size \(in bytes\)
+# Sum Block Size (in bytes)
 
 ## Definition
 
-The sum of the size \(in bytes\) of all blocks created that interval.
+The sum of the size (in bytes) of all blocks created that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Sum Block Size \(in bytes\) | BlkSizeByte | Network Usage | Blocks | Sum | Bytes | 1d, 1b |
+| Name                      | MetricID    | Category      | Subcategory | Type | Unit  | Interval |
+| ------------------------- | ----------- | ------------- | ----------- | ---- | ----- | -------- |
+| Sum Block Size (in bytes) | BlkSizeByte | Network Usage | Blocks      | Sum  | Bytes | 1d, 1b   |
 
 ## Details
 
-* Only mainchain \(non-orphaned/uncles\) blocks are counted.
+* Only mainchain (non-orphaned/uncles) blocks are counted.
 * For chains that use median time, the day is defined using it, otherwise, it’s defined using the block’s timestamps.
 
 ## Asset-Specific Details
@@ -27,5 +27,4 @@ The sum of the size \(in bytes\) of all blocks created that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/BlkSizeByte" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/BlkSizeByte" %}

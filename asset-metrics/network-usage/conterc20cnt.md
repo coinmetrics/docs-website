@@ -27,4 +27,4 @@ The sum count of unique ERC-20 contracts that exist on the ledger at the end of 
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/ContERC20Cnt" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ContERC20Cnt" %}

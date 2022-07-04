@@ -19,4 +19,4 @@ This metric calculates the average number of days an asset (e.g, BTC) is held be
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/UTXOAgeMean" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/UTXOAgeMean" %}

@@ -23,4 +23,4 @@ The sum count of unique smart contracts implementing the ERC-1155 standard prese
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/ContERC1155Cnt" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ContERC1155Cnt" %}

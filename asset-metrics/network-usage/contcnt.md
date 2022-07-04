@@ -4,9 +4,9 @@
 
 The sum count of unique contracts that exist in the ledger at the end of the interval. A contract is a special address that contains and can execute code.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Contracts Cnt | ContCnt | Blockchain / Ledger | Contracts | Sum | Contracts | 1 day |
+| Name          | MetricID | Category            | Subcategory | Type | Unit      | Interval |
+| ------------- | -------- | ------------------- | ----------- | ---- | --------- | -------- |
+| Contracts Cnt | ContCnt  | Blockchain / Ledger | Contracts   | Sum  | Contracts | 1 day    |
 
 ## Details
 
@@ -18,9 +18,8 @@ The sum count of unique contracts that exist in the ledger at the end of the int
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/ContCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ContCnt" %}

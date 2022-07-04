@@ -6,15 +6,15 @@ description: /timeseries/asset-metrics
 
 ## Definition
 
-The sum count of blocks created that interval that were included in the main \(base\) chain.
+The sum count of blocks created that interval that were included in the main (base) chain.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Block Cnt | BlkCnt | Network Usage | Blocks | Sum | Blocks | 1 day |
+| Name      | MetricID | Category      | Subcategory | Type | Unit   | Interval |
+| --------- | -------- | ------------- | ----------- | ---- | ------ | -------- |
+| Block Cnt | BlkCnt   | Network Usage | Blocks      | Sum  | Blocks | 1 day    |
 
 ## Details
 
-* Only mainchain \(non-orphaned/uncles\) blocks are counted.
+* Only mainchain (non-orphaned/uncles) blocks are counted.
 * For chains that use median time, the day is defined using it, otherwise, it’s defined using the block’s timestamps.
 
 ## Release History
@@ -27,5 +27,4 @@ Block count is typically rather static, but can vary in blockchains which rely o
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/BlkCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/BlkCnt" %}

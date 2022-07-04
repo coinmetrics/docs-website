@@ -36,6 +36,6 @@ The value of BlkIntMean would be (120 + 20 + 160 + 60) / 4 = 90 seconds
 
 Blockchains with shorter block time (and hence a larger sample size per day) will typically have less variance in mean block interval.
 
-## Available for Assets
+## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/BlkIntMean" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/BlkIntMean" %}

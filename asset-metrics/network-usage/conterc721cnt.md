@@ -23,7 +23,4 @@ The sum count of unique contracts implementing the ERC-721 standard that exist i
 
 ## Availability for Assets
 
-| Asset                                              | Available in [Community](https://docs.coinmetrics.io/api/tiers/community) tier | Available in [Pro](https://docs.coinmetrics.io/api/tiers/pro) tier |
-| -------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| [ETC](https://docs.coinmetrics.io/info/assets/etc) |                                                                                |                                                                    |
-| [ETH](https://docs.coinmetrics.io/info/assets/eth) |                                                                                |                                                                    |
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ContERC721Cnt" %}
