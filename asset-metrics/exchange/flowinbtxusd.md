@@ -1,12 +1,12 @@
-# Bittrex Deposit \(USD\)
+# Bittrex Deposit (USD)
 
 ## Definition
 
 The sum USD value sent to Bittrex that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Bittrex Deposit \(USD\) | FlowInBTXUSD | Exchange | Deposits | Sum | USD | 1 block, 1 day |
+| Name                  | MetricID     | Category | Subcategory | Type | Unit | Interval       |
+| --------------------- | ------------ | -------- | ----------- | ---- | ---- | -------------- |
+| Bittrex Deposit (USD) | FlowInBTXUSD | Exchange | Deposits    | Sum  | USD  | 1 block, 1 day |
 
 ## Details
 
@@ -25,7 +25,4 @@ The sum USD value sent to Bittrex that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInBTXNtv" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInBTXNtv" %}

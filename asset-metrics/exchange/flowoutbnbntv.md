@@ -1,12 +1,12 @@
-# Binance Withdrawals \(native units\)
+# Binance Withdrawals (native units)
 
 ## Definition
 
 The sum in native units withdrawn from Binance that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Binance Withdrawals \(native units\) | FlowOutBNBNtv | Exchange | Withdrawals | Sum | Native units | 1 block, 1 day |
+| Name                               | MetricID      | Category | Subcategory | Type | Unit         | Interval       |
+| ---------------------------------- | ------------- | -------- | ----------- | ---- | ------------ | -------------- |
+| Binance Withdrawals (native units) | FlowOutBNBNtv | Exchange | Withdrawals | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -14,15 +14,15 @@ The sum in native units withdrawn from Binance that day.
 
 ## Asset-Specific Details
 
-* This metric might not be available for all assets. Either that exchange doesn’t support this asset \(BitMEX only trades in BTC for example\), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
+* This metric might not be available for all assets. Either that exchange doesn’t support this asset (BitMEX only trades in BTC for example), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
-* * If a transaction spends 100 BTC from exchange A but 90 BTC are sent back to it as change, the flow is -10 BTC, not -100 BTC and +90 BTC.
+*
+  * If a transaction spends 100 BTC from exchange A but 90 BTC are sent back to it as change, the flow is -10 BTC, not -100 BTC and +90 BTC.
 
 ## Release History
 
 * Released in the 4.0 release of NDP
 
-## Availabiity for Assets
+## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowOutBNBNtv" %}
-
+[https://coverage.coinmetrics.io/asset-metrics/FlowOutBNBNtv](https://coverage.coinmetrics.io/asset-metrics/FlowOutBNBNtv)

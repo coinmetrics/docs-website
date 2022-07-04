@@ -1,21 +1,21 @@
-# Val in Addrs w/ Bal ≥ $10 \(native units\)
+# Val in Addrs w/ Bal ≥ $10 (native units)
 
 ## Definition
 
-The sum of all native units being held in addresses whose balance was $10 or greater at the end of that day. Only native units are considered \(e.g., an address with less than X ETH but with more than X in ERC-20 tokens would not be considered\).
+The sum of all native units being held in addresses whose balance was $10 or greater at the end of that day. Only native units are considered (e.g., an address with less than X ETH but with more than X in ERC-20 tokens would not be considered).
 
 ## Dictionary
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Val in Addrs w/ Bal ≥ $10 USD | SplyAdrBalUSD10 | Supply | Addresses with Balance | Sum | Native units | 1 day |
+| Name                          | MetricID        | Category | Subcategory            | Type | Unit         | Interval |
+| ----------------------------- | --------------- | -------- | ---------------------- | ---- | ------------ | -------- |
+| Val in Addrs w/ Bal ≥ $10 USD | SplyAdrBalUSD10 | Supply   | Addresses with Balance | Sum  | Native units | 1 day    |
 
 ## Details
 
 * This metric breaks down the supply of an asset by the USD balance of addresses owning it.
 * For a day D, balances are taken at the end of that day, the price used it the close price for that day too.
 * Only native units are taken into account, not L2 tokens.
-* The comparison is done using greater than or equal comparison \(an address owning exactly $10 counts towards SplyAdrBalUSD10\).
+* The comparison is done using greater than or equal comparison (an address owning exactly $10 counts towards SplyAdrBalUSD10).
 
 ## Asset-Specific Details
 
@@ -29,5 +29,4 @@ The sum of all native units being held in addresses whose balance was $10 or gre
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyAdrBalUSD10" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyAdrBalUSD10" %}

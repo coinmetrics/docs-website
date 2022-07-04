@@ -32,5 +32,4 @@ Our reported coin-margined future volume metric is an aggregation of the reporte
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/volume_reported_future_coin_margined_usd_1d" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/volume_reported_future_coin_margined_usd_1d" %}

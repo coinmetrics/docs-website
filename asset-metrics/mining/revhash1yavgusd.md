@@ -30,4 +30,4 @@ The trailing one-year average miner reward per estimated hash unit performed dur
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/RevHash1yAvgUSD" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/RevHash1yAvgUSD" %}

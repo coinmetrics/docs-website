@@ -1,19 +1,19 @@
-# Flows Sent One Hop from Miners to Binance \(USD\)
+# Flows Sent One Hop from Miners to Binance (USD)
 
 ## Definition
 
 The sum USD value of all transfers sent by all addresses within one hop of a mining entity to Binance that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Flows Sent One Hop from Miners to Binance \(USD\) | FlowMinerOut1HopAllBNBUSD | Mining | Exchange Flows | Sum | USD | 1 day |
+| Name                                            | MetricID                  | Category | Subcategory    | Type | Unit | Interval |
+| ----------------------------------------------- | ------------------------- | -------- | -------------- | ---- | ---- | -------- |
+| Flows Sent One Hop from Miners to Binance (USD) | FlowMinerOut1HopAllBNBUSD | Mining   | Exchange Flows | Sum  | USD  | 1 day    |
 
 ## Details
 
 * This metric is part of the next iteration of our Miner Flows and it is the culmination of months of research on miner behavior and entity clustering.
 * Miner-to-Exchange Flows can be used to better understand the impact that miners have on crypto markets.
 * The ultimate goal of this family of metrics is to improve the understanding of when and where miners sell their coins.
-* We have published research in this area in \(State of The Network Issue 91\)\[https://coinmetrics.io/following-flows-ii-where-do-miners-sell/\]
+* We have published research in this area in (State of The Network Issue 91)\[https://coinmetrics.io/following-flows-ii-where-do-miners-sell/]
 
 ## Release History
 
@@ -21,7 +21,4 @@ The sum USD value of all transfers sent by all addresses within one hop of a min
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowMinerOut1HopAllBNBUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowMinerOut1HopAllBNBUSD" %}

@@ -24,3 +24,5 @@ Our non-perpetual future open interest metric is an aggregation of the reported 
 * [Reported Non-Perpetual Future Volume ](../volume/volume\_reported\_future\_nonperpetual\_usd\_1d.md)
 
 ## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/open_interest_reported_future_nonperpetual_usd" %}

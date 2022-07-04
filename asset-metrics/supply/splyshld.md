@@ -2,11 +2,11 @@
 
 ## Definition
 
-The sum of all native units being held in shielded pool\(s\).
+The sum of all native units being held in shielded pool(s).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Shielded Supply | SplyShld | Supply | Current supply | Sum | Native units | All time |
+| Name            | MetricID | Category | Subcategory    | Type | Unit         | Interval |
+| --------------- | -------- | -------- | -------------- | ---- | ------------ | -------- |
+| Shielded Supply | SplyShld | Supply   | Current supply | Sum  | Native units | All time |
 
 ## Details
 
@@ -23,5 +23,4 @@ The sum of all native units being held in shielded pool\(s\).
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyShld" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyShld" %}

@@ -1,12 +1,12 @@
-# Huobi Deposits \(native units\)
+# Huobi Deposits (native units)
 
 ## Definition
 
 The sum in native units sent to Huobi that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Huobi Deposits \(native units\) | FlowInHUONtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
+| Name                          | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
+| ----------------------------- | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
+| Huobi Deposits (native units) | FlowInHUONtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -24,7 +24,4 @@ The sum in native units sent to Huobi that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInHUONtv" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInHUONtv" %}

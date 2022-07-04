@@ -4,13 +4,13 @@
 
 The sum count of transfers from any address belonging to exchange Poloniex in that interval. If the recipient address also belongs to Poloniex, the transfer is not counted.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Poloniex Withdrawal Cnt | FlowTfrOutPOLCnt | Exchange | Withdrawals | Sum | Native units | 1 block, 1 day |
+| Name                    | MetricID         | Category | Subcategory | Type | Unit         | Interval       |
+| ----------------------- | ---------------- | -------- | ----------- | ---- | ------------ | -------------- |
+| Poloniex Withdrawal Cnt | FlowTfrOutPOLCnt | Exchange | Withdrawals | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
-* Coinbase \(i.e., miner reward\) transactions are not counted.
+* Coinbase (i.e., miner reward) transactions are not counted.
 
 ## Asset-Specific Details
 
@@ -20,9 +20,8 @@ The sum count of transfers from any address belonging to exchange Poloniex in th
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowTfrOutPOLCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowTfrOutPOLCnt" %}

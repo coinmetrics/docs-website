@@ -4,13 +4,13 @@
 
 The ratio of the USD value of miner revenue during the period to the 365-day moving average of the USD value of miner revenue.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Puell Multiple, Revenue | PuellMulRev | Supply | Miner Revenue | Ratio | Dimensionless | 365 days |
+| Name                    | MetricID    | Category | Subcategory   | Type  | Unit          | Interval |
+| ----------------------- | ----------- | -------- | ------------- | ----- | ------------- | -------- |
+| Puell Multiple, Revenue | PuellMulRev | Supply   | Miner Revenue | Ratio | Dimensionless | 365 days |
 
 ## Details
 
-* Computed as RevUSD/ma365\(RevUSD\)
+* Computed as RevUSD/ma365(RevUSD)
 
 ## Release History
 
@@ -18,7 +18,7 @@ The ratio of the USD value of miner revenue during the period to the 365-day mov
 
 ## Interpretation
 
-The Puell Multiple provides insight into market cycles from a mining revenue perspective. Because miners are sometimes considered compulsory sellers given their fixed costs \(e.g., equipment, electricity\), this metric provides insight into the supply side of a cryptoasset's economy.   The idea being, that periods where the Puell Multiple is extremely low could be buying opportunities for investors, and periods where it is extremely high could indicate a profit-taking/selling opportunities. 
+The Puell Multiple provides insight into market cycles from a mining revenue perspective. Because miners are sometimes considered compulsory sellers given their fixed costs (e.g., equipment, electricity), this metric provides insight into the supply side of a cryptoasset's economy.   The idea being, that periods where the Puell Multiple is extremely low could be buying opportunities for investors, and periods where it is extremely high could indicate a profit-taking/selling opportunities.&#x20;
 
 ## See Also
 
@@ -27,5 +27,4 @@ The Puell Multiple provides insight into market cycles from a mining revenue per
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/PuellMulRev" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/PuellMulRev" %}

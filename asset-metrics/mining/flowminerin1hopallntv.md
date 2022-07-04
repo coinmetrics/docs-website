@@ -1,12 +1,12 @@
-# Flows Received One Hop from Miners \(native units\)
+# Flows Received One Hop from Miners (native units)
 
 ## Defintion
 
-The sum of block rewards, fees, and other transfers received by all addresses within one hop of a mining entity during an interval, excluding transfers from another address within one hop of a mining entity. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model \(UBDM\).
+The sum of block rewards, fees, and other transfers received by all addresses within one hop of a mining entity during an interval, excluding transfers from another address within one hop of a mining entity. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model (UBDM).
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Flows Received One Hop from Miners \(native units\) | FlowMinerIn1HopAllNtv | Miners | Flows In | Sum | Native units | 1 day |
+| Name                                              | MetricID              | Category | Subcategory | Type | Unit         | Interval |
+| ------------------------------------------------- | --------------------- | -------- | ----------- | ---- | ------------ | -------- |
+| Flows Received One Hop from Miners (native units) | FlowMinerIn1HopAllNtv | Miners   | Flows In    | Sum  | Native units | 1 day    |
 
 ## Details
 
@@ -19,9 +19,8 @@ The sum of block rewards, fees, and other transfers received by all addresses wi
 
 ## Release History
 
-* Release Version: NDP-EOD 4.8 \(Nov, 2020\)
+* Release Version: NDP-EOD 4.8 (Nov, 2020)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowMinerIn1HopAllNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowMinerIn1HopAllNtv" %}

@@ -1,12 +1,12 @@
-# Exchange Withdrawals \(native units\)
+# Exchange Withdrawals (native units)
 
 ## Definition
 
 The sum in native units withdrawn from exchanges that day, excluding exchange to exchange activity.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Exchange Withdrawals \(native units\) | FlowOutExNtv | Exchange | Withdrawals | Sum | Native units | 1 block, 1 day |
+| Name                                | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
+| ----------------------------------- | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
+| Exchange Withdrawals (native units) | FlowOutExNtv | Exchange | Withdrawals | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -20,5 +20,4 @@ The sum in native units withdrawn from exchanges that day, excluding exchange to
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowOutExNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowOutExNtv" %}

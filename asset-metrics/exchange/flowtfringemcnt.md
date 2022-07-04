@@ -4,13 +4,13 @@
 
 The sum count of transfers to any address belonging to exchange Gemini in that interval. If the sender address also belongs to Gemini, the transfer is not counted.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Gemini Deposit Cnt | FlowTfrInGEMCnt | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
+| Name               | MetricID        | Category | Subcategory | Type | Unit         | Interval       |
+| ------------------ | --------------- | -------- | ----------- | ---- | ------------ | -------------- |
+| Gemini Deposit Cnt | FlowTfrInGEMCnt | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
-* Coinbase \(i.e., miner reward\) transactions are not counted.
+* Coinbase (i.e., miner reward) transactions are not counted.
 
 ## Asset-Specific Details
 
@@ -20,9 +20,8 @@ The sum count of transfers to any address belonging to exchange Gemini in that i
 
 ## Release History
 
-* Version 4.2 of CM Network Data Pro Daily Macro \(End of Day\)
+* Version 4.2 of CM Network Data Pro Daily Macro (End of Day)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowTfrInGEMCnt" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowTfrInGEMCnt" %}

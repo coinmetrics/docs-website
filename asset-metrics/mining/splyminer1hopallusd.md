@@ -1,12 +1,12 @@
-# Supply One Hop from Miners \(USD\)
+# Supply One Hop from Miners (USD)
 
 ## Defintion
 
-The sum of the balances of all addresses within one hop of a mining entity. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model \(UBDM\), or any address that has been credited in a transaction sent by such an address.
+The sum of the balances of all addresses within one hop of a mining entity. An address within one hop of a mining entity is defined as an address that has been credited from a transaction debiting the 'FEES' or 'ISSUANCE' accounts in accordance with Coin Metric’s Universal Blockchain Data Model (UBDM), or any address that has been credited in a transaction sent by such an address.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Supply One Hop from Miners \(USD\) | SplyMiner1HopAllUSD | Mining | Balances | Sum | USD | 1 day |
+| Name                             | MetricID            | Category | Subcategory | Type | Unit | Interval |
+| -------------------------------- | ------------------- | -------- | ----------- | ---- | ---- | -------- |
+| Supply One Hop from Miners (USD) | SplyMiner1HopAllUSD | Mining   | Balances    | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -15,11 +15,8 @@ The sum of the balances of all addresses within one hop of a mining entity. An a
 
 ## Release History
 
-* Release Version: NDP-EOD 4.8 \(Nov, 2020\)
+* Release Version: NDP-EOD 4.8 (Nov, 2020)
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyMiner1HopAllUSD" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyMiner1HopAllUSD" %}

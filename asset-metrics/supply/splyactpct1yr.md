@@ -34,4 +34,4 @@ The percentage of the current supply that has been active in the trailing 1 year
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyActPct1yr" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyActPct1yr" %}

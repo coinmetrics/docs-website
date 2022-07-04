@@ -29,4 +29,4 @@ The sum of the supply being held by all wallets whose balance was at least 10k n
 
 ## **Availability for Assets** <a href="#availability-for-assets" id="availability-for-assets"></a>
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyWalBalNtv10k" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyWalBalNtv10k" %}

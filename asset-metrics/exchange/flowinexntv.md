@@ -1,12 +1,12 @@
-# Exchange Deposits \(native units\)
+# Exchange Deposits (native units)
 
 ## Definition
 
 The sum number of native units sent to exchanges that interval, excluding exchange to exchange activity
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Exchange Deposits \(native units\) | FlowInExNtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
+| Name                             | MetricID    | Category | Subcategory | Type | Unit         | Interval       |
+| -------------------------------- | ----------- | -------- | ----------- | ---- | ------------ | -------------- |
+| Exchange Deposits (native units) | FlowInExNtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -23,7 +23,4 @@ The sum number of native units sent to exchanges that interval, excluding exchan
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInExNtv" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInExNtv" %}

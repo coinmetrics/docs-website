@@ -65,4 +65,4 @@ Fake trading volume is a persistent problem on crypto exchanges. With little reg
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/volume_trusted_spot_usd_1d" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/volume_trusted_spot_usd_1d" %}

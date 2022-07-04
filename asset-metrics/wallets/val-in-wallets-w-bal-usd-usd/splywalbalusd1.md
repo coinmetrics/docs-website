@@ -27,4 +27,4 @@ The sum of the supply being held by all wallets whose balance is equivalent to a
 
 ## **Availability for Assets** <a href="#availability-for-assets" id="availability-for-assets"></a>
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyWalBalUSD1" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyWalBalUSD1" %}

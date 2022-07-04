@@ -17,4 +17,4 @@ The result provides a "time" string in EPOC seconds. &#x20;
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/AssetEODCompletionTime" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/AssetEODCompletionTime" %}

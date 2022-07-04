@@ -29,4 +29,4 @@ The sum of the supply being held by all wallets whose balance was at least one i
 
 ## **Availability for Assets** <a href="#availability-for-assets" id="availability-for-assets"></a>
 
-​[https://docs.coinmetrics.io/info/metrics/SplyWalBal1in1M](https://docs.coinmetrics.io/info/metrics/SplyWalBal1in1M)
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyWalBal1in1M" %}

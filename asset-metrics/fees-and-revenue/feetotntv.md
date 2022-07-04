@@ -1,12 +1,12 @@
-# Total Fees \(native units\)
+# Total Fees (native units)
 
 ## Definition
 
-The sum of all fees paid to miners, transaction validators, stakers and/or block producers that interval. In certain cryptonetworks, fees might be burned \(destroyed\), but they are still accounted for in this metric.
+The sum of all fees paid to miners, transaction validators, stakers and/or block producers that interval. In certain cryptonetworks, fees might be burned (destroyed), but they are still accounted for in this metric.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Total Fees \(native units\) | FeeTotNtv | Fees and revenue | Fees | Sum | Native units | 1 day |
+| Name                      | MetricID  | Category         | Subcategory | Type | Unit         | Interval |
+| ------------------------- | --------- | ---------------- | ----------- | ---- | ------------ | -------- |
+| Total Fees (native units) | FeeTotNtv | Fees and revenue | Fees        | Sum  | Native units | 1 day    |
 
 ## Details
 
@@ -19,11 +19,8 @@ The sum of all fees paid to miners, transaction validators, stakers and/or block
 
 ## Interpretation
 
-Fees in USD terms \(see Fees, Transaction, Median, USD; Fees, Transaction, Mean, USD, and Fees, Total, USD\) are often biased by volatility in unit price, making it difficult to determine trends in fee pressure. Evaluating fees in native unit terms removes the noise from exchange rate volatility and enables more consistent time series comparisons.
+Fees in USD terms (see Fees, Transaction, Median, USD; Fees, Transaction, Mean, USD, and Fees, Total, USD) are often biased by volatility in unit price, making it difficult to determine trends in fee pressure. Evaluating fees in native unit terms removes the noise from exchange rate volatility and enables more consistent time series comparisons.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FeeTotNtv" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FeeTotNtv" %}

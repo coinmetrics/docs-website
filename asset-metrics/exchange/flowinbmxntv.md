@@ -1,12 +1,12 @@
-# BitMEX Deposits \(native units\)
+# BitMEX Deposits (native units)
 
 ## Definition
 
 The sum in native units sent to BitMEX that interval.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| BitMEX Deposits \(native units\) | FlowInBMXNtv | Exchange | Deposits | Sum | Native units | 1 block, 1 day |
+| Name                           | MetricID     | Category | Subcategory | Type | Unit         | Interval       |
+| ------------------------------ | ------------ | -------- | ----------- | ---- | ------------ | -------------- |
+| BitMEX Deposits (native units) | FlowInBMXNtv | Exchange | Deposits    | Sum  | Native units | 1 block, 1 day |
 
 ## Details
 
@@ -14,9 +14,10 @@ The sum in native units sent to BitMEX that interval.
 
 ## Asset-Specific Details
 
-* This metric might not be available for all assets. Either that exchange doesn’t support this asset \(BitMEX only trades in BTC for example\), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
+* This metric might not be available for all assets. Either that exchange doesn’t support this asset (BitMEX only trades in BTC for example), or we deemed that our coverage of the exchange was not complete enough to release the metric for it.
 * For Bitcoin, this metric excludes the effect of change outputs:
-* * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
+*
+  * If a transaction sends 90 BTC to exchange A but also withdraws 50 BTC from it, the flow is +40 BTC, not +90 BTC and -50 BTC.
 
 ## Release History
 
@@ -24,5 +25,4 @@ The sum in native units sent to BitMEX that interval.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/FlowInBMXNtv" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowInBMXNtv" %}

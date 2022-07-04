@@ -27,6 +27,4 @@ The sum of the supply being held by all wallets whose balance was at least 0.01 
 
 ## **Availability for Assets** <a href="#availability-for-assets" id="availability-for-assets"></a>
 
-[https://docs.coinmetrics.io/info/metrics/SplyWalBalNtv0.01](https://docs.coinmetrics.io/info/metrics/SplyWalBalNtv0.01)
-
-​
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyWalBalNtv0.01" %}

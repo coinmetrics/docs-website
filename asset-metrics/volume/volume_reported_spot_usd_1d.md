@@ -49,4 +49,4 @@ A sample of the daily reported spot volume for Bitcoin is shown below:
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/volume_reported_spot_usd_1d" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/volume_reported_spot_usd_1d" %}
