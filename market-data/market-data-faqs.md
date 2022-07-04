@@ -34,8 +34,8 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 [volume](../asset-metrics/volume/)
 {% endcontent-ref %}
 
-{% content-ref url="../exchange-metrics/volume.md" %}
-[volume.md](../exchange-metrics/volume.md)
+{% content-ref url="../exchange-metrics/volume/" %}
+[volume](../exchange-metrics/volume/)
 {% endcontent-ref %}
 
 {% content-ref url="../exchange-asset-metrics/volume.md" %}
@@ -90,3 +90,4 @@ The following API endpoints serve data using the beginning-of-interval conventio
 The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention. ****&#x20;
 
 For more discussion on these timestamp conventions, please see the frequently asked question "What timestamp conventions does Coin Metrics use?".
+

@@ -522,8 +522,19 @@
 ## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 
 * [Exchange Metrics Overview](exchange-metrics/exchange-metrics-overview.md)
-* [Open Interest](exchange-metrics/open-interest.md)
-* [Volume](exchange-metrics/volume.md)
+* [Open Interest](exchange-metrics/open-interest/README.md)
+  * [Reported Future Open Interest](exchange-metrics/open-interest/open\_interest\_reported\_future\_usd.md)
+  * [Reported Perpetual Future Open Interest](exchange-metrics/open-interest/open\_interest\_reported\_future\_perpetual\_usd.md)
+  * [Reported Non-Perpetual Future Open Interest](exchange-metrics/open-interest/open\_interest\_reported\_future\_nonperpetual\_usd.md)
+  * [Reported Coin-Margined Future Open Interest](exchange-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
+  * [Reported Tether-Margined Future Open Interest](exchange-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
+* [Volume](exchange-metrics/volume/README.md)
+  * [Reported Spot Volume](exchange-metrics/volume/volume\_reported\_spot\_usd\_1d.md)
+  * [Reported Future Volume](exchange-metrics/volume/volume\_reported\_future\_usd\_1d.md)
+  * [Reported Coin-Margined Future Volume](exchange-metrics/volume/volume\_reported\_future\_coin\_margined\_usd\_1d.md)
+  * [Reported Non-Perpetual Future Volume](exchange-metrics/volume/volume\_reported\_future\_nonperpetual\_usd\_1d.md)
+  * [Reported Perpetual Future Volume](exchange-metrics/volume/volume\_reported\_future\_perpetual\_usd\_1d.md)
+  * [Reported Tether-Margined Future Volume](exchange-metrics/volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
 
 ## Exchange-Asset Metrics (Time Series) <a href="#exchange-asset-metrics" id="exchange-asset-metrics"></a>
 

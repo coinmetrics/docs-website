@@ -92,12 +92,12 @@ Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binan
 
 Data available at the exchange level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
-{% content-ref url="../exchange-metrics/open-interest.md" %}
-[open-interest.md](../exchange-metrics/open-interest.md)
+{% content-ref url="../exchange-metrics/open-interest/" %}
+[open-interest](../exchange-metrics/open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="../exchange-metrics/volume.md" %}
-[volume.md](../exchange-metrics/volume.md)
+{% content-ref url="../exchange-metrics/volume/" %}
+[volume](../exchange-metrics/volume/)
 {% endcontent-ref %}
 
 ## Data Available at Exchange-Asset Pair Level&#x20;

@@ -85,8 +85,8 @@ Please see the following pages on open interest below to learn more.
 [open-interest](../asset-metrics/open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="../exchange-metrics/open-interest.md" %}
-[open-interest.md](../exchange-metrics/open-interest.md)
+{% content-ref url="../exchange-metrics/open-interest/" %}
+[open-interest](../exchange-metrics/open-interest/)
 {% endcontent-ref %}
 
 {% content-ref url="../exchange-asset-metrics/open-interest.md" %}

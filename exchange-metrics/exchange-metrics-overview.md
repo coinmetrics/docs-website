@@ -8,29 +8,33 @@ Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binan
 
 ## Exchange Coverage
 
-The available exchanges and the metrics available for each exchange can be found by querying our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges) or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints. You can also find a list of the exchanges in our coverage universe, the start date of our coverage, and the types of markets we collect by going to our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges). 
+The available exchanges and the metrics available for each exchange can be found by querying our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges) or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints. You can also find a list of the exchanges in our coverage universe, the start date of our coverage, and the types of markets we collect by going to our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges).&#x20;
 
 ## Metrics Coverage
 
-The metric categories listed below are available at the exchange level: 
+The metric categories listed below are available at the exchange level:&#x20;
 
-{% page-ref page="open-interest.md" %}
+{% content-ref url="open-interest/" %}
+[open-interest](open-interest/)
+{% endcontent-ref %}
 
-{% page-ref page="volume.md" %}
+{% content-ref url="volume/" %}
+[volume](volume/)
+{% endcontent-ref %}
 
 ## Endpoint Response
 
 The [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) endpoint returns time series data for each exchange and metric requested.  The response is formatted as follows:
 
-| Field | Description |
-| :--- | :--- |
-| `exchange` | Exchange name. |
-| `time` | The time in ISO 8601 date-time format. Always with nanoseconds precision. |
-| `{metric}` | Metric value for the specific exchange and timestamp. |
+| Field      | Description                                                               |
+| ---------- | ------------------------------------------------------------------------- |
+| `exchange` | Exchange name.                                                            |
+| `time`     | The time in ISO 8601 date-time format. Always with nanoseconds precision. |
+| `{metric}` | Metric value for the specific exchange and timestamp.                     |
 
 A sample of the exchange metrics data in json format is also provided below.
 
-```text
+```
 {
   "data": [
     {
@@ -56,4 +60,3 @@ A sample of the exchange metrics data in json format is also provided below.
   ]
 }
 ```
-
