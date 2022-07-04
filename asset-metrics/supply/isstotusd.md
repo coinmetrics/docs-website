@@ -1,12 +1,12 @@
-# Total Issuance \(USD\)
+# Total Issuance (USD)
 
 ## Definition
 
 The sum USD value of all new native units issued that day.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Total Issuance \(USD\) | IssTotUSD | Supply | Issuance | Sum | USD | 1 day |
+| Name                 | MetricID  | Category | Subcategory | Type | Unit | Interval |
+| -------------------- | --------- | -------- | ----------- | ---- | ---- | -------- |
+| Total Issuance (USD) | IssTotUSD | Supply   | Issuance    | Sum  | USD  | 1 day    |
 
 ## Details
 
@@ -19,9 +19,8 @@ The sum USD value of all new native units issued that day.
 
 ## Interpretation
 
-This metric can be understood as miner \(or validator\) revenue in fiat terms, excluding fees.
+This metric can be understood as miner (or validator) revenue in fiat terms, excluding fees.
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/IssTotUSD" %}
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/IssTotUSD" %}

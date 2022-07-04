@@ -1,12 +1,12 @@
-# Current Supply \(native units\)
+# Current Supply (native units)
 
 ## Definition
 
-The sum of all native units ever created and currently visible on the ledger \(i.e., issued\) as of that day. For account-based protocols, only accounts with positive balances are counted.
+The sum of all native units ever created and currently visible on the ledger (i.e., issued) as of that day. For account-based protocols, only accounts with positive balances are counted.
 
-| Name | MetricID | Category | Subcategory | Type | Unit | Interval |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Current Supply \(native units\) | SplyCur | Supply | Current | Sum | Native units | All time |
+| Name                          | MetricID | Category | Subcategory | Type | Unit         | Interval |
+| ----------------------------- | -------- | -------- | ----------- | ---- | ------------ | -------- |
+| Current Supply (native units) | SplyCur  | Supply   | Current     | Sum  | Native units | All time |
 
 ## Details
 
@@ -26,7 +26,4 @@ The sum of all native units ever created and currently visible on the ledger \(i
 
 ## Availability for Assets
 
-{% embed url="https://docs.coinmetrics.io/info/metrics/SplyCur" %}
-
-
-
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/SplyCur" %}

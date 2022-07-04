@@ -24,5 +24,3 @@ Our reported coin-margined future open interest metric is an aggregation of the 
 * [Reported Coin-Margined Future Volume](../volume/volume\_reported\_future\_coin\_margined\_usd\_1d.md)
 
 ## Availability for Assets
-
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/open_interest_reported_future_coin_margined_usd" %}
