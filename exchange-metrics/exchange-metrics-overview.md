@@ -8,7 +8,7 @@ Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binan
 
 ## Exchange Coverage
 
-The available exchanges and the metrics available for each exchange can be found by querying our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges) or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints. You can also find a list of the exchanges in our coverage universe, the start date of our coverage, and the types of markets we collect by going to our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges).&#x20;
+The available exchanges and the metrics available for each exchange can be found by querying our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges) or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints or via our [CM data coverage tool](https://coverage.coinmetrics.io/exchanges). You can also find a list of the exchanges in our coverage universe, the start date of our coverage, and the types of markets we collect by going to our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges).&#x20;
 
 ## Metrics Coverage
 

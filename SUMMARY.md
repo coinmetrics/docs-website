@@ -556,7 +556,7 @@
   * [Reported Non-Perpetual Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_nonperpetual\_usd.md)
   * [Reported Coin-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
   * [Reported Tether-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
-* [Volume](pair-metrics/volume/README.md)
+* [Volume](pair-metrics/volume.md)
   * [Trusted Spot Volume](pair-metrics/volume/volume\_trusted\_spot\_usd\_1d.md)
   * [Reported Spot Volume](pair-metrics/volume/volume\_reported\_spot\_usd\_1d.md)
   * [Reported Future Volume](pair-metrics/volume/volume\_reported\_future\_usd\_1d.md)

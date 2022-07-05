@@ -128,8 +128,8 @@ Data available at the asset pair level is available through the [`/timeseries/pa
 [open-interest](../pair-metrics/open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="../pair-metrics/volume/" %}
-[volume](../pair-metrics/volume/)
+{% content-ref url="../pair-metrics/volume.md" %}
+[volume.md](../pair-metrics/volume.md)
 {% endcontent-ref %}
 
 ## Data Available at Institution Level&#x20;

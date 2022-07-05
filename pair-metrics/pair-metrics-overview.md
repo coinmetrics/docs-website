@@ -8,7 +8,7 @@ Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `e
 
 ## Pair Coverage
 
-The pair coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints. The pair coverage is defined as the combination (cartesian product) of all the top assets (approximately the top 300 assets by market capitalization).&#x20;
+The pair coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints or in our [CM data coverage tool](https://coverage.coinmetrics.io/pairs). The pair coverage is defined as the combination (cartesian product) of all the top assets (approximately the top 300 assets by market capitalization).&#x20;
 
 ## Metrics Coverage
 
@@ -18,8 +18,8 @@ The metrics categories listed below are available at the pair level:&#x20;
 [open-interest](open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="volume/" %}
-[volume](volume/)
+{% content-ref url="volume.md" %}
+[volume.md](volume.md)
 {% endcontent-ref %}
 
 ## Endpoint Response
