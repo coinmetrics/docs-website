@@ -95,6 +95,10 @@ The exact latency varies depending on the exchange, but our median latency is ap
 
 Coin Metrics collects two different sized snapshots for order book data. One snapshot takes the top 100 bids **** and asks every 10 seconds for major markets. The second snapshot takes a a full order book snapshot for all markets that we are collecting order book data for. Although the value of  `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release.&#x20;
 
+**How much order-book history does Coin Metrics support?**
+
+Generally, it is not possible to collect order book history from exchanges directly. Order book data is one of the data types that very few exchanges offer history for, with the exception of a very few like CME and some limited history from Binance. For this reason, our historical coverage begins at the time we started collecting it ourselves.&#x20;
+
 ## Release History
 
 * **CM MDF v1.0 on April 2019:** Partial snapshots for major `btc-usd` and `eth-usd` markets. \
