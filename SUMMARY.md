@@ -560,12 +560,12 @@
 
 ## Market Metrics (Time Series) <a href="#market-metrics" id="market-metrics"></a>
 
-* [Market Metrics Overview](market-metrics/pair-metrics-overview.md)
+* [Market Metrics Overview](market-metrics/market-metrics-overview.md)
 * [Liquidations](market-metrics/liquidations/README.md)
   * [Liquidation Buy Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_usd.md)
-  * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
+  * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_units.md)
   * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
-  * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units-1.md)
+  * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 

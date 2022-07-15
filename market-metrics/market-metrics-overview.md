@@ -14,6 +14,8 @@ We define a market as a specific listed pair or derivatives contract that trades
 
 The metrics categories listed below are available at the market level:&#x20;
 
+{% embed url="https://docs.coinmetrics.io/market-metrics/liquidations" %}
+
 ## Endpoint Response
 
 The [`/timeseries/market-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketMetrics)endpoint returns time series data for each market and metric requested.  The response is formatted as follows:
@@ -22,7 +24,7 @@ The [`/timeseries/market-metrics`](https://docs.coinmetrics.io/api/v4#operation/
 | ---------- | ------------------------------------------------------------------------- |
 | `market`   | Market name.                                                              |
 | `time`     | The time in ISO 8601 date-time format. Always with nanoseconds precision. |
-| `{metric}` | Metric value for the specific pair and timestamp.                         |
+| `{metric}` | Metric value for the specific market and timestamp.                       |
 
 A sample of the market metrics data in json format is also provided below.
 
