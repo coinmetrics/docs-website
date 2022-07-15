@@ -557,13 +557,15 @@
   * [Reported Coin-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
   * [Reported Tether-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
 * [Volume](pair-metrics/volume.md)
-  * [Trusted Spot Volume](pair-metrics/volume/volume\_trusted\_spot\_usd\_1d.md)
-  * [Reported Spot Volume](pair-metrics/volume/volume\_reported\_spot\_usd\_1d.md)
-  * [Reported Future Volume](pair-metrics/volume/volume\_reported\_future\_usd\_1d.md)
-  * [Reported Coin-Margined Future Volume](pair-metrics/volume/volume\_reported\_future\_coin\_margined\_usd\_1d.md)
-  * [Reported Non-Perpetual Future Volume](pair-metrics/volume/volume\_reported\_future\_nonperpetual\_usd\_1d.md)
-  * [Reported Perpetual Future Volume](pair-metrics/volume/volume\_reported\_future\_perpetual\_usd\_1d.md)
-  * [Reported Tether-Margined Future Volume](pair-metrics/volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
+
+## Market Metrics (Time Series) <a href="#market-metrics" id="market-metrics"></a>
+
+* [Market Metrics Overview](market-metrics/pair-metrics-overview.md)
+* [Liquidations](market-metrics/liquidations/README.md)
+  * [Liquidation Buy Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_usd.md)
+  * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
+  * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
+  * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units-1.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 
