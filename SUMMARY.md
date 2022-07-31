@@ -24,11 +24,11 @@
 ## Market Data
 
 * [Market Data Overview](market-data/market-data-overview.md)
-* [Reference Rates Overview](market-data/reference-rates-overview/README.md)
-  * [Hourly Reference Rates Methodology](market-data/reference-rates-overview/hourly-reference-rates-methodology.md)
-  * [Real-Time Reference Rates Methodology](market-data/reference-rates-overview/real-time-reference-rates-methodology.md)
+* [Reference Rates Overview](market-data/reference-rates-overview.md)
 * [Methodologies](market-data/methodologies/README.md)
   * [Market Selection Framework](market-data/methodologies/market-selection-framework.md)
+  * [Real-Time Reference Rates Methodology](market-data/methodologies/real-time-reference-rates-methodology.md)
+  * [Hourly Reference Rates Methodology](market-data/methodologies/hourly-reference-rates-methodology.md)
 * [Market Data Exchange Coverage](market-data/all-exchanges.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
 * [Reference Rate FAQs](market-data/reference-rate-faqs.md)
