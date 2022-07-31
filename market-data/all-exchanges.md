@@ -77,12 +77,4 @@ The coverage for exchanges for spot, futures, and options market data is provide
 | Deribit  |         12162        | 2021-03-27 |
 | OKEx     |         6865         | 2021-04-06 |
 
-## **Frequently Asked Questions**
-
-**Can you explain your historical data coverage?**&#x20;
-
-When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. For a given data type, some exchanges allow us to get the complete history, some exchanges allow us to get a short window of history, and some exchanges do not allow us to get any history.&#x20;
-
-Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken.&#x20;
-
-Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination.&#x20;
+****

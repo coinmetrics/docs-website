@@ -1,16 +1,45 @@
 # Table of contents
 
 * [Welcome & Product Overview](README.md)
-* [API Basics](api.md)
-* [API Reference](https://docs.coinmetrics.io/api/v4)
-* [On-Chain Basics](on-chain-basics.md)
+* [Access Our Data](access-our-data/README.md)
+  * [API Basics](access-our-data/api.md)
+  * [API Reference](https://docs.coinmetrics.io/api/v4)
+  * [Python Client](access-our-data/python-client.md)
+  * [Flat Files](access-our-data/flat-files.md)
+  * [User Interfaces](access-our-data/user-interfaces.md)
 * [CM Labs](cm-labs.md)
 * [Status Page](status-page.md)
 
-## Exchange Coverage <a href="#exchanges" id="exchanges"></a>
+## On-Chain Data
 
-* [On-Chain Exchange Coverage](exchanges/on-chain-exchange-coverage.md)
-* [Market Data Exchange Coverage](exchanges/all-exchanges.md)
+* [Network Data Overview](on-chain-data/network-data-overview.md)
+* [Atlas Overview](on-chain-data/atlas-overview.md)
+* [Farum Tx Tracker Overview](on-chain-data/farum-tx-tracker-overview.md)
+* [Methodolgoies](on-chain-data/methodolgoies/README.md)
+  * [Normalizing Block Times](on-chain-data/methodolgoies/on-chain-basics.md)
+* [On-Chain Glossary](on-chain-data/on-chain-basics.md)
+* [On-Chain Exchange Coverage](on-chain-data/on-chain-exchange-coverage.md)
+* [Network Data FAQs](on-chain-data/asset-metrics-faqs.md)
+
+## Market Data
+
+* [Market Data Overview](market-data/market-data-overview.md)
+* [Reference Rates Overview](market-data/reference-rates-overview/README.md)
+  * [Hourly Reference Rates Methodology](market-data/reference-rates-overview/hourly-reference-rates-methodology.md)
+  * [Real-Time Reference Rates Methodology](market-data/reference-rates-overview/real-time-reference-rates-methodology.md)
+* [Methodologies](market-data/methodologies/README.md)
+  * [Market Selection Framework](market-data/methodologies/market-selection-framework.md)
+* [Market Data Exchange Coverage](market-data/all-exchanges.md)
+* [Market Data FAQs](market-data/market-data-faqs.md)
+* [Reference Rate FAQs](market-data/reference-rate-faqs.md)
+
+## Index Data
+
+* [Index Overview](index-data/index.md)
+* [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi/README.md)
+  * [CMBI Single Asset Series Methodology](index-data/coin-metrics-bletchley-indexes-cmbi/cmbi-single-asset-series-methodology.md)
+* [Indexes Glossary](index-data/indexes-glossary.md)
+* [Index FAQs](index-data/index-faqs.md)
 
 ## Asset Metrics (Time Series) <a href="#asset-metrics" id="asset-metrics"></a>
 
@@ -516,8 +545,19 @@
     * [Val in Wallets w/ Bal ≥ $10M USD](asset-metrics/wallets/val-in-wallets-w-bal-usd-usd/splywalbalusd10m.md)
 * [Availability](asset-metrics/availability/README.md)
   * [Completion Time](asset-metrics/availability/asseteodcompletiontime.md)
-* [Asset Metrics FAQs](asset-metrics/asset-metrics-faqs.md)
-* [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
+
+## Market Data (Timeseries)
+
+* [Derivatives Contract Specifications](market-data-timeseries/derivatives-contract-specifications.md)
+* [Market Trades](market-data-timeseries/market-trades.md)
+* [Market Open Interest](market-data-timeseries/market-open-interest.md)
+* [Market Liquidations](market-data-timeseries/futures-liquidations.md)
+* [Market Funding Rates](market-data-timeseries/futures-funding-rates.md)
+* [Market Order Book](market-data-timeseries/market-order-book.md)
+* [Market Quotes](market-data-timeseries/market-quotes.md)
+* [Market Candles](market-data-timeseries/market-candles.md)
+* [Market Implied Volatility](market-data-timeseries/market-implied-volatility.md)
+* [Market Greeks](market-data-timeseries/market-greeks.md)
 
 ## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 
@@ -577,31 +617,13 @@
   * [Coin Per Share](institution-metrics/grayscale/coin-per-share.md)
   * [Total Assets](institution-metrics/grayscale/total-assets.md)
 
-## Market Data
+## Indexes (Timeseries)
 
-* [Market Data Overview](market-data/market-data-overview.md)
-* [Derivatives Contract Specifications](market-data/derivatives-contract-specifications.md)
-* [Market Trades](market-data/market-trades.md)
-* [Market Open Interest](market-data/market-open-interest.md)
-* [Market Liquidations](market-data/futures-liquidations.md)
-* [Market Funding Rates](market-data/futures-funding-rates.md)
-* [Market Order Book](market-data/market-order-book.md)
-* [Market Quotes](market-data/market-quotes.md)
-* [Market Candles](market-data/market-candles.md)
-* [Market Implied Volatility](market-data/market-implied-volatility.md)
-* [Market Greeks](market-data/market-greeks.md)
-* [Market Data FAQs](market-data/market-data-faqs.md)
+* [Index Levels](indexes-timeseries/index-levels.md)
+* [Index Constituents](indexes-timeseries/index-constituents.md)
 
-## Index Data
+## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
 
-* [Index Overview](index-data/index.md)
-* [Index Levels](index-data/index-levels.md)
-* [Index Constituents](index-data/index-constituents.md)
-* [Index FAQs](index-data/index-faqs.md)
-
-## Block Explorer (ATLAS) <a href="#atlas" id="atlas"></a>
-
-* [Atlas Overview](atlas/atlas-overview.md)
 * [Accounts](atlas/accounts.md)
 * [Blocks](atlas/blocks/README.md)
   * [Full Block](atlas/blocks/full-block.md)
@@ -610,6 +632,10 @@
     * [Full Transaction Info for Block](atlas/transactions/full-transaction/full-transaction-for-block.md)
 * [Balance Updates](atlas/balance-updates.md)
 * [Atlas Explorer User Interface](atlas/atlas-explorer-user-interface.md)
+
+## Transaction Tracker (Tools)
+
+* [Transaction Tracker](transaction-tracker-tools/transaction-tracker.md)
 
 ## Charting Tools
 
@@ -623,16 +649,3 @@
   * [Troubleshooting](charting-tools/dashboard/troubleshooting.md)
 * [Pro Charts](charting-tools/cmpro/README.md)
   * [Troubleshooting](charting-tools/cmpro/troubleshooting.md)
-
-## Methodologies
-
-* [Reference Rates](methodologies/reference-rates/README.md)
-  * [Hourly Reference Rates Methodology](methodologies/reference-rates/hourly-reference-rates-methodology.md)
-  * [Real-Time Reference Rates Methodology](methodologies/reference-rates/real-time-reference-rates-methodology.md)
-  * [Market Selection Framework](methodologies/reference-rates/market-selection-framework.md)
-* [Coin Metrics Bletchley Indexes (CMBI)](methodologies/coin-metrics-bletchley-indexes-cmbi/README.md)
-  * [CMBI Single Asset Series Methodology](methodologies/coin-metrics-bletchley-indexes-cmbi/cmbi-single-asset-series-methodology.md)
-
-## Glossary
-
-* [Indexes](glossary/indexes.md)

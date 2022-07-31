@@ -1,8 +1,8 @@
 # Market Data Overview
 
-The [CM Market Data Feed](https://coinmetrics.io/market-data-feed/) (MDF) provides access to historical and real-time data from the world’s leading spot and derivatives crypto exchanges. We offer a wide range of harmonized datasets such as trades, candles, order book snapshots, futures-specific data types, and options-specific data types. We also offer metrics at the asset, exchange, exchange-asset, pair, and institution level.&#x20;
+The [CM Market Data Feed](https://coinmetrics.io/market-data-feed/) (MDF) provides access to historical and real-time data from the world’s leading spot, derivatives and DeFi (Labs) crypto exchanges. We offer a wide range of harmonized datasets such as trades, candles, order book snapshots, futures-specific data types, and options-specific data types. We also offer metrics at the asset, exchange, exchange-asset, pair, and institution level.&#x20;
 
-Our data is available at several different levels: asset, exchange, market, asset pair, exchange-asset pair, and institution. Our coverage universe consists of 2,173 assets, 34 exchanges, 12,553 spot markets, 6,353 futures markets, 14,883 options markets, 2,698 asset pairs, 2,595 exchange-asset pairs, and one institution.&#x20;
+Our data is available at several different levels: asset, exchange, market, asset pair, exchange-asset pair, and institution. Our coverage universe consists of 3k+ assets, 39 exchanges, 21k+ spot markets, 10k+ futures markets, 14k+ options markets, 4k+ asset pairs, and one institution.&#x20;
 
 ## Data Available at Market Level&#x20;
 
@@ -20,44 +20,44 @@ Data available at the market level is served through the API endpoints below, wh
 * [`/timeseries/market-candles`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketCandles)
 * ``[`/timeseries/market-greeks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketGreeks)
 
-{% content-ref url="derivatives-contract-specifications.md" %}
-[derivatives-contract-specifications.md](derivatives-contract-specifications.md)
+{% content-ref url="../market-data-timeseries/derivatives-contract-specifications.md" %}
+[derivatives-contract-specifications.md](../market-data-timeseries/derivatives-contract-specifications.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-trades.md" %}
-[market-trades.md](market-trades.md)
+{% content-ref url="../market-data-timeseries/market-trades.md" %}
+[market-trades.md](../market-data-timeseries/market-trades.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-open-interest.md" %}
-[market-open-interest.md](market-open-interest.md)
+{% content-ref url="../market-data-timeseries/market-open-interest.md" %}
+[market-open-interest.md](../market-data-timeseries/market-open-interest.md)
 {% endcontent-ref %}
 
-{% content-ref url="futures-liquidations.md" %}
-[futures-liquidations.md](futures-liquidations.md)
+{% content-ref url="../market-data-timeseries/futures-liquidations.md" %}
+[futures-liquidations.md](../market-data-timeseries/futures-liquidations.md)
 {% endcontent-ref %}
 
-{% content-ref url="futures-funding-rates.md" %}
-[futures-funding-rates.md](futures-funding-rates.md)
+{% content-ref url="../market-data-timeseries/futures-funding-rates.md" %}
+[futures-funding-rates.md](../market-data-timeseries/futures-funding-rates.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-order-book.md" %}
-[market-order-book.md](market-order-book.md)
+{% content-ref url="../market-data-timeseries/market-order-book.md" %}
+[market-order-book.md](../market-data-timeseries/market-order-book.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-quotes.md" %}
-[market-quotes.md](market-quotes.md)
+{% content-ref url="../market-data-timeseries/market-quotes.md" %}
+[market-quotes.md](../market-data-timeseries/market-quotes.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-candles.md" %}
-[market-candles.md](market-candles.md)
+{% content-ref url="../market-data-timeseries/market-candles.md" %}
+[market-candles.md](../market-data-timeseries/market-candles.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-implied-volatility.md" %}
-[market-implied-volatility.md](market-implied-volatility.md)
+{% content-ref url="../market-data-timeseries/market-implied-volatility.md" %}
+[market-implied-volatility.md](../market-data-timeseries/market-implied-volatility.md)
 {% endcontent-ref %}
 
-{% content-ref url="market-greeks.md" %}
-[market-greeks.md](market-greeks.md)
+{% content-ref url="../market-data-timeseries/market-greeks.md" %}
+[market-greeks.md](../market-data-timeseries/market-greeks.md)
 {% endcontent-ref %}
 
 {% content-ref url="market-data-faqs.md" %}

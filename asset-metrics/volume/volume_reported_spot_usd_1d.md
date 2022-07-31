@@ -11,7 +11,7 @@ The sum of all reported volume from the spot markets in Coin Metrics' coverage i
 
 ## Details
 
-Our reported volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
+Our reported volume metric is an aggregation of the reported volume from all exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../market-data/all-exchanges.md).
 
 ## Chart
 

@@ -10,7 +10,7 @@ The sum of all reported open interest from futures markets where the margin asse
 
 ## Details
 
-Our reported Tether-margined future open interest metric is an aggregation of the reported Tether-margined future open interest from all futures markets in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
+Our reported Tether-margined future open interest metric is an aggregation of the reported Tether-margined future open interest from all futures markets in CM's coverage universe.  Covered exchanges can be found [here](../../market-data/all-exchanges.md).
 
 ## Release History
 
@@ -18,8 +18,8 @@ Our reported Tether-margined future open interest metric is an aggregation of th
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
-* [Market Open Interest](../../market-data/market-open-interest.md)
+* [Futures Contract Specifications](../../market-data-timeseries/derivatives-contract-specifications.md)
+* [Market Open Interest](../../market-data-timeseries/market-open-interest.md)
 
 ## Availability for Exchanges
 

@@ -12,7 +12,7 @@ The sum of all reported volume from perpetual futures markets in units of U.S. d
 
 ## Details
 
-Our perpetual future volume metric is an aggregation of the reported perpetual futures volume from all futures exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
+Our perpetual future volume metric is an aggregation of the reported perpetual futures volume from all futures exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../market-data/all-exchanges.md).
 
 ## Release History
 
@@ -20,7 +20,7 @@ Our perpetual future volume metric is an aggregation of the reported perpetual f
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data-timeseries/derivatives-contract-specifications.md)
 * [Trusted Spot Volume](volume\_trusted\_spot\_usd\_1d.md)
 * [Reported Spot Volume](volume\_reported\_spot\_usd\_1d.md)
 * [Reported Future Volume](volume\_reported\_future\_usd\_1d.md)

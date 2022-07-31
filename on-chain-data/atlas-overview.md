@@ -1,12 +1,8 @@
----
-description: /blockchain
----
-
 # Atlas Overview
 
 Atlas is a blockchain search tool designed to standardize and simplify raw blockchain data. It provides a uniform way to query data from various blockchain full nodes using the double-entry accounting format, thereby bridging the underlying intricacies of different blockchain data models. The basis of Atlas is our Universal Blockchain Data Model (UBDM).
 
-## Asset Coverage
+## Atlas Asset Coverage
 
 Atlas currently supports the following assets:
 
@@ -201,10 +197,10 @@ Taking this transaction that pays a fee of 0.25 BTC as an example, we have:
 
 The Atlas API endpoints are located under the common `/blockchain` prefix. There are four primary data sets returned by the Atlas endpoints:
 
-* [Accounts](accounts.md) `/blockchain/{asset}/accounts`
-* [Blocks](blocks/) `/blockchain/{asset}/blocks`
-* [Transactions](transactions/) `/blockchain/{asset}/transactions`
-* [Balance Updates](balance-updates.md) `/blockchain/{asset}/balance-updates`
+* [Accounts](../atlas/accounts.md) `/blockchain/{asset}/accounts`
+* [Blocks](../atlas/blocks/) `/blockchain/{asset}/blocks`
+* [Transactions](../atlas/transactions/) `/blockchain/{asset}/transactions`
+* [Balance Updates](../atlas/balance-updates.md) `/blockchain/{asset}/balance-updates`
 
 These endpoints (with no additional query parameters) return the full list of accounts, blocks, transactions, or balance updates for the asset queried with fields listed in each relevant section that follows. The result can also be filtered for specific accounts or transactions, or for specific start/end times, heights, and chain sequence numbers.
 

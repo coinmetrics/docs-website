@@ -107,8 +107,8 @@ We currently support centralized exchanges. Support for decentralized exchanges 
 
 Please take a look at this question in the Market Data FAQs page linked below.&#x20;
 
-{% content-ref url="market-data-faqs.md" %}
-[market-data-faqs.md](market-data-faqs.md)
+{% content-ref url="../market-data/market-data-faqs.md" %}
+[market-data-faqs.md](../market-data/market-data-faqs.md)
 {% endcontent-ref %}
 
 ## **Release History**

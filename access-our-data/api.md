@@ -2,16 +2,16 @@
 
 ## API Versions
 
-* \*\*\*\*[**API v4**](https://docs.coinmetrics.io/api/v4) **\(stable\)**
-* API [v2](https://docs.coinmetrics.io/api/v2), [v3](https://docs.coinmetrics.io/api/v3) \(deprecated\)
+* \*\*\*\*[**API v4**](https://docs.coinmetrics.io/api/v4) **(stable)**
+* API [v2](https://docs.coinmetrics.io/api/v2), [v3](https://docs.coinmetrics.io/api/v3) (deprecated)
 
 ## API Access
 
-### Free Tier \(Community API\)
+### Free Tier (Community API)
 
 Our community data can be accessed without an API key. Simply run queries against the`community-api.coinmetrics.io` endpoint. This data is available for free for non-commercial use under a [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) license. See our [Terms of Use](https://coinmetrics.io/terms-of-use/) for more details.
 
-### Paid Tier \(Pro API\)
+### Paid Tier (Pro API)
 
 Our professional data is available to institutions via an API key. Please [contact us](https://share.hsforms.com/15lLsB4n2Tl-Jj9MS7P2utA34tym) if you wish to purchase our institutional data.
 
@@ -35,7 +35,7 @@ All numbers in API responses are surrounded by quotes, which allows JavaScript c
 
 ### Monetary Amount Formats
 
-Monetary amounts are provided as strings and with the same order of magnitude as the one used for pricing. For Bitcoin, the primary format is the native BTC unit \(e.g., 1 BTC, 0.29938 BTC\) as opposed to any subformat, such as satoshis, which represent one hundred millionth of a Bitcoin.
+Monetary amounts are provided as strings and with the same order of magnitude as the one used for pricing. For Bitcoin, the primary format is the native BTC unit (e.g., 1 BTC, 0.29938 BTC) as opposed to any subformat, such as satoshis, which represent one hundred millionth of a Bitcoin.
 
 ## Pagination
 
@@ -43,7 +43,7 @@ Large lists may be split into pages. In accordance with Coin Metrics' API v4, pa
 
 If a response contains the `next_page_url` field at the top level of the JSON response, it means the client can request the next page of results by fetching the provided URL without any modifications.
 
-## Protocol
+## HTTP/REST API
 
 Coin Metrics' API v4 API uses the HTTP/2 protocol.
 
@@ -55,9 +55,13 @@ To ensure the quality of Coin Metrics services, our API is subject to rate limit
 
 The community version of API has a limit of 1,000 requests per 10 minutes sliding window for an **IP address**. It corresponds to 1.6 RPS.
 
-### Paid Tier \(Pro API\)
+### Paid Tier (Pro API)
 
 The paid version of API has a limit of 6,000 requests per 20 seconds sliding window for an **API key**. It corresponds to 300 RPS.
+
+## WebSocket
+
+We use the default WS protocol ping/pong mechanism. There are some restarts occasionally because it goes through Cloudflare, so you should have some logic in place to automatically reconnect.&#x20;
 
 ## Backward Compatibility
 
@@ -71,9 +75,9 @@ Our API is versioned using [Semantic Versioning](https://semver.org/). The API v
 
 Major versions of the API are run in parallel. The choice of what major API version to use is up to the client, although clients are advised to use the highest stable version.
 
-Major versions can be marked as either stable or unstable. As backward-incompatible changes can be introduced only in unstable or development major versions, no breakage is expected when using fixed, stable major API versions \(and adhering to safety guidelines below\).
+Major versions can be marked as either stable or unstable. As backward-incompatible changes can be introduced only in unstable or development major versions, no breakage is expected when using fixed, stable major API versions (and adhering to safety guidelines below).
 
-New major API releases are to be added alongside old major API versions, so clients of old \(stable\) versions are not affected. Old major API versions may be gradually deprecated and removed, following a \(generally long-term\) deprecation schedule. This should give clients time to adapt their implementations to the new major version.
+New major API releases are to be added alongside old major API versions, so clients of old (stable) versions are not affected. Old major API versions may be gradually deprecated and removed, following a (generally long-term) deprecation schedule. This should give clients time to adapt their implementations to the new major version.
 
 Minor and patch releases replace old minor/patch API versions, under the same major version. Old minor/patch API versions become inaccessible following these releases.
 
@@ -91,7 +95,7 @@ The newest version of the API may be explicitly labeled "development". Developme
 
 A change is considered backward compatible when an API client built for an old version of the API still works with the new version. Hence, it is important that clients use correct assumptions about what details of the API they can rely on.
 
-#### Changes considered backward-compatible \(can be introduced in a minor or patch API version\)
+#### Changes considered backward-compatible (can be introduced in a minor or patch API version)
 
 {% hint style="danger" %}
 These changes can be introduced in minor or patch API versions. Follow the below recommendations to avoid broken integrations:
@@ -101,7 +105,7 @@ These changes can be introduced in minor or patch API versions. Follow the below
 * Addition of a new optional request parameter to a method, given that its absence has the same meaning as it was before the change. Do not add unsupported request parameters to API calls - they are ignored while unsupported, but may suddenly become "supported".
 * Making previously mandatory request parameters optional.
 * Addition of new possible values for enum-typed request parameters of the API method.
-* Changes in human-friendly strings \(i.e. asset/metric names/definitions, error descriptions\). Do not make decisions in your code based on human-friendly strings. These strings can be changed for reasons like fixing misspelling or style. Use fields designed to be "stable", e.g. error codes, etc.
+* Changes in human-friendly strings (i.e. asset/metric names/definitions, error descriptions). Do not make decisions in your code based on human-friendly strings. These strings can be changed for reasons like fixing misspelling or style. Use fields designed to be "stable", e.g. error codes, etc.
 * Adding/removing/changing available resources: assets, metrics, etc. Availability of specific assets/metrics/etc is not part of the API interface and not covered by this policy. You should use the discovery API methods to get an accurate list of available resources.
 * Fixes which technically should be considered backward-incompatible, when the affected part of the API was virtually unusable before the fix.
 {% endhint %}
@@ -120,9 +124,8 @@ These changes can only be introduced in a new major API version or unstable majo
 * Changing the response structure of an API method.
 {% endhint %}
 
-### Emergency Changes <a id="APIBackwardCompatibilityPolicy-Emergencychanges"></a>
+### Emergency Changes <a href="#apibackwardcompatibilitypolicy-emergencychanges" id="apibackwardcompatibilitypolicy-emergencychanges"></a>
 
 Generally, changes to the API interface and functionality will follow this policy as outlined above. However, breaking changes may still be made without introducing a new major version, if it is needed for continuous operation of Coin Metrics' services, for security reasons, or for other reasons, if following this policy is deemed to be infeasible. That may include, but is not limited to, the following: introducing or changing request rate limits, applying specific limits per specific API key, immediate disabling of specific methods or features, etc. Changes also can be made to this policy.
 
 Such emergency changes are expected to be rare exceptions and would be conducted only after careful assessment of the impact to clients. In the event of such a change, Coin Metrics would provide as much advance notice as possible.
-

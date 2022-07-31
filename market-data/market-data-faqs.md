@@ -1,5 +1,13 @@
 # Market Data FAQs
 
+**Can you explain your historical data coverage?**&#x20;
+
+When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. For a given data type, some exchanges allow us to get the complete history, some exchanges allow us to get a short window of history, and some exchanges do not allow us to get any history.&#x20;
+
+Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken.&#x20;
+
+Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination.&#x20;
+
 **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
 Coin Metrics utilizes a multifaceted approach to ensure high levels of data quality and data integrity. We carefully curate our exchange coverage universe, employ a market data collection system with high levels of redundancy and resiliency, use a robust system of logging and monitoring that alerts staff members in real-time to any anomalies, and our software releases are governed by a series of SOC 2-compliant policies that include extensive testing prior to release. For certain critical data types, such as our reference rates, we also employ regular human review to screen for data quality issues. Each of these facets is described in more detail below.

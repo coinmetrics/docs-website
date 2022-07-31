@@ -12,7 +12,7 @@ The sum count of all unique addresses that were newly created and funded (e.g. h
 
 ## **Details**
 
-* [Addresses](../../on-chain-basics.md#address) are the user-identifiers in a ledger change.
+* [Addresses](../../on-chain-data/on-chain-basics.md#address) are the user-identifiers in a ledger change.
 * New addresses are addresses identified in the blockchain that did not exist prior to the observation period (e.g. 1 day).
 * Depending upon how a blockchain stores address information, new addresses might not be funded with any tokens. In other words, they have a balance of zero.
 * This metric only accounts for new addresses that have been funded.
@@ -48,7 +48,7 @@ Like Active Addresses, New Funded Addresses is a popular measure to proxy the nu
 ## **See Also**
 
 * [New Addr Cnt](adrnewcnt.md)
-* [Address](../../on-chain-basics.md#address)
+* [Address](../../on-chain-data/on-chain-basics.md#address)
 * [Active Addresses (Received)](adractreccnt.md)
 * [Active Addresses (Sent)](adractsentcnt.md)
 
