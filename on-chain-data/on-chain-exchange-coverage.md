@@ -14,16 +14,15 @@ Exchange On-Chain Supply, Deposits, Withdrawals and Net Flows can be found in th
 {% endhint %}
 
 | Exchange | Short Name |
-| :--- | :--- |
-| Binance | BNB |
-| Bitfinex | BFX |
-| BitMEX | BMX |
-| Bitstamp | BSP |
-| Bittrex | BTX |
-| Gemini | GEM |
-| Huobi | HUO |
-| Kraken | KRK |
-| Poloniex | POL |
+| -------- | ---------- |
+| Binance  | BNB        |
+| Bitfinex | BFX        |
+| BitMEX   | BMX        |
+| Bitstamp | BSP        |
+| Bittrex  | BTX        |
+| Gemini   | GEM        |
+| Huobi    | HUO        |
+| Kraken   | KRK        |
+| Poloniex | POL        |
 
 For more details on asset coverage for exchange supply or flows metrics, see the individual metric in the Asset Metrics section of this Data Encyclopedia.
-

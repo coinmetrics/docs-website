@@ -1,4 +1,4 @@
-# Indexes
+# Indexes Glossary
 
 ## A&#x20;
 
