@@ -556,8 +556,9 @@
 * [Market Order Book](market-data-timeseries/market-order-book.md)
 * [Market Quotes](market-data-timeseries/market-quotes.md)
 * [Market Candles](market-data-timeseries/market-candles.md)
+* [Market Contract Prices](market-data-timeseries/market-greeks.md)
 * [Market Implied Volatility](market-data-timeseries/market-implied-volatility.md)
-* [Market Greeks](market-data-timeseries/market-greeks.md)
+* [Market Greeks](market-data-timeseries/market-greeks-1.md)
 
 ## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 
