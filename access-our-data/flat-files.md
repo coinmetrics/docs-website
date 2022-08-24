@@ -4,7 +4,7 @@
 
 Our datasets are available via our [Flat Files Admin Console](https://files.coinmetrics.io/).  This enables users to download a file for a specific data type for a specific exchange for a specific day. Many users prefer this rather than downloading large amounts of historical data via API.&#x20;
 
-The flat file application currently supports [trades](../market-data-timeseries/market-trades.md), market [candles](../market-data-timeseries/market-candles.md) and [quotes](../market-data-timeseries/market-quotes.md) from all of our spot and futures markets. \
+The flat file application currently supports [trades](../market-data/market-trades.md), market [candles](../market-data/market-candles.md) and [quotes](../market-data/market-quotes.md) from all of our spot and futures markets. \
 \
 Flat file datasets for a given day are available on the next day around 05:00 UTC.
 

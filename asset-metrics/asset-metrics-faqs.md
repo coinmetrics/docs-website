@@ -20,31 +20,31 @@ The end-to-end latency for BTC BBB metrics is at most 54 seconds with a median o
 
 #### **Why does your Market Capitalization metrics differ so heavily from other data providers?**
 
-Generally, there is a great deal of inconsistency in the market with respect to Market Capitalization calculations. As a result, we have several Market Capitalization metrics.  Our metric labeled [Market Cap](../asset-metrics/market/capmrktcurusd.md) uses the [Current Supply](../asset-metrics/supply/splycur.md) (sum of all native units ever created and currently visible on the ledger) in its formulation.  Unlike some other data providers, it does not exclude illiquid supply held in escrow or foundation accounts. Our [Free Float Market Cap](../asset-metrics/market/capmrktffusd.md), however, does exclude native units held by company insiders, controlling investors and long term strategic holders.
+Generally, there is a great deal of inconsistency in the market with respect to Market Capitalization calculations. As a result, we have several Market Capitalization metrics.  Our metric labeled [Market Cap](market/capmrktcurusd.md) uses the [Current Supply](supply/splycur.md) (sum of all native units ever created and currently visible on the ledger) in its formulation.  Unlike some other data providers, it does not exclude illiquid supply held in escrow or foundation accounts. Our [Free Float Market Cap](market/capmrktffusd.md), however, does exclude native units held by company insiders, controlling investors and long term strategic holders.
 
 Another way to think about our Market Cap is to equate it to the Fully Diluted Market Cap, while other many other market caps metrics use reported or an approximation of circulating supply - similar to our Free Float supply, but often not using reported, not on-chain data to validate the approximations.&#x20;
 
 #### **Do you have metrics for total blockchain size?**
 
-No, but we do have a metric for[ Sum Block Size (in bytes) ](../asset-metrics/network-usage/blksizebyte.md)(BlkSizeByte), **** which you can sum up to get blockchain size.  You can also use our runningTotal function in our Formula Builder to show the size over time.&#x20;
+No, but we do have a metric for[ Sum Block Size (in bytes) ](network-usage/blksizebyte.md)(BlkSizeByte), **** which you can sum up to get blockchain size.  You can also use our runningTotal function in our Formula Builder to show the size over time.&#x20;
 
 ![ https://charts.coinmetrics.io/formulas/#1178](../.gitbook/assets/BTC\_Total\_Blockchain\_Size\_\(in\_bytes\).png)
 
 #### **Do you have metrics for total transactions?**&#x20;
 
-No, we don’t have total transactions, but we have [Tx Cnt](../asset-metrics/transactions/txcnt.md) (TxCnt or Transactions per interval), which you can sum up to get total transactions.  You can also use our runningTotal function in our Formula Builder to show total transactions over time.&#x20;
+No, we don’t have total transactions, but we have [Tx Cnt](transactions/txcnt.md) (TxCnt or Transactions per interval), which you can sum up to get total transactions.  You can also use our runningTotal function in our Formula Builder to show total transactions over time.&#x20;
 
 ![https://charts.coinmetrics.io/formulas/#1179](../.gitbook/assets/BTC\_Total\_Transaction\_Count.png)
 
 #### **How can you calculate total transfer value on the Ethereum Blockchain (ETH + other ERC20s)?**&#x20;
 
-You can calculate this manually by summing the [transfer value](../asset-metrics/transactions/txtfrvalntv.md) for ETH and ERC20s.  You can all use our charting tool to create a stacked view of all ERC20s' Transfer Values, or our formula builder to create an aggregate.
+You can calculate this manually by summing the [transfer value](transactions/txtfrvalntv.md) for ETH and ERC20s.  You can all use our charting tool to create a stacked view of all ERC20s' Transfer Values, or our formula builder to create an aggregate.
 
 ![https://charts.coinmetrics.io/network-data/#1181](../.gitbook/assets/ETH\_ERC20\_Xfer\_Val\_\(USD\).png)
 
 #### **What is the best source for daily volume for Tether-Omni, Tether-ERC20, USDC and DAI?**
 
-We have a [Trusted Volume](../asset-metrics/volume/volume\_trusted\_spot\_usd\_1d.md) metric in Network Data Pro for stablecoins (USDT, USDC, DAI, PAX, BUSD, TUSD, etc.), which represents the volume for these assets on the most trusted exchanges (a subset of our coverage universe).&#x20;
+We have a [Trusted Volume](volume/volume\_trusted\_spot\_usd\_1d.md) metric in Network Data Pro for stablecoins (USDT, USDC, DAI, PAX, BUSD, TUSD, etc.), which represents the volume for these assets on the most trusted exchanges (a subset of our coverage universe).&#x20;
 
 We also have trading volume that occurs on centralized exchanges for every market in our coverage universe available via our Market Data feed.&#x20;
 
@@ -52,7 +52,7 @@ One note:  Centralized exchanges do not differentiate between Tether-Omni, Tethe
 
 #### **Is there a way to approximate the number of users for a specific blockchain?**&#x20;
 
-You can use the "[Address Count with Balance](../asset-metrics/addresses/adrbal1inxcnt/)" metrics to approximate this, although you should keep in mind that users may have multiple addresses and certain addresses (e.g., custodian or exchange addresses) may represent multiple users. For day to day use, you can use our active addresses metrics. We provide aggregate [active address metrics](../asset-metrics/addresses/adractcnt.md) (AdrActCnt) as well as aggregates for [receiving](../asset-metrics/addresses/adractreccnt.md) and [sending](../asset-metrics/addresses/adractsentcnt.md) addresses (AdrActRecCnt and AdrActSentCnt).&#x20;
+You can use the "[Address Count with Balance](addresses/adrbal1inxcnt/)" metrics to approximate this, although you should keep in mind that users may have multiple addresses and certain addresses (e.g., custodian or exchange addresses) may represent multiple users. For day to day use, you can use our active addresses metrics. We provide aggregate [active address metrics](addresses/adractcnt.md) (AdrActCnt) as well as aggregates for [receiving](addresses/adractreccnt.md) and [sending](addresses/adractsentcnt.md) addresses (AdrActRecCnt and AdrActSentCnt).&#x20;
 
 #### **Do you have a metric for the number of days BTC is held between transactions?**&#x20;
 

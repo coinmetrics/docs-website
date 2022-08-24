@@ -6,12 +6,12 @@ The [Coin Metrics Bletchley Indexes](https://coinmetrics.io/cm-indexes/) (“CMB
 
 The data types listed below are available for each index:&#x20;
 
-{% content-ref url="../indexes-timeseries/index-levels.md" %}
-[index-levels.md](../indexes-timeseries/index-levels.md)
+{% content-ref url="index-levels.md" %}
+[index-levels.md](index-levels.md)
 {% endcontent-ref %}
 
-{% content-ref url="../indexes-timeseries/index-constituents.md" %}
-[index-constituents.md](../indexes-timeseries/index-constituents.md)
+{% content-ref url="index-constituents.md" %}
+[index-constituents.md](index-constituents.md)
 {% endcontent-ref %}
 
 ## **Index Coverage**&#x20;

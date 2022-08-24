@@ -23,7 +23,7 @@ The chart time increments at the bottom are currently only applicable to “Dail
 
 #### Why don't my candles show the High/Low?
 
-The only data category with true candles is the [ExchCandles](../../market-data-timeseries/market-candles.md) category.  Selecting Candles for the other data types will result in "manufactured candles".  For instance, daily NYC close reference rates are created from the timeseries whereby the open price is the previous day's close price and the close price is the current day's close price.  The High/Low are simply either the open or close (not the intraday high and low prices).   &#x20;
+The only data category with true candles is the [ExchCandles](../../market-data/market-candles.md) category.  Selecting Candles for the other data types will result in "manufactured candles".  For instance, daily NYC close reference rates are created from the timeseries whereby the open price is the previous day's close price and the close price is the current day's close price.  The High/Low are simply either the open or close (not the intraday high and low prices).   &#x20;
 
 
 

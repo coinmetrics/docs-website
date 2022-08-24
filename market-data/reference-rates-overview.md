@@ -1,6 +1,6 @@
 # Reference Rates Overview
 
-CM Reference Rates provide prices calculated in U.S. Dollars and Euros for over 300 assets using a transparent and independent methodology. Our rates are robust to manipulation and are derived from high quality constituent markets per our[ Market Selection Framework](methodologies/market-selection-framework.md).&#x20;
+CM Reference Rates provide prices calculated in U.S. Dollars and Euros for over 300 assets using a transparent and independent methodology. Our rates are robust to manipulation and are derived from high quality constituent markets per our[ Market Selection Framework](../methodologies/reference-rates/market-selection-framework.md).&#x20;
 
 ## Data Available at the Asset Level
 
@@ -18,10 +18,10 @@ Data available at the asset level is available through the [`/timeseries/asset-m
 
 We have two reference rates methodologies. &#x20;
 
-{% content-ref url="methodologies/real-time-reference-rates-methodology.md" %}
-[real-time-reference-rates-methodology.md](methodologies/real-time-reference-rates-methodology.md)
+{% content-ref url="../methodologies/reference-rates/real-time-reference-rates-methodology.md" %}
+[real-time-reference-rates-methodology.md](../methodologies/reference-rates/real-time-reference-rates-methodology.md)
 {% endcontent-ref %}
 
-{% content-ref url="methodologies/hourly-reference-rates-methodology.md" %}
-[hourly-reference-rates-methodology.md](methodologies/hourly-reference-rates-methodology.md)
+{% content-ref url="../methodologies/reference-rates/hourly-reference-rates-methodology.md" %}
+[hourly-reference-rates-methodology.md](../methodologies/reference-rates/hourly-reference-rates-methodology.md)
 {% endcontent-ref %}

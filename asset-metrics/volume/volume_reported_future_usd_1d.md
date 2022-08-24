@@ -11,7 +11,7 @@ The sum of all reported future volume from the spot markets in Coin Metrics' cov
 
 ## Details
 
-Our reported future volume metric is an aggregation of the reported future volume from all futures exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../market-data/all-exchanges.md).
+Our reported future volume metric is an aggregation of the reported future volume from all futures exchanges in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
 ## Chart
 
@@ -23,7 +23,7 @@ Our reported future volume metric is an aggregation of the reported future volum
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data-timeseries/derivatives-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
 * [Trusted Spot Volume](volume\_trusted\_spot\_usd\_1d.md)
 * [Reported Spot Volume](volume\_reported\_spot\_usd\_1d.md)
 * [Reported Coin-Margined Future Volume](volume\_reported\_future\_coin\_margined\_usd\_1d.md)

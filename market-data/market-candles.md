@@ -94,8 +94,8 @@ Our candle generator waits 20 minutes before calculating a candle to ensure that
 
 Please take a look at this question in the Market Data FAQs page linked below.&#x20;
 
-{% content-ref url="../market-data/market-data-faqs.md" %}
-[market-data-faqs.md](../market-data/market-data-faqs.md)
+{% content-ref url="market-data-faqs.md" %}
+[market-data-faqs.md](market-data-faqs.md)
 {% endcontent-ref %}
 
 **Why are there some observations where the candle vwap is higher than the high price or lower than the low price?**

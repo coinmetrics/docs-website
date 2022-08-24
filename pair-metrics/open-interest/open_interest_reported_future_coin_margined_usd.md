@@ -11,7 +11,7 @@ The sum of all reported open interested from futures markets where the margin as
 
 ## Details
 
-Our reported coin-margined future open interest metric is an aggregation of the reported coin-margined future open interest from all futures markets in CM's coverage universe.  Covered exchanges can be found [here](../../market-data/all-exchanges.md).
+Our reported coin-margined future open interest metric is an aggregation of the reported coin-margined future open interest from all futures markets in CM's coverage universe.  Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
 ## Release History
 
@@ -19,8 +19,8 @@ Our reported coin-margined future open interest metric is an aggregation of the 
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data-timeseries/derivatives-contract-specifications.md)
-* [Market Open Interest](../../market-data-timeseries/market-open-interest.md)
+* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
+* [Market Open Interest](../../market-data/market-open-interest.md)
 
 ## Availability for Pairs
 

@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/rtrr-methodology (2).pdf" %}
+{% file src="../../.gitbook/assets/rtrr-methodology (1).pdf" %}
 
 ## Introduction
 
