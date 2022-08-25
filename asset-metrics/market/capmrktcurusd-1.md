@@ -11,7 +11,7 @@ The sum USD value of the circulating supply. Also referred to as network value o
 ## Details
 
 * Computed as Circulating Supply \* PriceUSD
-* The price used is the daily close price
+* The price used is the daily close price (PriceUSD) at 00:00:00 UTC
 * The circulating supply used is sourced through third party APIs
 
 ## Asset-Specific Details
@@ -21,7 +21,7 @@ The sum USD value of the circulating supply. Also referred to as network value o
 
 ## Interpretation
 
-Informally called ‘market cap,’ our Estimate Market Cap aligns with the industry convention for market cap. We called this market cap, estimate because this is a reported amount and not sourced directly from what is seen on-chain.&#x20;
+Informally called ‘Market Cap,’ our Estimate Market Cap aligns with the industry convention for Market Cap. We called this "Estimate Market Cap" because this is a reported amount and not sourced directly from what is seen on-chain.&#x20;
 
 ## Availability for Assets
 
