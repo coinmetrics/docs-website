@@ -36,19 +36,19 @@ An assessment of whether the technology infrastructure of the market’s exchang
 
 ### Legal and Compliance
 
-An assessment of whether the market’s exchange complies with applicable laws and regulations. Evaluates the exchange’s legal risk exposure and whether it adheres to regulatory best practices. Evaluates whether the exchange has publicly-disclosed trading policies, uses market surveillance technology, and complies with national regulatory organizations, and enforces KYC and AML requirements. Evaluates whether the exchange has functioning fiat and digital asset withdrawals processed within a normal timeframe.
+_Legal and Compliance_: An assessment of selected indicator variables relating to compliance and risk for each exchange. These indicator variables include whether the exchange has publicly-disclosed trading policies, uses market surveillance technology, obtains regulatory licenses, has fiat and crypto insurance, requires customers to verify their identity before opening an account as part of its KYC and AML process, and whether the exchange has functioning fiat and cryptocurrency withdrawals processed within a normal timeframe.&#x20;
 
 1. **`has_trading_policy`**: An indicator variable for whether the exchange has a trading policy to promote fair and transparent markets. The trading policy should explicitly address manipulative trading policies like front-running, wash trading, spoofing, layering, churning, and quote stuffing.\
 
 2. **`has_market_surveillance`**: An indicator variable for whether the exchange uses market surveillance technology to detect market manipulation practices, including front-running, wash trading, spoofing, layering, churning, and quote stuffing.\
 
-3. **`has_regulatory_oversight`**: An indicator variable for whether the exchange complies with applicable laws and regulations, including registering or getting licenses from national or regional regulatory organizations.\
+3. **`has_regulatory_oversight`**: An indicator variable for whether the exchange obtains licenses from national or regional regulatory organizations.\
 
 4. **`has_fiat_insurance`**: An indicator variable for whether the exchange maintains commercial insurance or is covered under government-provided insurance to insure against losses of customer funds denominated in fiat currencies.\
 
 5. **`has_crypto_insurance`**: An indicator variable for whether the exchange maintains commercial insurance to insure against losses of customer funds denominated in digital assets.\
 
-6. **`has_kycaml`**: An indicator variable for whether the exchange requires identity verification before being able to trade and follows know-your-customer (KYC) regulations and anti-money-laundering (AML) regulations. For the purposes of this indicator variable, an exchange which requires identity verification only if a customer wishes to deposit or withdraw fiat or if a customer wishes to withdraw digital assets is determined to not have sufficient controls. An exchange must comply with both KYC and AML regulations for this indicator variable to be true.\
+6. **`has_kycaml`**: An indicator variable for whether the exchange requires identity verification before being able to open an account as part of its KYC and AML process. For the purposes of this indicator variable, an exchange which requires identity verification only if a customer wishes to deposit or withdraw fiat or if a customer wishes to withdraw digital assets is determined to not have sufficient controls. An exchange must require customers to verify their identity when opening an account as part of its KYC and AML process.\
 
 7. **`has_free_capital_flows`**: An indicator variable for whether the exchange has had a history of free capital flows over the last quarter, including functioning fiat and digital asset deposits and withdrawals that are processed within a normal timeframe.
 
