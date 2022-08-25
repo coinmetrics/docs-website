@@ -241,6 +241,7 @@
   * [Realized Market Cap (USD)](asset-metrics/market/caprealusd.md)
   * [Free Float Market Cap (USD)](asset-metrics/market/capmrktffusd.md)
   * [Market Cap (USD)](asset-metrics/market/capmrktcurusd.md)
+  * [Estimate Market Cap (USD)](asset-metrics/market/capmrktcurusd-1.md)
   * [30 Day Volatility](asset-metrics/market/vtydayret30d.md)
   * [60 Day Volatility](asset-metrics/market/vtydayret60d.md)
   * [180 Day Volatility](asset-metrics/market/vtydayret180d.md)
@@ -558,7 +559,7 @@
 * [Market Candles](market-data/market-candles.md)
 * [Market Contract Prices](market-data-timeseries/market-contract-prices.md)
 * [Market Implied Volatility](market-data/market-implied-volatility.md)
-* [Market Greeks](market-data-timeseries/market-greeks.md)
+* [Market Greeks](market-data/market-greeks.md)
 
 ## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 

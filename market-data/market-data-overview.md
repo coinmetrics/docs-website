@@ -56,8 +56,8 @@ Data available at the market level is served through the API endpoints below, wh
 [market-implied-volatility.md](market-implied-volatility.md)
 {% endcontent-ref %}
 
-{% content-ref url="../market-data-timeseries/market-greeks.md" %}
-[market-greeks.md](../market-data-timeseries/market-greeks.md)
+{% content-ref url="market-greeks.md" %}
+[market-greeks.md](market-greeks.md)
 {% endcontent-ref %}
 
 {% content-ref url="market-data-faqs.md" %}
