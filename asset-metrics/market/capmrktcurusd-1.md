@@ -1,12 +1,12 @@
-# Estimate Market Cap (USD)
+# Estimated Market Cap (USD)
 
 ## Definition
 
 The sum USD value of the circulating supply. Also referred to as network value or market capitalization. Circulating supply is reported by the projects or other derived sources.&#x20;
 
-| Name                      | MetricID      | Category | Subcategory           | Type    | Unit | Interval |
-| ------------------------- | ------------- | -------- | --------------------- | ------- | ---- | -------- |
-| Estimate Market Cap (USD) | CapMrktEstUSD | Market   | Market Capitalization | Product | USD  | 1 day    |
+| Name                       | MetricID      | Category | Subcategory           | Type    | Unit | Interval |
+| -------------------------- | ------------- | -------- | --------------------- | ------- | ---- | -------- |
+| Estimated Market Cap (USD) | CapMrktEstUSD | Market   | Market Capitalization | Product | USD  | 1 day    |
 
 ## Details
 
@@ -21,7 +21,7 @@ The sum USD value of the circulating supply. Also referred to as network value o
 
 ## Interpretation
 
-Informally called ‘Market Cap,’ our Estimate Market Cap aligns with the industry convention for Market Cap. We called this "Estimate Market Cap" because this is a reported amount and not sourced directly from what is seen on-chain.&#x20;
+Informally called ‘Market Cap,’ our Estimated Market Cap aligns with the industry convention for Market Cap. We called this "Estimated Market Cap" because this is a reported amount and not sourced directly from what is seen on-chain.&#x20;
 
 ## Availability for Assets
 
