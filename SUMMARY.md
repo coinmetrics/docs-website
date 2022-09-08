@@ -241,7 +241,7 @@
   * [Realized Market Cap (USD)](asset-metrics/market/caprealusd.md)
   * [Free Float Market Cap (USD)](asset-metrics/market/capmrktffusd.md)
   * [Market Cap (USD)](asset-metrics/market/capmrktcurusd.md)
-  * [Estimated Market Cap (USD)](asset-metrics/market/capmrktcurusd-1.md)
+  * [Estimated Market Cap (USD)](asset-metrics/market/CapMrktEstUSD.md)
   * [30 Day Volatility](asset-metrics/market/vtydayret30d.md)
   * [60 Day Volatility](asset-metrics/market/vtydayret60d.md)
   * [180 Day Volatility](asset-metrics/market/vtydayret180d.md)
