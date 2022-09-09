@@ -75,3 +75,59 @@ Miner flows are estimated by basing clustering on an address’s distance in hop
 #### What are the exchanges that serve as constituents for your Trusted Volume metric?&#x20;
 
 Our trusted volume metric is an aggregation of the reported volume from exchanges that we consider the most accurate and trustworthy.  The full list of constituent exchanges included in our Trusted Volume is [here](https://docs.coinmetrics.io/asset-metrics/volume/volume\_trusted\_spot\_usd\_1d).&#x20;
+
+
+
+**Is there a way to calculate ETH staking yield metrics with your Consensus Layer metrics?**
+
+A validator’s expected annual percentage return (APR) from staking rewards accumulated on the Consensus Layer, assuming perfect performance and uptime, can be estimated with the formula below based on protocol parameters **** ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#validator-rewards)): ****&#x20;
+
+$$
+2940.21 /    \sqrt[]{ValidatorActOngCnt}
+$$
+
+For example, with 423,000 active validators as of September 9, 2022 this comes out to a 4.52% expected return on a validator’s 32 ETH effective balance. The expected annual protocol issuance can also be calculated from the following formula ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#overall-issuance)):
+
+$$
+940.87 x      \sqrt[]{ValidatorActOngCnt}
+$$
+
+With 423,000 active validators this comes out to 611,927 ETH issued per year.
+
+After The Merge, validators will also receive user priority transaction fees on the Execution Layer – sometimes referred to as ‘tips’ – for proposing blocks. The magnitude of this additional source of yield can be inferred from the existing FeePrioTotNtv metric on the Execution Layer. Using a [30-day moving average of tips paid per block](https://charts.coinmetrics.io/formulas/#4308), we can estimate the impact of tips to the validator APR from CL awards above.
+
+**First**, finding the average tips paid per block, which fluctuates greatly depending on the demand for Ethereum blockspace:
+
+$$
+sma(FeePrioTotNtv / BlkCnt, 30)
+$$
+
+This comes out to 0.07 ETH over the last 30 days.
+
+**Next**, from the equation above we can find the yearly per-validator expected ETH reward from participating on the Consensus Layer with a specified number of active validators:
+
+$$
+940.87 x \sqrt[]{ValidatorActOngCnt} / ValidatorActOngCnt
+$$
+
+​This comes out to an average 1.45 ETH in yearly rewards with 423,000 active validators.
+
+**Then**, with 2,629,800 chances to propose blocks on the Consensus Layer each year, the average number of times a validator will get the opportunity to propose a block (and collect tips) can be found from:
+
+$$
+(1/ValidatorActOngCnt) * (2,629,800)
+$$
+
+​This comes to 6.22 with 423,000 active validators (assuming they all have an equal 32 ETH effective balance there is a 1 in _ValidatorActOngCnt_ chance of being selected to propose at a given slot on the CL).
+
+**Finally**, taking this all together:
+
+$$
+100*(((32 +1.45 + (0.07*6.22))/32) - 1)
+$$
+
+​This comes out to **5.89%**, an increase of roughly 140 basis points to the APR from Consensus Layer rewards.
+
+However, it is important to note that the information above is purely an expected and theoretical yield given the current number of validators and historical demand for Ethereum blockspace. In practice, individual validator returns will vary by chance as well as performance. We anticipate releasing realized staking yield metrics that take into account validators’ actual observed performance.
+
+To learn more, make sure to check out the Validator Economics section of our [Mapping out The Merge report.](https://coinmetrics.io/special-insights/ethereum-merge/)
