@@ -333,7 +333,7 @@
   * [Yearly Avg. Miner Revenue per Hash (native units)](asset-metrics/mining/revhash1yavgntv.md)
   * [Yearly Avg. Miner Revenue per Hash (USD)](asset-metrics/mining/revhash1yavgusd.md)
 * [Staking](asset-metrics/staking/README.md)
-  * [Supply CL Contract](asset-metrics/staking/priceusd.md)
+  * [Supply CL Contract](asset-metrics/staking/SplyCLCont.md)
 * [Network Usage](asset-metrics/network-usage/README.md)
   * [Sum Block Size (in bytes)](asset-metrics/network-usage/blksizebyte.md)
   * [Mean Block Size (in bytes)](asset-metrics/network-usage/blksizemeanbyte.md)
