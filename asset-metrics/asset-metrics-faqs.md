@@ -83,13 +83,13 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 A validator’s expected annual percentage return (APR) from staking rewards accumulated on the Consensus Layer, assuming perfect performance and uptime, can be estimated with the formula below based on protocol parameters **** ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#validator-rewards)): ****&#x20;
 
 $$
-2940.21 /    \sqrt[]{ValidatorActOngCnt}
+2940.21 \div \,     \sqrt[]{ValidatorActOngCnt}
 $$
 
 For example, with 423,000 active validators as of September 9, 2022 this comes out to a 4.52% expected return on a validator’s 32 ETH effective balance. The expected annual protocol issuance can also be calculated from the following formula ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#overall-issuance)):
 
 $$
-940.87 x      \sqrt[]{ValidatorActOngCnt}
+940.87 \times  \,    \sqrt[]{ValidatorActOngCnt}
 $$
 
 With 423,000 active validators this comes out to 611,927 ETH issued per year.
@@ -107,7 +107,7 @@ This comes out to 0.07 ETH over the last 30 days.
 **Next**, from the equation above we can find the yearly per-validator expected ETH reward from participating on the Consensus Layer with a specified number of active validators:
 
 $$
-940.87 x \sqrt[]{ValidatorActOngCnt} / ValidatorActOngCnt
+940.87 \times \sqrt[]{ValidatorActOngCnt} \div ValidatorActOngCnt
 $$
 
 ​This comes out to an average 1.45 ETH in yearly rewards with 423,000 active validators.
@@ -115,7 +115,7 @@ $$
 **Then**, with 2,629,800 chances to propose blocks on the Consensus Layer each year, the average number of times a validator will get the opportunity to propose a block (and collect tips) can be found from:
 
 $$
-(1/ValidatorActOngCnt) * (2,629,800)
+(1/ValidatorActOngCnt) \times (2,629,800)
 $$
 
 ​This comes to 6.22 with 423,000 active validators (assuming they all have an equal 32 ETH effective balance there is a 1 in _ValidatorActOngCnt_ chance of being selected to propose at a given slot on the CL).
@@ -123,7 +123,7 @@ $$
 **Finally**, taking this all together:
 
 $$
-100*(((32 +1.45 + (0.07*6.22))/32) - 1)
+100\times(((32 +1.45 + (0.07\times6.22))/32) - 1)
 $$
 
 ​This comes out to 5.89%, an increase of roughly 140 basis points to the APR from Consensus Layer rewards.
