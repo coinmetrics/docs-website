@@ -126,7 +126,7 @@ $$
 100*(((32 +1.45 + (0.07*6.22))/32) - 1)
 $$
 
-​This comes out to **5.89%**, an increase of roughly 140 basis points to the APR from Consensus Layer rewards.
+​This comes out to 5.89%, an increase of roughly 140 basis points to the APR from Consensus Layer rewards.
 
 However, it is important to note that the information above is purely an expected and theoretical yield given the current number of validators and historical demand for Ethereum blockspace. In practice, individual validator returns will vary by chance as well as performance. We anticipate releasing realized staking yield metrics that take into account validators’ actual observed performance.
 
