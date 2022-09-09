@@ -80,7 +80,7 @@ In this section, prices are compared to the global median price. The global medi
 
 `["Coinbase", "Poloniex", "Bittrex", "Gemini", "Kraken", "Binance", "Bitstamp", "itBit"]`
 
-This list of exchanges was selected by first calculating the the market ratings for each market but without the price-related features below. The median market rating was then calculated for each exchange and the top 8 exchanges were selected.
+This list of exchanges was selected by first calculating the market ratings for each market but without the price-related features below. The median market rating was then calculated for each exchange and the top 8 exchanges were selected.
 
 1. **`market_open_mape_all`**: The mean absolute percentage error of the market’s daily open price compared to the global median’s daily open price over the last 90 days.\
 
