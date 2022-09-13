@@ -6,7 +6,7 @@ The full text of this methodology can be downloaded as a pdf document using the 
 
 ## Introduction
 
-Coin Metrics produces the Coin Metrics Real-Time Reference Rates (the “Real-Time Reference Rates”), a collection of reference rates quoted in U.S. dollars and other currencies, published once per second, for a set of cryptocurrencies and fiat currencies. The Real-Time Reference Rates are designed to serve as a transparent and independent pricing source that promotes the functioning of efficient markets, reduces information asymmetries among market participants, facilitates trading in standardized contracts, and accelerates the adoption of cryptocurrencies as an asset class with the highest standards. The Real-Time Reference Rates are calculated using a robust and resilient methodology that is resistant to manipulation and adheres to international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the Real-Time Reference Rates and ensure the Real-Time Reference Rates serve as a source of transparent and independent pricing.
+Coin Metrics produces the Coin Metrics Real-Time Reference Rates (the “Real-Time Reference Rates”), a collection of reference rates quoted in U.S. dollars and other currencies, published once per second, for a set of cryptocurrencies and fiat currencies. The Real-Time Reference Rates are designed to serve as a transparent and independent pricing source that promotes the functioning of efficient markets, reduces information asymmetries among market participants, facilitates trading in standardized contracts, and accelerates the adoption of cryptocurrencies as an asset class with the highest standards. The Real-Time Reference Rates are calculated using a robust and resilient methodology that is resistant to manipulation and applies international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the Real-Time Reference Rates and ensure the Real-Time Reference Rates serve as a source of transparent and independent pricing.
 
 ## Description
 
@@ -186,10 +186,6 @@ Complaints about the calculation methodology of the Real-Time Reference Rates or
 1. The personnel receiving and investigating the complaint will be independent of any personnel who may have been involved in the subject of the complaint.
 2. All records and documents submitted by the complainant and related to the investigation into the complaint will be retained for a period of at least five years and submitted to the Oversight Committee for review.
 3. Any complaint that results in a change in the determination of the Real-Time Reference Rates, its calculation methodology, or its policies will be publicly disclosed and will explain the action taken.
-
-## Internal Audit
-
-The Oversight Committee appoints an independent internal auditor to review the Real-Time Reference Rates’ adherence to its stated methodology, compliance with policies, and adherence to the IOSCO’s Principles of Financial Benchmarks. The frequency of the independent internal audit is once annually.
 
 ## Record Retention
 
