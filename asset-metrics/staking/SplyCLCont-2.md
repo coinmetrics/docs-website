@@ -8,7 +8,7 @@ description: >-
 
 ## Definition
 
-Deposits sent to the Consensus Layer (CL) Contract.
+Unique count of all senders to the Consensus Layer (CL) contract.
 
 | Name                                | MetricID        | Category | Subcategory | Type | Unit       | Interval |
 | ----------------------------------- | --------------- | -------- | ----------- | ---- | ---------- | -------- |

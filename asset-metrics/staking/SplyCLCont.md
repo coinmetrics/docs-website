@@ -4,19 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Supply in CL Contract
+# Supply CL Contract
 
 ## Definition
 
-Total supply sent to the Consensus Layer (CL) Contract.
+Total supply of ETH sent to the ETH Consensus Layer smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa).
 
-| Name                  | MetricID   | Category | Subcategory      | Type | Unit         | Interval |
-| --------------------- | ---------- | -------- | ---------------- | ---- | ------------ | -------- |
-| Supply in CL Contract | SplyCLCont | Staking  | Validator Supply | Sum  | Native Units | 1 day    |
+| Name               | MetricID   | Category | Subcategory      | Type | Unit         | Interval |
+| ------------------ | ---------- | -------- | ---------------- | ---- | ------------ | -------- |
+| Supply CL Contract | SplyCLCont | Staking  | Validator Supply | Sum  | Native Units | All time |
 
 ## Details
 
-* The total supply of ETH sent to the Consensus Layer (CL) smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa), sourced from Coin Metrics ATLAS™ blockchain search engine.
+* The total supply of ETH sent to the Consensus Layer smart contract, sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 
