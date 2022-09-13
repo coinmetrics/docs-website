@@ -10,13 +10,13 @@ description: >-
 
 Total supply sent to the Consensus Layer (CL) Contract.
 
-| Name               | MetricID   | Category | Subcategory      | Type | Unit         | Interval |
-| ------------------ | ---------- | -------- | ---------------- | ---- | ------------ | -------- |
-| Supply CL Contract | SplyCLCont | Staking  | Validator Supply | Sum  | Native Units | 1 day    |
+| Name                  | MetricID   | Category | Subcategory      | Type | Unit         | Interval |
+| --------------------- | ---------- | -------- | ---------------- | ---- | ------------ | -------- |
+| Supply in CL Contract | SplyCLCont | Staking  | Validator Supply | Sum  | Native Units | 1 day    |
 
 ## Details
 
-* The total supply of ETH sent to the Consensus Layer smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa), sourced from Coin Metrics ATLAS™ blockchain search engine.
+* The total supply of ETH sent to the Consensus Layer (CL) smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa), sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 

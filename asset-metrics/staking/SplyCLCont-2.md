@@ -4,19 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Daily Added Validators
+# Total Unique Senders to CL Contract
 
 ## Definition
 
-Count of validators added daily.
+Deposits sent to the Consensus Layer (CL) Contract.
 
-| Name                   | MetricID          | Category | Subcategory | Type | Unit       | Interval |
-| ---------------------- | ----------------- | -------- | ----------- | ---- | ---------- | -------- |
-| Daily Added Validators | ValidatorAddCnt1d | Staking  | Validators  | Sum  | Validators | 1 day    |
+| Name                                | MetricID        | Category | Subcategory | Type | Unit       | Interval |
+| ----------------------------------- | --------------- | -------- | ----------- | ---- | ---------- | -------- |
+| Total Unique Senders to CL Contract | SenderTotCLCont | Staking  | Validators  | Sum  | Validators | 1 day    |
 
 ## Details
 
-* Number of validators added to the Ethereum Consensus Layer (CL) on a daily interval.
+* Unique count of all senders to the Consensus Layer (CL) smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa) over the daily interval, sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 

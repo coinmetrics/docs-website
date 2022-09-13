@@ -4,21 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Daily Removed Validators
+# Count of Senders to CL Contract
 
 ## Definition
 
-Count of validators removed daily.
+Count of new addresses that have sent to the Consensus Layer (CL) contract.
 
-| Name                     | MetricID          | Category | Subcategory | Type | Unit       | Interval |
-| ------------------------ | ----------------- | -------- | ----------- | ---- | ---------- | -------- |
-| Daily Removed Validators | ValidatorRemCnt1d | Staking  | Validators  | Sum  | Validators | 1 day    |
+| Name                            | MetricID        | Category | Subcategory | Type | Unit       | Interval |
+| ------------------------------- | --------------- | -------- | ----------- | ---- | ---------- | -------- |
+| Count of Senders to CL Contract | SenderCntCLCont | Staking  | Validators  | Sum  | Validators | 1 day    |
 
 ## Details
 
-* Number of validators removed from the Ethereum Consensus Layer (CL) on a daily interval.
-* This figure will remain low until withdrawals are enabled, capturing mostly slashing.
-* Captures number of validators with 'exited' status and 'exited slashed' status.
+* Unique count of new addresses that have sent to the Consensus Layer (CL) smart contract (0x00000000219ab540356cBB839Cbe05303d7705Fa) over the daily interval, sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 

@@ -4,19 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Total Staked Supply
+# Validator Count
 
 ## Definition
 
-Sum of all balances held by all validators.
+Count of all validators.
 
-| Name                | MetricID        | Category | Subcategory      | Type | Unit         | Interval |
-| ------------------- | --------------- | -------- | ---------------- | ---- | ------------ | -------- |
-| Total Staked Supply | SplyTotStkedNtv | Supply   | Validator Supply | Sum  | Native Units | 1 day    |
+| Name            | MetricID     | Category | Subcategory | Type | Unit       | Interval |
+| --------------- | ------------ | -------- | ----------- | ---- | ---------- | -------- |
+| Validator Count | ValidatorCnt | Staking  | Validators  | Sum  | Validators | 1 day    |
 
 ## Details
 
-* Sum of all balances held by all validators, regardless of status (i.e. rewarded supply, slashed supply, etc.)
+* Number of validators on the Ethereum Consensus Layer (CL).
 
 ## Release History
 

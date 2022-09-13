@@ -1,0 +1,25 @@
+---
+description: >-
+  NOTE: Staking metrics will not be available until after the Ethereum Merge to
+  proof-of-stake
+---
+
+# Daily Removed Validators
+
+## Definition
+
+Count of validators removed daily.
+
+| Name                     | MetricID          | Category | Subcategory | Type | Unit       | Interval |
+| ------------------------ | ----------------- | -------- | ----------- | ---- | ---------- | -------- |
+| Daily Removed Validators | ValidatorRemCnt1d | Staking  | Validators  | Sum  | Validators | 1 day    |
+
+## Details
+
+* Number of validators removed from the Ethereum Consensus Layer (CL) on a daily interval.
+* This figure will remain low until withdrawals are enabled, capturing mostly slashing.
+* Captures number of validators with 'exited' status and 'exited slashed' status.
+
+## Release History
+
+* Pending release.

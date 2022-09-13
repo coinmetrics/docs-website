@@ -4,19 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Supply Staked in Validators
+# Daily Sent to Lido Contract
 
 ## Definition
 
-Supply staked in validators.
+Daily sent to the Lido staking contract.
 
-| Name                        | MetricID     | Category | Subcategory      | Type | Unit         | Interval |
-| --------------------------- | ------------ | -------- | ---------------- | ---- | ------------ | -------- |
-| Supply Staked in Validators | SplyStkedNtv | Supply   | Validator Supply | Sum  | Native Units | 1 day    |
+| Name                        | MetricID       | Category | Subcategory      | Type | Unit         | Interval |
+| --------------------------- | -------------- | -------- | ---------------- | ---- | ------------ | -------- |
+| Daily Sent to Lido Contract | FlowToLidoCont | Staking  | Validator Supply | Sum  | Native Units | 1 day    |
 
 ## Details
 
-* Sum of all balances from all eligible active validators (validators with 'active' or 'pending' status).
+* Daily amount of ETH sent to the Lido staking contract (0xae7ab96520de3a18e5e111b5eaab095312d7fe84), sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 

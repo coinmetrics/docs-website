@@ -4,19 +4,19 @@ description: >-
   proof-of-stake
 ---
 
-# Sum of all Balances from Active Validators
+# Supply in Lido Contract
 
 ## Definition
 
-Supply from validators that were active that day.
+Total sent to the Lido staking contract.
 
-| Name                  | MetricID        | Category | Subcategory      | Type | Unit          | Interval |
-| --------------------- | --------------- | -------- | ---------------- | ---- | ------------- | -------- |
-| Active Staking Supply | SplyActStkedNtv | Supply   | Validator Supply | Sum  |  Native Units | 1 day    |
+| Name                    | MetricID     | Category | Subcategory      | Type | Unit         | Interval |
+| ----------------------- | ------------ | -------- | ---------------- | ---- | ------------ | -------- |
+| Supply in Lido Contract | SplyLidoCont | Staking  | Validator Supply | Sum  | Native Units | 1 day    |
 
 ## Details
 
-* Sum of all balances from actively participating validators.
+* Total ETH sent to the Lido staking contract (0xae7ab96520de3a18e5e111b5eaab095312d7fe84) over the daily interval, sourced from Coin Metrics ATLAS™ blockchain search engine.
 
 ## Release History
 
