@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Total Unique Senders to CL Contract
 
 ## Definition
@@ -20,4 +14,4 @@ Unique count of all senders to the Consensus Layer (CL) contract.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

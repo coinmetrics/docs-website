@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Validator in Activation Queue
 
 ## Definition
@@ -20,4 +14,4 @@ Validators waiting in the activation queue
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

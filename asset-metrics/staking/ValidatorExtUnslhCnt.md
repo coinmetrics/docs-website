@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Inactive Eligible Validators
 
 ## Definition
@@ -20,4 +14,4 @@ Validators that have not been slashed but are no longer active.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

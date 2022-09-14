@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Daily Removed Validators
 
 ## Definition
@@ -22,4 +16,4 @@ Count of validators removed daily.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

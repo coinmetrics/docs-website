@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Count of Senders to CL Contract
 
 ## Definition
@@ -20,4 +14,4 @@ Count of new addresses that have sent to the Consensus Layer (CL) contract.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

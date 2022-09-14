@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Supply in Lido Contract
 
 ## Definition
@@ -20,4 +14,4 @@ Total sent to the Lido staking contract.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

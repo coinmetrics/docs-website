@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Supply Staked in Validators
 
 ## Definition
@@ -20,4 +14,4 @@ Supply staked in validators.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

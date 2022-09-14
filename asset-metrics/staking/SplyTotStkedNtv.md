@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Total Staked Supply
 
 ## Definition
@@ -20,4 +14,4 @@ Sum of all balances held by all validators.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.

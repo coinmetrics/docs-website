@@ -1,9 +1,3 @@
----
-description: >-
-  NOTE: Staking metrics will not be available until after the Ethereum Merge to
-  proof-of-stake
----
-
 # Validators Pending Eligibility
 
 ## Definition
@@ -20,4 +14,4 @@ Validators pending eligibility.
 
 ## Release History
 
-* Pending release.
+* Released September 2022.
