@@ -66,8 +66,32 @@ If you've made changes to the underlying charts that you'd like to see reflected
 
 ![](<../../.gitbook/assets/Screen Shot 2022-01-30 at 1.30.21 PM.png>)
 
-## Download Charts in Dashboards
+## Download Dashboard or Dashboard Charts
 
-To download the charts in your dashboard (either as PNGs, CSVs or XLS files), use the download button on the left toolbar.&#x20;
+To download the dashboard or charts in your dashboard (either as PNGs, CSVs or XLS files), use the download button on the left toolbar.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-01-30 at 1.36.53 PM.png>)
+
+You will then see several options.  The first three options (CSV Files, Excel Files, PNG Files) download the information in the format selected for each **individual** chart.  The fourth option (PNG Dashboard), downloads a PNG of the entire dashboard. &#x20;
+
+{% hint style="info" %}
+Note: Please allow your dashboard to fully load before downloading.
+{% endhint %}
+
+
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-10-05 at 1.47.15 PM.png" alt=""><figcaption></figcaption></figure>
+
+## Sharing Dashboards
+
+To share a dashboard, you must first "save" it.  Once it is saved, the share button will activate.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-10-05 at 1.41.03 PM.png" alt=""><figcaption></figcaption></figure>
+
+Upon clicking on the button, you will see the chart's "shared" status.   If this is a new chart, the status defaults to "sharing: off".  If you'd like to share the dashboard, click the radio button and the chart will become sharable and "public".  You can then use the copy button to obtain a shareable URL.  &#x20;
+
+{% hint style="info" %}
+Note:  Individual charts within a dashboard that have not been made "shareable" will not be visible if they are included in a shared dashboard.  You will first need to enable "sharing" on those specific charts if you want to share them. &#x20;
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2022-10-05 at 1.43.22 PM.png" alt=""><figcaption></figcaption></figure>
