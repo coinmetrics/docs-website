@@ -4,40 +4,149 @@ Atlas is a blockchain search tool designed to standardize and simplify raw block
 
 ## Atlas Asset Coverage
 
-Atlas currently supports the following assets:
+Atlas v 2.0 currently supports the following assets:
 
-| **Asset**      | **Symbol**  |
-| -------------- | ----------- |
-| 0x             | `zrx`       |
-| Aave           | `aave`      |
-| Algorand\*     | `algo`      |
-| Audius         | `audio`     |
-| Bitcoin        | `btc`       |
-| Bitcoin Cash   | `bch`       |
-| Binance USD    | `busd`      |
-| Cardano\*      | `ada`       |
-| Chainlink      | `link`      |
-| Compound       | `comp`      |
-| Dash           | `dash`      |
-| Ethereum       | `eth`       |
-| Litecoin       | `ltc`       |
-| Huobi USD      | `husd`      |
-| Maker          | `mkr`       |
-| Paxos Standard | `pax`       |
-| Paxos Gold     | `paxg`      |
-| Polkadot\*     | `dot`       |
-| Polygon (ETH)  | `matic_eth` |
-| SushiSwap      | `sushi`     |
-| Synthetix      | `snx`       |
-| Uniswap        | `uni`       |
-| USDC           | `usdc`      |
-| USDT (Omni)    | `usdt`      |
-| USDT (ETH)     | `usdt_eth`  |
-| USDT (TRX)     | `usdt_trx`  |
-| WBTC           | `wbtc`      |
-| XRP            | `xrp`       |
-| Yearn.Finance  | `yfi`       |
-| Zcash          | `zec`       |
+| Asset                                 | Symbol     |
+| ------------------------------------- | ---------- |
+| 0x                                    | zrx        |
+| 1inch                                 | 1inch      |
+| Aave                                  | aave       |
+| Aave (lend)                           | lend       |
+| aelf                                  | elf        |
+| Aeternity                             | ae         |
+| Aion                                  | aion       |
+| Alchemix                              | alcx       |
+| Alchemix USD                          | alusd      |
+| Algorand\*                            | algo       |
+| Alpha Venture DAO                     | alpha      |
+| Aragon                                | ant        |
+| Audtio                                | audio      |
+| Augur                                 | rep        |
+| Badger                                | badger     |
+| Balancer                              | bal        |
+| Bancor                                | bnt        |
+| Band (ERC20)                          | band\_eth  |
+| Basic Attention Token                 | bat        |
+| Binance Chain (ERC-20)                | bnb\_eth   |
+| Binance USD                           | busd       |
+| Bitcoin                               | btc        |
+| Bytom                                 | btm        |
+| Celsius                               | cel        |
+| CENNZnet                              | cennz      |
+| Chainlink                             | link       |
+| Civic                                 | cvc        |
+| Compound                              | comp       |
+| Compound BAT                          | cbat       |
+| Compound Collateral                   | ccomp      |
+| Compound DAI                          | cdai       |
+| Compound Ether                        | ceth       |
+| Compound Uniswap                      | cuni       |
+| Compound USDC                         | cusdc      |
+| Compound USDT                         | cusdt      |
+| Compound WBTC                         | cwbtc      |
+| Compound ZRX                          | czrx       |
+| Cortex                                | ctxc       |
+| Cronos                                | cro        |
+| Curve DAO Token                       | crv        |
+| Dai                                   | dai        |
+| Decentraland                          | mana       |
+| DeFi Pulse Index                      | dpi        |
+| Dogecoin                              | doge       |
+| Dragonchain                           | drgn       |
+| Empty Set Dollar                      | esd        |
+| Enjin Coin                            | enj        |
+| EOS ETH                               | eos\_eth   |
+| Ethereum                              | eth        |
+| Ethereum Classic                      | etc        |
+| Fantom (ERC-20)                       | ftm\_eth   |
+| Fei Protocol (ERC20)                  | fei\_eth   |
+| Flexacoin ERC-20                      | fxc        |
+| FTX Token                             | ftt        |
+| FUNToken                              | fun        |
+| Gas                                   | gas        |
+| Gemini Dollar                         | gusd       |
+| Gnosis                                | gno        |
+| Golem                                 | glm        |
+| Golem (gnt)                           | gnt        |
+| HedgeTrade                            | hedg       |
+| Huobi Bitcoin                         | hbtc       |
+| Huobi Token                           | ht         |
+| HUSD                                  | husd       |
+| ICON                                  | icx        |
+| Instadapp                             | inst       |
+| Internet Computer\*                   | icp        |
+| KuCoin Token                          | kcs        |
+| Kyber Network Crystal                 | knc        |
+| Lido DAO                              | ldo        |
+| Liquidity USD                         | lusd       |
+| Litecoin                              | ltc        |
+| Livepeer                              | lpt        |
+| Loom Network                          | loom       |
+| Loopring ERC-20                       | lrc        |
+| MaidSafeCoin                          | maid       |
+| Maker                                 | mkr        |
+| Metal                                 | mtl\_metal |
+| Nebulas                               | nas        |
+| Neo                                   | neo        |
+| Nexus Mutual                          | nxm        |
+| NFTX                                  | nftx       |
+| OKB                                   | okb        |
+| OMG Network                           | omg        |
+| Origin Protocol                       | ogn        |
+| PAID Network                          | paid       |
+| PAX Gold                              | paxg       |
+| Paxos Standard                        | pax        |
+| Perpetual Protocol                    | perp       |
+| Polygon                               | matic\_eth |
+| Polymath                              | poly       |
+| Populous                              | ppt        |
+| Powerledger                           | powr       |
+| QASH                                  | qash       |
+| Qtum ERC-20                           | qtum       |
+| Quanta Utility Token                  | qnt        |
+| RAI Finance (ERC20)                   | rai\_eth   |
+| RChain                                | rhoc       |
+| Ren                                   | ren        |
+| renBTC                                | renbtc     |
+| Reserve Rights                        | rsr        |
+| Revain                                | rev\_eth   |
+| Rook                                  | rook       |
+| Sai                                   | sai        |
+| SALT                                  | salt       |
+| Serum                                 | srm        |
+| Shiba Inu                             | shib       |
+| SIRIN LABS Token                      | srn        |
+| Smooth Love Potion (Ethereum Mainnet) | slp\_eth   |
+| Status                                | snt        |
+| Storj                                 | storj      |
+| StormX                                | stmx       |
+| SushiBar                              | xsushi     |
+| SushiSwap                             | sushi      |
+| Swerve                                | swrv       |
+| TenX                                  | pay        |
+| Tether ETH                            | usdt\_eth  |
+| Tether Gold                           | xaut       |
+| Tether Omni                           | usdt\_omni |
+| The Graph                             | grt        |
+| The Sandbox                           | sand       |
+| Tron ETH                              | trx\_eth   |
+| UMA                                   | uma        |
+| Unibright                             | ubt        |
+| Uniswap                               | uni        |
+| UNUS SED LEO ETH                      | leo\_eth   |
+| USD Coin                              | usdc       |
+| USDK                                  | usdk       |
+| VeChain                               | vet        |
+| Verge                                 | xvg        |
+| Veritaseum                            | veri       |
+| Vertcoin                              | vtc        |
+| Waltonchain                           | wtc        |
+| wnxm                                  | wnxm       |
+| Wrapped Bitcoin                       | wbtc       |
+| Wrapped Ether                         | weth       |
+| Wrapped liquid staked Ether 2.0       | wsteth     |
+| yearn.finance                         | yfi        |
+| Zilliqa                               | zil        |
 
 \*These assets are experimental and offered through [CM Labs](../cm-labs.md)
 
