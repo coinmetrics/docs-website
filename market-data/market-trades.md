@@ -99,9 +99,9 @@ We collect data for spot markets in real-time that consist of existing assets th
 
 Sometimes there may be multiple trades that all occur with the same timestamp. The likely explanation is that an incoming taker order simultaneously matched with multiple existing orders on the order book, although from the available data it is not possible to determine how a particular order is matched with other orders. However, we are certain that each trade is unique even if one or more trades have identical timestamp, price, and amount with other trades.
 
-**Do you support decentralized exchanges such as Uniswap?**
+**Do you support any dexes/decentralized exchanges?**
 
-We currently support centralized exchanges. Support for decentralized exchanges and defi protocols is coming soon!&#x20;
+We are currently supporting all major liquidity pools on Uniswap v2, Uniswap v3, and Sushiswap v1, and are actively expanding our DeFi universe.
 
 **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
@@ -126,6 +126,7 @@ Please take a look at this question in the Market Data FAQs page linked below.&#
 * ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added trades data for spot markets on LMAX. Added trades data for futures markets on CME and Bybit. Added trades data for option markets on Deribit and OKEx. \
 
 * ****[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Extended trades data for Ethereum futures markets on CME.&#x20;
+* [**CM MDF v2.6 on July 13, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-6-release-notes/): Added DeFi coverage, and upgrades in areas like order book, candles, and API, etc
 
 ## **Availability**
 
