@@ -20,6 +20,12 @@ Transactions that are EIP1559-compliant have two portions: a Miner Tip and a Bas
 * This metric calculates the total number of native EIP-1559 transactions that have occurred in the network over the measuring period (e.g. 1 day).
 * For a thorough review of EIP1559 and the design of its pricing mechanism, please refer to [this paper](https://arxiv.org/pdf/2012.00854.pdf).
 
+## Chart
+
+{% file src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-14T15-07.png" %}
+Source: CM Network Data Charts
+{% endfile %}
+
 ## Interpretation
 
 * Not all wallets have implemented EIP-1559 upon activation, so this metric serves as a proxy for the native adoption of this new transaction type.
