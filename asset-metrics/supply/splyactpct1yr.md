@@ -4,9 +4,9 @@
 
 The percentage of the current supply that has been active in the trailing 1 year up to that day.
 
-| Name                   | MetricID      | Category | Subcategory   | Type       | Unit          | Interval |
-| ---------------------- | ------------- | -------- | ------------- | ---------- | ------------- | -------- |
-| 1 Year Active Supply % | SplyActPct1yr | Supply   | Active supply | Percentage | Dimensionless | 1 day    |
+| Name                   | MetricID      | Category | Subcategory | Type       | Unit          | Interval |
+| ---------------------- | ------------- | -------- | ----------- | ---------- | ------------- | -------- |
+| 1 Year Active Supply % | SplyActPct1yr | Supply   | Active      | Percentage | Dimensionless | 1 day    |
 
 ## Details
 
@@ -16,7 +16,7 @@ The percentage of the current supply that has been active in the trailing 1 year
 
 ## Chart
 
-![https://charts.coinmetrics.io/network-data/#574](../../.gitbook/assets/1yr\_Active\_Supply\_\_.png)
+![Source: CM Network Data Charts](../../.gitbook/assets/1yr\_Active\_Supply\_\_.png)
 
 ## Asset-Specific Details
 
@@ -31,6 +31,11 @@ The percentage of the current supply that has been active in the trailing 1 year
 ## Interpretation
 
 1-year active supply %​ is the percent of total supply that has been transferred on-chain within the last year. As an asset price rises, an increasing amount of dormant supply can start to become active as long-term holders sell or move their native units. ​Some view a high percentage of 1-year active supply in the trailing year as a sign that a price rally is reaching exhaustion. Conversely, when price is low for extended periods of time, 1-year active supply % has dropped historically as investors hold through crypto winters.
+
+## See Also
+
+* [Active Supply (transacted at least once)](https://docs.coinmetrics.io/asset-metrics/supply/splyactever)
+* [Supply Revived in Last 90 Days](https://docs.coinmetrics.io/asset-metrics/supply/splyrvv90d#defintion)
 
 ## Availability for Assets
 
