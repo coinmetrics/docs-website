@@ -22,7 +22,7 @@ Ethereum post-1559 requires users to pay for a Base Fee as a prerequisite to inc
 
 ## Chart
 
-<figure><img src="../../.gitbook/assets/ETH_Total_Gas_Used_Mean_Priority_Fee.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ETH_Total_Gas_Used_Mean_Priority_Fee (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
