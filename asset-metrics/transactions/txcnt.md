@@ -12,6 +12,10 @@ The sum count of transactions that day. Transactions represent a bundle of inten
 
 * For UTXO chains, this metric doesn’t include coinbase transactions.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-15T15-16.png" alt=""><figcaption><p>Source: Coin Metrics Network Data Chart</p></figcaption></figure>
+
 ## Release History
 
 * Released in the 1.0 release of NDP

@@ -12,6 +12,10 @@ The mean rate at which miners are solving hashes that day. Hash rate is the spee
 
 * Hash rate is derived from difficulty (DiffMean), the rate at which block came in (BlkIntMean) and depending on the protocols, some other pieces of data. It gives an estimate of how much hash power is mining a given chain.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-15T15-37 (1).png" alt=""><figcaption><p>Source: CM Network Data Charts</p></figcaption></figure>
+
 ## Asset-Specific Details
 
 | Asset          | Formula                                               | Hash Rate Unit |
