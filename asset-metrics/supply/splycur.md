@@ -14,6 +14,10 @@ The sum of all native units ever created and currently visible on the ledger (i.
 * For UTXO chains, current supply is the sum of all unspent output values.
 * For account chains, current supply is the sum of all account balances.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-16T12-23.png" alt=""><figcaption><p>Source: CM Network Data Charts</p></figcaption></figure>
+
 ## Asset-Specific Details
 
 * For ZEC, it includes the shielded pools value
@@ -23,6 +27,10 @@ The sum of all native units ever created and currently visible on the ledger (i.
 ## Release History
 
 * Released in the 1.0 release of NDP
+
+## See Also
+
+* [Shielded Supply](https://docs.coinmetrics.io/asset-metrics/supply/splyshld)
 
 ## Availability for Assets
 
