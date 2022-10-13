@@ -13,6 +13,10 @@ The sum USD value of all miner revenue (fees plus newly issued native units) tha
 * Mining revenue doesn’t include founders reward/community funds issuance.
 * Price used is PriceUSD
 
+## Asset-Specific Details
+
+* Post Ethereum Merge, RevUSD includes only Priority Fees for ETH
+
 ## Release History
 
 * Released in the 1.0 release of NDP

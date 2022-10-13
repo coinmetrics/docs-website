@@ -4,8 +4,13 @@
 
 The USD value of the mean daily miner reward per estimated hash unit per second performed during the period, also known as hashprice. The unit of hashpower measurement depends on the protocol.
 
-## Details
+| Name                                 | MetricID       | Category | Subcategory | Type | Unit | Interval |
+| ------------------------------------ | -------------- | -------- | ----------- | ---- | ---- | -------- |
+| Miner Revenue per Hash per Sec (USD) | RevHashRateUSD | Mining   | Hash Rate   | Mean | USD  | 1 day    |
 
+## Asset-Specific Details
+
+* Post Ethereum Merge, Miner Metrics are no longer calculated
 * Hash rate calculations are specific to a protocol's mining algorithm, which often targets a time in between blocks.
 * Below are formulas and measurement units associated with each of the supported assets.
 
@@ -17,14 +22,6 @@ The USD value of the mean daily miner reward per estimated hash unit per second 
 | XMR            | (BlkCnt / 720) \* DiffMean \* 1000000                 | MH/s |
 | ZEC            | ((DiffMean / 150) \* 7000) / 10^9                     | GH/s |
 | ETH, ETC       | (DiffMean / BlkIntMean) / 10^12                       | TH/s |
-
-##
-
-## Dictionary
-
-| Name                                 | MetricID       | Category | Subcategory | Type | Unit | Interval |
-| ------------------------------------ | -------------- | -------- | ----------- | ---- | ---- | -------- |
-| Miner Revenue per Hash per Sec (USD) | RevHashRateUSD | Mining   | Hash Rate   | Mean | USD  | 1 day    |
 
 ## Release History
 

@@ -8,6 +8,10 @@ The mean rate at which miners are solving hashes over the last 30 days. Hash rat
 | ---------------------- | ----------- | -------- | ----------- | ---- | ------ | -------- |
 | Mean Hash Rate, 30 Day | HashRate30d | Mining   | Hash Rate   | Mean | Varies | 1 day    |
 
+## Asset-Specific Details
+
+* Post Ethereum Merge, Miner Metrics are no longer calculated
+
 ## Release History
 
 * Released in the version 4.9 of Network Data Pro

@@ -8,8 +8,9 @@ The mean miner reward per estimated hash unit performed during the period, in na
 | ------------------------------------- | ---------- | -------- | ----------- | ---- | ------------ | -------- |
 | Miner Revenue per Hash (native units) | RevHashNtv | Mining   | Revenue     | Mean | Native units | 1 day    |
 
-## Details
+## Asset-Specific Details
 
+* Post Ethereum Merge, Miner Metrics have been deprecated&#x20;
 * Hash rate calculations are specific to a protocol's mining algorithm, which often targets a time in between blocks.
 * Below are formulas and measurement units associated with each of the supported assets.
 
@@ -21,8 +22,6 @@ The mean miner reward per estimated hash unit performed during the period, in na
 | XMR            | (BlkCnt / 720) \* DiffMean \* 1000000                 | MH/s |
 | ZEC            | ((DiffMean / 150) \* 7000) / 10^9                     | GH/s |
 | ETH, ETC       | (DiffMean / BlkIntMean) / 10^12                       | TH/s |
-
-
 
 ## Release History
 

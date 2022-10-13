@@ -12,6 +12,12 @@ The sum native units of miner revenue (fees plus newly issued native units) that
 
 * Mining revenue doesn’t include founders reward/community funds issuance.
 
+
+
+## Asset-Specific Details
+
+* Post Ethereum Merge, RevNtv includes only Priority Fees for ETH
+
 ## Release History
 
 * Released in the 4.3 release of NDP
