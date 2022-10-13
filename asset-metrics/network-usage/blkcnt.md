@@ -17,6 +17,18 @@ The sum count of blocks created that interval that were included in the main (ba
 * Only mainchain (non-orphaned/uncles) blocks are counted.
 * For chains that use median time, the day is defined using it, otherwise, it’s defined using the block’s timestamps.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/ETH_Block_Count.png" alt=""><figcaption></figcaption></figure>
+
+## Asset-Specific Details
+
+* Every blockchain will have a Block Count measurement as it's a fundamental aspect of the the distributed ledger technology.
+
+## Examples
+
+* The drawdowns in the ETH block counts can be explained by the numerous hard forks. Block difficulty would rise making it harder for miners to find the next block resulting in an increase in time between blocks therefore less blocks are created each day.
+
 ## Release History
 
 * Released in the 1.0 release of NDP

@@ -43,7 +43,7 @@ If the above was the only activity observed in the network during that interval,
 
 ## **Interpretation**
 
-Like Active Addresses, New Funded Addresses is a popular measure to proxy the number of new users on a blockchain. Unlike New Addr Cnt, this only showcases addresses with a non-zero balance .
+* Like Active Addresses, New Funded Addresses is a popular measure to proxy the number of new users on a blockchain. Unlike New Addr Cnt, this only showcases addresses with a non-zero balance .
 
 ## **See Also**
 

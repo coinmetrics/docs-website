@@ -20,7 +20,7 @@ The sum count of unique smart contract addresses that were active in the network
 
 ## **Asset-Specific Details**
 
-This metric is only available for assets that feature the notion of smart contract addresses, such as Ethereum.
+* This metric is only available for assets that feature the notion of smart contract addresses, such as Ethereum.
 
 ## **Release History**
 

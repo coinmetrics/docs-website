@@ -26,7 +26,7 @@ The sum count of unique addresses holding any amount of native units as of the e
 
 ## Interpretation
 
-This metric gives you an indication of how many addresses hold a nonzero balance of the asset; it however imposes no other eligibility test. This means that dust addresses qualify for inclusion. It only counts native units, so an Ethereum address with only ERC20s and no Ether would not count. This metric is predictably cheap to forge, as creating thousands or millions of dust outputs is cheap on many chains. To impose an eligibility hurdle on addresses, consider one of the thresholds in Addresses, with balance, greater than X native units, count.
+* This metric gives you an indication of how many addresses hold a nonzero balance of the asset; it however imposes no other eligibility test. This means that dust addresses qualify for inclusion. It only counts native units, so an Ethereum address with only ERC20s and no Ether would not count. This metric is predictably cheap to forge, as creating thousands or millions of dust outputs is cheap on many chains. To impose an eligibility hurdle on addresses, consider one of the thresholds in Addresses, with balance, greater than X native units, count.
 
 ## Availability for Assets
 

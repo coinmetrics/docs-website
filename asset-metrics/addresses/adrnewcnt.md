@@ -26,7 +26,7 @@ New Addr Cnt showcases all new addresses observed in the network over the previo
 
 ## **Asset-Specific Details**
 
-This metric is not available for assets that have full privacy, like Monero and Grin. For assets that have opt-in privacy features, like ZCash, it only takes the non-private activities into account.
+* This metric is not available for assets that have full privacy, like Monero and Grin. For assets that have opt-in privacy features, like ZCash, it only takes the non-private activities into account.
 
 ## **Examples**
 
@@ -44,7 +44,7 @@ If the above was the only activity observed in the network during that interval,
 
 ## **Interpretation**
 
-Like Active Addresses, New Addresses is a popular measure to proxy the number of _new_ users on a blockchain. However, in blockchains where address creation is cheap, or free, new addresses can still be trivially forged.
+* Like Active Addresses, New Addresses is a popular measure to proxy the number of _new_ users on a blockchain. However, in blockchains where address creation is cheap, or free, new addresses can still be trivially forged.
 
 ## **See Also**
 

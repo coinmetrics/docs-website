@@ -19,7 +19,7 @@ The sum count of unique addresses that were active in the network (as an origina
 
 ## **Asset-Specific Details**
 
-This metric is not available for assets that have full privacy, like Monero, Grin. For assets that have opt-in privacy features, like ZCash, it only takes the non-private activities into account.
+* This metric is not available for assets that have full privacy, like Monero, Grin. For assets that have opt-in privacy features, like ZCash, it only takes the non-private activities into account.
 
 ## **Examples**
 

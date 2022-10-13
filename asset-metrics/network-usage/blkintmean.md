@@ -20,6 +20,14 @@ The mean time (in seconds) between all the blocks created that interval.
 * For the block-by-block frequency, it can be interpreted as the amount of time between the publishing of the previous block and the most recent block.&#x20;
   * For example, Block 1 is published at a timestamp of 02:00:00 UTC, Block 2 is published at a timestamp of 02:10:00 UTC, so the BlkIntMean would just be 10m for Block 2.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Comparing_ETH_and_LTC_Block_Interval_Times.png" alt=""><figcaption></figcaption></figure>
+
+## Asset Specific Details
+
+* On average, Litecoin produces blocks every 2.5 minutes where Ethereum takes around 14 seconds on average
+
 ## Example
 
 If for a day, the blocks are:

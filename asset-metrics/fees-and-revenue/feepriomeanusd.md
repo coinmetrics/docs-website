@@ -20,6 +20,18 @@ Ethereum post-1559 requires users to pay for a Base Fee as a prerequisite to inc
 * This metric calculates the average Tip in transactions that have occurred in the network over the measuring period (e.g. 1 day).
 * For a thorough review of EIP1559 and the design of its pricing mechanism, please refer to [this paper](https://arxiv.org/pdf/2012.00854.pdf).
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/ETH_Total_Gas_Used_Mean_Priority_Fee (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+## Asset-Specific Details
+
+* Only available for ETH, this metric was introduced following the EIP-1559 upgrade
+
+## Examples
+
+* We saw a major drop in gas used in Spring 2022 due to the built in difficulty bomb. In the early days of Ethereum, core developers implemented this difficulty bomb mechanism to hold everyone accountable to the PoS timeline. The idea was that the bomb would go off making mining extremely difficult/unprofitable. So each time the bomb started to go off, less blocks were being found so less gas used. Therefore, less priority fees were needed since network activity was low.
+
 ## Interpretation
 
 * Miner tips are optional and showcase demand for block space (i.e. transaction settlement) in the short-term.
