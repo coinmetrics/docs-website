@@ -59,7 +59,17 @@ A sample of the daily levels for the CMBI10 from our [`/timeseries/index-levels`
 
 * **Version 1.1 on March 2021**: Added CMBILTC.\
 
-* **Version 1.2 on September 2021**: Added CMBISOL.
+*   **Version 1.2 on September 2021**: Added CMBISOL.&#x20;
+
+
+* **Version 1.3 on February 2022**: Added CMBIEOS and CMBIXTZ.\
+
+* **Version 1.4 on March 2022**: Added CMBISAND and CMBIMANA.\
+
+* **Version 1.5 on May 2022**: Added CMBIAAVE, CMBIALGO, CMBIAPE, CMBIAVAX, CMBIATOM, CMBILINK, CMBIDOT, and CMBIUNI.\
+
+* **Version 1.6 on June 2022**: Added CMBIADA and CMBIBAT.\
+
 
 ### CMBI Multi Asset Series&#x20;
 
@@ -89,6 +99,20 @@ Index levels are available for the indexes listed below.&#x20;
 | [CMBIETHT](https://cmbi-indexes.coinmetrics.io/cmbietht) | CMBI Ethereum Total Return | 2015-08-08 |
 | [CMBILTC](https://cmbi-indexes.coinmetrics.io/cmbiltc)   | CMBI Litecoin              | 2013-04-01 |
 | [CMBISOL](https://cmbi-indexes.coinmetrics.io/cmbisol)   | CMBI Solana                | 2020-04-11 |
+| [CMBIEOS](https://indexes.coinmetrics.io/cmbieos)        | CMBI EOS                   | 2017-06-29 |
+| [CMBIXTZ](https://indexes.coinmetrics.io/cmbixtz)        | CMBI Tezos                 | 2017-06-24 |
+| [CMBIMANA](https://indexes.coinmetrics.io/cmbimana)      | CMBI Decentraland          | 2017-08-25 |
+| [CMBISAND](https://indexes.coinmetrics.io/cmbisand)      | CMBI The Sandbox           | 2020-08-15 |
+| [CMBIUNI](https://indexes.coinmetrics.io/cmbiuni)        | CMBI Uniswap               | 2021-09-18 |
+| [CMBILINK](https://indexes.coinmetrics.io/cmbilink)      | CMBI Chainlink             | 2017-09-29 |
+| [CMBIAAVE](https://indexes.coinmetrics.io/cmbiaave)      | CMBI Aave                  | 2020-10-10 |
+| [CMBIAPE](https://indexes.coinmetrics.io/cmbiape)        | CMBI Apecoin               | 2022-04-01 |
+| [CMBIATOM](https://indexes.coinmetrics.io/cmbiatom)      | CMBI Cosmos                | 2019-04-23 |
+| [CMBIAVAX](https://indexes.coinmetrics.io/cmbiavax)      | CMBI Avalanche             | 2020-09-23 |
+| [CMBIALGO](https://indexes.coinmetrics.io/cmbialgo)      | CMBI Algorand              | 2019-06-22 |
+| [CMBIDOT](https://indexes.coinmetrics.io/cmbidot)        | CMBI Polkadot              | 2021-03-12 |
+| [CMBIBAT](https://indexes.coinmetrics.io/cmbibat)        | CMBI Basic Attention Token | 2017-10-06 |
+| [CMBIADA](https://indexes.coinmetrics.io/cmbimana)       | CMBI Cardano               | 2017-12-01 |
 
 ### **Multi Asset Series**
 
