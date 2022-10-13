@@ -12,6 +12,10 @@ The sum USD value of native units transferred divided by the count of transfers 
 
 * Computed as TxTfrValMeanNtv \* PriceUSD
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-15T17-57.png" alt=""><figcaption><p>Source: CM Network Data Charts</p></figcaption></figure>
+
 ## Asset-Specific Details
 
 * For assets that have opt-in privacy features, like ZCash, it only takes the non-private activity.
@@ -19,6 +23,11 @@ The sum USD value of native units transferred divided by the count of transfers 
 ## Release History
 
 * Released in the 1.0 release of NDP
+
+## See Also
+
+* [TxTfrValMeanNtv](https://docs.coinmetrics.io/asset-metrics/transactions/txtfrvalmeanntv#definition)
+* [TxTfrValNtv](https://docs.coinmetrics.io/asset-metrics/transactions/txtfrvalntv#details)
 
 ## Availability for Assets
 
