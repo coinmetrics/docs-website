@@ -8,6 +8,8 @@ description: /timeseries/asset-metrics
 
 The sum of the size (in bytes) of all blocks created that interval.
 
+## Dictionary
+
 | Name                      | MetricID    | Category      | Subcategory | Type | Unit  | Interval |
 | ------------------------- | ----------- | ------------- | ----------- | ---- | ----- | -------- |
 | Sum Block Size (in bytes) | BlkSizeByte | Network Usage | Blocks      | Sum  | Bytes | 1d, 1b   |
@@ -17,6 +19,10 @@ The sum of the size (in bytes) of all blocks created that interval.
 * Only mainchain (non-orphaned/uncles) blocks are counted.
 * For chains that use median time, the day is defined using it, otherwise, it’s defined using the block’s timestamps.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Sum_Block_Size_(in_bytes).png" alt=""><figcaption><p><em>Source:</em> <a href="https://charts.coinmetrics.io/network-data/#4297"><em>CM Network Data Charts</em></a><em></em></p></figcaption></figure>
+
 ## Asset-Specific Details
 
 * This metric is not available for all assets, as some node’s RPC APIs do not expose the size of the blocks.
@@ -24,6 +30,17 @@ The sum of the size (in bytes) of all blocks created that interval.
 ## Release History
 
 * Released in the 1.0 release of NDP
+
+## Interpretation
+
+* Can be used to measure and compare blockchains' usages and fees
+* Can help gauge gas/fee for large transactions:
+  * fee per byte = total block fee/block size (byte)
+
+## See Also
+
+* [Mean Block Size (in bytes)](https://docs.coinmetrics.io/asset-metrics/network-usage/blksizemeanbyte)
+* [Mean Tx Fee per Byte (native units)](https://docs.coinmetrics.io/asset-metrics/fees-and-revenue/feebytemeanntv)
 
 ## Availability for Assets
 
