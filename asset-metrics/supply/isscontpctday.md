@@ -15,6 +15,10 @@ The percentage of new native units (continuous) issued on that day divided by th
 * Also equivalent to IssContPctAnn / 365
 * A value of 1.0 means that the asset’s monetary policy is a 1% daily inflation.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-16T14-11.png" alt=""><figcaption><p>Source: CM Network Data Chart</p></figcaption></figure>
+
 ## Asset-Specific Details
 
 * For XLM, the inflation process is considered continuous issuance as it is protocol mandated and predictable.
@@ -22,6 +26,10 @@ The percentage of new native units (continuous) issued on that day divided by th
 ## Release History
 
 * Released in the 1.0 release of NDP
+
+## See Also
+
+* [Annual Inflation Rate](https://docs.coinmetrics.io/asset-metrics/supply/isscontpctann?q=inflation)
 
 ## Availability for Assets
 
