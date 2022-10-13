@@ -8,11 +8,13 @@ description: /timeseries/asset-metrics
 
 The sum USD value rewarded to miners for creating and including uncle blocks in that interval. This includes the uncle inclusion reward (for the main chain block miner) and the uncle rewards (for the uncle block miners).
 
+## Dictionary
+
 | Name               | MetricID     | Category      | Subcategory | Type | Unit         | Interval       |
 | ------------------ | ------------ | ------------- | ----------- | ---- | ------------ | -------------- |
 | Uncle Reward (USD) | BlkUncRwdUSD | Network Usage | Blocks      | Sum  | Native Units | 1 block, 1 day |
 
-### Details
+## Details
 
 * Uncle Blocks (also known as Ommer Blocks) are an intrinsic feature of Ethereum.
 * Unlike Bitcoin, Ethereum does not discard blocks in situations where multiple miners find a valid block of the same height.
@@ -21,11 +23,18 @@ The sum USD value rewarded to miners for creating and including uncle blocks in 
 
 ## Asset-Specific Details
 
-* Only available for ETH and ETC
+* This metric is only relevant to ETH and ETC
 
 ## Release History
 
 * Released in the 4.3 release of NDP
+* Deprecated post the Ethereum Merge
+
+## See Also
+
+* [Uncle Blocks Cnt](https://docs.coinmetrics.io/asset-metrics/network-usage/blkunccnt)
+* [Miner Revenue from Uncle Blocks (%)](https://docs.coinmetrics.io/asset-metrics/network-usage/blkuncrevpct)
+* [Uncle Reward (native units)](https://docs.coinmetrics.io/asset-metrics/network-usage/blkuncrwd)
 
 ## Availability for Assets
 
