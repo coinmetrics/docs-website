@@ -12,6 +12,10 @@ The difficulty of the last block in the considered time period. Difficulty repre
 
 * This metric is not comparable across all chains as its value is dependent on the hashing function used by each chain.
 
+## Chart
+
+<figure><img src="../../.gitbook/assets/Coin_Metrics_Network_Data_2022-09-15T15-37.png" alt=""><figcaption><p>Source: CM Network Data Charts</p></figcaption></figure>
+
 ## Asset-Specific Details
 
 * This metric is only available for PoW chains.
