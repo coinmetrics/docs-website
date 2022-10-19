@@ -20,7 +20,7 @@ Atlas v 2.0 currently supports the following assets:
 | Algorand\*                            | algo       |
 | Alpha Venture DAO                     | alpha      |
 | Aragon                                | ant        |
-| Audtio                                | audio      |
+| Audius                                | audio      |
 | Augur                                 | rep        |
 | Badger                                | badger     |
 | Balancer                              | bal        |
