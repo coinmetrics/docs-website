@@ -20,7 +20,7 @@ The Principal Market Price is the price of an asset quoted in U.S. dollars deriv
 
 A sample of the Principal Market Price data for Bitcoin is shown below:
 
-<figure><img src="../../.gitbook/assets/btc-pmp.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/coinmetrics/docs-website/master/.gitbook/assets/btc-pmp.png" alt=""><figcaption></figcaption></figure>
 
 * asset:  The IDs of the asset.  &#x20;
 * time: The principal market price time in ISO 8601 date-time format.
