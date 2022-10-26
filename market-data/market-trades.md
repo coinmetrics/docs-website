@@ -89,6 +89,14 @@ Yes! All of our endpoints that accept the `markets` parameter will accept wildca
 
 We always preserve the exchange-reported timestamp resolution, and the maximum resolution reported by some exchanges is at microsecond level. Our API serves time always using nanosecond precision.&#x20;
 
+**What is the difference between `time` and `database_time`?**
+
+`time` represents the time logged by the given exchange, whereas `database_time` represents the time logged by Coin Metrics' database.
+
+**How is `database_time` useful?**
+
+`database_time` can be useful to show collection lag time, which can be important for users who are running  backtests and simulations, and need to know exactly what data was available in a given point in time.
+
 **How come there is no trades data for a particular market?**
 
 When spot markets that involve a new asset are listed on an exchange, there is a short period of time before we can support it. It involves adding this new asset to our security master file so that our market data collection system recognizes it. Please contact us at info@coinmetrics.io if you do not see a particular market, and we will investigate it.&#x20;
