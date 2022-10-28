@@ -12,7 +12,7 @@ Quotes consist of the best bid and the best ask for a market at a given point in
 
 Quotes data is derived from our order book snapshot data by extracting the best bid and best ask. We serve quotes data through a separate endpoint as a convenience for users.&#x20;
 
-Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full order book snapshot (every bid and every ask) taken once every hour. Quotes derived from both of these snapshots are served through our HTTP API endpoint [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketQuotes).&#x20;
+Coin Metrics stores three types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds for major markets. The second type includes all levels where the price is within 10 percent of the midprice taken once every 10 seconds. The third type consists of a full order book snapshot (every bid and every ask) taken once every hour for all markets that we are collecting order book data for. Quotes derived from these snapshots are served through our HTTP API endpoint [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketQuotes).&#x20;
 
 Coin Metrics also serves quotes in real-time for major markets through our websocket API endpoint [`/timeseries-stream/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamMarketQuotes).&#x20;
 
