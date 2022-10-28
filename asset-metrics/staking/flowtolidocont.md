@@ -15,3 +15,7 @@ Daily sent to the Lido staking contract.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowToLidoCont" %}

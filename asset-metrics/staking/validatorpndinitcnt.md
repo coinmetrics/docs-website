@@ -15,3 +15,7 @@ Validators pending eligibility.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ValidatorPndInitCnt" %}

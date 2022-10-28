@@ -15,3 +15,7 @@ Deposits sent to the Consensus Layer (CL) Contract.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/FlowToCLCont" %}

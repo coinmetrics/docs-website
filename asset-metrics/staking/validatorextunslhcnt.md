@@ -15,3 +15,7 @@ Validators that have not been slashed but are no longer active.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ValidatorExtUnslhCnt" %}

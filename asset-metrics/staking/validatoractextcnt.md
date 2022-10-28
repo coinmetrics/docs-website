@@ -15,3 +15,7 @@ Validators who have filed a voluntary request to exit.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ValidatorActExtCnt" %}

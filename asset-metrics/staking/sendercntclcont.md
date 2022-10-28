@@ -15,3 +15,7 @@ Count of new addresses that have sent to the Consensus Layer (CL) contract.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+* N/A

@@ -15,3 +15,8 @@ Unique count of all senders to the Consensus Layer (CL) contract.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+* N/A
+

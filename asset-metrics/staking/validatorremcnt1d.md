@@ -17,3 +17,7 @@ Count of validators removed daily.
 ## Release History
 
 * Released September 2022.
+
+## Availability for Assets
+
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ValidatorRemCnt1d" %}

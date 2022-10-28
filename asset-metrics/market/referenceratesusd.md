@@ -48,14 +48,6 @@ A sample of the real-time reference rates data for Bitcoin is shown below:
 * Release Version: Real-time Reference Rates v0.4 (March 5, 2020) -  expansion of coverage universe (+24)&#x20;
 * Release Version: Reference Rates v2.4 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
 * Release Version: Real-time Reference Rates v0.5 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
-* Release Version: Reference Rates v2.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
-* Release Version: Real-time Reference Rates v0.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
-* Release Version: Reference Rates v2.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
-* Release Version: Real-time Reference Rates v0.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
-* Release Version: Reference Rates v2.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
-* Release Version: Real-time Reference Rates v0.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
-* Release Version: Reference Rates v2.13 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
-* Release Version: Real-time Reference Rates v0.14 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
 
 ## **Availability for Assets**
 
