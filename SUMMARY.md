@@ -609,6 +609,7 @@
   * [Annualized Futures Basis, 60 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-60-day-expiration.md)
   * [Annualized Futures Basis, 90 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-90-day-expiration.md)
   * [Annualized Futures Basis, 120 day expiration](exchange-asset-metrics/basis/annualized-futures-basis-120-day-expiration.md)
+* [Liquidations](exchange-asset-metrics/liquidations.md)
 * [Open Interest](exchange-asset-metrics/open-interest.md)
 * [Volume](exchange-asset-metrics/volume.md)
 
