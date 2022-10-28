@@ -35,6 +35,11 @@
 * [Market Data FAQs](market-data/market-data-faqs.md)
 * [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
 
+## DeFi Data
+
+* [DeFi Data Overview](defi-data/index.md)
+* [DeFi FAQs](defi-data/defi-faqs.md)
+
 ## Index Data
 
 * [Index Overview](index-data/index.md)
