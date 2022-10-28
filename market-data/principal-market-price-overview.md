@@ -4,7 +4,7 @@ CM Principal Market Prices provide prices calculated in U.S. Dollars for several
 
 ## Data Available at the Asset Level
 
-Data available at the asset level is available through the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) API endpoint (`principal market price` product parameter) and specific metrics are described in the pages linked in this section:
+Data available at the asset level is available through the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:
 
 {% embed url="https://docs.coinmetrics.io/asset-metrics/market/principalmarketprice" %}
 
