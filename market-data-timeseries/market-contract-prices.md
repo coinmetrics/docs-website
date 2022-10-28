@@ -22,24 +22,24 @@ A sample of contract price data from our [`/timeseries/market-contract-prices`](
 ```
 {
   "data" : [ {
-    "market" : "deribit-ETH-10SEP21-3200-P-option",
-    "time" : "2021-09-01T23:58:00.000000000Z",
-    "database_time" : "2021-09-01T23:58:43.075072000Z",
-    "mark_price" : "0.010619",
-    "index_price" : "3831.7",
-    "exchange_time" : "2021-09-01T23:58:42.468000000Z"
+    "market" : "deribit-BTC-11NOV22-20000-C-option",
+    "time" : "2022-10-20T08:03:00.000000000Z",
+    "database_time" : "2022-10-20T08:03:52.831102000Z",
+    "mark_price" : "0.0791",
+    "index_price" : "19153.67",
+    "settlement_price_estimated" : "19153.67",
+    "exchange_time" : "2022-10-20T08:03:51.768000000Z"
   }, {
-    "market" : "deribit-ETH-10SEP21-3200-P-option",
-    "time" : "2021-09-01T23:59:00.000000000Z",
-    "database_time" : "2021-09-01T23:59:34.087236000Z",
-    "mark_price" : "0.010492",
-    "index_price" : "3838.91",
-    "exchange_time" : "2021-09-01T23:59:33.834000000Z"
+    "market" : "deribit-BTC-11NOV22-20000-C-option",
+    "time" : "2022-10-20T08:04:00.000000000Z",
+    "database_time" : "2022-10-20T08:04:15.834472000Z",
+    "mark_price" : "0.0791",
+    "index_price" : "19154.68",
+    "settlement_price_estimated" : "19154.68",
+    "exchange_time" : "2022-10-20T08:04:14.938000000Z"
   } ]
 }
 ```
-
-
 
 *   **`market`**:  The id of the market. Market ids use the following naming convention for options markets: `exchangeName-optionsSymbol-option`&#x20;
 
@@ -53,6 +53,9 @@ A sample of contract price data from our [`/timeseries/market-contract-prices`](
 *   **`index_price`**:  The price of the underlying benchmark index.
 
 
+*   **`settlement_price_estimated`**: Represents what the underlying index settlement price would be if the contract immediately expired, helpful in calculating estimated profit and loss prior to contract expiration.
+
+
 *   **`database_time`**:  The timestamp when the data was saved in the database in ISO 8601 date-time format with nanoseconds precision. Always with nanoseconds precision.
 
 
@@ -61,3 +64,4 @@ A sample of contract price data from our [`/timeseries/market-contract-prices`](
 ## Release History
 
 * ****[**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market contract prices, from Deribit and added several new API endpoints to serve this data.
+* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Began collecting and serving the settlement price and estimated settlement price for option markets. The settlement price is served in our `/catalog/markets` endpoint and is available shortly after an option market expires. And the estimated settlement price is updated once a minute and served in our `/timeseries/market-contract-prices` endpoint.

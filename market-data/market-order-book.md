@@ -12,9 +12,13 @@ An order book represents the list of buy orders and the list of sell orders for 
 
 The price and amount that a trader is willing to buy is referred to as the bid. The price and amount that a trader is willing to sell is referred to as the ask. When a trade is executed between a buyer and a seller, an order is removed from the order book. While an order book is constantly updated in real-time as traders post new orders and as orders are matched, this data type represents a snapshot of the order book at a given moment in time.&#x20;
 
-Coin Metrics stores two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds for major markets.  The second type consists of a full order book snapshot (every bid and every ask) taken once every hour for all markets that we are collecting order book data for. Both of these snapshots are served through our HTTP API endpoint [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks).
+Coin Metrics stores three types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds for major markets. The second type includes all levels where the price is within 10 percent of the midprice taken once every 10 seconds. The third type consists of a full order book snapshot (every bid and every ask) taken once every hour for all markets that we are collecting order book data for. All of these snapshots are served through our HTTP API endpoint [`/timeseries/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketOrderbooks).
 
 Coin Metrics also serves order book snapshots and updates for the top 100 bids and 100 asks for major markets through our websocket API endpoint [`/timeseries-stream/market-orderbooks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamMarketOrderbooks). The first message that the client receives is an order book snapshot. All subsequent messages are updates to the order book. This allows a user to maintain the current state of the order book at all times by storing the order book state locally and applying updates to it. &#x20;
+
+## **Chart**
+
+<figure><img src="../.gitbook/assets/Binance-Orderbook-Depth.png" alt=""><figcaption><p>Source: CM <a href="https://coinmetrics.io/insights/state-of-the-market/">State of the Market</a></p></figcaption></figure>
 
 ## **Example**
 
@@ -69,7 +73,7 @@ A sample of the order book snapshot data from the `coinbase-btc-usd-spot`market 
 
 An **order book snapshot** represents the state of the order book at a specific point in time. It contains the price level and amount for each bid and ask order in the order book.&#x20;
 
-We store two types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds.  The second type consists of a full order book snapshot (every bid and every ask) taken once every hour.&#x20;
+We store three types of order book snapshots. One type consists of a snapshot of the top 100 bids and top 100 asks taken once every 10 seconds. The second type includes all levels where the price is within 10 percent of the midprice taken once every 10 seconds. The third type consists of a full order book snapshot (every bid and every ask) taken once every hour.&#x20;
 
 An **order book update** represents a single change to the state of the order book via an addition, change, or removal of a bid or ask order. Cryptocurrency exchanges typically report order book updates as a new  `[side, price, size]` tuple where the size represents the new value and not the delta from the previous value.&#x20;
 
@@ -93,7 +97,7 @@ The exact latency varies depending on the exchange, but our median latency is ap
 
 **Are your order book snapshots taken on exactly the second or hour?**&#x20;
 
-Coin Metrics collects two different sized snapshots for order book data. One snapshot takes the top 100 bids **** and asks every 10 seconds for major markets. The second snapshot takes a a full order book snapshot for all markets that we are collecting order book data for. Although the value of  `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release.&#x20;
+Coin Metrics collects three different sized snapshots for order book data. One snapshot takes the top 100 bids **** and asks every 10 seconds for major markets. The second snapshot includes all levels where the price is within 10 percent of the midprice every 10 seconds for major markets. The third snapshot takes a a full order book snapshot for all markets that we are collecting order book data for once every hour. Although the value of `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release.&#x20;
 
 **How much order-book history does Coin Metrics support?**
 
@@ -110,7 +114,13 @@ Generally, it is not possible to collect order book history from exchanges direc
 *   ****[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)**:** Expanded both the depth of our order book snapshot coverage and our coverage universe. For important markets, we maintain a snapshot of the top 100 levels at 10 second intervals. Started storing full order book snapshots at hourly intervals. Expanded our coverage universe to additional markets on Coinbase, Binance, FTX, Bitfinex, itBit.&#x20;
 
     &#x20;
-* ****[**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/)**:** Expanded our coverage universe to additional spot markets on Binance, Binance.US, Bitfinex, bitFlyer, Bitstamp, Bittrex, CEX.io, Coinbase, FTX, Gemini, Huobi, itBit, Kraken, Kucoin, Liquid, and LMAX. Initiated snapshot coverage of futures markets on Binance, Bitfinex, bitFlyer, BitMEX, Bybit, Deribit, FTX, Huobi, Kraken, OKEx. Initiated real-time coverage of CME order book snapshots.
+*   [**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/)**:** Expanded our coverage universe to additional spot markets on Binance, Binance.US, Bitfinex, bitFlyer, Bitstamp, Bittrex, CEX.io, Coinbase, FTX, Gemini, Huobi, itBit, Kraken, Kucoin, Liquid, and LMAX. Initiated snapshot coverage of futures markets on Binance, Bitfinex, bitFlyer, BitMEX, Bybit, Deribit, FTX, Huobi, Kraken, OKEx. Initiated real-time coverage of CME order book snapshots.&#x20;
+
+    &#x20;
+*   [**CM MDF v2.6 on July 13, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-6-release-notes/)**:** Added snapshot coverage of the top 100 bids and asks as well as full order book snapshots of OKEx spot markets, FTX.US spot markets, and CME futures markets. Added more frequent order book snapshots for several highly traded perpetual futures across many futures exchanges.&#x20;
+
+    &#x20;
+* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/)**:** Expanded **** our coverage universe to additional spot and futures markets on Binance, Binance.US, Bitfinex, Bitflyer, BitMEX, Bitstamp, Bittrex, Bybit, CEX.io, Coinbase, CME, Deribit, FTX, FTX.US, Gemini, Huobi, Kraken, Kucoin, Liquid, OKEx. Expanded the depth of 10-second snapshots to include the maximum of 100 levels and all levels where the price is within 10 percent of the midprice.
 
 ## **Availability**
 
