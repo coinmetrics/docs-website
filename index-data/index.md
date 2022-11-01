@@ -10,6 +10,10 @@ The data types listed below are available for each index:&#x20;
 [index-levels.md](index-levels.md)
 {% endcontent-ref %}
 
+{% content-ref url="../indexes-timeseries/index-candles.md" %}
+[index-candles.md](../indexes-timeseries/index-candles.md)
+{% endcontent-ref %}
+
 {% content-ref url="index-constituents.md" %}
 [index-constituents.md](index-constituents.md)
 {% endcontent-ref %}
