@@ -651,6 +651,7 @@
 ## Indexes (Timeseries)
 
 * [Index Levels](index-data/index-levels.md)
+* [Index Candles](indexes-timeseries/index-candles.md)
 * [Index Constituents](index-data/index-constituents.md)
 
 ## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
