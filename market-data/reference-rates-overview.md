@@ -1,6 +1,6 @@
 # Reference Rates Overview
 
-CM Reference Rates provide prices calculated in U.S. Dollars and Euros for over 300 assets using a transparent and independent methodology. Our rates are robust to manipulation and are derived from high quality constituent markets per our[ Market Selection Framework](../methodologies/reference-rates/market-selection-framework.md).&#x20;
+CM Reference Rates provide prices calculated for over 550 assets quoted in U.S. dollars, Euro, Bitcoin, and Ethereum using a transparent and independent methodology. Our rates are robust to manipulation and are derived from high quality constituent markets per our[ Market Selection Framework](../methodologies/reference-rates/market-selection-framework.md).&#x20;
 
 ## Data Available at the Asset Level
 
