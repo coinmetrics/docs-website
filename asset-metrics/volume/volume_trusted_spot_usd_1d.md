@@ -22,7 +22,6 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 * Bittrex
 * CEX.io
 * Coinbase
-* FTX (New)
 * Gate.io
 * Gemini
 * itBit
