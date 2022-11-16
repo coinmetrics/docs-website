@@ -648,6 +648,10 @@
   * [Coin Per Share](institution-metrics/grayscale/coin-per-share.md)
   * [Total Assets](institution-metrics/grayscale/total-assets.md)
 
+## DeFi Balance Sheets (Time Series) <a href="#defi-balance-sheets" id="defi-balance-sheets"></a>
+
+* [DeFi Balance Sheets Overview](defi-balance-sheets/institution-metrics-overview.md)
+
 ## Indexes (Timeseries)
 
 * [Index Levels](index-data/index-levels.md)
