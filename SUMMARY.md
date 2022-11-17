@@ -37,7 +37,7 @@
 
 ## DeFi Data
 
-* [DeFi Data Overview](defi-data/index.md)
+* [DeFi Data Overview](defi-data/defi-data-overview.md)
 * [DeFi FAQs](defi-data/defi-faqs.md)
 
 ## Index Data
@@ -650,7 +650,7 @@
 
 ## DeFi Balance Sheets (Time Series) <a href="#defi-balance-sheets" id="defi-balance-sheets"></a>
 
-* [DeFi Balance Sheets Overview](defi-balance-sheets/institution-metrics-overview.md)
+* [DeFi Balance Sheets Overview](defi-balance-sheets/defi-balance-sheets-overview.md)
 
 ## Indexes (Timeseries)
 
