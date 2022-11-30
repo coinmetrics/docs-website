@@ -4,8 +4,7 @@
 
 The price inputs for our indexes are informed by our reference rates methodologies.  We have methodologies for both hourly rates and real-time rates. Our hourly and daily levels use our Hourly Reference Rates methodology and our 15 second levels use our Real-Time Reference Rates methodology. Links to the methodology documents are listed below.&#x20;
 
-* [Hourly Reference Rates Methodology](https://coinmetrics.io/reference-rates-methodology/)\
-
+* [Hourly Reference Rates Methodology](https://coinmetrics.io/reference-rates-methodology/)
 * [Real-Time Reference Rates Methodology](https://coinmetrics.io/rtrr-methodology/)****
 
 **What's the difference between your reference rate and a single-asset index for the same asset?**&#x20;

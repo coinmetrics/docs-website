@@ -48,6 +48,13 @@
 * [Indexes Glossary](glossary/indexes.md)
 * [Index FAQs](index-data/index-faqs.md)
 
+## Reference Data
+
+* [datonomy Overview](reference-data/datonomy-overview.md)
+* [Methodologies](reference-data/methodologies/README.md)
+  * [Guiding Principles and Methodology for datonomy](reference-data/methodologies/guiding-principles-and-methodology-for-datonomy.md)
+* [datonomy FAQs](reference-data/datonomy-faqs.md)
+
 ## Asset Metrics (Time Series) <a href="#asset-metrics" id="asset-metrics"></a>
 
 * [Asset Metrics Overview](asset-metrics/asset-metrics-overview.md)
@@ -657,6 +664,11 @@
 * [Index Levels](index-data/index-levels.md)
 * [Index Candles](indexes-timeseries/index-candles.md)
 * [Index Constituents](index-data/index-constituents.md)
+
+## Taxonomy
+
+* [Taxonomy for Assets](taxonomy/taxonomy-for-assets.md)
+* [Taxonomy Metadata for Assets](taxonomy/taxonomy-metadata-for-assets.md)
 
 ## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
 
