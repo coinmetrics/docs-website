@@ -10,13 +10,14 @@ The DeFi balance sheets endpoint has been released as a [CM Labs](https://docs.c
 
 Coin Metrics collects various data from DeFi protocols and we serve this data in the form of DeFi balance sheets from our  [`/timeseries/defi-balance-sheets`](https://docs.coinmetrics.io/api/v4#operation/getDefiBalanceSheets) API endpoint.&#x20;
 
-## Institution Coverage
+## Protocol Coverage
 
 The protocols covered in our DeFi balance sheets endpoint are listed below:
 
-| Protocol |     Ticker    | Start Date |
-| -------- | :-----------: | :--------: |
-| Aave V2  | `aave_v2_eth` | 2020-12-01 |
+| Protocol    |       Ticker      | Start Date |
+| ----------- | :---------------: | :--------: |
+| Aave V2     |   `aave_v2_eth`   | 2020-12-01 |
+| Compound V2 | `compound_v2_eth` | 2019-05-17 |
 
 ## Endpoint Response
 
