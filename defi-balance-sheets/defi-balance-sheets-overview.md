@@ -8,6 +8,8 @@ description: /timeseries/defi-balance-sheets
 The DeFi balance sheets endpoint has been released as a [CM Labs](https://docs.coinmetrics.io/cm-labs) project. Breaking changes may be introduced with minimal notice. Please exercise caution given the endpoint's experimental nature.
 {% endhint %}
 
+<figure><img src="../.gitbook/assets/DEFI-screenshots (1).png" alt=""><figcaption><p>Example of AAVE Balance Sheet metrics</p></figcaption></figure>
+
 Coin Metrics collects various data from DeFi protocols and we serve this data in the form of DeFi balance sheets from our  [`/timeseries/defi-balance-sheets`](https://docs.coinmetrics.io/api/v4#operation/getDefiBalanceSheets) API endpoint.&#x20;
 
 ## Protocol Coverage
