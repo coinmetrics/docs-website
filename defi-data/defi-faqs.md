@@ -1,6 +1,6 @@
 # DeFi FAQs
 
-#### **Can the daily number of unique buyers be derived from DEX swaps data?**
+### **Can the daily number of unique buyers be derived from DEX swaps data?**
 
 Each DEX swap served via the _market-trades_ endpoint is associated with 3 different Ethereum addresses:
 

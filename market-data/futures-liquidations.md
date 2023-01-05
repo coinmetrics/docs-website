@@ -63,11 +63,11 @@ A sample of the liquidations data from the `binance-BTCUSDT-future` market from 
 
 ## Frequently Asked Questions&#x20;
 
-**What does the liquidation side represent?**&#x20;
+### **What does the liquidation side represent?**&#x20;
 
 We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. **** For example, if a trader had a long position and the price suddenly declined that caused the trader's position to be liquidated, the result would be a liquidation with a side of `sell`. &#x20;
 
-**What determines the frequency of liquidations data?**
+### **What determines the frequency of liquidations data?**
 
 There is no set time frequency for liquidations, since they are event-based just like trades or orders. Whenever an exchange liquidates a traders position, the data is pulled in real time. In theory, if the market is trading flat and not moving much in either direction, you won't see many liquidations, whereas if there is high volatility you'll see a higher frequency stream of liquidations.&#x20;
 

@@ -76,21 +76,21 @@ An sample of the candles data from the `coinbase-btc-usd-spot` market from our [
 
 ## Frequently Asked Questions
 
-**What is the historical coverage of your candles data?**&#x20;
+### **What is the historical coverage of your candles data?**&#x20;
 
 Our candles history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of candles history. We also have full historical candles from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken.&#x20;
 
 Our candles are calculated from trades data that we collect. Some exchanges allow users to query all of their historical trades data while other exchanges only allow users to query a short amount of history such as the past 1,000 trades. Coin Metrics always attempts to collect the maximum backhistory possible. If an exchange allows us to query historical trades data, we will collect data from every market starting from the inception of the exchange.&#x20;
 
-#### **Is there a way to pull data for multiple markets in one API call?**
+### **Is there a way to pull data for multiple markets in one API call?**
 
 Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets.&#x20;
 
-#### **When are candles calculated?**&#x20;
+### **When are candles calculated?**&#x20;
 
 Our candle generator waits 20 minutes before calculating a candle to ensure that we are not missing any trades in the candle interval. We are working towards a future upgrade that will reduce this lag. If you require candles with very low delay, we recommend calculating them using our [trades data](https://docs.coinmetrics.io/market-data/market-trades). &#x20;
 
-**How does Coin Metrics ensure high levels of data quality and data integrity?**
+### **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
 Please take a look at this question in the Market Data FAQs page linked below.&#x20;
 
@@ -98,11 +98,11 @@ Please take a look at this question in the Market Data FAQs page linked below.&#
 [market-data-faqs.md](market-data-faqs.md)
 {% endcontent-ref %}
 
-**Why are there some observations where the candle vwap is higher than the high price or lower than the low price?**
+### **Why are there some observations where the candle vwap is higher than the high price or lower than the low price?**
 
 We construct gapless candles which means that if there are no trades in a candle interval, we fill forward candles through time, setting the open, high, low, and close to the close of the previous candle, setting the vwap to the vwap of the previous candle, and setting the volume to zero. In cases where there are no trades in a candle interval, it is expected that the vwap may be higher than the high price or lower than the low price due to our fill forward logic.&#x20;
 
-**What does the time for each candle observation represent?**
+### **What does the time for each candle observation represent?**
 
 Since candles represent a set of summary statistics measured over an interval of time (such as one calendar day), by convention we set the `time` field to the beginning of the candle interval.
 

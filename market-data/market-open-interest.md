@@ -55,15 +55,15 @@ A sample of the futures open interest data from the `binance-BTCUSDT-future` mar
 
 ## Frequently Asked Questions
 
-**Why do some markets have snapshot frequency of one minute but other markets have a different snapshot frequency?**&#x20;
+### **Why do some markets have snapshot frequency of one minute but other markets have a different snapshot frequency?**&#x20;
 
 Most exchanges report their open interest in real-time and for these exchanges we collect open interest at one minute snapshot frequency. Binance only updates their open interest once every 15 minutes and CME only updates their open interest once a day, so for these two exchanges our snapshot frequency matches their update frequency.&#x20;
 
-**Is your open interest snapshot taken exactly on the minute?**&#x20;
+### **Is your open interest snapshot taken exactly on the minute?**&#x20;
 
 For exchanges that report an actual timestamp that is not the time of the request (such as Binance and CME), our `time`  field is the exchange-reported time. For all other exchanges, we truncate the `time` field to the minute. We try to cycle our scrapers as close to the minute as possible, but most exchanges do not allow us to query the open interest at a specific timestamp. Therefore, if you require a more precise timestamp for exactly when open interest was measured, we recommend using the `database_time` field which represents the time that we saved it in the database.&#x20;
 
-**Do you have open interest metrics for assets, exchanges, asset pairs, or exchange-asset pairs?**&#x20;
+### **Do you have open interest metrics for assets, exchanges, asset pairs, or exchange-asset pairs?**&#x20;
 
 Yes! We calculate various types of total open interest for assets like `btc`, exchanges like `binance`, asset pairs like `btc-usd`, and exchange-asset pairs like `binance-btc`. For more information, please take a look at our [open interest metrics](https://docs.coinmetrics.io/asset-metrics/open-interest).&#x20;
 

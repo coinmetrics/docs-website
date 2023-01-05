@@ -59,17 +59,17 @@ A sample of the trades data from the `coinbase-btc-usd-spot` market from our [`/
 
 ## Frequently Asked Questions
 
-#### **What is the latency of your trades data?**
+### **What is the latency of your trades data?**
 
 The exact latency varies depending on the exchange, but our median latency is approximately 150 milliseconds. The 95th percentile latency is 300 milliseconds, and the 99th percentile latency is 400 milliseconds.&#x20;
 
-**What is the historical coverage of your trades data?**
+### **What is the historical coverage of your trades data?**
 
 Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 2010, so we have over 10 years of trades history. We also have full historical trades data from several other early exchanges such as Bitstamp, TheRockTrading, Bitfinex, and Kraken.&#x20;
 
 Some exchanges allow users to query all of their historical trades data while other exchanges only allow users to query a short amount of history such as the past 1,000 trades. Coin Metrics always attempts to collect the maximum backhistory possible. If an exchange allows us to query historical trades data, we will collect data from every market starting from the inception of the exchange.&#x20;
 
-**Can you tell me more information on how to interpret the `coin_metrics_id` field?**
+### **Can you tell me more information on how to interpret the `coin_metrics_id` field?**
 
 Exchanges serve each trades data with a unique identifier, typically labeled as trade id or uid. If an exchange’s unique identifier is an integer, we store the integer as is. If an exchange’s unique identifier is a base 16-encoded string, we convert the string to an integer and store that value. In general, if an exchange’s unique identifier is a string, we convert it to an integer using a bijective mapping function.&#x20;
 
@@ -77,41 +77,41 @@ The `coin_metrics_id` field ensures that all of our observations are unique. Eve
 
 Some exchanges use an incremental trade id that is represented by an integer that increments by 1 for every trade. Most exchanges will start this id at 1, so you can see how many trades have occurred in its lifetime. Also, it is useful for sequencing trades and determining whether all trades have been collected. Coinbase and Binance are two examples of exchanges that report their trade ids in this format.&#x20;
 
-**How do you ensure that the data contains no duplicate trades?**
+### **How do you ensure that the data contains no duplicate trades?**
 
 Our market data collection system is designed to use multiple instances of each scraper for redundancy purposes. Although we run multiple instances of each scraper, we deduplicate observations using a composite primary key. For trades and liquidations data, the primary key consists of exchange, market id, and trade id. This ensures that each observation that we insert into our database is unique.
 
-#### **Is there a way to pull data for multiple markets in one API call?**
+### **Is there a way to pull data for multiple markets in one API call?**
 
 Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets.&#x20;
 
-**What is the timestamp resolution of your trades data?**&#x20;
+### **What is the timestamp resolution of your trades data?**&#x20;
 
 We always preserve the exchange-reported timestamp resolution, and the maximum resolution reported by some exchanges is at microsecond level. Our API serves time always using nanosecond precision.&#x20;
 
-**What is the difference between `time` and `database_time`?**
+### **What is the difference between `time` and `database_time`?**
 
 `time` represents the time logged by the given exchange, whereas `database_time` represents the time logged by Coin Metrics' database.
 
-**How is `database_time` useful?**
+### **How is `database_time` useful?**
 
 `database_time` can be useful to show collection lag time, which can be important for users who are running  backtests and simulations, and need to know exactly what data was available in a given point in time.
 
-**How come there is no trades data for a particular market?**
+### **How come there is no trades data for a particular market?**
 
 When spot markets that involve a new asset are listed on an exchange, there is a short period of time before we can support it. It involves adding this new asset to our security master file so that our market data collection system recognizes it. Please contact us at info@coinmetrics.io if you do not see a particular market, and we will investigate it.&#x20;
 
 We collect data for spot markets in real-time that consist of existing assets that are already in our security master file without any delay. We also collect data for new futures and options markets in real-time without any delay. &#x20;
 
-**How come there are multiple trades with the same timestamp for a particular market?**
+### **How come there are multiple trades with the same timestamp for a particular market?**
 
 Sometimes there may be multiple trades that all occur with the same timestamp. The likely explanation is that an incoming taker order simultaneously matched with multiple existing orders on the order book, although from the available data it is not possible to determine how a particular order is matched with other orders. However, we are certain that each trade is unique even if one or more trades have identical timestamp, price, and amount with other trades.
 
-**Do you support any dexes/decentralized exchanges?**
+### **Do you support any dexes/decentralized exchanges?**
 
 We are currently supporting all major liquidity pools on Uniswap v2, Uniswap v3, and Sushiswap v1, and are actively expanding our DeFi universe.
 
-**How does Coin Metrics ensure high levels of data quality and data integrity?**
+### **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
 Please take a look at this question in the Market Data FAQs page linked below.&#x20;
 

@@ -81,7 +81,7 @@ A sample of the options implied volatility data from our [`/timeseries/market-im
 
 ## Frequently Asked Questions
 
-**What can market implied volatility be used for?**&#x20;
+### **What can market implied volatility be used for?**&#x20;
 
 Market participants use implied volatility in a variety of applications. Since implied volatility is a function of the option price (and other inputs), it often can be used as a replacement for price. Trading interfaces that show option chains typically show implied volatility alongside other critical information like the price, bid, ask, volume, and open interest. Some exchanges allow traders to input orders using implied volatility instead of price.
 
@@ -89,11 +89,11 @@ Implied volatility can also be used as a measure of valuation. Option prices can
 
 Implied volatility also serves as the market’s expectation for future volatility and can be used to calculate the likelihood of future price movements in the underlying or to gauge market sentiment.
 
-**Why is the implied volatility for some Deribit options set to zero?**
+### **Why is the implied volatility for some Deribit options set to zero?**
 
 Deribit sets the `iv_bid` __ to zero if there are no bids on the order book and sets the `iv_ask` __ to zero if there are no asks. This can happen for options with very low liquidity.
 
-**How is your implied volatility calculated?**
+### **How is your implied volatility calculated?**
 
 We currently report the exchange-reported implied volatility, so the figures are calculated using each exchange's proprietary option pricing model. In the future, we plan on developing our own option pricing model to calculate more implied volatility-related metrics.&#x20;
 

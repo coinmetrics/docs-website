@@ -111,11 +111,11 @@ A sample of the futures and options contract specification data from our [`/cata
 
 ## Frequently Asked Questions&#x20;
 
-#### **Is the `margin_asset` the asset of settlement?**&#x20;
+### **Is the `margin_asset` the asset of settlement?**&#x20;
 
 Yes, the `margin_asset` is the asset of settlement. A trader must post this asset as the initial margin when opening a position**.** Unrealized gains and losses are calculated in this asset, and a trader receives gains or losses denominated in this asset when the trader closes the position or the contract expires.&#x20;
 
-#### **Is there a way to filter between perpetual, coin-margined, and tether-margined futures in the catalog?**
+### **Is there a way to filter between perpetual, coin-margined, and tether-margined futures in the catalog?**
 
 We are working on adding filtering parameters for the various futures contract types. In the meantime, perp contracts can be identified by null `expiration` time. Coin margined contracts can be identified where the `base` is identical to `margin_asset`. Tether margined contracts can be identified where the `margin_asset` is `usdt`.
 

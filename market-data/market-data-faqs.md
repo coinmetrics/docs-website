@@ -1,6 +1,6 @@
 # Market Data FAQs
 
-**Can you explain your historical data coverage?**&#x20;
+### **Can you explain your historical data coverage?**&#x20;
 
 When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. For a given data type, some exchanges allow us to get the complete history, some exchanges allow us to get a short window of history, and some exchanges do not allow us to get any history.&#x20;
 
@@ -8,7 +8,7 @@ Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 20
 
 Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination.&#x20;
 
-**How does Coin Metrics ensure high levels of data quality and data integrity?**
+### **How does Coin Metrics ensure high levels of data quality and data integrity?**
 
 Coin Metrics utilizes a multifaceted approach to ensure high levels of data quality and data integrity. We carefully curate our exchange coverage universe, employ a market data collection system with high levels of redundancy and resiliency, use a robust system of logging and monitoring that alerts staff members in real-time to any anomalies, and our software releases are governed by a series of SOC 2-compliant policies that include extensive testing prior to release. For certain critical data types, such as our reference rates, we also employ regular human review to screen for data quality issues. Each of these facets is described in more detail below.
 
@@ -22,7 +22,7 @@ Coin Metrics utilizes a multifaceted approach to ensure high levels of data qual
 
 * **Human review**: For certain critical data types, we employ regular human review to detect anomalies and assess the quality of our data. For instance, our reference rates are reviewed by a dedicated staff member every day, 365 times a year, at 16:00 New York time. Our reference rates are checked for several issues, including timeliness, data anomalies, sufficient data inputs, and a comparison against external sources.&#x20;
 
-**Can you explain your historical data coverage?**&#x20;
+### **Can you explain your historical data coverage?**&#x20;
 
 When we collect data from a new exchange, our general approach is to always collect the maximum history possible for every single instrument. The available history depends on the specific exchange and data type. For a given data type, some exchanges allow us to get the complete history, some exchanges allow us to get a short window of history, and some exchanges do not allow us to get any history.&#x20;
 
@@ -30,11 +30,11 @@ Our trades history for Bitcoin begins when it began trading on Mt.Gox in July 20
 
 Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetrics.io/exchanges/all-exchanges) or the availability sections of each of our market data pages for more information on the history available for each exchange-data type combination.&#x20;
 
-#### **Is there a way to pull data for multiple markets (such as all the markets for a particular exchange) in one API call?**  &#x20;
+### **Is there a way to pull data for multiple markets (such as all the markets for a particular exchange) in one API call?**  &#x20;
 
 Yes! All of our endpoints that accept the `markets` parameter will accept wildcards  like `exchange-*` or `exchange-*-spot` or `*USDT-future`. The wildcards will match any market which fits this pattern so users do not need to specify every individual market when querying data for multiple markets. The `markets` parameter will also accept a comma-separated string of individual markets.&#x20;
 
-**Is there a way to pull data for trading volume across a specific exchange or asset?**&#x20;
+### **Is there a way to pull data for trading volume across a specific exchange or asset?**&#x20;
 
 We have pre-calculated volume metrics that represent total volume by asset, by exchange, by pair, or by exchange-asset pair. Please take a look at the following volume metrics below.&#x20;
 
@@ -54,7 +54,7 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 [volume.md](../pair-metrics/volume.md)
 {% endcontent-ref %}
 
-**What metric naming conventions does Coin Metrics use?**
+### **What metric naming conventions does Coin Metrics use?**
 
 In general, we use snake case (ex: snake\_case) when naming our metrics in which each space is placed by an underscore (\_) character, and the first letter of each word is written in lowercase.&#x20;
 
@@ -64,7 +64,7 @@ Some metrics are naturally represented as an aggregation (such as a sum or mean)
 
 The exception to this convention is that all Network Data Pro metrics use upper camel case (ex: CamelCase) in which names omit spaces and the separation of words is indicated by a single capitalized letter. The first word is also capitalized. Network Data Pro metrics used the upper camel case naming convention prior to our adoption of the snake case naming convention for all other metrics, so we maintain the upper camel case naming convention for Network Data Pro metrics for consistency and backwards compatibility.
 
-**What timestamp conventions does Coin Metrics use?**&#x20;
+### **What timestamp conventions does Coin Metrics use?**&#x20;
 
 We use two timestamp conventions for our data types: point-in-time and beginning-of-interval.
 
@@ -93,7 +93,23 @@ The following API endpoints serve data using the beginning-of-interval conventio
 * Any metric in `/timeseries/asset-metrics` with upper camel case (ex: `UpperCamelCase`) naming convention
 * Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` with snake case (ex: `snake_case`) naming convention and with an interval suffix, such as `volume_reported_future_perpetual_usd_1d`
 
-**Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
+### What asset ticker naming conventions does Coin Metrics use?
+
+Coin Metrics assigns a unique ticker symbol for each asset in our coverage universe using the following naming convention: `parentasset[_fullname][_network][_chain]`, where the `fullname`, `network`, and `chain` are optional. Market data and aggregated network data are assigned to the `parentasset` ticker, where aggregated network data consists of data from individual network or chain-specific forms of an asset.&#x20;
+
+To understand our naming convention, we first introduce some important context surrounding the two primary considerations regarding unique ticker symbols.&#x20;
+
+First, what is thought as a singular asset may actually exist in various forms across multiple layer one and layer two blockchains. From the perspective of the blockchain ledger, each form resides on a separate blockchain, and Coin Metrics collects and produces data for each form independently. To differentiate between the specific form, Coin Metrics appends the blockchain ticker as a suffix to the asset ticker. For example, Tether (`usdt`) exists on Tron, Ethereum, Solana, and several other blockchains. To track the network activity of each form, Coin Metrics uses `usdt_tron`, `usdt_eth`, and `usdt_sol` tickers, respectively.&#x20;
+
+Centralized exchanges, however, do not typically differentiate between different forms of an asset. They will allow users to deposit several forms of an asset and credit users internally with a generic parent form of the asset. Trading then occurs using the generic form of the asset, and all market data collected by Coin Metrics is assigned to the parent ticker.&#x20;
+
+Returning to the Tether example, a centralized exchange may allow a user to deposit the ERC-20 form of Tether, which resides on Ethereum, as well as the TRC-20 form of Tether, which resides on Tron. Regardless of which form a user deposits, the user is credited with a generic parent form of Tether which is traded on all markets on the centralized exchange. Therefore, market data such as trades are assigned to the parent asset `usdt`.
+
+Coin Metrics also aggregates data from individual forms of an asset to the parent asset for certain metrics. Therefore, metrics under the parent asset `usdt` represent an aggregation across `usdt_tron`, `usdt_eth`, and the other individual forms of Tether.&#x20;
+
+Second, some assets may share the same display ticker as another asset. To resolve these ticker conflicts, Coin Metrics ensures that each asset ticker in our coverage universe is unique by appending the full name of the asset as a suffix to the asset ticker. For example, both Starcoin and Starchain share the same display ticker of `stc`. Coin Metrics resolves this ticker conflict by assigning the tickers `stc_starcoin` and `stc_starchain`, respectively.&#x20;
+
+### **Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
 
 The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention. ****&#x20;
 

@@ -62,21 +62,21 @@ A sample of the funding rates data from the `bitmex-XBTUSD-future` market from o
 
 ## **Frequently Asked Questions**&#x20;
 
-**Can you help me understand the difference between the `period` and `interval` fields?**&#x20;
+### **Can you help me understand the difference between the `period` and `interval` fields?**&#x20;
 
 Each exchange has its own methodology for calculating the funding rate. Many exchanges use either a 1 hour or 8 hour interval of time where input data is measured used in the calculation of the funding rate. This interval of time is captured in the `interval` field. Some exchanges calculate the funding rate instantaneously and for these exchanges we set the interval to `00:00:00.001` by convention.&#x20;
 
 Exchanges also differ in how they report the rate. For some exchanges, the rate represents an 8 hour rate. For others, it represents a 1 hour rate. This means that the funding rate is applied and funding payments are calculated and exchanged between long and short position holders every period as defined by the `period` field.&#x20;
 
-**Since exchanges follow different conventions, how can I annualize the funding rate so that funding rates across exchanges can be compared?**&#x20;
+### **Since exchanges follow different conventions, how can I annualize the funding rate so that funding rates across exchanges can be compared?**&#x20;
 
 You can use the `period` field. The formula is to annualize the funding rate is `rate * (1 year) / (period in years)`. Please note that funding payments are always applied to the value of the long or short position and represent a payment that does not change the value of the long or short position, so funding rates are not compounded.&#x20;
 
-#### What determines the frequency of funding rates data?
+### What determines the frequency of funding rates data?
 
 Our funding rates data updates based on the funding interval.&#x20;
 
-#### **Why are there so many funding rate values of 0 for Bitfinex?**
+### **Why are there so many funding rate values of 0 for Bitfinex?**
 
 Bitfinex funding rate allows for 0% funding rates or no funding payments. [Bitfinex's funding rate methodology](https://www.bitfinex.com/legal/derivative/funding) states that an obligation to make a funding payment arises whenever the average spread is greater than 0.05% or less than -0.05%. When the average spread over the funding period is equal to or within -0.05% and 0.05%, a funding payment will not be required.&#x20;
 
