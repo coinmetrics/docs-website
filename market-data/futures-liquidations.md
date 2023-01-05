@@ -99,7 +99,9 @@ We harmonize the data in the following way:
 
 * **In rare instances where OKEx reports two adjacent liquidations with identical time, amount, and price, we only stored the first observation prior to 2021-09-21.** This issue was corrected on 2021-09-21. \
 
-* **Our liquidations data from BitMEX are underreported prior to 2021-09-20 due to rate limits imposed by the exchange.** This issue was corrected on 2021-09-20. ****&#x20;
+* **Our liquidations data from BitMEX are underreported prior to 2021-09-20 due to rate limits imposed by the exchange.** This issue was corrected on 2021-09-20. **** \
+  ****
+* **Our liquidations data from Bybit were interrupted for a period of 5 days between 2021-09-24 to 2021-09-29 due to a deprecation of their API endpoint.** This issue was corrected on 2021-09-29.&#x20;
 
 ## Release History
 
