@@ -1,5 +1,5 @@
 ---
-description: /blockchain/{asset}/blocks/{block_hash}/transactions/{transaction_hash}
+description: /blockchain-v2/{asset}/blocks/{block_hash}/transactions/{transaction_hash}
 ---
 
 # Full Transaction Info for Block

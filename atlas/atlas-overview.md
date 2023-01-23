@@ -304,23 +304,23 @@ Taking this transaction that pays a fee of 0.25 BTC as an example, we have:
 
 ## API Endpoints
 
-The Atlas API endpoints are located under the common `/blockchain` prefix. There are four primary data sets returned by the Atlas endpoints:
+The Atlas API endpoints are located under the common `/blockchain-v2` prefix. There are four primary data sets returned by the Atlas endpoints:
 
-* [Accounts](accounts.md) `/blockchain/{asset}/accounts`
-* [Blocks](blocks/) `/blockchain/{asset}/blocks`
-* [Transactions](transactions/) `/blockchain/{asset}/transactions`
-* [Balance Updates](balance-updates.md) `/blockchain/{asset}/balance-updates`
+* [Accounts](accounts.md) `/blockchain-v2/{asset}/accounts`
+* [Blocks](blocks/) `/blockchain-v2/{asset}/blocks`
+* [Transactions](transactions/) `/blockchain-v2/{asset}/transactions`
+* [Balance Updates](balance-updates.md) `/blockchain-v2/{asset}/balance-updates`
 
 These endpoints (with no additional query parameters) return the full list of accounts, blocks, transactions, or balance updates for the asset queried with fields listed in each relevant section that follows. The result can also be filtered for specific accounts or transactions, or for specific start/end times, heights, and chain sequence numbers.
 
-So if you want a list of balance updates for a specific set of Bitcoin accounts, you'd use the `/blockchain/btc/balance-updates` endpoint with the `accounts=` parameter.
+So if you want a list of balance updates for a specific set of Bitcoin accounts, you'd use the `/blockchain-v2/btc/balance-updates` endpoint with the `accounts=` parameter.
 
 ### Full Entity Endpoints
 
 There are also two additional endpoints that can be used to get a:
 
-* Single full Block with all Transactions `/blockchain/{asset}/blocks/block_hash`&#x20;
-* Single full Transaction with all Balance Updates `/blockchain/{asset}/transactions/transaction_hash`
+* Single full Block with all Transactions `/blockchain-v2/{asset}/blocks/block_hash`&#x20;
+* Single full Transaction with all Balance Updates `/blockchain-v2/{asset}/transactions/transaction_hash`
 
 These endpoints do not support any query parameters and return full block info and full transaction info. The objects returned are the same as those without the full prefix with **additional JSON fields**.
 

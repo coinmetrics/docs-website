@@ -1,5 +1,5 @@
 ---
-description: /blockchain/{asset}/transactions
+description: /blockchain-v2/{asset}/transactions
 ---
 
 # Transactions

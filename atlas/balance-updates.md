@@ -1,10 +1,10 @@
 ---
-description: /blockchain/{asset}/balance-updates
+description: /blockchain-v2/{asset}/balance-updates
 ---
 
 # Balance Updates
 
-Balance updates represent the change in the balance of an account.  If the change is grater-or-equal to 0, it is considered a credit.  Otherwise, it is considered a debit.   In certain circumstances, there can be 0-valued balance updates (used to represent 0 fee transactions, for example, which were frequent in Bitcoin's early history). &#x20;
+Balance updates represent the change in the balance of an account.  If the change is greater-or-equal to 0, it is considered a credit.  Otherwise, it is considered a debit.   In certain circumstances, there can be 0-valued balance updates (used to represent 0 fee transactions, for example, which were frequent in Bitcoin's early history). &#x20;
 
 The **Balance Updates** endpoint returns a list of accounts, which have the following fields:
 
