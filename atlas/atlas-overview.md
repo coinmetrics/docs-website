@@ -13,8 +13,8 @@ Atlas v 2.0 currently supports the following assets:
 | Aave                                  | aave       |
 | Aave (lend)                           | lend       |
 | aelf                                  | elf        |
-| Aeternity                             | ae         |
-| Aion                                  | aion       |
+| Aeternity                             | ae\_eth    |
+| Aion                                  | aion\_eth  |
 | Alchemix                              | alcx       |
 | Alchemix USD                          | alusd      |
 | Algorand\*                            | algo       |
@@ -30,7 +30,7 @@ Atlas v 2.0 currently supports the following assets:
 | Binance Chain (ERC-20)                | bnb\_eth   |
 | Binance USD                           | busd       |
 | Bitcoin                               | btc        |
-| Bytom                                 | btm        |
+| Bytom                                 | btm\_eth   |
 | Celsius                               | cel        |
 | CENNZnet                              | cennz      |
 | Chainlink                             | link       |
@@ -49,8 +49,10 @@ Atlas v 2.0 currently supports the following assets:
 | Cronos                                | cro        |
 | Curve DAO Token                       | crv        |
 | Dai                                   | dai        |
+| Dash                                  | dash       |
 | Decentraland                          | mana       |
 | DeFi Pulse Index                      | dpi        |
+| DigiByte                              | dgb        |
 | Dogecoin                              | doge       |
 | Dragonchain                           | drgn       |
 | Empty Set Dollar                      | esd        |
@@ -58,9 +60,10 @@ Atlas v 2.0 currently supports the following assets:
 | EOS ETH                               | eos\_eth   |
 | Ethereum                              | eth        |
 | Ethereum Classic                      | etc        |
+| Ethos                                 | ethos      |
 | Fantom (ERC-20)                       | ftm\_eth   |
 | Fei Protocol (ERC20)                  | fei\_eth   |
-| Flexacoin ERC-20                      | fxc        |
+| Flexacoin ERC-20                      | fxc\_eth   |
 | FTX Token                             | ftt        |
 | FUNToken                              | fun        |
 | Gas                                   | gas        |
@@ -72,7 +75,8 @@ Atlas v 2.0 currently supports the following assets:
 | Huobi Bitcoin                         | hbtc       |
 | Huobi Token                           | ht         |
 | HUSD                                  | husd       |
-| ICON                                  | icx        |
+| ICON                                  | icn        |
+| ICON ETH                              | icx\_eth   |
 | Instadapp                             | inst       |
 | Internet Computer\*                   | icp        |
 | KuCoin Token                          | kcs        |
@@ -82,11 +86,12 @@ Atlas v 2.0 currently supports the following assets:
 | Litecoin                              | ltc        |
 | Livepeer                              | lpt        |
 | Loom Network                          | loom       |
-| Loopring ERC-20                       | lrc        |
+| Loopring ERC-20                       | lrc\_eth   |
 | MaidSafeCoin                          | maid       |
 | Maker                                 | mkr        |
+| MCO                                   | mco        |
 | Metal                                 | mtl\_metal |
-| Nebulas                               | nas        |
+| Nebulas                               | nas\_eth   |
 | Neo                                   | neo        |
 | Nexus Mutual                          | nxm        |
 | NFTX                                  | nftx       |
@@ -102,8 +107,10 @@ Atlas v 2.0 currently supports the following assets:
 | Populous                              | ppt        |
 | Powerledger                           | powr       |
 | QASH                                  | qash       |
-| Qtum ERC-20                           | qtum       |
+| Qtum ERC-20                           | qtum\_eth  |
 | Quanta Utility Token                  | qnt        |
+| Radar                                 | radar      |
+| Radicle                               | rad        |
 | RAI Finance (ERC20)                   | rai\_eth   |
 | RChain                                | rhoc       |
 | Ren                                   | ren        |
@@ -118,6 +125,7 @@ Atlas v 2.0 currently supports the following assets:
 | SIRIN LABS Token                      | srn        |
 | Smooth Love Potion (Ethereum Mainnet) | slp\_eth   |
 | Status                                | snt        |
+| Synthetix                             | snx        |
 | Storj                                 | storj      |
 | StormX                                | stmx       |
 | SushiBar                              | xsushi     |
@@ -129,6 +137,7 @@ Atlas v 2.0 currently supports the following assets:
 | Tether Omni                           | usdt\_omni |
 | The Graph                             | grt        |
 | The Sandbox                           | sand       |
+| Tokemak                               | toke       |
 | Tron ETH                              | trx\_eth   |
 | UMA                                   | uma        |
 | Unibright                             | ubt        |
@@ -136,7 +145,7 @@ Atlas v 2.0 currently supports the following assets:
 | UNUS SED LEO ETH                      | leo\_eth   |
 | USD Coin                              | usdc       |
 | USDK                                  | usdk       |
-| VeChain                               | vet        |
+| VeChain                               | vet\_eth   |
 | Verge                                 | xvg        |
 | Veritaseum                            | veri       |
 | Vertcoin                              | vtc        |
@@ -146,7 +155,8 @@ Atlas v 2.0 currently supports the following assets:
 | Wrapped Ether                         | weth       |
 | Wrapped liquid staked Ether 2.0       | wsteth     |
 | yearn.finance                         | yfi        |
-| Zilliqa                               | zil        |
+| Zcash                                 | zec        |
+| Zilliqa                               | zil\_eth   |
 
 \*These assets are experimental and offered through [CM Labs](../cm-labs.md)
 
