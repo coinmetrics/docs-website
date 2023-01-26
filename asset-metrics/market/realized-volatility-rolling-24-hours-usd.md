@@ -58,6 +58,10 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 }
 ```
 
+## Interpretation
+
+* Realized volatility can be used to adjust risk parameters like collaterization ratios
+
 ## Release History
 
 * Released on November 30th, 2022
