@@ -51,6 +51,7 @@
 ## Reference Data
 
 * [datonomy Overview](reference-data/datonomy-overview.md)
+* [Asset Profiles Overview](reference-data/asset-profiles-overview.md)
 * [Methodologies](reference-data/methodologies/README.md)
   * [Guiding Principles and Methodology for datonomy](reference-data/methodologies/guiding-principles-and-methodology-for-datonomy.md)
 * [datonomy FAQs](reference-data/datonomy-faqs.md)
@@ -672,6 +673,10 @@
 
 * [Taxonomy for Assets](taxonomy/taxonomy-for-assets.md)
 * [Taxonomy Metadata for Assets](taxonomy/taxonomy-metadata-for-assets.md)
+
+## Profiles
+
+* [Asset Profiles](profiles/asset-profiles.md)
 
 ## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
 

@@ -10,7 +10,7 @@ The asset taxonomy classifies assets by primary use.&#x20;
 
 ## Details
 
-For more information on the asset taxonomy see the [datonomy product description](../reference-data/datonomy-overview.md) and [methodology](../reference-data/methodologies/) documents.
+For more information on the asset taxonomy see the [datonomy overview](../reference-data/datonomy-overview.md) and [methodology](../reference-data/methodologies/) documents.
 
 ## Endpoint Response
 
