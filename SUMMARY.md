@@ -5,7 +5,7 @@
   * [API Basics](api.md)
   * [API Reference](https://docs.coinmetrics.io/api/v4)
   * [Python Client](access-our-data/python-client.md)
-  * [Flat Files](access-our-data/flat-files.md)
+  * [Flat Files (Labs)](access-our-data/flat-files-labs.md)
   * [User Interfaces](access-our-data/user-interfaces.md)
 * [CM Labs](cm-labs.md)
 * [Status Page](status-page.md)
@@ -37,7 +37,7 @@
 
 ## DeFi Data
 
-* [DeFi Data Overview](defi-data/defi-data-overview.md)
+* [DeFi Data Overview (Labs)](defi-data/defi-data-overview.md)
 * [DeFi FAQs](defi-data/defi-faqs.md)
 
 ## Index Data

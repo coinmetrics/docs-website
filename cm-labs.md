@@ -1,6 +1,6 @@
 # CM Labs
 
-[CM Labs](https://coinmetrics.io/cm-labs/) is a place for our pioneering team to experiment.  Here, you'll find associate passion projects, fun prototypes, and cutting edge efforts that are experimental in nature.  Many of our most popular commercial products have their roots in these innovative, community-first efforts. &#x20;
+[CM Labs](https://coinmetrics.io/cm-labs/) is a place for our pioneering team to experiment.  Here, you'll find associate passion projects, fun prototypes, test products/features and cutting edge efforts that are experimental in nature.  Many of our most popular commercial products have their roots in these innovative, community-first efforts. &#x20;
 
 While CM Labs products and features are very cool, for one reason or another, we are not quite ready to incorporate them into our mainstream product offerings. &#x20;
 
@@ -37,3 +37,4 @@ Below are some examples of Labs efforts:
 * Experimental on-chain asset coverage in NDP and Atlas (e.g., ICP, DOT, ALGO, XTZ)
 * DeFi Market Data (i.e., Uniswap and Sushiswap swaps, liquidity pool metadata, candles, and volume metrics)
 * Farum Risk Management offerings (e.g., WatchTower Alerts (`/asset-alerts`), Mining Pool Monitor (`/mining-pool-tips-summary`), Reorg & Fork Tracker (`/asset-chains`)
+* Flat Files Delivery System

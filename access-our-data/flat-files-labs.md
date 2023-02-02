@@ -1,4 +1,4 @@
-# Flat Files
+# Flat Files (Labs)
 
 **Flat Files Overview**
 
@@ -8,7 +8,7 @@ The flat file application currently supports [trades](../market-data/market-trad
 \
 Flat file datasets for a given day are available on the next day around 05:00 UTC.
 
-API Keys are not provisioned by default to access the application. If you are interested in accessing our flat files please reach out to the Customer Success Team.
+API Keys are not provisioned by default to access the application. If you are interested in accessing our flat files please reach out to the Customer Success Team.  Also, please note this delivery system is a [Labs](../cm-labs.md) product.
 
 **Login Methods**
 
