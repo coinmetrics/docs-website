@@ -109,6 +109,20 @@ Coin Metrics also aggregates data from individual forms of an asset to the paren
 
 Second, some assets may share the same display ticker as another asset. To resolve these ticker conflicts, Coin Metrics ensures that each asset ticker in our coverage universe is unique by appending the full name of the asset as a suffix to the asset ticker. For example, both Starcoin and Starchain share the same display ticker of `stc`. Coin Metrics resolves this ticker conflict by assigning the tickers `stc_starcoin` and `stc_starchain`, respectively.&#x20;
 
+### What market naming conventions does Coin Metrics use?
+
+Coin Metrics refers to a market as a specific pair or instrument on a specific exchange.&#x20;
+
+For spot markets, we use the `{exchange}-{base}-{quote}-spot` naming convention like `coinbase-btc-usd-spot`. The base and quote both use our harmonized asset tickers.
+
+For futures markets, we use the `{exchange}-{symbol}-future` naming convention like `binance-BTCUSDT-future`. The symbol is the exchange-reported symbol.
+
+For option markets, we also use the `{exchange}-{symbol}-option` naming convention like `deribit-BTC-15OCT21-60000-C-option`. The symbol is the exchange-reported symbol.
+
+We use exchange-reported symbol for our derivative markets because of the difficulty in establishing a standard naming convention. Exchanges may list multiple different contracts that trade the same underlying but with different contract specifications. And exchanges may list exotic derivative contracts that do not conform to standard contracts. In general, exchanges are constantly experimenting with different contract specifications. To prevent any confusion in which contract we are referencing, we adopt the exchange-reported symbol.
+
+More metadata about our markets such as the contract specifications, price and amount precision, and fees can be found through our `/catalog/markets` endpoint.
+
 ### **Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
 
 The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention. ****&#x20;
