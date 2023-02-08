@@ -648,6 +648,14 @@
   * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_units.md)
   * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
   * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
+* [Liquidity](market-metrics/liquidity/README.md)
+  * [Bid/Ask Spread Percentage](market-metrics/liquidity/liquidity\_bid\_ask\_spread\_percent.md)
+  * [Liquidity Depth Bid Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_usd.md)
+  * [Liquidity Depth Bid Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_units.md)
+  * [Liquidity Depth Ask Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_usd.md)
+  * [Liquidity Depth Ask Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_units.md)
+  * [Liquidity Slippage Bid Percentage](market-metrics/liquidity/liquidity\_slippage\_bid\_percent.md)
+  * [Liquidity Slippage Ask Percentage](market-metrics/liquidity/liquidity\_slippage\_ask\_percent.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 

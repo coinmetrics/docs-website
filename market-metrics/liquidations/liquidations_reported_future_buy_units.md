@@ -26,7 +26,7 @@ A sample of the daily reported liquidation buy orders for the Binance BTCUSDT fu
 | binance-BTCUSDT-future | 2022-01-04 00:00:00 | 109.399                                        |
 
 * market. The IDs of the markets.
-* time. The reference rate time in ISO 8601 date-time format.
+* time. The time in ISO 8601 date-time format.
 * liquidations\_reported\_future\_buy\_units\_1d. The reported volume of liquidation buy orders in native units.
 
 ## Release History

@@ -26,7 +26,7 @@ A sample of the daily reported liquidation sell orders for the Binance BTCUSDT f
 | binance-BTCUSDT-future | 2022-01-04 00:00:00 | 386.542                                         |
 
 * market. The IDs of the markets.
-* time. The reference rate time in ISO 8601 date-time format.
+* time. The time in ISO 8601 date-time format.
 * liquidations\_reported\_future\_sell\_units\_1d. The reported volume of liquidation sell orders in native units.
 
 ## Release History
