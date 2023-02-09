@@ -78,6 +78,6 @@ Since our quotes data is derived from our order book data, please reference our 
 
 ## **Availability**
 
-The previous 24 hours of quotes data is available through our Community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our order book data is available through our professional API with higher rate limits. &#x20;
+The previous 24 hours of quotes data is available through our Community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our order book data is available through our professional API with higher rate limits. &#x20;
 
 Our coverage universe is expanding rapidly. Please contact us at info@coinmetrics.io for the latest quotes coverage.&#x20;

@@ -2,6 +2,12 @@
 
 Atlas is a blockchain search tool designed to standardize and simplify raw blockchain data. It provides a uniform way to query data from various blockchain full nodes using the double-entry accounting format, thereby bridging the underlying intricacies of different blockchain data models. The basis of Atlas is our Universal Blockchain Data Model (UBDM).
 
+#### **Community Availability**
+
+Atlas data is available through our community frontend and api with limited access and capabilities. The community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our Atlas specification data is available through our professional API with higher rate limits.
+
+The search window for community users is limited to the last 30 days. Get the Coin Metrics Atlas Pro visualization key to view the entire history.
+
 ## Atlas Asset Coverage
 
 Atlas v 2.0 currently supports the following assets:

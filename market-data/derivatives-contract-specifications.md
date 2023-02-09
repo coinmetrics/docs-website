@@ -149,7 +149,7 @@ We harmonize the data in the following way:&#x20;
 
 ## **Availability**
 
-Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our contract specification data is available through our professional API with higher rate limits. &#x20;
+Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our contract specification data is available through our professional API with higher rate limits. &#x20;
 
 The contract specifications and our coverage can be found by querying our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) or [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.
 

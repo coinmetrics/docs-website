@@ -3,7 +3,6 @@
 ## API Versions
 
 * \*\*\*\*[**API v4**](https://docs.coinmetrics.io/api/v4) **(stable)**
-* API [v2](https://docs.coinmetrics.io/api/v2), [v3](https://docs.coinmetrics.io/api/v3) (deprecated)
 
 ## API Access
 
@@ -53,7 +52,7 @@ To ensure the quality of Coin Metrics services, our API is subject to rate limit
 
 ### Community API
 
-The community version of API has a limit of 1,000 requests per 10 minutes sliding window for an **IP address**. It corresponds to 1.6 RPS.
+The community version of API has a limit of 10 requests per 6 seconds sliding window for an **IP address**. It corresponds to 1.6 RPS.
 
 ### Paid Tier (Pro API)
 

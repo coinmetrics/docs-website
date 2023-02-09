@@ -95,7 +95,7 @@ Please see the following pages on open interest below to learn more.
 
 ## **Availability**
 
-The previous 24 hours of open interest data is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our open interest data is available through our professional API with higher rate limits. The professional API supports trades data through both our HTTP API and websocket API.&#x20;
+The previous 24 hours of open interest data is available through our community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our open interest data is available through our professional API with higher rate limits. The professional API supports trades data through both our HTTP API and websocket API.&#x20;
 
 ### Availability by Market Type
 
