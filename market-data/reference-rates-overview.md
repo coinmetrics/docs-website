@@ -4,7 +4,7 @@ CM Reference Rates provide prices calculated for over 550 assets quoted in U.S. 
 
 ## Data Available at the Asset Level
 
-Please note note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.
+Please note note that this metric is served through both the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [`/timeseries-stream/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.
 
 {% content-ref url="../asset-metrics/market/referenceratesusd.md" %}
 [referenceratesusd.md](../asset-metrics/market/referenceratesusd.md)
@@ -21,8 +21,6 @@ Please note note that this metric is served through both the [/timeseries/asset-
 {% content-ref url="../asset-metrics/market/reference-rate-eth.md" %}
 [reference-rate-eth.md](../asset-metrics/market/reference-rate-eth.md)
 {% endcontent-ref %}
-
-Data for the same metrics are also available at the asset level through the [`/timeseries-stream/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) API endpoint.
 
 ## Methodologies
 
