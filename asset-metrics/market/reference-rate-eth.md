@@ -2,7 +2,7 @@
 description: /timeseries/asset-metrics
 ---
 
-# Reference Rate (EUR)
+# Reference Rate (ETH)
 
 ## Definition
 
@@ -10,7 +10,7 @@ Reference Rates are designed to represent the price of a cryptoasset in an arms 
 
 | Name                | MetricID         | Category | Subcategory | Type | Unit | Interval                           |
 | ------------------- | ---------------- | -------- | ----------- | ---- | ---- | ---------------------------------- |
-| Reference Rate, EUR | ReferenceRateEUR | Market   | Price       | n/a  | EUR  | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
+| Reference Rate, ETH | ReferenceRateETH | Market   | Price       | n/a  | ETH  | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
 
 ## Details
 
@@ -21,7 +21,7 @@ Reference Rates are designed to represent the price of a cryptoasset in an arms 
 
 ## **Release History**
 
-* Release Version: Reference Rates v2.5 (Nov 6, 2020) - added euro-quoted reference rates
+* Release Version: Reference Rates v2.11 (Feb 15, 2022) - added BTC-quoted reference rates and ETH-quoted reference rates
 
 ## **Availability for Assets**
 

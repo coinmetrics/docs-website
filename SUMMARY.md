@@ -253,6 +253,8 @@
   * [BTC Denominated Price](asset-metrics/market/pricebtc.md)
   * [Reference Rate (USD)](asset-metrics/market/referenceratesusd.md)
   * [Reference Rate (EUR)](asset-metrics/market/referencerateeur.md)
+  * [Reference Rate (BTC)](asset-metrics/market/reference-rate-btc.md)
+  * [Reference Rate (ETH)](asset-metrics/market/reference-rate-eth.md)
   * [Principal Market Price (USD)](asset-metrics/market/principalmarketprice.md)
   * [Realized Market Cap (USD)](asset-metrics/market/caprealusd.md)
   * [Free Float Market Cap (USD)](asset-metrics/market/capmrktffusd.md)

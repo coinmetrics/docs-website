@@ -2,15 +2,15 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/rtrr-methodology (1).pdf" %}
+{% file src="../../.gitbook/assets/rtrr-methodology.pdf" %}
 
 ## Introduction
 
-Coin Metrics produces the Coin Metrics Real-Time Reference Rates (the “Real-Time Reference Rates”), a collection of reference rates quoted in U.S. dollars and other currencies, published once per second, for a set of cryptocurrencies and fiat currencies. The Real-Time Reference Rates are designed to serve as a transparent and independent pricing source that promotes the functioning of efficient markets, reduces information asymmetries among market participants, facilitates trading in standardized contracts, and accelerates the adoption of cryptocurrencies as an asset class with the highest standards. The Real-Time Reference Rates are calculated using a robust and resilient methodology that is resistant to manipulation and applies international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the Real-Time Reference Rates and ensure the Real-Time Reference Rates serve as a source of transparent and independent pricing.
+Coin Metrics produces the Coin Metrics Real-Time Reference Rates (the “Real-Time Reference Rates”), a collection of reference rates quoted in U.S. dollars and other currencies, published once per second and once per 200 milliseconds, for a set of cryptocurrencies and fiat currencies. The Real-Time Reference Rates are designed to serve as a transparent and independent pricing source that promotes the functioning of efficient markets, reduces information asymmetries among market participants, facilitates trading in standardized contracts, and accelerates the adoption of cryptocurrencies as an asset class with the highest standards. The Real-Time Reference Rates are calculated using a robust and resilient methodology that is resistant to manipulation and applies international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the Real-Time Reference Rates and ensure the Real-Time Reference Rates serve as a source of transparent and independent pricing.
 
 ## Description
 
-The Real-Time Reference Rates are published once per second, every day of the year, and represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency.
+The Real-Time Reference Rates are published once per second and once per 200 milliseconds, every day of the year, and represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency.
 
 ## Coverage Universe
 

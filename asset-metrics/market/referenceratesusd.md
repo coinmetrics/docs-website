@@ -8,15 +8,16 @@ description: /timeseries/asset-metrics
 
 Reference Rates are designed to represent the price of a cryptoasset in an arms length transaction between a willing buyer and willing seller. It is designed to reflect the price where the majority of trades took place for a given cryptoasset using multiple markets as input data sources.
 
-| Name            | **MetricID**      | **Category** | **Subcategory** | **Type** | **Unit** | **Interval**                |
-| --------------- | ----------------- | ------------ | --------------- | -------- | -------- | --------------------------- |
-| Reference Rates | ReferenceRates    | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s |
-| Reference Rates | ReferenceRatesUSD | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s |
+| Name                | **MetricID**     | **Category** | **Subcategory** | **Type** | **Unit** | **Interval**                       |
+| ------------------- | ---------------- | ------------ | --------------- | -------- | -------- | ---------------------------------- |
+| Reference Rate      | ReferenceRate    | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
+| Reference Rate, USD | ReferenceRateUSD | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
 
 ## Details
 
 * Hourly (1h, 1d): A systematic framework evaluates and selects a unique set of constituent markets for each cryptoasset and the methodology utilizes volume-weighted median and time- weighted average price techniques. The Reference Rates utilizes a 61-minute window to calculate prices once an hour, every hour, including on weekends and holidays. The Reference Rates can be used for portfolio accounting, as settlement prices for financial derivative contracts, and as closing prices for investment products.
-* Real-time (1s, 1m):  Similar to the hourly Reference Rates, the Real-Time Reference Rates are designed to represent the price of a cryptoasset in an arms length transaction between a willing buyer and willing seller. Rather than being calculated once an hour, the Real-Time Reference Rates has a separate methodology that utilizes volume-weighted median and inverse price variance weighting techniques to calculate prices once a second, every second, including on weekends and holidays.&#x20;
+* Real-time (1m, 1s, 200ms):  Similar to the hourly Reference Rates, the Real-Time Reference Rates are designed to represent the price of a cryptoasset in an arms length transaction between a willing buyer and willing seller. Rather than being calculated once an hour, the Real-Time Reference Rates has a separate methodology that utilizes volume-weighted median and inverse price variance weighting techniques to calculate prices once a second, every second, including on weekends and holidays.&#x20;
+* Please note note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.
 * View our [**Real-time**](https://coinmetrics.io/rtrr-methodology/) and [**Hourly**](https://coinmetrics.io/reference-rates-methodology/) reference rates methodology for more information.  Also, see our [**Market Selection Framework**](https://coinmetrics.io/reference-rates-market-selection-framework/) **** for our exchange selection criteria.
 
 ## **Example**
@@ -29,9 +30,9 @@ A sample of the real-time reference rates data for Bitcoin is shown below:
 
 ![](../../.gitbook/assets/1.png)
 
-* asset:  The IDs of the asset.  &#x20;
+* asset: The ID of the asset.  &#x20;
 * time: The reference rate time in ISO 8601 date-time format.
-* ReferenceRate:  The reference rate value.
+* ReferenceRate: The reference rate value.
 
 ## Release History
 
@@ -40,22 +41,23 @@ A sample of the real-time reference rates data for Bitcoin is shown below:
 * Release Version: Reference Rates v1.2 (June 14, 2019) - expansion of coverage universe (+9 assets)
 * Release Version: Reference Rates v2.0 (July 9, 2019) - publication of rates hourly, publication of historical hourly rates, human oversight of fixings, expansion of coverage universe (+93 assets)
 * Release Version: Reference Rates v2.1 (Aug 30, 2019) - publishing to v2 API (in addition to v2), recalculation&#x20;
-* Release Version:  Real-time Reference Rates Beta (Aug 30, 2019) - initial version
-* Release Version: Real-time Reference Rates v0.1 (Dec 9, 2019) - methodology enhancements
+* Release Version:  Real-Time Reference Rates Beta (Aug 30, 2019) - initial version
+* Release Version: Real-Time Reference Rates v0.1 (Dec 9, 2019) - methodology enhancements
 * Release Version: Reference Rates v2.2 (Feb 7, 2020) - updates to constituent markets, asset coverage termination for a number of assets, update to reflect Maker’s protocol upgrade
-* Release Version: Real-time Reference Rates v0.2 (Feb 7, 2020) - updates to constituent markets, asset coverage termination for a number of assets, update to reflect Maker’s protocol upgrade
+* Release Version: Real-Time Reference Rates v0.2 (Feb 7, 2020) - updates to constituent markets, asset coverage termination for a number of assets, update to reflect Maker’s protocol upgrade
 * Release Version: Reference Rates v2.3 (March 5, 2020) - expansion of coverage universe (+24)&#x20;
-* Release Version: Real-time Reference Rates v0.4 (March 5, 2020) -  expansion of coverage universe (+24)&#x20;
+* Release Version: Real-Time Reference Rates v0.4 (March 5, 2020) -  expansion of coverage universe (+24)&#x20;
 * Release Version: Reference Rates v2.4 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
-* Release Version: Real-time Reference Rates v0.5 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
+* Release Version: Real-Time Reference Rates v0.5 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
 * Release Version: Reference Rates v2.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
-* Release Version: Real-time Reference Rates v0.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
+* Release Version: Real-Time Reference Rates v0.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
 * Release Version: Reference Rates v2.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
-* Release Version: Real-time Reference Rates v0.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
+* Release Version: Real-Time Reference Rates v0.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
 * Release Version: Reference Rates v2.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
-* Release Version: Real-time Reference Rates v0.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
+* Release Version: Real-Time Reference Rates v0.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
 * Release Version: Reference Rates v2.13 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
-* Release Version: Real-time Reference Rates v0.14 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
+* Release Version: Real-Time Reference Rates v0.14 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
+* Release Version: Real-Time Reference Rates v0.15 (Feb 9, 2023) - added the 200ms publication frequency
 
 ## **Availability for Assets**
 
