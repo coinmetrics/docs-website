@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/reference-rates-methodology.pdf" %}
+{% file src="../../.gitbook/assets/reference-rates-methodology (2) (1).pdf" %}
 
 ## Introduction
 
@@ -127,7 +127,7 @@ The calculation algorithm of the Reference Rates is described below.
 
 A chart of the weights is included below and the exact weights for each time interval are listed in Appendix B:
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 ### Data Contingency Rules
 

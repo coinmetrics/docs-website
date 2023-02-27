@@ -4,6 +4,8 @@ description: /blockchain/{asset}/transaction-tracker
 
 # Transaction Tracker
 
+The Transaction Tracker enables clients to track the settlement of their transactions in real-time and respond to events that may impact their operations, such as network congestion or attacks.&#x20;
+
 The endpoint was designed to provide settlement intelligence on client transactions, even without the provision of client data. It achieves this by streaming settlement statuses of all transactions in the mempool. As such, users can privately locate their own transactions by consuming the entire feed and filtering their own transactions on their end.
 
 Alternatively, the endpoint also supports `txids` as a query parameter, which exclusively returns the settlement statuses of the queried transactions. For context, a `txid` is a unique identifier of blockchain transactions and represents the hash of all transaction fields.
@@ -23,7 +25,7 @@ Alternatively, the endpoint also supports `txids` as a query parameter, which ex
     "details" : {
       "version" : "The version of this transaction",
       "amount" : "The amount transacted",
-      "replace_by_fee_supported" : “a Boolean noting whether RBF1 was used”,
+      "replace_by_fee_supported" : "a Boolean noting whether RBF1 was used",
       "fee" : "The total fee paid by this transaction’s sender",
       "feerate" : "The feerate of this transaction",
       "mempool_feerate_mean_at_first_seen_time" : "The average feerate when first seen",
@@ -38,7 +40,6 @@ Alternatively, the endpoint also supports `txids` as a query parameter, which ex
     "mempool_approx_queue_position" : "Where this transaction sits in the queue of unprocessed transactions"
     "next_block_approx_settlement_probability_pct" : "The probability that this transaction will be included in the next 2 blocks"
   }
-
 ```
 
 The `mempool_approx_queue_position` metric showcases the ranking of a transaction relative to all other transactions in the mempool. The production of this metric involves ranking all the transactions in the mempool by fee expenditure and creating a queue. The first transaction in the queue pays the highest feerate in the network and can be expected to settle in the next block.&#x20;
@@ -71,4 +72,8 @@ Since confirmation policies vary widely across market participants, the `n_confi
 As covered in the intro, the settlement of transactions in public blockchains can be subjective. Previously confirmed transactions can be sent back to the mempool or rolled back if the blockchain goes through a reorganization event. Rollbacks might be a result of a stale block, which naturally occurs in Bitcoin on a monthly basis, or they may be indicative of network attacks. In such occurrences, clients can use the Key Risk Indicator feed described in subsequent sections to investigate the incident.
 
 It is also important to note that a `null` return is, in and of itself, a transaction status. If a given `txid` is not in the mempool, it might be indicative of problems in the broadcasting of the transaction. For more details on this API, please refer to our [Transaction Tracker API Docs](https://docs.coinmetrics.io/api/v4#operation/getTransactionTracker).
+
+### Asset Availability <a href="#asset-availability" id="asset-availability"></a>
+
+* Bitcoin (BTC)
 
