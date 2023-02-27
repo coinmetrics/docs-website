@@ -5,6 +5,7 @@
   * [API Basics](api.md)
   * [API Reference](https://docs.coinmetrics.io/api/v4)
   * [Python Client](access-our-data/python-client.md)
+  * [R Client](access-our-data/r-client.md)
   * [Flat Files (Labs)](access-our-data/flat-files-labs.md)
   * [User Interfaces](access-our-data/user-interfaces.md)
 * [CM Labs](cm-labs.md)
