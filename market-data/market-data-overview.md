@@ -52,6 +52,10 @@ Data available at the market level is served through the API endpoints below, wh
 [market-candles.md](market-candles.md)
 {% endcontent-ref %}
 
+{% content-ref url="../market-data-timeseries/market-contract-prices.md" %}
+[market-contract-prices.md](../market-data-timeseries/market-contract-prices.md)
+{% endcontent-ref %}
+
 {% content-ref url="market-implied-volatility.md" %}
 [market-implied-volatility.md](market-implied-volatility.md)
 {% endcontent-ref %}
@@ -64,11 +68,25 @@ Data available at the market level is served through the API endpoints below, wh
 [market-data-faqs.md](market-data-faqs.md)
 {% endcontent-ref %}
 
-## Data Available at Asset Level&#x20;
+## Metrics Available at Market Level
+
+Coin Metrics calculates several metrics for markets such as `coinbase-btc-usd-spot` and `binance-BTCUSDT-future`. The asset coverage can be found by querying our [`/catalog/market-metrics`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarketMetrics) or [`/catalog-all/market-metrics`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarketMetrics) API endpoints.
+
+Metrics available at the market level are available through the [`/timeseries/market-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+
+{% content-ref url="../market-metrics/liquidations/" %}
+[liquidations](../market-metrics/liquidations/)
+{% endcontent-ref %}
+
+{% content-ref url="../market-metrics/liquidity/" %}
+[liquidity](../market-metrics/liquidity/)
+{% endcontent-ref %}
+
+## Metrics Available at Asset Level&#x20;
 
 Coin Metrics calculates several metrics for assets such as `btc` and `eth`. The asset coverage can be found by querying our [`/catalog/assets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssets) or [`/catalog-all/assets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssets) API endpoints.
 
-Data available at the asset level is available through the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+Metrics available at the asset level are available through the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
 {% content-ref url="../asset-metrics/market/referenceratesusd.md" %}
 [referenceratesusd.md](../asset-metrics/market/referenceratesusd.md)
@@ -86,11 +104,11 @@ Data available at the asset level is available through the [`/timeseries/asset-m
 [volume](../asset-metrics/volume/)
 {% endcontent-ref %}
 
-## Data Available at Exchange Level&#x20;
+## Metrics Available at Exchange Level&#x20;
 
 Coin Metrics calculates several metrics for exchanges such as `coinbase`, `binance`, and `deribit`. The exchange coverage can be found by querying our [`/catalog/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchanges) or [`/catalog-all/exchanges`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchanges) API endpoints.
 
-Data available at the exchange level is available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+Metrics available at the exchange level are available through the [`/timeseries/exchange-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
 {% content-ref url="../exchange-metrics/open-interest/" %}
 [open-interest](../exchange-metrics/open-interest/)
@@ -100,14 +118,18 @@ Data available at the exchange level is available through the [`/timeseries/exch
 [volume](../exchange-metrics/volume/)
 {% endcontent-ref %}
 
-## Data Available at Exchange-Asset Pair Level&#x20;
+## Metrics Available at Exchange-Asset Pair Level&#x20;
 
 Coin Metrics calculates several metrics for exchange-asset pairs such as `coinbase-btc`, `binance-eth`, and `deribit-usdt`. The exchange coverage can be found by querying our [`/catalog/exchange-assets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogExchangeAssets) or [`/catalog-all/exchange-assets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllExchangeAssets) API endpoints.
 
-Data available at the exchange-asset level is available through the [`/timeseries/exchange-asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+Metrics available at the exchange-asset level are available through the [`/timeseries/exchange-asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesExchangeAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
 {% content-ref url="../exchange-asset-metrics/basis/" %}
 [basis](../exchange-asset-metrics/basis/)
+{% endcontent-ref %}
+
+{% content-ref url="../exchange-asset-metrics/liquidations.md" %}
+[liquidations.md](../exchange-asset-metrics/liquidations.md)
 {% endcontent-ref %}
 
 {% content-ref url="../exchange-asset-metrics/open-interest.md" %}
@@ -118,11 +140,13 @@ Data available at the exchange-asset level is available through the [`/timeserie
 [volume.md](../exchange-asset-metrics/volume.md)
 {% endcontent-ref %}
 
-## Data Available at Asset Pair Level&#x20;
+## Metrics Available at Asset Pair Level&#x20;
 
 Coin Metrics calculates several metrics for asset pairs such as `btc-usd` and `eth-usd`. The institution coverage can be found by querying our [`/catalog/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAssetPairs) or [`/catalog-all/pairs`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllAssetPairs) API endpoints.
 
-Data available at the asset pair level is available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+Metrics available at the asset pair level are
+
+&#x20;available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
 {% content-ref url="../pair-metrics/open-interest/" %}
 [open-interest](../pair-metrics/open-interest/)
@@ -132,11 +156,11 @@ Data available at the asset pair level is available through the [`/timeseries/pa
 [volume.md](../pair-metrics/volume.md)
 {% endcontent-ref %}
 
-## Data Available at Institution Level&#x20;
+## Metrics Available at Institution Level&#x20;
 
 Coin Metrics calculates several metrics for institutions such as `grayscale`. The institution coverage can be found by querying our [`/catalog/institutions`](https://docs.coinmetrics.io/api/v4#operation/getCatalogInstitutions) or [`/catalog-all/institutions`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllInstitutions) API endpoints.
 
-Data available at the institution level is available through the [`/timeseries/institution-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesInstitutionMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
+Metrics available at the institution level is available through the [`/timeseries/institution-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesInstitutionMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
 {% content-ref url="../institution-metrics/grayscale/" %}
 [grayscale](../institution-metrics/grayscale/)

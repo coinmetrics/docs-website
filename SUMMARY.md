@@ -603,6 +603,23 @@
 * [Market Implied Volatility](market-data/market-implied-volatility.md)
 * [Market Greeks](market-data/market-greeks.md)
 
+## Market Metrics (Time Series) <a href="#market-metrics" id="market-metrics"></a>
+
+* [Market Metrics Overview](market-metrics/market-metrics-overview.md)
+* [Liquidations](market-metrics/liquidations/README.md)
+  * [Liquidation Buy Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_usd.md)
+  * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_units.md)
+  * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
+  * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
+* [Liquidity](market-metrics/liquidity/README.md)
+  * [Bid/Ask Spread Percentage](market-metrics/liquidity/liquidity\_bid\_ask\_spread\_percent.md)
+  * [Liquidity Depth Bid Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_usd.md)
+  * [Liquidity Depth Bid Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_units.md)
+  * [Liquidity Depth Ask Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_usd.md)
+  * [Liquidity Depth Ask Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_units.md)
+  * [Liquidity Slippage Bid Percentage](market-metrics/liquidity/liquidity\_slippage\_bid\_percent.md)
+  * [Liquidity Slippage Ask Percentage](market-metrics/liquidity/liquidity\_slippage\_ask\_percent.md)
+
 ## Exchange Metrics (Time Series) <a href="#exchange-metrics" id="exchange-metrics"></a>
 
 * [Exchange Metrics Overview](exchange-metrics/exchange-metrics-overview.md)
@@ -642,23 +659,6 @@
   * [Reported Coin-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
   * [Reported Tether-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
 * [Volume](pair-metrics/volume.md)
-
-## Market Metrics (Time Series) <a href="#market-metrics" id="market-metrics"></a>
-
-* [Market Metrics Overview](market-metrics/market-metrics-overview.md)
-* [Liquidations](market-metrics/liquidations/README.md)
-  * [Liquidation Buy Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_usd.md)
-  * [Liquidation Buy Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_buy\_units.md)
-  * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
-  * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
-* [Liquidity](market-metrics/liquidity/README.md)
-  * [Bid/Ask Spread Percentage](market-metrics/liquidity/liquidity\_bid\_ask\_spread\_percent.md)
-  * [Liquidity Depth Bid Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_usd.md)
-  * [Liquidity Depth Bid Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_units.md)
-  * [Liquidity Depth Ask Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_usd.md)
-  * [Liquidity Depth Ask Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_units.md)
-  * [Liquidity Slippage Bid Percentage](market-metrics/liquidity/liquidity\_slippage\_bid\_percent.md)
-  * [Liquidity Slippage Ask Percentage](market-metrics/liquidity/liquidity\_slippage\_ask\_percent.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 
