@@ -95,7 +95,7 @@ A sample of the constituents for the CMBI10 from our [`/timeseries/index-constit
 
 ## **Availability**
 
-The last 60 days of history is available through our community API.  Community data is available via HTTP API only and is limited to 1,000 API requests per 10 minutes per IP address. All of our index constituenst data is available through our professional API with higher rate limits.&#x20;
+The last 60 days of history is available through our community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our index constituenst data is available through our professional API with higher rate limits.&#x20;
 
 Index constituents are available for the indexes listed below.&#x20;
 
