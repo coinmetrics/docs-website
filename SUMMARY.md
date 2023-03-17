@@ -29,6 +29,7 @@
 * [Reference Rates Overview](market-data/reference-rates-overview.md)
 * [Principal Market Price Overview](market-data/principal-market-price-overview.md)
 * [Methodologies](market-data/methodologies/README.md)
+  * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
   * [Market Selection Framework](methodologies/reference-rates/market-selection-framework.md)
   * [Real-Time Reference Rates Methodology](methodologies/reference-rates/real-time-reference-rates-methodology.md)
   * [Hourly Reference Rates Methodology](methodologies/reference-rates/hourly-reference-rates-methodology.md)
