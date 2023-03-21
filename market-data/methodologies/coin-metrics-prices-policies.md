@@ -16,9 +16,9 @@ The Coin Metrics Principal Market Prices is published once a second and adheres 
 
 The CM Prices are designed to serve as a set of transparent and independent pricing sources that promote the functioning of efficient markets, reduce information asymmetries among market participants, facilitate trading in standardized contracts, and accelerate the adoption of cryptocurrencies as an asset class with the highest standards. The CM Prices are calculated using robust and resilient methodologies that are resistant to manipulation and adhere to international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the CM Prices and ensure the CM Prices serve as a source of transparent and independent pricing.
 
-## Other Methodology Documents
+## Other Documents
 
-The CM Prices are collectively governed by rules-based methodologies described in this document, our [Market Selection Framework](https://docs.coinmetrics.io/market-data/methodologies/market-selection-framework) which produces a unique set of constituent markets for each asset, our [CM Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/cm-prices-methodology) which describes our data sources, calculation algorithm, and contingency rules, and the [Coin Metrics Oversight Committee Charter](https://docs.coinmetrics.io/market-data/methodologies/oversight-committee-charter) which defines the responsibilities of the Oversight Committee.
+The CM Prices are collectively governed by rules-based methodologies described in [Coin Metrics Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology) which describes our Market Selection Framework, a systematic method of producing a unique set of constituent markets for each asset, our data sources, calculation algorithm, and contingency rules. The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](https://docs.coinmetrics.io/market-data/methodologies/oversight-committee-charter) which defines the responsibilities of the Oversight Committee.
 
 ## Administration
 
