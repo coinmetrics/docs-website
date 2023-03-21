@@ -273,7 +273,7 @@ The calculation algorithm of the Hourly Reference Rates is described below.
 
 A chart of the weights is included below and the exact weights for each time interval are listed in Appendix B:
 
-<img src="../../.gitbook/assets/reference-rates-weights.png" alt="" data-size="original">
+<figure><img src="../../.gitbook/assets/reference-rates-weights.png" alt=""><figcaption></figcaption></figure>
 
 ### Data Contingency Rules
 

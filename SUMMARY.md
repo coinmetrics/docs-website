@@ -31,6 +31,7 @@
 * [Methodologies](market-data/methodologies/README.md)
   * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
   * [Coin Metrics Prices Methodology](market-data/methodologies/coin-metrics-prices-methodology.md)
+  * [Coin Metrics Oversight Committee Charter](market-data/methodologies/coin-metrics-oversight-committee-charter.md)
   * [Market Selection Framework](methodologies/reference-rates/market-selection-framework.md)
   * [Real-Time Reference Rates Methodology](methodologies/reference-rates/real-time-reference-rates-methodology.md)
   * [Hourly Reference Rates Methodology](methodologies/reference-rates/hourly-reference-rates-methodology.md)
