@@ -20,7 +20,7 @@ The CM Prices are designed to serve as a set of transparent and independent pric
 
 The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes and terminations, recalculations, internal controls, complaints, record retention, and compliance policies.
 
-The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](https://docs.coinmetrics.io/market-data/methodologies/oversight-committee-charter) which defines the responsibilities of the Oversight Committee.
+The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](coin-metrics-oversight-committee-charter.md) which defines the responsibilities of the Oversight Committee.
 
 ## Data Inputs
 

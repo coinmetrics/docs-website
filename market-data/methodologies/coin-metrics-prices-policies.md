@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/coin-metrics-prices-policies.pdf" %}
+{% file src="../../.gitbook/assets/coin-metrics-prices-policies (1).pdf" %}
 
 ## Introduction
 
@@ -18,7 +18,7 @@ The CM Prices are designed to serve as a set of transparent and independent pric
 
 ## Other Documents
 
-The CM Prices are collectively governed by rules-based methodologies described in [Coin Metrics Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology) which describes our Market Selection Framework, a systematic method of producing a unique set of constituent markets for each asset, our data sources, calculation algorithm, and contingency rules. The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](https://docs.coinmetrics.io/market-data/methodologies/oversight-committee-charter) which defines the responsibilities of the Oversight Committee.
+The CM Prices are collectively governed by rules-based methodologies described in [Coin Metrics Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology) which describes our Market Selection Framework, a systematic method of producing a unique set of constituent markets for each asset, our data sources, calculation algorithm, and contingency rules. The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](coin-metrics-oversight-committee-charter.md) which defines the responsibilities of the Oversight Committee.
 
 ## Administration
 
