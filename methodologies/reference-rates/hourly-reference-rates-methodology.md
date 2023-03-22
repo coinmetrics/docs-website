@@ -127,7 +127,7 @@ The calculation algorithm of the Reference Rates is described below.
 
 A chart of the weights is included below and the exact weights for each time interval are listed in Appendix B:
 
-![](<../../.gitbook/assets/image (2) (2).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 ### Data Contingency Rules
 
