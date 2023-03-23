@@ -33,7 +33,7 @@
   * [Coin Metrics Oversight Committee Charter](market-data/methodologies/coin-metrics-oversight-committee-charter.md)
 * [Market Data Exchange Coverage](exchanges/all-exchanges.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
-* [Reference Rate FAQs](asset-metrics/reference-rate-faqs.md)
+* [CM Prices FAQs](market-data/cm-prices-faqs.md)
 
 ## DeFi Data
 
