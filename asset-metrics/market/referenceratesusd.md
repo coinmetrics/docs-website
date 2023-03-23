@@ -1,7 +1,3 @@
----
-description: /timeseries/asset-metrics
----
-
 # Reference Rate (USD)
 
 ## **Definition**
@@ -29,7 +25,7 @@ Please note that `ReferenceRate` and `ReferenceRateUSD` metrics are identical to
 
 ## **Example**
 
-A sample of the reference rates data for Bitcoin with hourly frequency is shown below:
+A sample of the reference rates data for Bitcoin with one hour frequency is shown below:
 
 ```
 {
@@ -57,7 +53,7 @@ A sample of the reference rates data for Bitcoin with hourly frequency is shown 
 }
 ```
 
-A sample of the reference rates data for Bitcoin with one second is shown below:
+A sample of the reference rates data for Bitcoin with one second frequency is shown below:
 
 ```
 {
@@ -89,7 +85,7 @@ A sample of the reference rates data for Bitcoin with one second is shown below:
 
 * **`time`**: The reference rate time in ISO 8601 date-time format.\
 
-* **`ReferenceRateUSD`**: The published reference rate value.
+* **`ReferenceRateUSD`**: The published reference rate value in U.S. Dollars.
 
 ## Release History
 
@@ -99,6 +95,6 @@ A sample of the reference rates data for Bitcoin with one second is shown below:
 
 Community and pro asset availability does not differ.  Community is available via HTTP API only, is limited to 1,000 API requests per 10 minutes per IP address and only showcases the last 24 hours of history for the 1 hour, 1 minute and 1 second frequencies. The full history is available for daily frequencies.
 
-Please see our Coin Metrics Coverage for our asset coverage universe.
+Please see our Coin Metrics Coverage below for our asset coverage universe.
 
 {% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateUSD" %}

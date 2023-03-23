@@ -291,7 +291,7 @@
   * [Blocks by Unknown Miners](asset-metrics/key-risk-indicator-kri-feed/blocks-by-unknown-miners.md)
 * [Market](asset-metrics/market/README.md)
   * [USD Denominated Closing Price](asset-metrics/market/priceusd.md)
-  * [BTC Denominated Price](asset-metrics/market/pricebtc.md)
+  * [BTC Denominated Closing Price](asset-metrics/market/pricebtc.md)
   * [Reference Rate (USD)](asset-metrics/market/referenceratesusd.md)
   * [Reference Rate (EUR)](asset-metrics/market/referencerateeur.md)
   * [Reference Rate (BTC)](asset-metrics/market/reference-rate-btc.md)
