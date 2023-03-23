@@ -6,63 +6,99 @@ description: /timeseries/asset-metrics
 
 ## **Definition**
 
-Reference Rates are designed to represent the price of a cryptoasset in an arms length transaction between a willing buyer and willing seller. It is designed to reflect the price where the majority of trades took place for a given cryptoasset using multiple markets as input data sources.
+The CM Reference Rates are published once a day, once an hour, once a minute, once a second, and once every 200 milliseconds and utilizes volume-weighted median, time-weighted average, and inverse price variance-weighted median techniques.&#x20;
+
+Common use cases for the CM Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and settling financial derivatives.
 
 | Name                | **MetricID**     | **Category** | **Subcategory** | **Type** | **Unit** | **Interval**                       |
 | ------------------- | ---------------- | ------------ | --------------- | -------- | -------- | ---------------------------------- |
 | Reference Rate      | ReferenceRate    | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
 | Reference Rate, USD | ReferenceRateUSD | Market       | Price           | n/a      | USD      | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
 
+Please note that `ReferenceRate` and `ReferenceRateUSD` metrics are identical to each other.
+
 ## Details
 
-* Hourly (1h, 1d): A systematic framework evaluates and selects a unique set of constituent markets for each cryptoasset and the methodology utilizes volume-weighted median and time- weighted average price techniques. The Reference Rates utilizes a 61-minute window to calculate prices once an hour, every hour, including on weekends and holidays. The Reference Rates can be used for portfolio accounting, as settlement prices for financial derivative contracts, and as closing prices for investment products.
-* Real-time (1m, 1s, 200ms):  Similar to the hourly Reference Rates, the Real-Time Reference Rates are designed to represent the price of a cryptoasset in an arms length transaction between a willing buyer and willing seller. Rather than being calculated once an hour, the Real-Time Reference Rates has a separate methodology that utilizes volume-weighted median and inverse price variance weighting techniques to calculate prices once a second, every second, including on weekends and holidays.&#x20;
-* Please note note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.
-* View our [**Real-time**](https://coinmetrics.io/rtrr-methodology/) and [**Hourly**](https://coinmetrics.io/reference-rates-methodology/) reference rates methodology for more information.  Also, see our [**Market Selection Framework**](https://coinmetrics.io/reference-rates-market-selection-framework/) **** for our exchange selection criteria.
+* The CM Reference Rates represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency. The CM Reference Rates supports multiple frequencies. The daily and hourly frequencies utilize one calculation methodology and the minute, second, and 200 millisecond frequencies ("real-time frequencies") utilize a separate calculation methodology.\
+
+* &#x20;The daily and hourly frequencies are calculated at the end of every hour and day, respectively, (the "Calculation Time") and are published within 5 minutes (the “Publication Time”). The real-time frequencies are published in real-time with no delay.\
+
+* Please note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.\
+
+* Please see our [CM Prices Overview](../../market-data/reference-rates-overview.md) for more information on methodology and policies.
 
 ## **Example**
 
-A sample of the hourly reference rates data for Bitcoin is shown below:
+A sample of the reference rates data for Bitcoin with hourly frequency is shown below:
 
-![](<../../.gitbook/assets/0 (3).png>)
+```
+{
+  "data" : [ {
+    "asset" : "btc",
+    "time" : "2023-03-23T10:00:00.000000000Z",
+    "ReferenceRateUSD" : "27706.6749620105"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T11:00:00.000000000Z",
+    "ReferenceRateUSD" : "27720.9770701344"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T12:00:00.000000000Z",
+    "ReferenceRateUSD" : "27617.113279661"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T13:00:00.000000000Z",
+    "ReferenceRateUSD" : "27633.9196513735"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:00:00.000000000Z",
+    "ReferenceRateUSD" : "27450.324137931"
+  }
+}
+```
 
-A sample of the real-time reference rates data for Bitcoin is shown below:
+A sample of the reference rates data for Bitcoin with one second is shown below:
 
-![](../../.gitbook/assets/1.png)
+```
+{
+  "data" : [ {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:21:37.000000000Z",
+    "ReferenceRateUSD" : "27460"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:21:38.000000000Z",
+    "ReferenceRateUSD" : "27460"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:21:39.000000000Z",
+    "ReferenceRateUSD" : "27460"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:21:40.000000000Z",
+    "ReferenceRateUSD" : "27460"
+  }, {
+    "asset" : "btc",
+    "time" : "2023-03-23T14:21:41.000000000Z",
+    "ReferenceRateUSD" : "27460"
+  }
+}
+```
 
-* asset: The ID of the asset.  &#x20;
-* time: The reference rate time in ISO 8601 date-time format.
-* ReferenceRate: The reference rate value.
+* **`asset`**: The ID of the asset.\
+
+* **`time`**: The reference rate time in ISO 8601 date-time format.\
+
+* **`ReferenceRateUSD`**: The published reference rate value.
 
 ## Release History
 
-* Release Version: Reference Rates v1.0 (May 15, 2019) - initial version
-* Release Version: Reference Rates v1.1 (May 31, 2019)  - publication of historical prices and revised methodology
-* Release Version: Reference Rates v1.2 (June 14, 2019) - expansion of coverage universe (+9 assets)
-* Release Version: Reference Rates v2.0 (July 9, 2019) - publication of rates hourly, publication of historical hourly rates, human oversight of fixings, expansion of coverage universe (+93 assets)
-* Release Version: Reference Rates v2.1 (Aug 30, 2019) - publishing to v2 API (in addition to v2), recalculation&#x20;
-* Release Version:  Real-Time Reference Rates Beta (Aug 30, 2019) - initial version
-* Release Version: Real-Time Reference Rates v0.1 (Dec 9, 2019) - methodology enhancements
-* Release Version: Reference Rates v2.2 (Feb 7, 2020) - updates to constituent markets, asset coverage termination for a number of assets, update to reflect Maker’s protocol upgrade
-* Release Version: Real-Time Reference Rates v0.2 (Feb 7, 2020) - updates to constituent markets, asset coverage termination for a number of assets, update to reflect Maker’s protocol upgrade
-* Release Version: Reference Rates v2.3 (March 5, 2020) - expansion of coverage universe (+24)&#x20;
-* Release Version: Real-Time Reference Rates v0.4 (March 5, 2020) -  expansion of coverage universe (+24)&#x20;
-* Release Version: Reference Rates v2.4 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
-* Release Version: Real-Time Reference Rates v0.5 (Aug 7, 2020) - expansion of coverage universe (+28), asset coverage termination (-3), reconstitutions of our whitelisted markets, recalculation of certain assets, change in the recalculation methodology
-* Release Version: Reference Rates v2.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
-* Release Version: Real-Time Reference Rates v0.10 (Oct 7, 2021) - expansion of coverage universe (+9), asset coverage termination (-10), reconstitutions of our whitelisted markets
-* Release Version: Reference Rates v2.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
-* Release Version: Real-Time Reference Rates v0.11 (March 10, 2022) - expansion of coverage universe (+94), asset coverage termination (-14), reconstitutions of our whitelisted markets, change in the data input methodology to include stablecoin pairs
-* Release Version: Reference Rates v2.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
-* Release Version: Real-Time Reference Rates v0.12 (July 1, 2022) - expansion of coverage universe (+35), asset coverage termination (-8)
-* Release Version: Reference Rates v2.13 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
-* Release Version: Real-Time Reference Rates v0.14 (Oct 24, 2022) - expansion of coverage universe (+63), asset coverage termination (-8)
-* Release Version: Real-Time Reference Rates v0.15 (Feb 9, 2023) - added the 200ms publication frequency
+* Please see the [Coin Metrics Prices Change Log](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology#change-log) for release history.&#x20;
 
 ## **Availability for Assets**
 
-Community and pro asset availability does not differ.  Community is available via HTTP API only, is limited to 1,000 API requests per 10 minutes per IP address and only showcases the last 24 hours of history for the 1 hour, 1 min and 1 second rates.&#x20;
+Community and pro asset availability does not differ.  Community is available via HTTP API only, is limited to 1,000 API requests per 10 minutes per IP address and only showcases the last 24 hours of history for the 1 hour, 1 minute and 1 second frequencies. The full history is available for daily frequencies.
+
+Please see our Coin Metrics Coverage for our asset coverage universe.
 
 {% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateUSD" %}
-
-{% embed url="https://docs.coinmetrics.io/info/metrics/ReferenceRateUSD" %}
