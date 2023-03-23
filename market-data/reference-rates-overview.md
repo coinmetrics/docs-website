@@ -1,10 +1,10 @@
 # CM Prices Overview
 
-Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Hourly Reference Rates, the Coin Metrics Real-Time Reference Rates, and the Coin Metrics Principal Market Prices, which are collectively referred to as the Coin Metrics Prices (“CM Prices”).
+Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Reference Rates ("CM Reference Rates") and the Coin Metrics Principal Market Prices ("CM Principal Market Prices"), which are collectively referred to as the Coin Metrics Prices ("CM Prices").
 
 Our coverage universe consists of over 640 assets and utilize a transparent and rules-based [methodology](methodologies/coin-metrics-prices-methodology.md). Our prices are robust to manipulation and are derived from high quality constituent markets and are governed by our [policies](methodologies/coin-metrics-prices-policies.md).
 
-## Data Available for Hourly Reference Rates and Real-Time Reference Rates
+## Data Available for CM Reference Rates
 
 Please note that the following price metrics are served through both the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [`/timeseries-stream/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint.&#x20;
 
@@ -30,14 +30,10 @@ The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket end
 
 
 
-## Methodologies
+## CM Prices Methodology
 
-We have two reference rates methodologies. The Hourly Reference Rates Methodology is used to calculate the 1h and 1d frequencies. The Real-Time Reference Rates Methodology is used to calculate the 1m, 1s, and 200ms frequencies.
+The CM Prices are collectively governed by rules-based methodologies described in [Coin Metrics Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology) which describes our Market Selection Framework, a systematic method of producing a unique set of constituent markets for each asset, our data sources, calculation algorithm, and contingency rules.
 
-{% content-ref url="../methodologies/reference-rates/real-time-reference-rates-methodology.md" %}
-[real-time-reference-rates-methodology.md](../methodologies/reference-rates/real-time-reference-rates-methodology.md)
-{% endcontent-ref %}
-
-{% content-ref url="../methodologies/reference-rates/hourly-reference-rates-methodology.md" %}
-[hourly-reference-rates-methodology.md](../methodologies/reference-rates/hourly-reference-rates-methodology.md)
+{% content-ref url="methodologies/coin-metrics-prices-methodology.md" %}
+[coin-metrics-prices-methodology.md](methodologies/coin-metrics-prices-methodology.md)
 {% endcontent-ref %}
