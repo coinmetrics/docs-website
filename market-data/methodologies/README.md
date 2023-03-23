@@ -1,6 +1,6 @@
 # Methodologies
 
-Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Hourly Reference Rates, the Coin Metrics Real-Time Reference Rates, and the Coin Metrics Principal Market Prices, which are collectively referred to as the Coin Metrics Prices (“CM Prices”). This document describes the policies that are used to govern and administer the CM Prices.
+Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Reference Rates ("CM Reference Rates") and the Coin Metrics Principal Market Prices ("CM Principal Market Prices"), which are collectively referred to as the Coin Metrics Prices ("CM Prices").
 
 ## Coin Metrics Prices Policies
 

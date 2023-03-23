@@ -2,13 +2,13 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/coin-metrics-prices-policies (1).pdf" %}
+{% file src="../../.gitbook/assets/coin-metrics-prices-policies (2).pdf" %}
 
 ## Introduction
 
-Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Hourly Reference Rates, the Coin Metrics Real-Time Reference Rates, and the Coin Metrics Principal Market Prices, which are collectively referred to as the Coin Metrics Prices (“CM Prices”). This document describes the policies that are used to govern and administer the CM Prices.
+Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Reference Rates ("CM Reference Rates") and the Coin Metrics Principal Market Prices ("CM Principal Market Prices"), which are collectively referred to as the Coin Metrics Prices ("CM Prices"). This document describes the policies that are used to govern and administer the CM Prices.
 
-The Coin Metrics Hourly Reference Rates is published once an hour and utlizes volume-weighted median and time-weighted average techniques over a 61-minute calculation window. Common use cases for the Coin Metrics Hourly Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, and settling financial derivatives.
+The Coin Metrics Hourly Reference Rates is published once an hour and utilizes volume-weighted median and time-weighted average techniques over a 61-minute calculation window. Common use cases for the Coin Metrics Hourly Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, and settling financial derivatives.
 
 The Coin Metrics Real-Time Reference Rates is published once a second and once every 200 milliseconds and utilizes volume-weighted median and inverse price variance-weighted median techniques. Common use cases for the Coin Metrics Real-Time Reference rates include serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and any use cases where real-time pricing is needed.
 

@@ -2,17 +2,15 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/coin-metrics-prices-methodology.pdf" %}
+{% file src="../../.gitbook/assets/coin-metrics-prices-methodology (1).pdf" %}
 
 ## Introduction
 
-Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Hourly Reference Rates (“Hourly Reference Rates”), the Coin Metrics Real-Time Reference Rates (“Real-Time Reference Rates”), and the Coin Metrics Principal Market Prices (“Principal Market Prices”), which are collectively referred to as the Coin Metrics Prices (“CM Prices”). This document describes the data inputs, calculation methodologies, and data exclusion rules for the CM Prices.
+Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Reference Rates (“CM Reference Rates”) and the Coin Metrics Principal Market Prices (“CM Principal Market Prices”), which are collectively referred to as the Coin Metrics Prices (“CM Prices”). This document describes the data inputs, calculation methodologies, and data exclusion rules for the CM Prices.
 
-The Hourly Reference Rates are published once an hour and utlize volume-weighted median and time-weighted average techniques over a 61-minute calculation window. Common use cases for the Hourly Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, and settling financial derivatives.
+The CM Reference Rates are published once a day, once an hour, once a minute, once a second, and once every 200 milliseconds and utilize volume-weighted median, time-weighted average, and inverse price variance-weighted median techniques. Common use cases for the CM Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and settling financial derivatives.
 
-The Real-Time Reference Rates are published once a second and once every 200 milliseconds and utilize volume-weighted median and inverse price variance-weighted median techniques. Common use cases for the Real-Time Reference rates include serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and any use cases where real-time pricing is needed.
-
-The Principal Market Prices are published once a second and adhere to the guidelines regarding fair value measurement issued by the International Financial Reporting Standards and the Association of International Certified Professional Accountants, specifically standards IFRS 13 and FASB ASC 820. The Principal Market Prices identify a principal market for each asset and utilize the most recent price from this market. Common use cases are for fair value measurement, preparing financial statements, and calculating closing prices for indexes or financial benchmarks.
+The CM Principal Market Prices are published once a day, once an hour, once a minute, and once a second and adhere to the guidelines regarding fair value measurement issued by the International Financial Reporting Standards and the Association of International Certified Professional Accountants, specifically standards IFRS 13 and FASB ASC 820. The Principal Market Prices identify a principal market for each asset and utilize the most recent price from this market. Common use cases are for fair value measurement, preparing financial statements, and calculating closing prices for indexes or financial benchmarks.
 
 The CM Prices are designed to serve as a set of transparent and independent pricing sources that promote the functioning of efficient markets, reduce information asymmetries among market participants, facilitate trading in standardized contracts, and accelerate the adoption of cryptocurrencies as an asset class with the highest standards. The CM Prices are calculated using robust and resilient methodologies that are resistant to manipulation and adhere to international best practices for financial benchmarks, including the International Organization of Securities Commissions’ (IOSCO) Principles for Financial Benchmarks. The Coin Metrics Oversight Committee (the “Oversight Committee”) and an independent governance structure protect the integrity of the CM Prices and ensure the CM Prices serve as a source of transparent and independent pricing.
 
@@ -20,7 +18,7 @@ The CM Prices are designed to serve as a set of transparent and independent pric
 
 The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes and terminations, recalculations, internal controls, complaints, record retention, and compliance policies.
 
-The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](coin-metrics-oversight-committee-charter.md) which defines the responsibilities of the Oversight Committee.
+The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](https://docs.coinmetrics.io/market-data/methodologies/oversight-committee-charter) which defines the responsibilities of the Oversight Committee.
 
 ## Data Inputs
 
@@ -254,17 +252,17 @@ The data hierarchy for fiat currencies differs from other cryptocurrencies becau
 | Hong Kong Dollar  | hkd    |
 | Singapore Dollar  | sgd    |
 
-## Hourly Reference Rates Calculation Methodology
+## Reference Rates Calculation Methodology
 
-The Hourly Reference Rates are published hourly, every day of the year, and represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency. The Hourly Reference Rates are calculated at the end of every hour (the “Calculation Time”) and are published within 5 minutes (the “Publication Time”).
+The CM Reference Rates represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency. The CM Reference Rates supports multiple frequencies. The daily and hourly frequencies utilize one calculation methodology and the minute, second, and 200 millisecond frequencies (“real-time frequencies”) utilize a separate calculation methodology. The daily and hourly frequencies are calculated at the end of every hour and day, respectively, (the “Calculation Time”) and are published within 5 minutes (the “Publication Time”). The real-time frequencies are published in real-time with no delay.
 
 ### Coverage Universe
 
-The set of assets included in the Hourly Reference Rates coverage universe are included in Appendix A.
+The set of assets included in the CM Reference Rates coverage universe are included in Appendix A.
 
-### Calculation Algorithm
+### Calculation Algorithm for Daily and Hourly Frequencies
 
-The calculation algorithm of the Hourly Reference Rates is described below.
+The calculation algorithm of the CM Reference Rates for daily and hourly frequencies is described below.
 
 1. All observable transactions from Constituent Markets are combined and partitioned into time intervals, with each time interval spanning a period of one minute. The first one-minute time interval begins 60 minutes before the Calculation Time and the last one-minute time interval begins at the Calculation and ends one minute after the Calculation Time. In total, the calculation period spans a period of 61 minutes (the “Observation Window”). A total of 61 one-minute time intervals are created.
 2. The price of each observable transaction for one unit of the given asset is converted to U.S. dollars if necessary using the Reference Rates calculated for Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), or Tether (USDT).
@@ -275,7 +273,7 @@ A chart of the weights is included below and the exact weights for each time int
 
 <figure><img src="../../.gitbook/assets/reference-rates-weights (1).png" alt=""><figcaption></figcaption></figure>
 
-### Data Contingency Rules
+### Data Contingency Rules for Daily and Hourly Frequencies
 
 The following contingency rules are followed to address situations where data is delayed, missing, or unavailable due to periods of illiquidity, extraordinary market circumstances, or outside factors beyond the control of Coin Metrics.
 
@@ -285,25 +283,17 @@ The following contingency rules are followed to address situations where data is
 4. If no observable transactions from constituent markets occur during the last one-minute time interval, the previous time interval’s volume-weighted median price is used as the volume-weighted median price. This contingency rule is applied recursively if necessary.
 5. If no observable transactions from constituent markets exist during the Calculation Period for a reference rate, the reference rate will be determined to equal the previous hourly reference rate in which there were trades during that hour’s Observation Window.
 
-## Real-Time Reference Rates Calculation Methodology
+### Calculation Algorithm for Real-Time Frequencies
 
-The Real-Time Reference Rates (“Real-Time Reference Rates”) are published once per second and once per 200 milliseconds, every day of the year, and represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency.
-
-### Coverage Universe
-
-The set of assets included in the Real-Time Reference Rates coverage universe are included in Appendix A.
-
-### Calculation Algorithm
-
-The calculation algorithm of the Real-Time Reference Rates is described below.
+The calculation algorithm of the CM Reference Rates for the real-time frequencies is described below.
 
 1. Calculate the volume denominated in units of the given asset from observable transactions that occurred over the trailing 60 minutes for each of the Constituent Markets. Calculate the volume weight for each of the Constituent Markets by dividing the volume figure for each of the Constituent Markets by the total volume across all Constituent Markets. The resulting figure is referred to as the volume weight.
 2. Convert the trade price of all observable transactions over the trailing 60 minutes for each of the Constituent Markets to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), or Tether (USDT). Calculate the inverse variance of the trade price converted to U.S. dollars for each of the Constituent Markets using the population mean in the calculation of variance, where the population mean is defined as the mean price of all trades from Constituent Markets over the trailing 60 minutes. If a Constituent Market has an infinite or undefined inverse price variance, the inverse price variance for that Constituent Market is set to zero. Calculate the inverse price variance weight for each of the Constituent Markets by dividing the inverse price variance by the total inverse price variance across all Constituent Markets. The resulting figure is referred to as the inverse price variance weight.
 3. Calculate the final weight for each of the Constituent Markets by taking a mean of the volume weight and the inverse price variance weight.
-4. Extract the most recent observable transaction from each of the Constituent Markets. Convert the trade price of the most recent observable transactions to U.S. dollars if necessary using the Real-Time Reference Rate calculated for Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), or Tether (USDT).
-5. Calculate the weighted median price of the most recent observable transactions using the prices calculated in step 4 and the final weights calculated in step 3. The weighted median price is calculated by ordering the transactions from lowest to highest price, and identifying the price associated with the trades at the 50th percentile of final weight. The resulting figure is the Real-Time Reference Rate for the given asset.
+4. Extract the most recent observable transaction from each of the Constituent Markets. Convert the trade price of the most recent observable transactions to U.S. dollars if necessary using the Reference Rate calculated for Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), or Tether (USDT).
+5. Calculate the weighted median price of the most recent observable transactions using the prices calculated in step 4 and the final weights calculated in step 3. The weighted median price is calculated by ordering the transactions from lowest to highest price, and identifying the price associated with the trades at the 50th percentile of final weight. The resulting figure is the published reference rate for the given asset.
 
-### Data Contingency Rules
+### Data Contingency Rules for Real-Time Frequencies
 
 The following contingency rules are followed to address situations where data is delayed, missing, or unavailable due to periods of illiquidity, extraordinary market circumstances, or outside factors beyond the control of Coin Metrics.
 
@@ -318,13 +308,13 @@ The Principal Market Prices are published once per second, every day of the year
 
 The Principal Market Prices were developed taking into account the requirements of IFRS 13 and FASB ASC 820 accounting guidelines defining what a Principal Market is and how it should be selected. These guidelines also allow for additional controls to verify the market is active and trades are orderly.
 
-As Coin Metrics already provides Hourly Reference Rates and Real-Time Reference Rates methodologies to price cryptocurrencies which we believe to be robust and stable, it is worth briefly describing the philosophy behind producing the Principal Market Prices to supplement the reference rates. The first and most significant criteria is that certain regulatory agencies require a methodology consistent with the aforementioned accounting principles. These principles clearly describe the preferred “fair market value” calculation as one which identifies a Principal Market by trade volume and tracks executed trades in that market.
+As Coin Metrics already provides the CM Reference Rates methodology to price cryptocurrencies which we believe to be robust and stable, it is worth briefly describing the philosophy behind producing the Principal Market Prices to supplement the reference rates. The first and most significant criteria is that certain regulatory agencies require a methodology consistent with the aforementioned accounting principles. These principles clearly describe the preferred “fair market value” calculation as one which identifies a Principal Market by trade volume and tracks executed trades in that market.
 
 Beyond external requirements, the benefits for a Principal Market Prices methodology are that it is clearly defined and auditable. The price is always taken from a single market, which tends to remain constant, and can easily be traced and verified for a given time stamp. We minimize computations being done on the price, which reduces the likelihood of unforeseen behavior. Additionally, the trades are always taken from the exchange where the most of the activity occurs, which is a characteristic users are interested in.
 
-Like all things in life, this comes with some trade offs. Our Hourly Reference Rates and Real-Time Reference Rates look for a central tendency among several markets. In some cases this can avoid volatility and the presence of outliers if the Principal Market Prices deviate from the global average, but it also means that the final price may be taken from comparatively insignificant market where the price is between the prices of markets of larger volume. With these trade-offs in mind, our methodology seeks to err on the side of trusting the largest market by volume of trades and only excludes a market in extreme situations.
+Like all things in life, this comes with some trade offs. Our CM Reference Rates look for a central tendency among several markets. In some cases this can avoid volatility and the presence of outliers if the Principal Market Prices deviate from the global average, but it also means that the final price may be taken from comparatively insignificant market where the price is between the prices of markets of larger volume. With these trade-offs in mind, our methodology seeks to err on the side of trusting the largest market by volume of trades and only excludes a market in extreme situations.
 
-We also attempt to avoid numerical comparisons of the price between markets in the methodology, in order to minimize the possibility that a price anomaly in another market could affect the calculation. Our Hourly Reference Rates and Real-Time Reference Rates by contrast choose to combine multiple markets to identify a more stable price representative of the global environment.
+We also attempt to avoid numerical comparisons of the price between markets in the methodology, in order to minimize the possibility that a price anomaly in another market could affect the calculation. Our CM Reference Rates by contrast choose to combine multiple markets to identify a more stable price representative of the global environment.
 
 ### Coverage Universe
 
@@ -1011,7 +1001,7 @@ The following table lists the current coverage universe:
 
 ## Appendix B
 
-The following table lists the weights applied to each one-minute time interval described in the Hourly Reference Rates Methodology section.
+The following table lists the weights applied to each one-minute time interval described in the CM Reference Rates Methodology section.
 
 | Time Interval | Weight   |
 | ------------- | -------- |

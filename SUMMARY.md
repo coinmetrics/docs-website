@@ -26,7 +26,7 @@
 ## Market Data
 
 * [Market Data Overview](market-data/market-data-overview.md)
-* [Reference Rates Overview](market-data/reference-rates-overview.md)
+* [CM Prices Overview](market-data/cm-prices-overview.md)
 * [Principal Market Price Overview](market-data/principal-market-price-overview.md)
 * [Methodologies](market-data/methodologies/README.md)
   * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
