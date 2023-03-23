@@ -297,6 +297,7 @@
   * [Reference Rate (BTC)](asset-metrics/market/reference-rate-btc.md)
   * [Reference Rate (ETH)](asset-metrics/market/reference-rate-eth.md)
   * [Principal Market Price (USD)](asset-metrics/market/principalmarketprice.md)
+  * [Principal Market (USD)](asset-metrics/market/principalmarketprice-1.md)
   * [Realized Market Cap (USD)](asset-metrics/market/caprealusd.md)
   * [Free Float Market Cap (USD)](asset-metrics/market/capmrktffusd.md)
   * [Market Cap (USD)](asset-metrics/market/capmrktcurusd.md)
