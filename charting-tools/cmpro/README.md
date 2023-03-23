@@ -73,7 +73,7 @@ Here you can find all the asset base/quote pairs currently offered, including ex
 
 The trades update every 1.5 seconds and include all activity that took place in the past 1.5 seconds.  You can chart [comparisons](./#comparing-data) from multiple exchanges at the same time - the exact number of comparisons will depend on the power of you computer.  All trades data will appear in the tool's 1 minute resolution (updating every 1.5 seconds) due to a limitation of the Trading View library's "seconds" resolutions.
 
-### [**Reference Rates**](../../asset-metrics/market/referenceratesusd.md) **(CM-RefRates)**
+### [**Reference Rates**](../../asset-metrics/market/referencerateusd.md) **(CM-RefRates)**
 
 Our Coin Metrics reference rates are available for 300+ assets. Typing the asset (e.g., _BTC_) in the symbol entry window will enable you to select the desired increment.  Increments supported include 1 min, 1 hour, daily 00:00 UTC close, and daily 4:00PM NYC close. We also have real-time (RT) rates that are computed every 1.5 seconds and update live on the chart.  All reference rate data will show up in the chosen resolution, except the real-time data, which will appear in the tool's 1 minute resolution (updating every 1.5 seconds) due to a limitation of the Trading View library's "seconds" resolutions.
 

@@ -90,8 +90,8 @@ Coin Metrics calculates several metrics for assets such as `btc` and `eth`. The 
 
 Metrics available at the asset level are available through the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
-{% content-ref url="../asset-metrics/market/referenceratesusd.md" %}
-[referenceratesusd.md](../asset-metrics/market/referenceratesusd.md)
+{% content-ref url="../asset-metrics/market/referencerateusd.md" %}
+[referencerateusd.md](../asset-metrics/market/referencerateusd.md)
 {% endcontent-ref %}
 
 {% content-ref url="../asset-metrics/market/referencerateeur.md" %}

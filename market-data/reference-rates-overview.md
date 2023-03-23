@@ -6,24 +6,26 @@ Our coverage universe consists of over 640 assets and utilize a transparent and 
 
 ## Data Available for CM Reference Rates
 
-Please note that the following price metrics are served through both the [`/timeseries/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP API endpoint and the [`/timeseries-stream/asset-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint.&#x20;
+The CM Reference Rates represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency.
 
-The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms. Frequencies 1d and 1h use our Hourly Reference Rates. Frequencies 1m and 1s use our Real-Time Reference Rates.
+The CM Reference Rates supports multiple frequencies. The daily and hourly frequencies utilize one calculation methodology and the minute, second, and 200 millisecond frequencies ("real-time frequencies") utilize a separate calculation methodology.
 
-{% content-ref url="../asset-metrics/market/referenceratesusd.md" %}
-[referenceratesusd.md](../asset-metrics/market/referenceratesusd.md)
+Please note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.
+
+{% content-ref url="../asset-metrics/market/referencerateusd.md" %}
+[referencerateusd.md](../asset-metrics/market/referencerateusd.md)
 {% endcontent-ref %}
 
 {% content-ref url="../asset-metrics/market/referencerateeur.md" %}
 [referencerateeur.md](../asset-metrics/market/referencerateeur.md)
 {% endcontent-ref %}
 
-{% content-ref url="../asset-metrics/market/reference-rate-btc.md" %}
-[reference-rate-btc.md](../asset-metrics/market/reference-rate-btc.md)
+{% content-ref url="../asset-metrics/market/referencerateeth.md" %}
+[referencerateeth.md](../asset-metrics/market/referencerateeth.md)
 {% endcontent-ref %}
 
-{% content-ref url="../asset-metrics/market/reference-rate-eth.md" %}
-[reference-rate-eth.md](../asset-metrics/market/reference-rate-eth.md)
+{% content-ref url="../asset-metrics/market/referencerateeth-1.md" %}
+[referencerateeth-1.md](../asset-metrics/market/referencerateeth-1.md)
 {% endcontent-ref %}
 
 ## Data Available for Principal Market Prices
