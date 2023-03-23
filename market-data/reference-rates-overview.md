@@ -28,14 +28,36 @@ Please note that this metric is served through both the [/timeseries/asset-metri
 [referencerateeth-1.md](../asset-metrics/market/referencerateeth-1.md)
 {% endcontent-ref %}
 
-## Data Available for Principal Market Prices
+## Data Available for CM Principal Market Prices
 
+The CM Principal Market Price is the price of an asset quoted in U.S. dollars derived from the asset's principal market, the market with the most trading volume or activity.
 
+We offer both the principal market price and the identity of the principal market in separate metrics below.
 
-## CM Prices Methodology
+{% content-ref url="../asset-metrics/market/principal_market_price_usd.md" %}
+[principal\_market\_price\_usd.md](../asset-metrics/market/principal\_market\_price\_usd.md)
+{% endcontent-ref %}
+
+{% content-ref url="../asset-metrics/market/principal_market_usd.md" %}
+[principal\_market\_usd.md](../asset-metrics/market/principal\_market\_usd.md)
+{% endcontent-ref %}
+
+## CM Prices Documents
+
+The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes and terminations, recalculations, internal controls, complaints, record retention, and compliance policies.
+
+{% content-ref url="methodologies/coin-metrics-prices-policies.md" %}
+[coin-metrics-prices-policies.md](methodologies/coin-metrics-prices-policies.md)
+{% endcontent-ref %}
 
 The CM Prices are collectively governed by rules-based methodologies described in [Coin Metrics Prices Methodology](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology) which describes our Market Selection Framework, a systematic method of producing a unique set of constituent markets for each asset, our data sources, calculation algorithm, and contingency rules.
 
 {% content-ref url="methodologies/coin-metrics-prices-methodology.md" %}
 [coin-metrics-prices-methodology.md](methodologies/coin-metrics-prices-methodology.md)
+{% endcontent-ref %}
+
+The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](methodologies/coin-metrics-oversight-committee-charter.md) which defines the responsibilities of the Oversight Committee.
+
+{% content-ref url="methodologies/coin-metrics-oversight-committee-charter.md" %}
+[coin-metrics-oversight-committee-charter.md](methodologies/coin-metrics-oversight-committee-charter.md)
 {% endcontent-ref %}
