@@ -2,9 +2,7 @@
 
 ## **Definition**
 
-The CM Reference Rates are published once a day, once an hour, once a minute, once a second, and once every 200 milliseconds and utilizes volume-weighted median, time-weighted average, and inverse price variance-weighted median techniques.&#x20;
-
-Common use cases for the CM Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and settling financial derivatives.
+The CM Reference Rates represent the reference rate of one unit of the asset quoted in U.S. dollars.
 
 | Name                | **MetricID**     | **Category** | **Subcategory** | **Type** | **Unit** | **Interval**                       |
 | ------------------- | ---------------- | ------------ | --------------- | -------- | -------- | ---------------------------------- |
@@ -15,9 +13,13 @@ Please note that `ReferenceRate` and `ReferenceRateUSD` metrics are identical to
 
 ## Details
 
-* The CM Reference Rates represent the reference rate of one unit of the asset quoted in U.S. dollars or other currency. The CM Reference Rates supports multiple frequencies. The daily and hourly frequencies utilize one calculation methodology and the minute, second, and 200 millisecond frequencies ("real-time frequencies") utilize a separate calculation methodology.\
+* The CM Reference Rates are published once a day, once an hour, once a minute, once a second, and once every 200 milliseconds and utilizes volume-weighted median, time-weighted average, and inverse price variance-weighted median techniques. \
 
-* &#x20;The daily and hourly frequencies are calculated at the end of every hour and day, respectively, (the "Calculation Time") and are published within 5 minutes (the “Publication Time”). The real-time frequencies are published in real-time with no delay.\
+* Common use cases for the CM Reference Rates include research, backtesting, calculating net asset value for investment funds, calculating closing prices for indexes or financial benchmarks, serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and settling financial derivatives.\
+
+* The CM Reference Rates supports multiple frequencies. The daily and hourly frequencies utilize one calculation methodology and the minute, second, and 200 millisecond frequencies ("real-time frequencies") utilize a separate calculation methodology.\
+
+* The daily and hourly frequencies are calculated at the end of every hour and day, respectively, (the "Calculation Time") and are published within 5 minutes (the “Publication Time”). The real-time frequencies are published in real-time with no delay.\
 
 * Please note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.\
 

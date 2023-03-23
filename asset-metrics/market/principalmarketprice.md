@@ -1,7 +1,3 @@
----
-description: /timeseries/asset-metrics
----
-
 # Principal Market Price (USD)
 
 ## **Definition**
@@ -14,7 +10,9 @@ The Principal Market Price is the price of an asset quoted in U.S. dollars deriv
 
 ## Details
 
-* View our [Principal Market Price methodology](https://docs.coinmetrics.io/market-data/methodologies/principal-market-price-methodology) for more information.
+* The CM Principal Market Prices are published once a day, once an hour, once a minute, and once a second and adhere to the guidelines regarding fair value measurement issued by the International Financial Reporting Standards and the Association of International Certified Professional Accountants, specifically standards IFRS 13 and FASB ASC 820. The Principal Market Prices identify a principal market for each asset and utilize the most recent price from this market. Common use cases are for fair value measurement, preparing financial statements, and calculating closing prices for indexes or financial benchmarks.\
+
+* Please see our [CM Prices Overview](../../market-data/reference-rates-overview.md) for more information on methodology and policies.
 
 ## **Example**
 
