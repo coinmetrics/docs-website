@@ -42,6 +42,10 @@ We offer both the principal market price and the identity of the principal marke
 [principal\_market\_usd.md](../asset-metrics/market/principal\_market\_usd.md)
 {% endcontent-ref %}
 
+## Data Available on On-Chain Oracles
+
+We also publish the CM Reference Rates to Pyth Network, an on-chain oracle that publishes financial market data to multiple blockchains. Now decentralized applications or off-chain applications needing a reliable pricing source via an on-chain oracle can consume our CM Reference Rates. For more information, please contact Coin Metrics through [our website](https://coinmetrics.io/contact/) or at [info@coinmetrics.io](mailto:info@coinmetrics.io).
+
 ## CM Prices Documents
 
 The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes and terminations, recalculations, internal controls, complaints, record retention, and compliance policies.
