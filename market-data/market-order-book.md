@@ -103,6 +103,36 @@ Coin Metrics collects three different sized snapshots for order book data. One s
 
 Generally, it is not possible to collect order book history from exchanges directly. Order book data is one of the data types that very few exchanges offer history for, with the exception of a very few like CME and some limited history from Binance. For this reason, our historical coverage begins at the time we started collecting it ourselves.&#x20;
 
+### **Are there any limitations to the order book depth provided by each exchange?**
+
+While we collect full order book depth for all exchanges that make it available, some exchanges only expose a limited number of levels.
+
+| Exchange   | Available Depth |
+| ---------- | --------------- |
+| Binance    | Top 5000 levels |
+| Binance.US | Top 5000 levels |
+| bitFlyer   | Full book       |
+| BitMEX     | Full book       |
+| Bitstamp   | Full book       |
+| Bittrex    | Top 500 levels  |
+| Bybit      | Top 200 levels  |
+| CEX.io     | Full book       |
+| CME        | Full book       |
+| Coinbase   | Full book       |
+| Deribit    | Full book       |
+| FTX        | Top 100 levels  |
+| FTX.US     | Top 100 levels  |
+| Gate.io    | Top 200 levels  |
+| Gemini     | Full book       |
+| Huobi      | Top 150 levels  |
+| itbit      | Full book       |
+| Kraken     | Top 500 levels  |
+| Kucoin     | Top 100 levels  |
+| Liquid     | Full book       |
+| LMAX       | Top 20 levels   |
+| OKX (OkEX) | Top 400 levels  |
+| Poloniex   | Top 100 levels  |
+
 ## Release History
 
 * **CM MDF v1.0 on April 2019:** Partial snapshots for major `btc-usd` and `eth-usd` markets. \
