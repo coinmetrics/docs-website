@@ -121,3 +121,34 @@ The difference is due to different timestamp conventions. Candles and `PriceUSD`
 
 For more discussion on these timestamp conventions, please see the frequently asked question "What timestamp conventions does Coin Metrics use?".
 
+### When a new asset or market is listed, how long does it take for the market to be present in our market data-related data types?
+
+Generally, for many critical data types, Coin Metrics will support a new asset or market the moment that it is listed on an exchange. There are some data types which require some manual steps that often involve human review to ensure that we are mapping exchange-reported tickers to our tickers appropriately. For these data types, there will be a short delay between when the market is listed and when it is visible through our API.
+
+Coin Metrics has the ability to make the short delay extremely short for new assets or markets that are important. A more complete description of which data types are available immediately with no delay and which are available with a short delay follows below.
+
+**Data types available immediately with no delay**:
+
+* The presence of the market and its associated metadata served through **`/catalog/markets`** and **`/catalog-all/markets`**
+* Trades served through **`/timeseries/market-trades`** and **`/timeseries-stream/market-trades`**
+* Streaming order book served through **`/timeseries-stream/market-orderbooks`**
+* Streaming quotes served through **`/timeseries-stream/market-quotes`**
+* Futures candles served through **`/timeseries/market-candles`**
+* Futures open interest served through **`/timeseries/market-openinterest`**
+* Futures liquidations served through **`/timeseries/market-liquidations`**
+* Futures Funding rates served through **`/timeseries/market-funding-rates`**
+* Futures and options order book snapshots served through **`/timeseries/market-orderbooks`**
+* Futures and options quote snapshots served through **`/timeseries/market-quotes`**
+* Futures and options contract prices served through **`/timeseries/market-contract-prices`**
+* Options implied volatility served through **`/timeseries/market-implied-volatility`**
+* Options greeks through **`/timeseries/market-greeks`**
+
+**Data Types Available With a Short Delay:**
+
+* The presence of a new asset served through **`/catalog/assets`** and **`/catalog-all/assets`**.
+* Spot order book snapshots served through **`/timeseries/market-orderbooks`**.
+* Spot quote snapshots served through **`/timeseries/market-quotes`**.
+* Spot candles served through **`/timeseries/market-candles`**.
+* Reference Rates served through metric `ReferenceRate` served through **`/timeseries/asset-metrics`**.
+* Market-data related metrics such as reported volume served through **`/timeseries/asset-metrics`**, **`/timeseries/pair-metrics`**, **`/timeseries/exchange-metrics`**, **`/timeseries/exchange-asset-metrics`**, and **`/timeseries/market-metrics`**.
+
