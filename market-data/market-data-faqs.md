@@ -143,7 +143,7 @@ Coin Metrics has the ability to make the short delay extremely short or to elimi
 * Options implied volatility served through **`/timeseries/market-implied-volatility`**
 * Options greeks through **`/timeseries/market-greeks`**
 
-**Data Types Available With a Short Delay:**
+**Data types available with a short delay:**
 
 * The presence of a new asset served through **`/catalog/assets`** and **`/catalog-all/assets`**.
 * Spot order book snapshots served through **`/timeseries/market-orderbooks`**.
