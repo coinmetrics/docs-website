@@ -125,7 +125,7 @@ For more discussion on these timestamp conventions, please see the frequently as
 
 Generally, for many critical data types, Coin Metrics will support a new asset or market the moment that it is listed on an exchange. All of our derivatives-related data types are available immediately with no delay. There are some spot market-related data types which require some manual steps that often involve human review to ensure that we are mapping exchange-reported tickers to our tickers appropriately. For these data types, there will be a short delay between when the market is listed and when it is visible through our API.
 
-Coin Metrics has the ability to make the short delay extremely short for new assets or markets that are important. A more complete description of which data types are available immediately with no delay and which are available with a short delay follows below.
+Coin Metrics has the ability to make the short delay extremely short or to eliminate the delay entirely on a one-off basis for new assets or markets that are considered important. A more complete description of which data types are available immediately with no delay and which are available with a short delay follows below.
 
 **Data types available immediately with no delay**:
 
