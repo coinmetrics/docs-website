@@ -111,9 +111,13 @@ For futures markets, we use the `{exchange}-{symbol}-future` naming convention l
 
 For option markets, we also use the `{exchange}-{symbol}-option` naming convention like `deribit-BTC-15OCT21-60000-C-option`. The symbol is the exchange-reported symbol.
 
-We use exchange-reported symbol for our derivative markets because of the difficulty in establishing a standard naming convention. Exchanges may list multiple different contracts that trade the same underlying but with different contract specifications. And exchanges may list exotic derivative contracts that do not conform to standard contracts. In general, exchanges are constantly experimenting with different contract specifications. To prevent any confusion in which contract we are referencing, we adopt the exchange-reported symbol.
+We use exchange-reported symbol for our derivative markets because of the difficulty in establishing a standard naming convention. Exchanges may list multiple different contracts that trade the same underlying but with different contract specifications. And exchanges may list exotic derivative contracts that do not conform to standard contracts. In general, exchanges are constantly experimenting with different contract specifications. To prevent any confusion in which contract we are referencing, we adopt the exchange-reported symbol. More metadata about our markets such as the contract specifications, price and amount precision, and fees can be found through our `/catalog/markets` endpoint.
 
-More metadata about our markets such as the contract specifications, price and amount precision, and fees can be found through our `/catalog/markets` endpoint.
+For decentralized exchange liquidity pools, we use the the `{exchange}-{pool_config_id}-{base}-{quote}-spot` naming convention.
+
+The `pool_config_id` is needed since for some decentralized exchanges like Uniswap v3, multiple pools can exist for a single base and quote asset pair with different pool configurations such as different fees. More metadata about our liquidity pools can also be found through our `/catalog/markets` endpoint.
+
+The `pool_config_id` usually takes an integer value that represents the order in which a pool was created. For convenience, we also create a synthetic aggregated market where we set the `pool_config_id` to `agg` so that users can pull candles data that is aggregated across all pools.
 
 ### **Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
 
