@@ -627,10 +627,9 @@
 
 ## Market Data (Timeseries)
 
-* [Derivatives Contract Specifications](market-data/derivatives-contract-specifications.md)
+* [Market Metadata](market-data/derivatives-contract-specifications.md)
 * [Market Trades](market-data/market-trades.md)
 * [Market Open Interest](market-data/market-open-interest.md)
-* [Market Liquidations](market-data/futures-liquidations.md)
 * [Market Funding Rates](market-data/futures-funding-rates.md)
 * [Market Order Book](market-data/market-order-book.md)
 * [Market Quotes](market-data/market-quotes.md)
@@ -638,6 +637,7 @@
 * [Market Contract Prices](market-data-timeseries/market-contract-prices.md)
 * [Market Implied Volatility](market-data/market-implied-volatility.md)
 * [Market Greeks](market-data/market-greeks.md)
+* [Market Liquidations](market-data/futures-liquidations.md)
 
 ## Market Metrics (Time Series) <a href="#market-metrics" id="market-metrics"></a>
 

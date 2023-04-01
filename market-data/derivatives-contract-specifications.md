@@ -2,19 +2,25 @@
 description: /catalog/markets and /catalog-all/markets
 ---
 
-# Derivatives Contract Specifications
+# Market Metadata
 
 ## **Definition**
 
-Derivatives contracts can be described by their contract specifications which define the standardized legal agreement that market participants enter into.&#x20;
+Market metadata includes descriptive and reference data about the listed markets on an exchange. The market metadata can include data about the trading parameters that govern valid orders such as amount and price precision, fees, current status, and several fields that describe a derivatives market contract specifications.
+
+This data is served through our[`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) and [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) HTTP API endpoints.
 
 ## Details
 
-Futures and options contracts are standardized contracts that allow counterparties to enter into an agreement to buy or sell a standardized asset under contract specifications that are defined by the exchange. Each specific futures contract offered by a specific exchange will have identical contract specifications regardless of the who is counterparty.&#x20;
+Coin Metrics collects and serves metadata for **spot**, **futures**, and **options** markets.
 
-The contract specifications include information such as the underlying base and quote asset, the margin asset, the contract size, the listing time, expiration time, and other terms.&#x20;
+Some metadata is available for all three market types. This includes data about the base asset and quote asset (or underlying base asset and quote asset for derivatives), the exchange-reported symbol, the market status, amount precision, maximum and minimum amount size, price precision, maximum and minimum price, and fee fields.
 
-Coin Metrics offers contract specifications for both **futures** and **options**. Here we define **futures** to include both non-perpetual futures that expire and perpetual futures (sometimes called perpetual swaps). &#x20;
+Spot markets also have a field that indicates whether the market allows margin trading.
+
+Futures markets have several fields that describe the futures market's contract specifications. Futures markets trade in standardized contracts that allow counterparties to enter into an agreement to buy or sell a standardized asset under contract specifications that are defined by the exchange. The futures contract specifications include information such as the underlying base and quote asset, the margin asset, the contract size, the listing time, expiration time, and other terms. Here we define futures to include both non-perpetual futures that expire and perpetual futures (sometimes called perpetual swaps).
+
+Options markets also trade in standardized contracts similar to futures markets described above. Options markets have several fields that are specific to options such as the strike price and whether the option is an European or American style option.
 
 ## **Example**
 
@@ -24,35 +30,71 @@ A sample of the futures and options contract specification data from our [`/cata
 {
   "data": [
     {
+      "market": "gate.io-btc-usdt-spot",
+      "min_time": "2017-10-12T08:43:02.000000000Z",
+      "max_time": "2023-04-01T17:31:34.146000000Z",
+      "exchange": "gate.io",
+      "type": "spot",
+      "trades": {
+        "min_time": "2017-10-12T08:43:02.000000000Z",
+        "max_time": "2023-04-01T17:31:34.146000000Z"
+      },
+      "base": "btc",
+      "quote": "usdt",
+      "symbol": "BTC_USDT",
+      "status": "online",
+      "order_amount_increment": "0.0001",
+      "order_amount_min": "0.0001",
+      "order_price_increment": "0.1",
+      "order_size_min": "1",
+      "order_taker_fee": "0.002",
+      "order_maker_fee": "0.002"
+    },
+    {
       "market": "binance-BTCUSDT-future",
       "min_time": "2019-09-08T17:57:50.575000000Z",
-      "max_time": "2021-09-20T22:14:51.113000000Z",
+      "max_time": "2023-04-01T17:32:20.321000000Z",
       "exchange": "binance",
       "type": "future",
+      "trades": {
+        "min_time": "2019-09-08T17:57:50.575000000Z",
+        "max_time": "2023-04-01T17:32:20.321000000Z"
+      },
+      "orderbooks": {
+        "min_time": "2021-08-18T16:07:20.000000000Z",
+        "max_time": "2023-04-01T17:31:30.000000000Z"
+      },
+      "quotes": {
+        "min_time": "2021-08-18T16:07:20.000000000Z",
+        "max_time": "2023-04-01T17:31:30.000000000Z"
+      },
+      "funding_rates": {
+        "min_time": "2019-09-10T08:00:00.000000000Z",
+        "max_time": "2023-04-01T16:00:00.018000000Z"
+      },
+      "openinterest": {
+        "min_time": "2020-07-27T17:40:36.223000000Z",
+        "max_time": "2023-04-01T17:31:00.000000000Z"
+      },
+      "liquidations": {
+        "min_time": "2019-09-10T19:36:50.009000000Z",
+        "max_time": "2023-04-01T16:53:30.311000000Z"
+      },
       "base": "btc",
       "quote": "usdt",
       "symbol": "BTCUSDT",
       "size_asset": "btc",
       "margin_asset": "usdt",
       "contract_size": "1",
-      "tick_size": "0.01",
-      "listing": "2019-09-25T08:00:00.000000000Z"
-    },
-    {
-      "market": "binance-BTCUSDT_210326-future",
-      "min_time": "2021-02-03T08:20:24.560000000Z",
-      "max_time": "2021-03-26T07:51:05.584000000Z",
-      "exchange": "binance",
-      "type": "future",
-      "base": "btc",
-      "quote": "usdt",
-      "symbol": "BTCUSDT_210326",
-      "size_asset": "btc",
-      "margin_asset": "usdt",
-      "contract_size": "1",
       "tick_size": "0.1",
-      "listing": "2021-02-02T08:00:00.000000000Z",
-      "expiration": "2021-03-26T08:00:00.000000000Z"
+      "listing": "2019-09-25T08:00:00.000000000Z",
+      "order_amount_increment": "0.001",
+      "order_amount_min": "0.001",
+      "order_amount_max": "1000",
+      "order_price_increment": "0.10",
+      "order_price_min": "556.80",
+      "order_price_max": "4529764",
+      "order_size_min": "5"
     },
     {
       "market": "deribit-BTC-10APR21-50000-P-option",
@@ -60,16 +102,22 @@ A sample of the futures and options contract specification data from our [`/cata
       "max_time": "2021-04-08T08:16:51.756000000Z",
       "exchange": "deribit",
       "type": "option",
+      "trades": {
+        "min_time": "2021-04-08T08:13:28.493000000Z",
+        "max_time": "2021-04-08T08:16:51.756000000Z"
+      },
       "base": "btc",
       "quote": "usd",
       "symbol": "BTC-10APR21-50000-P",
       "size_asset": "btc",
-      "strike": "50000.0",
+      "strike": "50000",
       "option_contract_type": "put",
       "is_european": true,
       "contract_size": "1",
       "listing": "2021-04-08T08:00:06.000000000Z",
-      "expiration": "2021-04-10T08:00:00.000000000Z"
+      "expiration": "2021-04-10T08:00:00.000000000Z",
+      "settlement_price": "60483.68",
+      "order_price_increment": "0.0005"
     }
   ]
 }
@@ -83,23 +131,39 @@ A sample of the futures and options contract specification data from our [`/cata
 
 * **`exchange`**: Name of the exchange.\
 
+* **`type`**: The type of the market. Can take values `spot` or `future` or `option`.\
+
 * **`base`**:  The contract’s underlying base asset.\
 
 * **`quote`**:  The contract's underlying quote asset.\
 
-* **`symbol`**: The unique name of the derivative market symbol.\
+* **`symbol`**: The exchange-reported symbol for the market.\
 
-* **`type`**: The type of the market. Can take values `spot` or `future` or `option`.\
+* **`status`**: Indicates whether the market is online. Can only take values `online` or `offline`.\
+
+* **`order_amount_increment`**: The minimum increment that the trade amount of an order can change in units of the base currency if a spot market or in contract units if a derivatives market.\
+
+* **`order_amount_min`**: The minimum trade amount of an order in units of the base currency if a spot market or in contract units if a derivatives market.\
+
+* **`order_amount_max`**: The maximum trade amount of an order in units of the base currency if a spot market or in contract units if a derivatives market.\
+  **``**
+* **`order_price_increment`**: The minimum increment that the price of an order can change. The price is quoted in units of the quote currency.\
+
+* **`order_price_min`**: The minimum price of an order. The price is quoted in units of the quote currency.\
+
+* **`order_price_max`**: The maximum price of an order. The price is quoted in units of the quote currency.\
+
+* **`order_size_min`**: The minimum order size amount in units of the quote currency. The order size is the order amount multiplied by the order price.\
+
+* **`order_taker_fee`**: The taker order fee in raw units (not percent units).\
+
+* **`order_maker_fee`**: The maker order fee in raw units (not percent units).\
+
+* **`market_margin_trading_enabled`**: Indicates whether the market allows margin trading. Can take values `true` or `false`.\
 
 * **`size_asset`**: The asset that the contract’s size is denominated in.\
 
 * **`margin_asset`**:  The name of the asset that the contract’s margin is denominated in.\
-
-* **`strike`**: Strike price for option contract. \
-
-* **`option_contract_type`**: The type of option. Can take values `call` or `put`.\
-
-* **`is_european`**: Shows if the options contract is european or not. \
 
 * **`contract_size`**:   The number of units of `size_asset` that one contract represents. \
 
@@ -107,9 +171,21 @@ A sample of the futures and options contract specification data from our [`/cata
 
 * **`listing`**:  The timestamp that the contract first became available for trading\
 
-* **`expiration`**:  The timestamp that the contract expires; equals null if the contract is a perpetual future that never expires.
+* **`expiration`**:  The timestamp that the contract expires; equals null if the contract is a perpetual future that never expires.\
+
+* **`is_european`**: Shows if the options contract is european or not.\
+
+* **`option_contract_type`**: The type of option. Can take values `call` or `put`.\
+
+* **`strike`**: Strike price for option contract.\
+
+* **`settlement_price`**: The settlement price of a derivatives contract at expiration. Only populated for derivatives markets that have expired. Also sometimes referred to as "delivery price".
 
 ## Frequently Asked Questions&#x20;
+
+### Do all exchanges offer these metadata fields?
+
+Exchanges vary in which fields they offer through their API. If an exchange does not offer a particular field, Coin Metrics will consult the exchange's published documentation and manually populate some fields. If neither the exchange's API nor documentation can be used to populate a field, then that field is omitted from the response for that particular market.
 
 ### **Is the `margin_asset` the asset of settlement?**&#x20;
 
@@ -137,41 +213,76 @@ Harmonization of derivatives contracts in the cryptoasset domain is difficult be
 
 We harmonize the data in the following way:&#x20;
 
-* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1. \
+* For exchanges that do not explicitly define the contract size and implicitly use a contract size of 1 unit of the underlying base asset, we set the contract size to 1.\
 
-* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.  &#x20;
+* In instances where the exchange's API does not contain all fields that we wish to capture, we consult the exchange's documentation and manually populate the data.
 
 ## Release History
 
-* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx. \
+* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.\
 
-* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx.&#x20;
+* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx.\
+
+* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Added settlement price for option markets.
 
 ## **Availability**
 
-Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our contract specification data is available through our professional API with higher rate limits. &#x20;
+Contract specification data is available through our community API.  Community data is available via HTTP API only and is limited to 10 API requests per 6 seconds per IP address. All of our contract specification data is available through our professional API with higher rate limits.
 
 The contract specifications and our coverage can be found by querying our [`/catalog/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogMarkets) or [`/catalog-all/markets`](https://docs.coinmetrics.io/api/v4#operation/getCatalogAllMarkets) API endpoints.
 
+The availability below was last updated on April 1, 2023. For the most updated coverage, please visit [Coin Metrics Coverage](https://coverage.coinmetrics.io/).
+
 ### Availability by Market Type
 
-| Type   | Market Count |
-| ------ | :----------: |
-| Future |     6874     |
-| Option |     18560    |
+| Market Type | Market Count |
+| ----------- | ------------ |
+| future      | 13163        |
+| option      | 98950        |
+| spot        | 27380        |
 
 ### Availability by Exchange
 
-| Exchange | Future Market Count | Option Market Count | Start Date |
-| -------- | :-----------------: | :-----------------: | :--------: |
-| Binance  |         220         |                     | 2019-09-08 |
-| Bitfinex |          35         |                     | 2019-07-03 |
-| Bitflyer |          64         |                     | 2020-07-27 |
-| BitMEX   |         302         |                     | 2014-11-22 |
-| Bybit    |          31         |                     | 2019-10-01 |
-| CME      |         252         |                     | 2017-12-17 |
-| Deribit  |         121         |        11894        | 2017-01-06 |
-| FTX      |         1189        |                     | 2019-03-05 |
-| Huobi    |         2630        |                     | 2019-10-11 |
-| Kraken   |          79         |                     | 2020-08-24 |
-| OKEx     |         1951        |         6666        | 2019-12-25 |
+| Exchange           | Spot Market Count | Future Market Count | Option Market Count | Start Date |
+| ------------------ | ----------------- | ------------------- | ------------------- | ---------- |
+| bibox              | 714               |                     |                     | 2019-04-24 |
+| binance            | 2171              | 422                 |                     | 2017-07-13 |
+| binance.us         | 362               |                     |                     | 2019-09-04 |
+| bitbank            | 32                |                     |                     | 2017-02-14 |
+| bitfinex           | 738               | 76                  |                     | 2013-01-14 |
+| bitflyer           | 11                | 144                 |                     | 2019-05-28 |
+| bithumb            | 91                |                     |                     | 2013-12-27 |
+| bitmex             |                   | 452                 |                     | 2014-11-22 |
+| bitstamp           | 199               |                     |                     | 2011-08-18 |
+| bittrex            | 1454              |                     |                     | 2019-03-21 |
+| bullish            | 26                |                     |                     | 2023-03-07 |
+| bybit              | 393               | 246                 |                     | 2018-11-15 |
+| cex.io             | 321               |                     |                     | 2013-12-27 |
+| cme                |                   | 465                 |                     | 2017-12-17 |
+| coinbase           | 657               |                     |                     | 2014-12-01 |
+| crypto.com         | 681               |                     |                     | 2022-06-24 |
+| deribit            |                   | 335                 | 67550               | 2017-01-06 |
+| ftx                | 625               | 1684                |                     | 2019-03-05 |
+| ftx.us             | 67                |                     |                     | 2020-04-05 |
+| gate.io            | 3117              | 281                 |                     | 2017-09-29 |
+| gatecoin           | 80                |                     |                     | 2014-11-11 |
+| gemini             | 146               |                     |                     | 2018-10-16 |
+| hitbtc             | 2069              | 32                  |                     | 2013-12-27 |
+| huobi              | 1559              | 4360                |                     | 2019-03-15 |
+| itbit              | 14                |                     |                     | 2019-03-13 |
+| kraken             | 686               | 266                 |                     | 2013-09-10 |
+| kucoin             | 1630              | 159                 |                     | 2020-04-02 |
+| lbank              | 2049              |                     |                     | 2017-09-29 |
+| liquid             | 637               |                     |                     | 2014-07-24 |
+| lmax               | 21                |                     |                     | 2021-02-18 |
+| localbitcoins      | 122               |                     |                     | 2013-03-11 |
+| mexc               | 2518              | 272                 |                     | 2022-10-13 |
+| mt.gox             | 16                |                     |                     | 2010-07-17 |
+| okex               | 952               | 3957                | 31400               | 2018-12-25 |
+| poloniex           | 803               |                     |                     | 2014-01-18 |
+| sushiswap\_v1\_eth | 146               |                     |                     | 2020-09-04 |
+| therocktrading     | 44                |                     |                     | 2011-11-09 |
+| uniswap\_v2\_eth   | 413               |                     |                     | 2020-05-05 |
+| uniswap\_v3\_eth   | 657               |                     |                     | 2021-05-04 |
+| upbit              | 532               |                     |                     | 2019-03-14 |
+| zb.com             | 624               |                     |                     | 2019-03-04 |
