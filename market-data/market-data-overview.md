@@ -22,8 +22,8 @@ Data available at the market level is served through the API endpoints below, wh
 * ``[`/timeseries/market-implied-volatility`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketImpliedVolatility)``
 * ``[`/timeseries/market-greeks`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketGreeks)
 
-{% content-ref url="derivatives-contract-specifications.md" %}
-[derivatives-contract-specifications.md](derivatives-contract-specifications.md)
+{% content-ref url="../market-data-timeseries/market-metadata.md" %}
+[market-metadata.md](../market-data-timeseries/market-metadata.md)
 {% endcontent-ref %}
 
 {% content-ref url="market-trades.md" %}

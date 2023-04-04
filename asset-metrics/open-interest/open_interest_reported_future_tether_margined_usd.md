@@ -18,7 +18,7 @@ Our reported Tether-margined future open interest metric is an aggregation of th
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data-timeseries/market-metadata.md)
 * [Market Open Interest](../../market-data/market-open-interest.md)
 * [Reported Tether-Margined Future Volume](../volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
 

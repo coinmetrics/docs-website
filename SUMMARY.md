@@ -627,7 +627,7 @@
 
 ## Market Data (Timeseries)
 
-* [Market Metadata](market-data/derivatives-contract-specifications.md)
+* [Market Metadata](market-data-timeseries/market-metadata.md)
 * [Market Trades](market-data/market-trades.md)
 * [Market Open Interest](market-data/market-open-interest.md)
 * [Market Funding Rates](market-data/futures-funding-rates.md)
@@ -788,6 +788,7 @@
 ## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
 
 * [Accounts](atlas/accounts.md)
+* [Account Balance](atlas/account-balance.md)
 * [Blocks](atlas/blocks/README.md)
   * [Full Block](atlas/blocks/full-block.md)
 * [Transactions](atlas/transactions/README.md)

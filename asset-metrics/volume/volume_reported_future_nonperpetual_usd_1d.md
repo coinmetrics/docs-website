@@ -20,7 +20,7 @@ Our non-perpetual future volume metric is an aggregation of the reported non-per
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data-timeseries/market-metadata.md)
 * [Trusted Spot Volume](volume\_trusted\_spot\_usd\_1d.md)
 * [Reported Spot Volume](volume\_reported\_spot\_usd\_1d.md)
 * [Reported Future Volume](volume\_reported\_future\_usd\_1d.md)

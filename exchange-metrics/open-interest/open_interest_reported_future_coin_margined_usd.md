@@ -19,7 +19,7 @@ Our reported coin-margined future open interest metric is an aggregation of the 
 
 ## See Also
 
-* [Futures Contract Specifications](../../market-data/derivatives-contract-specifications.md)
+* [Futures Contract Specifications](../../market-data-timeseries/market-metadata.md)
 * [Market Open Interest](../../market-data/market-open-interest.md)
 
 ## Availability for Exchanges
