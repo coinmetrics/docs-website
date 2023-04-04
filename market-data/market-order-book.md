@@ -127,7 +127,7 @@ While we collect full order book depth for all exchanges that make it available,
 | Huobi      | Top 150 levels  |
 | itbit      | Full book       |
 | Kraken     | Top 500 levels  |
-| Kucoin     | Top 100 levels  |
+| Kucoin     | Full book       |
 | Liquid     | Full book       |
 | LMAX       | Top 20 levels   |
 | OKX (OkEX) | Top 400 levels  |
