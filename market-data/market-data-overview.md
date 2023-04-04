@@ -150,12 +150,12 @@ Metrics available at the asset pair level are
 
 &#x20;available through the [`/timeseries/pair-metrics`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesPairMetrics) API endpoint and specific metrics are described in the pages linked in this section:&#x20;
 
-{% content-ref url="../pair-metrics/open-interest/" %}
-[open-interest](../pair-metrics/open-interest/)
+{% content-ref url="../pair-metrics/pair-open-interest/" %}
+[pair-open-interest](../pair-metrics/pair-open-interest/)
 {% endcontent-ref %}
 
-{% content-ref url="../pair-metrics/volume.md" %}
-[volume.md](../pair-metrics/volume.md)
+{% content-ref url="../pair-metrics/pair-volume/" %}
+[pair-volume](../pair-metrics/pair-volume/)
 {% endcontent-ref %}
 
 ## Metrics Available at Institution Level&#x20;

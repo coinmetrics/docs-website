@@ -42,8 +42,8 @@ We have pre-calculated volume metrics that represent total volume by asset, by e
 [volume.md](../exchange-asset-metrics/volume.md)
 {% endcontent-ref %}
 
-{% content-ref url="../pair-metrics/volume.md" %}
-[volume.md](../pair-metrics/volume.md)
+{% content-ref url="../pair-metrics/pair-volume/" %}
+[pair-volume](../pair-metrics/pair-volume/)
 {% endcontent-ref %}
 
 ### **What metric naming conventions does Coin Metrics use?**

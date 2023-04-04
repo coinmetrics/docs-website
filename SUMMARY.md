@@ -688,13 +688,19 @@
 ## Pair Metrics (Time Series) <a href="#pair-metrics" id="pair-metrics"></a>
 
 * [Pair Metrics Overview](pair-metrics/pair-metrics-overview.md)
-* [Open Interest](pair-metrics/open-interest/README.md)
-  * [Reported Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_usd.md)
-  * [Reported Perpetual Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_perpetual\_usd.md)
-  * [Reported Non-Perpetual Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_nonperpetual\_usd.md)
-  * [Reported Coin-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
-  * [Reported Tether-Margined Future Open Interest](pair-metrics/open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
-* [Volume](pair-metrics/volume.md)
+* [Pair Open Interest](pair-metrics/pair-open-interest/README.md)
+  * [Reported Future Open Interest](pair-metrics/pair-open-interest/open\_interest\_reported\_future\_usd.md)
+  * [Reported Perpetual Future Open Interest](pair-metrics/pair-open-interest/open\_interest\_reported\_future\_perpetual\_usd.md)
+  * [Reported Non-Perpetual Future Open Interest](pair-metrics/pair-open-interest/open\_interest\_reported\_future\_nonperpetual\_usd.md)
+  * [Reported Coin-Margined Future Open Interest](pair-metrics/pair-open-interest/open\_interest\_reported\_future\_coin\_margined\_usd.md)
+  * [Reported Tether-Margined Future Open Interest](pair-metrics/pair-open-interest/open\_interest\_reported\_future\_tether\_margined\_usd.md)
+* [Pair Volume](pair-metrics/pair-volume/README.md)
+  * [Reported Spot Volume](pair-metrics/pair-volume/volume\_reported\_spot\_usd\_1d.md)
+  * [Reported Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_usd\_1d.md)
+  * [Reported Perpetual Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_perpetual\_usd\_1d.md)
+  * [Reported Non-Perpetual Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_nonperpetual\_usd\_1d.md)
+  * [Reported Coin-Margined Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_coin\_margined\_usd\_1d.md)
+  * [Reported Tether-Margined Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 
