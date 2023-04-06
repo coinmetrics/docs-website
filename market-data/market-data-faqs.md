@@ -12,15 +12,19 @@ Please take a look at our [Market Data Exchange Coverage](https://docs.coinmetri
 
 Coin Metrics utilizes a multifaceted approach to ensure high levels of data quality and data integrity. We carefully curate our exchange coverage universe, employ a market data collection system with high levels of redundancy and resiliency, use a robust system of logging and monitoring that alerts staff members in real-time to any anomalies, and our software releases are governed by a series of SOC 2-compliant policies that include extensive testing prior to release. For certain critical data types, such as our reference rates, we also employ regular human review to screen for data quality issues. Each of these facets is described in more detail below.
 
-* **Exchange coverage universe**: While there are over 400 digital asset exchanges in existence, Coin Metrics has curated our exchange coverage universe to include only high quality exchanges with legitimate trading activity. The presence of fake volume and wash trading is widely acknowledged in the industry, and Coin Metrics has independently confirmed the findings of several prominent researchers who have studied this problem. When deciding whether to include an exchange in our coverage universe, we consult a series of qualitative and quantitative features that are described in our [Market Selection Framework](https://coinmetrics.io/reference-rates-market-selection-framework/) and our [Trusted Volume Framework](https://coinmetrics.io/introducing-coin-metrics-trusted-volume-framework/). We also consult feedback from our institutional user base. The exchanges in our coverage universe are widely recognized by market participants and researchers who have studied the fake volume problem to be of high quality.\
+* **Exchange coverage universe**: While there are over 400 digital asset exchanges in existence, Coin Metrics has curated our exchange coverage universe to include only high quality exchanges with legitimate trading activity. The presence of fake volume and wash trading is widely acknowledged in the industry, and Coin Metrics has independently confirmed the findings of several prominent researchers who have studied this problem. When deciding whether to include an exchange in our coverage universe, we consult a series of qualitative and quantitative features that are described in our [Market Selection Framework](https://coinmetrics.io/reference-rates-market-selection-framework/) and our [Trusted Volume Framework](https://coinmetrics.io/special-insights/trusted-exchange-framework/). We also consult feedback from our institutional user base. The exchanges in our coverage universe are widely recognized by market participants and researchers who have studied the fake volume problem to be of high quality.\
 
-* **Market data collection system**: Our market data collection system is engineered to have high levels of redundancy and resiliency. We collect data from exchanges using two instances of each application each located in an independent data center. For certain data types, we collect data from an exchange's HTTP endpoint and websocket endpoint simultaneously as an added redundancy measure. CM utilizes multiple proxy servers to ensure that rate limits imposed by some exchanges do not impact data collection. Each server that hosts our market data collection system has local database storage as a fault tolerant measure in case of a failure in our primary database. These measures ensure high levels of availability for our market data collection applications and that no observations are missed.  \
+* **Market data collection system**: Our market data collection system is engineered to have high levels of redundancy and resiliency. We collect data from exchanges using two instances of each application each located in an independent data center. For certain data types, we collect data from an exchange's HTTP endpoint and websocket endpoint simultaneously as an added redundancy measure. CM utilizes multiple proxy servers to ensure that rate limits imposed by some exchanges do not impact data collection. Each server that hosts our market data collection system has local database storage as a fault tolerant measure in case of a failure in our primary database. These measures ensure high levels of availability for our market data collection applications and that no observations are missed.\
 
-* **Monitoring and logging**: A dedicated team of engineers monitor logs and telemetry from our servers, databases, and applications in real-time using a suite of dashboards and automated alerts. We also have dedicated monitoring to detect interruptions of service from an exchange.\
+* **Multiple data centers**: Coin Metrics utilizes two geographically-separated and vendor-independent data centers. Each data center contains an independent and complete collection of the infrastructure and applications needed to collect, process, and serve our data. In the case of failure of one of the data centers, our API will automatically failover to use our secondary data center with no action needed to be taken by our users.\
 
-* **Deployment process**: Our deployment process is governed by a series of SOC 2-compliant policies that include code reviews, extensive testing, manual review and quality control of historical values, and approvals prior to release. We received our SOC 2 Type 1 certification from Deloitte in August 2021 in the areas of security, availability, and processing integrity. \
+* **Internal monitoring**: A dedicated internal team of data quality and site reliability engineers monitor logs and telemetry from our servers, databases, and applications in real-time using a suite of dashboards and automated alerts. We also have dedicated monitoring to detect interruptions of service from an exchange, incidents reported by an exchange, or breaking changes to their API. This monitoring allows us to take swift corrective or mitigating action if necessary.\
 
-* **Human review**: For certain critical data types, we employ regular human review to detect anomalies and assess the quality of our data. For instance, our reference rates are reviewed by a dedicated staff member every day, 365 times a year, at 16:00 New York time. Our reference rates are checked for several issues, including timeliness, data anomalies, sufficient data inputs, and a comparison against external sources.&#x20;
+* **External monitoring**: Coin Metrics maintains a dedicated external monitoring application that continuously polls our API endpoints to detect for interruptions in the data or unexpected responses from our API. This monitoring application allows us to continuously test the health of the entire pipeline of our systems from the perspective of our users. It is deployed in an external environment that is independent from our data centers so that it would not be affected in case of any degraded performance in our systems. Our internal team of data quality and site reliability engineers monitor the alerts generated by this application and take swift corrective or mitigating action if necessary.\
+
+* **Deployment process**: Our deployment process is governed by a series of SOC 2-compliant policies that include code reviews, extensive testing, manual review and quality control of historical values, and approvals prior to release. We received our SOC 2 Type 1 certification from Deloitte in August 2021 in the areas of security, availability, and processing integrity.\
+
+* **Human review**: For certain critical data types, we employ regular human review to detect anomalies and assess the quality of our data. For instance, our reference rates are reviewed by a dedicated staff member every day, 365 times a year, at 16:00 New York time. Our reference rates are checked for several issues, including timeliness, data anomalies, sufficient data inputs, and a comparison against external sources.
 
 ### **Is there a way to pull data for multiple markets (such as all the markets for a particular exchange) in one API call?**  &#x20;
 
@@ -52,7 +56,7 @@ In general, we use snake case (ex: snake\_case) when naming our metrics in which
 
 The order of terms is ordered from the most general to most specific and ends with the unit used, if applicable. For example, the order of terms in the metric `volume_reported_future_perpetual_usd_1d` is ordered such that the `volume` term is first and all subsequent terms are modifiers to what type of volume the metric represents.&#x20;
 
-Some metrics are naturally represented as an aggregation (such as a sum or mean) over a time interval (such as a block, an hour, or day). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix. Please see the frequently asked question "What timestamp conventions does Coin Metrics use?".
+Some metrics are naturally represented as an aggregation (such as a sum or mean) over a time interval (such as a block, an hour, or day). If the metric represents an aggregation over a time interval, the interval is appended as a suffix to the metric name. If the metric represents a value at a point in time, there is no suffix. Please see the frequently asked question ["What timestamp conventions does Coin Metrics use?"](https://docs.coinmetrics.io/market-data/market-data-faqs#what-timestamp-conventions-does-coin-metrics-use).
 
 The exception to this convention is that all Network Data Pro metrics use upper camel case (ex: CamelCase) in which names omit spaces and the separation of words is indicated by a single capitalized letter. The first word is also capitalized. Network Data Pro metrics used the upper camel case naming convention prior to our adoption of the snake case naming convention for all other metrics, so we maintain the upper camel case naming convention for Network Data Pro metrics for consistency and backwards compatibility.
 
@@ -121,9 +125,9 @@ The `pool_config_id` usually takes an integer value that represents the order in
 
 ### **Why does the candles closing price differ from the `ReferenceRate` metric or `PriceUSD` metric or an index value?**&#x20;
 
-The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention. ****&#x20;
+The difference is due to different timestamp conventions. Candles and `PriceUSD` use the beginning-of-interval timestamp convention while `ReferenceRate` and index values use the point-in-time timestamp convention.&#x20;
 
-For more discussion on these timestamp conventions, please see the frequently asked question "What timestamp conventions does Coin Metrics use?".
+For more discussion on these timestamp conventions, please see the frequently asked question ["What timestamp conventions does Coin Metrics use?"](https://docs.coinmetrics.io/market-data/market-data-faqs#what-timestamp-conventions-does-coin-metrics-use).
 
 ### When a new asset or market is listed, how long does it take for the market to be present in our market data-related data types?
 
@@ -155,4 +159,30 @@ Coin Metrics has the ability to make the short delay extremely short or to elimi
 * Spot candles served through **`/timeseries/market-candles`**.
 * Reference Rates served through metric `ReferenceRate` served through **`/timeseries/asset-metrics`**.
 * Market-data related metrics such as reported volume served through **`/timeseries/asset-metrics`**, **`/timeseries/pair-metrics`**, **`/timeseries/exchange-metrics`**, **`/timeseries/exchange-asset-metrics`**, and **`/timeseries/market-metrics`**.
+
+### How do I interpret the value of your volume metrics like `volume_reported_spot_usd_1d`?
+
+Coin Metrics calculates several volume metrics (and other metrics) at different levels of aggregation. Volume metrics are available at the asset, pair, exchange, and exchange-asset levels. This allows our users to query the volume for the different entities that exist in the cryptoasset domain.
+
+We use our markets as the entity with the lowest level of aggregation. A market is defined as a specific listed instrument or pair on a specific exchange, like `coinbase-btc-usd-spot`.&#x20;
+
+* For our volume metrics served through `/timeseries/asset-metrics`, the volume for a given asset (like `btc`) represents the sum of the volume from markets where the asset is either the base or quote.\
+
+* For our volume metrics served through `/timeseries/pair-metrics`, the volume for a given pair (like `btc-usd`) represents the sum of the volume from markets that contain the given pair.\
+
+* For our volume metrics served through `/timeseries/exchange`, the volume for a given exchange (like `coinbase`) represents the sum of the volume from all markets on the given exchange.\
+
+* For our volume metrics served through `/timeseries/exchange-assets`, the volume for a given exchange-asset (like `coinbase-btc`) represents the sum of the volume from all markets on the given exchange where the given asset is either the base or quote.
+
+Our other metrics are also aggregated using similar logic described above.
+
+### Are the volume metrics like `volme_reported_spot_usd_1d` double counted?
+
+Our volume metrics for assets and exchange-assets represents the sum of the volume from all markets where the given asset is either the base or quote. For example, the volume for market `coinbase-btc-usdt-spot` will be included in both the volume for `btc` and `usdt` because `btc` is the base asset of the market and `usdt` is the quote asset of the market. Some users have asked whether this represents double counting of volume.
+
+This is a convention that we use that is widely adopted by other data providers. The reasoning behind our choice can be best illustrated using a simple example.
+
+Suppose the world consists of only one market, `coinbase-btc-usdt-spot` and two assets, `btc` and `usdt`. A trader purchases `btc`by selling `usdt` in a transaction worth $100 U.S. dollars. If we only included markets where the given asset is the base currency, then the volume for `btc` would be $100 but the volume for `usdt` would be $0.
+
+In reality, both $100 worth of `btc` and $100 worth of `usdt` were exchanged. So we report the volume for both `btc` and `usdt` to be $100.
 
