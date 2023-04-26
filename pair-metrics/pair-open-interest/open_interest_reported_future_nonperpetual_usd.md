@@ -2,8 +2,7 @@
 
 ## Definition
 
-The sum of all reported future open interest from all non-perpetual futures markets containing the specified pair in units of U.S. dollars. Non-perpetual futures markets are futures markets that expire.[\
-](https://docs.coinmetrics.io/asset-metrics/volume/volume\_reported\_future\_coin\_margined\_usd\_1d)
+The sum of all reported future open interest from all non-perpetual futures markets containing the specified pair in units of U.S. dollars. Non-perpetual futures markets are futures markets that expire.
 
 | Name                                        | Metric                                              | Category      | Subcategory | Type | Unit | Frequency |
 | ------------------------------------------- | --------------------------------------------------- | ------------- | ----------- | ---- | ---- | --------- |

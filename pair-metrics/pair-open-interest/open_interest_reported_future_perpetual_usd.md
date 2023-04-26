@@ -2,8 +2,7 @@
 
 ## Definition
 
-The sum of all reported future open interest from all perpetual futures markets containing the specified pair in units of U.S. dollars. Perpetual futures markets are futures markets that do not expire, sometimes also called perpetual swaps.[\
-](https://docs.coinmetrics.io/asset-metrics/volume/volume\_reported\_future\_coin\_margined\_usd\_1d)
+The sum of all reported future open interest from all perpetual futures markets containing the specified pair in units of U.S. dollars. Perpetual futures markets are futures markets that do not expire, sometimes also called perpetual swaps.
 
 | Name                                    | Metric                                           | Category      | Subcategory | Type | Unit | Frequency |
 | --------------------------------------- | ------------------------------------------------ | ------------- | ----------- | ---- | ---- | --------- |

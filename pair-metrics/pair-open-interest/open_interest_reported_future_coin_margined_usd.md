@@ -2,8 +2,7 @@
 
 ## Definition
 
-The sum of all reported future open interest from all coin-margined futures markets containing the specified pair in units of U.S. dollars. Coin-margined futures markets are futures markets where the underlying base asset is identical to the margin asset.[\
-](https://docs.coinmetrics.io/asset-metrics/volume/volume\_reported\_future\_coin\_margined\_usd\_1d)
+The sum of all reported future open interest from all coin-margined futures markets containing the specified pair in units of U.S. dollars. Coin-margined futures markets are futures markets where the underlying base asset is identical to the margin asset.
 
 | Name                                        | Metric                                                | Category      | Subcategory | Type | Unit | Frequency |
 | ------------------------------------------- | ----------------------------------------------------- | ------------- | ----------- | ---- | ---- | --------- |

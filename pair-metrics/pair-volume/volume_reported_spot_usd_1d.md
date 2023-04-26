@@ -13,25 +13,52 @@ The sum of all reported volume from the spot markets that contain the specified 
 
 Our reported spot volume metric is an aggregation of the reported volume for all spot markets containing the specified pair in CM's coverage universe. Covered exchanges can be found [here](../../exchanges/all-exchanges.md).
 
-## Examples
+We use the `candle_usd_volume` from our market candles as input into the calculation of this metric. For more information on our market candles, please see the page below.
 
-A sample of the daily reported spot volume for Binance is shown below:
+{% content-ref url="../../market-data/market-candles.md" %}
+[market-candles.md](../../market-data/market-candles.md)
+{% endcontent-ref %}
 
-| exchange | time                | volume\_reported\_spot\_usd\_1d |
-| -------- | ------------------- | ------------------------------- |
-| binance  | 2022-01-01 00:00:00 | 8988114373.91716                |
-| binance  | 2022-01-02 00:00:00 | 9686610104.12659                |
-| binance  | 2022-01-03 00:00:00 | 13513437237.6032                |
-| binance  | 2022-01-04 00:00:00 | 15006844836.1782                |
+## Example
 
-* exchange. The IDs of the exchanges.
-* time. The reference rate time in ISO 8601 date-time format.
-* reported\_trusted\_spot\_usd\_1d. The reported volume value in units of U.S. dollars.
+A sample of the metric `volume_reported_spot_usd_1d`for pair `btc-usd` from our `/timeseries/pair-metrics` API endpoint is provided below.
+
+```
+{
+  "data" : [ {
+    "pair" : "btc-usd",
+    "time" : "2023-04-21T00:00:00.000000000Z",
+    "volume_reported_spot_usd_1d" : "1160683534.5789"
+  }, {
+    "pair" : "btc-usd",
+    "time" : "2023-04-22T00:00:00.000000000Z",
+    "volume_reported_spot_usd_1d" : "466567701.033749"
+  }, {
+    "pair" : "btc-usd",
+    "time" : "2023-04-23T00:00:00.000000000Z",
+    "volume_reported_spot_usd_1d" : "481700913.701521"
+  }, {
+    "pair" : "btc-usd",
+    "time" : "2023-04-24T00:00:00.000000000Z",
+    "volume_reported_spot_usd_1d" : "904720665.126761"
+  }, {
+    "pair" : "btc-usd",
+    "time" : "2023-04-25T00:00:00.000000000Z",
+    "volume_reported_spot_usd_1d" : "834338864.99288"
+  } ]
+}
+```
+
+* **`pair`**: The id of the pair. Pair ids use the following naming convention: `baseAsset-quoteAsset`.\
+
+* **`time`**: The time in ISO 8601 date-time format. Always with nanoseconds precision.\
+
+* **`volume_reported_spot_usd_1d`**: The reported spot volume in U.S. dollars over the interval of 1 day.
 
 ## Release History
 
-* Release Version. Market Data Feed 2.4 (August 2021)&#x20;
+* [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)
 
-## Availability for Exchanges
+## Availability for Pairs
 
-{% embed url="https://coverage.coinmetrics.io/exchange-metrics/volume_reported_spot_usd_1d" %}
+{% embed url="https://coverage.coinmetrics.io/pair-metrics/volume_reported_spot_usd_1d" %}
