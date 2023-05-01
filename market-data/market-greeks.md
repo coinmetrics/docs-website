@@ -81,4 +81,4 @@ A sample of the options greeks data from our [`/timeseries/market-greeks`](https
 
 ## Release History
 
-* ****[**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market implied volatility, from Deribit and added several new API endpoints to serve this data.
+* [**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market implied volatility, from Deribit and added several new API endpoints to serve this data.

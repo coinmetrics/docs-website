@@ -146,7 +146,7 @@ A sample of the futures and options contract specification data from our [`/cata
 * **`order_amount_min`**: The minimum trade amount of an order in units of the base currency if a spot market or in contract units if a derivatives market.\
 
 * **`order_amount_max`**: The maximum trade amount of an order in units of the base currency if a spot market or in contract units if a derivatives market.\
-  **``**
+
 * **`order_price_increment`**: The minimum increment that the price of an order can change. The price is quoted in units of the quote currency.\
 
 * **`order_price_min`**: The minimum price of an order. The price is quoted in units of the quote currency.\
@@ -219,11 +219,11 @@ We harmonize the data in the following way:&#x20;
 
 ## Release History
 
-* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.\
+* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added futures contract specification data for Binance, BitMEX, bitFlyer, Bitfinex, Deribit, FTX, Huobi, and OKEx.\
 
-* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx.\
+* [**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added futures contract specifications data for CME and Bybit. Added options contract specifications for Deribit and OKEx.\
 
-* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Added settlement price for option markets.
+* [**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Added settlement price for option markets.
 
 ## **Availability**
 

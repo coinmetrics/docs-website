@@ -26,7 +26,7 @@ Another way to think about our Market Cap is to equate it to the Fully Diluted M
 
 ### **Do you have metrics for total blockchain size?**
 
-No, but we do have a metric for[ Sum Block Size (in bytes) ](network-usage/blksizebyte.md)(BlkSizeByte), **** which you can sum up to get blockchain size.  You can also use our runningTotal function in our Formula Builder to show the size over time.&#x20;
+No, but we do have a metric for[ Sum Block Size (in bytes) ](network-usage/blksizebyte.md)(BlkSizeByte), which you can sum up to get blockchain size.  You can also use our runningTotal function in our Formula Builder to show the size over time.&#x20;
 
 ![ https://charts.coinmetrics.io/formulas/#1178](../.gitbook/assets/BTC\_Total\_Blockchain\_Size\_\(in\_bytes\).png)
 
@@ -70,7 +70,7 @@ Exchange flows are estimated using the [common-input-ownership heuristic](https:
 
 ### **How are your aggregated Miner Flows calculated?**&#x20;
 
-Miner flows are estimated by basing clustering on an address’s distance in hops from the coinbase transaction. Addresses that have received a coinbase reward, or 0-hop addresses, are assumed to belong to mining pools. 1-hop addresses that have received payment from a 0-hop address are tagged as belonging to miners. This heuristic is less precise than the common-input-ownership heuristic, but roughly [mirrors the structure](https://braiins.com/blog/when-and-why-bitcoin-miners-sell-btc) of mining pool wallets and provides better coverage. **** You can find a bit more context around these methodologies in this [research piece](https://coinmetrics.io/following-flows-ii-where-do-miners-sell/).&#x20;
+Miner flows are estimated by basing clustering on an address’s distance in hops from the coinbase transaction. Addresses that have received a coinbase reward, or 0-hop addresses, are assumed to belong to mining pools. 1-hop addresses that have received payment from a 0-hop address are tagged as belonging to miners. This heuristic is less precise than the common-input-ownership heuristic, but roughly [mirrors the structure](https://braiins.com/blog/when-and-why-bitcoin-miners-sell-btc) of mining pool wallets and provides better coverage. You can find a bit more context around these methodologies in this [research piece](https://coinmetrics.io/following-flows-ii-where-do-miners-sell/).&#x20;
 
 ### What are the exchanges that serve as constituents for your Trusted Volume metric?&#x20;
 
@@ -78,7 +78,7 @@ Our trusted volume metric is an aggregation of the reported volume from exchange
 
 ### **Is there a way to calculate ETH staking yield metrics with your Consensus Layer metrics?**
 
-A validator’s expected annual percentage return (APR) from staking rewards accumulated on the Consensus Layer, assuming perfect performance and uptime, can be estimated with the formula below based on protocol parameters **** ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#validator-rewards)): ****&#x20;
+A validator’s expected annual percentage return (APR) from staking rewards accumulated on the Consensus Layer, assuming perfect performance and uptime, can be estimated with the formula below based on protocol parameters ([source for derivation](https://eth2book.info/altair/part2/incentives/issuance#validator-rewards)):&#x20;
 
 $$
 2940.21 \div \,     \sqrt[]{ValidatorActOngCnt}

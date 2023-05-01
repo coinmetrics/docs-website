@@ -28,7 +28,7 @@ _volatility = g(option price, underlying price, strike price, time, interest rat
 
 The volatility calculated from this equation is the implied volatility, or in other words, the market’s expectation of future volatility implied by option prices. By convention, implied volatility represents the standard deviation of returns of the underlying asset calculated on an annualized basis.
 
-Trading in options markets is sparse and usually distributed over several hundred active options contracts. **** Since trades for a particular option contract can occur infrequently, the bid, ask, last and mark price of a particular option contract can vary significantly. To the extent possible, Coin Metrics reports the implied volatility derived from each of the various prices.&#x20;
+Trading in options markets is sparse and usually distributed over several hundred active options contracts. Since trades for a particular option contract can occur infrequently, the bid, ask, last and mark price of a particular option contract can vary significantly. To the extent possible, Coin Metrics reports the implied volatility derived from each of the various prices.&#x20;
 
 ## Chart
 
@@ -91,7 +91,7 @@ Implied volatility also serves as the market’s expectation for future volatili
 
 ### **Why is the implied volatility for some Deribit options set to zero?**
 
-Deribit sets the `iv_bid` __ to zero if there are no bids on the order book and sets the `iv_ask` __ to zero if there are no asks. This can happen for options with very low liquidity.
+Deribit sets the `iv_bid` to zero if there are no bids on the order book and sets the `iv_ask` to zero if there are no asks. This can happen for options with very low liquidity.
 
 ### **How is your implied volatility calculated?**
 
@@ -99,4 +99,4 @@ We currently report the exchange-reported implied volatility, so the figures are
 
 ## Release History
 
-* ****[**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market implied volatility, from Deribit and added several new API endpoints to serve this data.
+* [**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market implied volatility, from Deribit and added several new API endpoints to serve this data.

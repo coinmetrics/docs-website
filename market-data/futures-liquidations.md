@@ -65,7 +65,7 @@ A sample of the liquidations data from the `binance-BTCUSDT-future` market from 
 
 ### **What does the liquidation side represent?**&#x20;
 
-We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. **** For example, if a trader had a long position and the price suddenly declined that caused the trader's position to be liquidated, the result would be a liquidation with a side of `sell`. &#x20;
+We report the side of the trade or order that was used to close the position under liquidation -- not the side of the original position. For example, if a trader had a long position and the price suddenly declined that caused the trader's position to be liquidated, the result would be a liquidation with a side of `sell`. &#x20;
 
 ### **What determines the frequency of liquidations data?**
 
@@ -94,13 +94,13 @@ We harmonize the data in the following way:
 ## **Known Data Issues**&#x20;
 
 * **Liquidations data from Binance are missing from 2021-04-27 to 2021-05-11** **due to a breaking change that was made to the Binance API on 2021-04-27.** \
-  ****
+
 * **Our liquidations data from Binance for an approximately four month window is underreported due to a breaking change that was made to the Binance API on 2021-04-27.** Prior to this date, Binance had reported every single liquidation. Our liquidations table was using the “last filled quantity” (and price), which was appropriate when all liquidations were reported. However, the change they implemented rendered their API to only report the latest liquidation within the last 1,000ms. As a result, our scrapers logic no longer fully captures every liquidation. We implemented a change to our scrapers on 2021-08-31. Rather than using the “last filled quantity” (and price), we will be using the total quantity of the liquidated orders that happened in that 1000ms interval (and the average price of that interval). Unfortunately, all liquidations data that was captured between 2021-05-11 and 2021-08-31 will remain underreported and there is no way for us to recover the data, as Binance does not permit the collection of historical liquidations. However, all liquidations that occurred before 2021-04-27 are still accurate. \
 
 * **In rare instances where OKEx reports two adjacent liquidations with identical time, amount, and price, we only stored the first observation prior to 2021-09-21.** This issue was corrected on 2021-09-21. \
 
-* **Our liquidations data from BitMEX are underreported prior to 2021-09-20 due to rate limits imposed by the exchange.** This issue was corrected on 2021-09-20. **** \
-  ****
+* **Our liquidations data from BitMEX are underreported prior to 2021-09-20 due to rate limits imposed by the exchange.** This issue was corrected on 2021-09-20.  \
+
 * **Our liquidations data from Bybit were interrupted for a period of 5 days between 2021-09-24 to 2021-09-29 due to a deprecation of their API endpoint.** This issue was corrected on 2021-09-29.&#x20;
 
 ## Release History

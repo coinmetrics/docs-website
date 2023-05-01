@@ -52,7 +52,7 @@ A sample of the Principal Market Price data for Bitcoin with daily frequency is 
   &#x20; &#x20;
 * **`time`**: The time in ISO 8601 date-time format.\
 
-* **`principal_market_price_usd`**:  The principal market price value **** in U.S. Dollars.
+* **`principal_market_price_usd`**:  The principal market price value in U.S. Dollars.
 
 ## Release History
 

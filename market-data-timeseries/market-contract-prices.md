@@ -63,5 +63,5 @@ A sample of contract price data from our [`/timeseries/market-contract-prices`](
 
 ## Release History
 
-* ****[**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market contract prices, from Deribit and added several new API endpoints to serve this data.
-* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Began collecting and serving the settlement price and estimated settlement price for option markets. The settlement price is served in our `/catalog/markets` endpoint and is available shortly after an option market expires. And the estimated settlement price is updated once a minute and served in our `/timeseries/market-contract-prices` endpoint.
+* [**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/): We expanded our options coverage to include several new data types, including market contract prices, from Deribit and added several new API endpoints to serve this data.
+* [**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/): Began collecting and serving the settlement price and estimated settlement price for option markets. The settlement price is served in our `/catalog/markets` endpoint and is available shortly after an option market expires. And the estimated settlement price is updated once a minute and served in our `/timeseries/market-contract-prices` endpoint.

@@ -26,7 +26,7 @@ Each asset in the coverage universe is in only one subsector and every covered a
 | Sector    | 1010   | Value Transfer Coins |
 | Subsector | 101010 | Value Transfer Coins |
 
-As of November 2022, there are **** four Classes, 14 Sectors, and 41 Sub-Sectors in datonomy.
+As of November 2022, there are four Classes, 14 Sectors, and 41 Sub-Sectors in datonomy.
 
 ## API Endpoints
 

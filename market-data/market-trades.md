@@ -125,15 +125,15 @@ Please take a look at this question in the Market Data FAQs page linked below.&#
 
 * **CM MDF v1.0 update on July 30, 2019**: Minor changes to trades websocket messages. \
 
-* ****[**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/): Added trades data for spot markets on Binance.US. Added trades data for futures markets on BitMEX and Huobi. \
+* [**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/): Added trades data for spot markets on Binance.US. Added trades data for futures markets on BitMEX and Huobi. \
 
-* ****[**CM MDF v2.1 on May 5, 2020**](https://coinmetrics.io/market-data-feed-v2-1-release-notes/): Added trades data for spot markets on Kucoin and FTX. Added trades data for futures markets on Deribit, OKEx, Binance, FTX, and Bitfinex. \
+* [**CM MDF v2.1 on May 5, 2020**](https://coinmetrics.io/market-data-feed-v2-1-release-notes/): Added trades data for spot markets on Kucoin and FTX. Added trades data for futures markets on Deribit, OKEx, Binance, FTX, and Bitfinex. \
 
-* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added trades data for futures markets on bitFlyer and Kraken. \
+* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added trades data for futures markets on bitFlyer and Kraken. \
 
-* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added trades data for spot markets on LMAX. Added trades data for futures markets on CME and Bybit. Added trades data for option markets on Deribit and OKEx. \
+* [**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added trades data for spot markets on LMAX. Added trades data for futures markets on CME and Bybit. Added trades data for option markets on Deribit and OKEx. \
 
-* ****[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Extended trades data for Ethereum futures markets on CME.&#x20;
+* [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Extended trades data for Ethereum futures markets on CME.&#x20;
 * [**CM MDF v2.6 on July 13, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-6-release-notes/): Added DeFi coverage, and upgrades in areas like order book, candles, and API, etc
 
 ## **Availability**

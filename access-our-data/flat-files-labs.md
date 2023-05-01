@@ -29,5 +29,5 @@ For candles and trades, the navigation is always data type --> exchange --> \[fi
 
 There is also an example in the client api area which shows a way to get the files with our API Client: [https://github.com/coinmetrics/api-client-python/blob/master/examples/files\_download/trades\_files\_exporter.py ](https://github.com/coinmetrics/api-client-python/blob/master/examples/files\_download/trades\_files\_exporter.py)
 
-****
+
 

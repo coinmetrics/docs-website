@@ -43,12 +43,11 @@ The tool will default to "excluding" data where gaps are identified.  You can ad
 
 In the first segment of our tutorial series, we explore the basic features and functions you'll need to get started with our Network Data visualization tool.
 
-****[**Charting Tool Tutorial Series - Part 1**](https://5264302.fs1.hubspotusercontent-na1.net/hubfs/5264302/Charting%20Tool%20Demo%20\(Part%201\)%20-%20Tool%20Basics.mp4)****
+[**Charting Tool Tutorial Series - Part 1**](https://5264302.fs1.hubspotusercontent-na1.net/hubfs/5264302/Charting%20Tool%20Demo%20\(Part%201\)%20-%20Tool%20Basics.mp4)
 
 ### **Part 2 - Assets & Metrics**
 
 The second segment of the series explores the wide array of assets and metrics available in the Coin Metrics coverage universe, and demonstrates the variety of charting tool settings that can be used to visualize this data.
 
-****[**Charting Tool Tutorial Series - Part 2**](https://5264302.fs1.hubspotusercontent-na1.net/hubfs/5264302/Charting%20Tool%20Demo%20\(Part%202\)%20-%20Assets%20&%20Metrics.mp4)****
+[**Charting Tool Tutorial Series - Part 2**](https://5264302.fs1.hubspotusercontent-na1.net/hubfs/5264302/Charting%20Tool%20Demo%20\(Part%202\)%20-%20Assets%20&%20Metrics.mp4)
 
-****

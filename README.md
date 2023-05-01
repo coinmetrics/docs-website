@@ -15,7 +15,7 @@ Welcome to **Coin Metrics Data Encyclopedia**. At Coin Metrics, we organize the 
 
 ### [Blockchain Explorer (Atlas)](https://coinmetrics.io/atlas/)
 
-* **Atlas** is a complete blockchain search engine that enables users to look up information on transactions, addresses, and blocks through a high-performance [API](api.md). An API key is required to query the `/blockchain/` endpoint via our API. Specifics on the format of the API output are described below in the [**Atlas**](atlas/atlas-overview.md) **** section of this Encyclopedia.
+* **Atlas** is a complete blockchain search engine that enables users to look up information on transactions, addresses, and blocks through a high-performance [API](api.md). An API key is required to query the `/blockchain/` endpoint via our API. Specifics on the format of the API output are described below in the [**Atlas**](atlas/atlas-overview.md) section of this Encyclopedia.
 
 ## Market Data
 
@@ -35,12 +35,12 @@ Welcome to **Coin Metrics Data Encyclopedia**. At Coin Metrics, we organize the 
 
 * **Coin Metrics Bletchley Indexes (CMBI)** are a comprehensive suite of single-asset, multi-asset, and unique crypto asset benchmarks used by leading crypto and traditional financial institutions.  This data is available through our [API](api.md) (`timeseries/index-levels` and `/timeseries/index-constituents` endpoints) and also in our [Data Visualization](charting-tools/data-visualization/) and [CM Pro Charts](charting-tools/cmpro/).&#x20;
 * **CMBI Community** (Community [API](api.md), [Data Visualization](charting-tools/data-visualization/), [Pro Charts](charting-tools/cmpro/)) provides access to all of our index levels with a limited amount of history for our more granular resolutions. For more info on our Community terms and offerings see our [Labs](https://coinmetrics.io/cm-labs/) page. A further description of the limitations of this data is listed in the data concepts in the **Indexes** section of this Encyclopedia.
-* [**Bletchley Indexes**](https://bletchleyindexes.com/) **** provided the foundation for our now commercial CMBI lineup. Bletchley Indexes continues to be a community offering and the home for our index experimentation. For more info on our Community terms and offerings (including our Bletchley Indexes) see our [Labs](https://coinmetrics.io/cm-labs/) page.
+* [**Bletchley Indexes**](https://bletchleyindexes.com/)  provided the foundation for our now commercial CMBI lineup. Bletchley Indexes continues to be a community offering and the home for our index experimentation. For more info on our Community terms and offerings (including our Bletchley Indexes) see our [Labs](https://coinmetrics.io/cm-labs/) page.
 
 ## Reference Data
 
-* ****[**Datonomy**](reference-data/datonomy-overview.md) is a digital asset classification system created by Coin Metrics, Goldman Sachs and MSCI that creates a consistent, standardized way for investors to analyze the digital assets ecosystem.  This data is available via our API via the `/taxonomy/assets` endpoint.
-* ****[**Asset Profiles**](reference-data/asset-profiles-overview.md) are descriptions of cryptoassets that supplement our asset metrics data to provide a comprehensive overview of a particular asset.  This data is available via our API via the `/profiles/assets` endpoint.
+* [**Datonomy**](reference-data/datonomy-overview.md) is a digital asset classification system created by Coin Metrics, Goldman Sachs and MSCI that creates a consistent, standardized way for investors to analyze the digital assets ecosystem.  This data is available via our API via the `/taxonomy/assets` endpoint.
+* [**Asset Profiles**](reference-data/asset-profiles-overview.md) are descriptions of cryptoassets that supplement our asset metrics data to provide a comprehensive overview of a particular asset.  This data is available via our API via the `/profiles/assets` endpoint.
 
 ## [Risk Management Offering (Farum)](https://coinmetrics.io/farum/)
 

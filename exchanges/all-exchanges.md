@@ -77,4 +77,3 @@ The coverage for exchanges for spot, futures, and options market data is provide
 | Deribit  |         12162        | 2021-03-27 |
 | OKEx     |         6865         | 2021-04-06 |
 
-****

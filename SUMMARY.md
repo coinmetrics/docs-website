@@ -704,7 +704,7 @@
 
 ## Pair Data (Time Series) <a href="#pair-data-timeseries" id="pair-data-timeseries"></a>
 
-* [Pair Candles](pair-data-timeseries/pair-metrics-overview.md)
+* [Pair Candles](pair-data-timeseries/pair-candles.md)
 
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 

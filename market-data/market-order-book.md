@@ -81,10 +81,10 @@ We do not store historical data for order book updates yet, but we serve them in
 
 ### **What is the difference between level 1, level 2, and level 3 order book data?**&#x20;
 
-**Level 1** order book data **** refers to the top of the book, i.e. the price and amount of the best bid and the price and amount of the best ask. The level 1 data can be derived by extracting the best bid and best ask from our order book snapshots. We also serve this data through our [market quotes](https://docs.coinmetrics.io/market-data/market-quotes) API endpoint.&#x20;
+**Level 1** order book data refers to the top of the book, i.e. the price and amount of the best bid and the price and amount of the best ask. The level 1 data can be derived by extracting the best bid and best ask from our order book snapshots. We also serve this data through our [market quotes](https://docs.coinmetrics.io/market-data/market-quotes) API endpoint.&#x20;
 
 **Level 2** order book refers to snapshots or updates where individual orders with identical price level are aggregated to one observation. The majority of cryptocurrency exchanges serve their order book snapshots and updates at level 2 resolution. Coin Metrics currently stores level 2 order book data. If an exchange reports order book data at level 3 resolution, we aggregate it to level 2 resolution before storing it.\
-****\
+\
 **Level 3** order book data refers to snapshots or updates where each individual order is present. Individual orders with identical price level are not aggregated. Only a small number of cryptocurrency exchanges serve their order book snapshots and updates at level 3 resolution.&#x20;
 
 ### **Do you offer order book updates in the form of new orders, cancels, and changes to existing orders?**
@@ -97,7 +97,7 @@ The exact latency varies depending on the exchange, but our median latency is ap
 
 ### **Are your order book snapshots taken on exactly the second or hour?**&#x20;
 
-Coin Metrics collects three different sized snapshots for order book data. One snapshot takes the top 100 bids **** and asks every 10 seconds for major markets. The second snapshot includes all levels where the price is within 10 percent of the midprice every 10 seconds for major markets. The third snapshot takes a a full order book snapshot for all markets that we are collecting order book data for once every hour. Although the value of `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release.&#x20;
+Coin Metrics collects three different sized snapshots for order book data. One snapshot takes the top 100 bids and asks every 10 seconds for major markets. The second snapshot includes all levels where the price is within 10 percent of the midprice every 10 seconds for major markets. The third snapshot takes a a full order book snapshot for all markets that we are collecting order book data for once every hour. Although the value of `time` field always lies exactly on the second or hour, the actual time of the snapshot is close to but not exactly at this timestamp. We store the exact timestamp that a snapshot was taken and will expose this data through our API in a future release.&#x20;
 
 ### **How much order book history does Coin Metrics support?**
 
@@ -139,9 +139,9 @@ While we collect full order book depth for all exchanges that make it available,
 
 * **CM MDF v1.0 on July 30, 2019:** Added support for websocket endpoint which serves an initial snapshot and order book updates. \
 
-* ****[**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/)**:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`.\
+* [**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/)**:** Expanded coverage universe to include `cex.io-btc-usd` and  `bitflyer-btc-spot`.\
 
-*   ****[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)**:** Expanded both the depth of our order book snapshot coverage and our coverage universe. For important markets, we maintain a snapshot of the top 100 levels at 10 second intervals. Started storing full order book snapshots at hourly intervals. Expanded our coverage universe to additional markets on Coinbase, Binance, FTX, Bitfinex, itBit.&#x20;
+*   [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/)**:** Expanded both the depth of our order book snapshot coverage and our coverage universe. For important markets, we maintain a snapshot of the top 100 levels at 10 second intervals. Started storing full order book snapshots at hourly intervals. Expanded our coverage universe to additional markets on Coinbase, Binance, FTX, Bitfinex, itBit.&#x20;
 
     &#x20;
 *   [**CM MDF v2.5 on November 22, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-5-release-notes/)**:** Expanded our coverage universe to additional spot markets on Binance, Binance.US, Bitfinex, bitFlyer, Bitstamp, Bittrex, CEX.io, Coinbase, FTX, Gemini, Huobi, itBit, Kraken, Kucoin, Liquid, and LMAX. Initiated snapshot coverage of futures markets on Binance, Bitfinex, bitFlyer, BitMEX, Bybit, Deribit, FTX, Huobi, Kraken, OKEx. Initiated real-time coverage of CME order book snapshots.&#x20;
@@ -150,7 +150,7 @@ While we collect full order book depth for all exchanges that make it available,
 *   [**CM MDF v2.6 on July 13, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-6-release-notes/)**:** Added snapshot coverage of the top 100 bids and asks as well as full order book snapshots of OKEx spot markets, FTX.US spot markets, and CME futures markets. Added more frequent order book snapshots for several highly traded perpetual futures across many futures exchanges.&#x20;
 
     &#x20;
-* ****[**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/)**:** Expanded **** our coverage universe to additional spot and futures markets on Binance, Binance.US, Bitfinex, Bitflyer, BitMEX, Bitstamp, Bittrex, Bybit, CEX.io, Coinbase, CME, Deribit, FTX, FTX.US, Gemini, Huobi, Kraken, Kucoin, Liquid, OKEx. Expanded the depth of 10-second snapshots to include the maximum of 100 levels and all levels where the price is within 10 percent of the midprice.
+* [**CM MDF v2.7 on October 24, 2022**](https://coinmetrics.io/cm-market-data-feed-v2-7-release-notes/)**:** Expanded our coverage universe to additional spot and futures markets on Binance, Binance.US, Bitfinex, Bitflyer, BitMEX, Bitstamp, Bittrex, Bybit, CEX.io, Coinbase, CME, Deribit, FTX, FTX.US, Gemini, Huobi, Kraken, Kucoin, Liquid, OKEx. Expanded the depth of 10-second snapshots to include the maximum of 100 levels and all levels where the price is within 10 percent of the midprice.
 
 ## **Availability**
 
