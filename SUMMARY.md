@@ -702,6 +702,10 @@
   * [Reported Coin-Margined Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_coin\_margined\_usd\_1d.md)
   * [Reported Tether-Margined Future Volume](pair-metrics/pair-volume/volume\_reported\_future\_tether\_margined\_usd\_1d.md)
 
+## Pair Data (Time Series) <a href="#pair-data-timeseries" id="pair-data-timeseries"></a>
+
+* [Pair Candles](pair-data-timeseries/pair-metrics-overview.md)
+
 ## Institution Metrics (Time Series) <a href="#institution-metrics" id="institution-metrics"></a>
 
 * [Institution Metrics Overview](institution-metrics/institution-metrics-overview.md)

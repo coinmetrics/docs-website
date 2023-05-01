@@ -20,7 +20,7 @@ Coin Metrics calculates candles for **spot** and **future** markets from exchang
 
 ## **Example**
 
-An sample of the candles data from the `coinbase-btc-usd-spot` market from our [`/timeseries/market-quotes`](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesMarketCandles) API endpoint is provided below.&#x20;
+An sample of the candles data from the `coinbase-btc-usd-spot` market from our [`/timeseries/market-candles`](https://docs.coinmetrics.io/api/v4/#operation/getTimeseriesMarketCandles) API endpoint is provided below.&#x20;
 
 ```
 {
@@ -118,13 +118,13 @@ For instance, if the `time` for a daily candle is `2022-02-17 00:00:00`, this me
   \
   [**CM MDF v2.0 on December 9, 2019**](https://coinmetrics.io/release-of-cm-market-data-feed-version-2-0/): Added candles for spot markets on Binance.US. Added candles for futures markets on BitMEX and Huobi. \
 
-* ****[**CM MDF v2.1 on May 5, 2020**](https://coinmetrics.io/market-data-feed-v2-1-release-notes/): Added candles for spot markets on Kucoin and FTX. Added candles for futures markets on Deribit, OKEx, Binance, FTX, and Bitfinex. \
+* [**CM MDF v2.1 on May 5, 2020**](https://coinmetrics.io/market-data-feed-v2-1-release-notes/): Added candles for spot markets on Kucoin and FTX. Added candles for futures markets on Deribit, OKEx, Binance, FTX, and Bitfinex. \
 
-* ****[**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added candles for futures markets on bitFlyer and Kraken. \
+* [**CM MDF v2.2 on December 2, 2020**](https://coinmetrics.io/cm-market-data-feed-futures-data-expansion/)**:** Added candles for futures markets on bitFlyer and Kraken. \
 
-* ****[**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added candles for spot markets on LMAX. Added candles for futures markets on CME and Bybit. \
+* [**CM MDF v2.3 on April 25, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-3-release-notes/): Added candles for spot markets on LMAX. Added candles for futures markets on CME and Bybit. \
 
-* ****[**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Extended candles data for Ethereum futures markets on CME.&#x20;
+* [**CM MDF v2.4 on September 1, 2021**](https://coinmetrics.io/cm-market-data-feed-v2-4-release-notes/): Extended candles data for Ethereum futures markets on CME.&#x20;
 
 ## **Availability**
 
