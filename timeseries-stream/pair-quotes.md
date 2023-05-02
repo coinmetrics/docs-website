@@ -100,7 +100,7 @@ All markets in our exchange coverage universe that contain the given pair are us
 
 ## Release History
 
-* **CM Market Data Feed v2.7 on May 2023**.
+* **CM Market Data Feed v2.8 on May 2023**.
 
 ## Availability
 

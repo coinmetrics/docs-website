@@ -100,7 +100,7 @@ Coin Metrics performed an analysis of the distribution of volume across markets 
 
 ## Release History
 
-* **CM Market Data Feed v2.7 on May 2023**.
+* **CM Market Data Feed v2.8 on May 2023**.
 
 ## Availability
 
