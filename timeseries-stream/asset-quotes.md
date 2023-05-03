@@ -102,6 +102,10 @@ Coin Metrics performed an analysis of the distribution of volume across markets 
 
 All markets from trusted exchanges for which the given asset is the base asset and the quote asset is listed above are selected.
 
+### **How often is the data updated?**
+
+Our websocket API will send a new message once every 250 milliseconds.
+
 ## Release History
 
 * **CM Market Data Feed v2.8 on May 2023**.

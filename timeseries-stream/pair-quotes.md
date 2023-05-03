@@ -100,6 +100,10 @@ Coin Metrics uses our [Trusted Exchange Framework v2.0](https://coinmetrics.io/s
 
 All markets from trusted exchanges that contain the given pair are selected.
 
+### **How often is the data updated?**
+
+Our websocket API will send a new message once every 250 milliseconds.
+
 ## Release History
 
 * **CM Market Data Feed v2.8 on May 2023**.
