@@ -96,7 +96,9 @@ $$
 
 ### What are the constituent markets used in the calculation?
 
-All markets in our exchange coverage universe that contain the given pair are used.
+Coin Metrics uses our [Trusted Exchange Framework v2.0](https://coinmetrics.io/special-insights/trusted-exchange-framework/) to seelct a set of high-quality and trustworthy exchanges in selection of our constituent markets. The set of exchanges includes `Bitstamp`, `Coinbase`, `Bitfinex`, `Binance`, `Gemini`, `Kraken`, `OKEx`, `Huobi`, `Binance.US`, `KuCoin`, `LMAX`, and `Bybit`.&#x20;
+
+All markets from trusted exchanges that contain the given pair are selected.
 
 ## Release History
 

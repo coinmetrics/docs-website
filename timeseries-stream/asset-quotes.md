@@ -96,7 +96,11 @@ $$
 
 ### What are the constituent markets used in the calculation?
 
-Coin Metrics performed an analysis of the distribution of volume across markets with different quote currencies and selected all major quote currencies such that we capture over 95 percent of the available volume for each asset. The selected quote currencies are: `usd`, `usdt`, `usdc`, `busd`, `eur`, `try`. All markets for which the given asset is the base asset and the quote asset is listed above are selected.
+Coin Metrics uses our [Trusted Exchange Framework v2.0](https://coinmetrics.io/special-insights/trusted-exchange-framework/) to seelct a set of high-quality and trustworthy exchanges in selection of our constituent markets. The set of exchanges includes `Bitstamp`, `Coinbase`, `Bitfinex`, `Binance`, `Gemini`, `Kraken`, `OKEx`, `Huobi`, `Binance.US`, `KuCoin`, `LMAX`, and `Bybit`.&#x20;
+
+Coin Metrics performed an analysis of the distribution of volume across markets with different quote currencies and selected all major quote currencies such that we capture over 95 percent of the available volume for each asset. The selected quote currencies are: `usd`, `usdt`, `usdc`, `busd`, `eur`, `try`.&#x20;
+
+All markets from trusted exchanges for which the given asset is the base asset and the quote asset is listed above are selected.
 
 ## Release History
 
