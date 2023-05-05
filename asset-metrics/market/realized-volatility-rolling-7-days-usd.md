@@ -56,9 +56,11 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 }
 ```
 
-## Interpretation
+* **`asset`**: The id of the asset.\
 
-* Realized volatility can be used to adjust risk parameters like collaterization ratios
+* **`time`**: The exchange-reported time in ISO 8601 date-time format. Always with nanoseconds precision.\
+
+* **`volatility_realized_usd_rolling_7d`**: The annualized 7-day rolling volatility.
 
 ## Release History
 
@@ -66,6 +68,6 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 
 ## Availability for Assets
 
-The realized volatility metrics are available for approximately 550 assets and is identical to the Real-Time Reference Rates coverage universe.
+The realized volatility metrics are available for approximately 650 assets and is identical to the Real-Time Reference Rates coverage universe.
 
 {% embed url="https://coverage.coinmetrics.io/asset-metrics/volatility_realized_usd_rolling_7d" %}

@@ -56,9 +56,12 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 }
 ```
 
-## Interpretation
+* **`asset`**: The id of the asset.\
 
-* Realized volatility can be used to adjust risk parameters like collaterization ratios
+* **`time`**: The exchange-reported time in ISO 8601 date-time format. Always with nanoseconds precision.\
+
+* **`volatility_realized_usd_rolling_30d`**: The annualized 30-day rolling volatility.\
+
 
 ## Release History
 

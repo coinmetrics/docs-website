@@ -12,7 +12,7 @@ The 24 hour rolling realized volatility, measured as the standard deviation of t
 
 ## Details
 
-Coin Metrics calculates realized volatility using our [Real-Time Reference Rates](../../market-data/methodologies/coin-metrics-prices-methodology.md#reference-rates-calculation-methodology) as the price input. The Real-Time Reference Rates have been tested against many out-of-sample periods of market stress and have been reliably producing prices under numerous market conditions for a period of three years. It utilizes our [Market Selection Framework](../../market-data/methodologies/coin-metrics-prices-methodology.md#data-inputs) which evaluates all markets in our coverage universe and uses a set of 38 qualitative and quantitative features to produce a unique set of constituent markets for each asset. It uses volume-weighted and inverse price variance-weighted techniques to produce a price that is robust to outliers and anomalies.&#x20;
+Coin Metrics calculates realized volatility using our [CM Reference Rates](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-methodology#reference-rates-calculation-methodology) with frequency of 1s as the price input. The CM Reference Rates have been tested against many out-of-sample periods of market stress and have been reliably producing prices under numerous market conditions for a period of three years. It utilizes our [Market Selection Framework](../../market-data/methodologies/coin-metrics-prices-methodology.md#data-inputs) which evaluates all markets in our coverage universe and uses a set of 38 qualitative and quantitative features to produce a unique set of constituent markets for each asset. It uses volume-weighted and inverse price variance-weighted techniques to produce a price that is robust to outliers and anomalies.&#x20;
 
 Volatility is calculated using the close-to-close method, as this is optimal for continuous markets and is widely accepted across financial literature. For this calculation we use the population mean with zero drift, meaning the formula reduces to:
 
@@ -58,9 +58,11 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 }
 ```
 
-## Interpretation
+* **`asset`**: The id of the asset.\
 
-* Realized volatility can be used to adjust risk parameters like collaterization ratios
+* **`time`**: The exchange-reported time in ISO 8601 date-time format. Always with nanoseconds precision.\
+
+* **`volatility_realized_usd_rolling_24h`**: The annualized 24-hour rolling volatility.
 
 ## Release History
 
@@ -68,6 +70,6 @@ The real-time reference rates are resampled to calculate returns over a 10 minut
 
 ## Availability for Assets
 
-The realized volatility metrics are available for approximately 550 assets and is identical to the Real-Time Reference Rates coverage universe.
+The realized volatility metrics are available for approximately 650 assets and is identical to the CM Reference Rates coverage universe.
 
 {% embed url="https://coverage.coinmetrics.io/asset-metrics/volatility_realized_usd_rolling_24h" %}
