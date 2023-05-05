@@ -20,19 +20,46 @@ For example, let’s say Bitcoin is currently trading at $25,000 on exchange X. 
 
 ## Examples
 
-A sample of the 2 percent liquidity bid depth (USD) for the Coinbase BTC-USD spot market is shown below:
+A sample of the 2 percent liquidity bid depth (USD) for the `coinbase-btc-usd-spot` market is shown below:
 
-| market                | time                | liquidity\_depth\_2\_percent\_bid\_volume\_usd |
-| --------------------- | ------------------- | ---------------------------------------------- |
-| coinbase-btc-usd-spot | 2023-01-01 00:00:00 | 15229199.204220608                             |
-| coinbase-btc-usd-spot | 2023-01-01 01:00:00 | 14063550.287172647                             |
-| coinbase-btc-usd-spot | 2023-01-01 02:00:00 | 14088957.721831191                             |
-| coinbase-btc-usd-spot | 2023-01-01 03:00:00 | 14517308.461023323                             |
+```
+{
+  "data" : [ {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T20:00:00.000000000Z",
+    "liquidity_depth_2_percent_bid_volume_usd" : "13986778.227605952"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T21:00:00.000000000Z",
+    "liquidity_depth_2_percent_bid_volume_usd" : "14496480.900235126"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T22:00:00.000000000Z",
+    "liquidity_depth_2_percent_bid_volume_usd" : "14308984.327733496"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T23:00:00.000000000Z",
+    "liquidity_depth_2_percent_bid_volume_usd" : "14697505.412619336"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-05T00:00:00.000000000Z",
+    "liquidity_depth_2_percent_bid_volume_usd" : "14744297.318859102"
+  } ]
+}
+```
 
-* market. The IDs of the markets.
-* time. The time in ISO 8601 date-time format.
-* liquidity\_depth\_2\_percent\_bid\_volume\_usd. The USD depth of orderbook bids within 2 percent of the mid price.
+* **`market`**: The id of the markets.\
+
+* **`time`**: The time in ISO 8601 date-time format.\
+
+* **`liquidity_depth_2_percent_bid_volume_usd`**: The USD depth of orderbook bids within 2 percent of the mid price.
+
+## Frequently Asked Questions
+
+### How often are the metrics calculated?
+
+The depth metrics are calculated once an hour.
 
 ## Release History
 
-* Release Version. Market Data Feed (January 2023)
+* **Release Version. Market Data Feed v2.8 on May 2023**.

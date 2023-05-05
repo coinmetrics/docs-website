@@ -22,17 +22,44 @@ For example, let’s say Bitcoin is currently trading at $25,000 on exchange X. 
 
 A sample of the 2 percent liquidity ask depth (Units) for the Coinbase BTC-USD spot market is shown below:
 
-| market                | time                | liquidity\_depth\_2\_percent\_ask\_volume\_units |
-| --------------------- | ------------------- | ------------------------------------------------ |
-| coinbase-btc-usd-spot | 2023-01-01 00:00:00 | 17803089.955932498                               |
-| coinbase-btc-usd-spot | 2023-01-01 01:00:00 | 16413608.359291492                               |
-| coinbase-btc-usd-spot | 2023-01-01 02:00:00 | 13519972.010365777                               |
-| coinbase-btc-usd-spot | 2023-01-01 03:00:00 | 13513309.854183163                               |
+```
+{
+  "data" : [ {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T20:00:00.000000000Z",
+    "liquidity_depth_2_percent_ask_volume_units" : "9866859.984315595"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T21:00:00.000000000Z",
+    "liquidity_depth_2_percent_ask_volume_units" : "10170729.085314134"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T22:00:00.000000000Z",
+    "liquidity_depth_2_percent_ask_volume_units" : "10909944.294472648"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-04T23:00:00.000000000Z",
+    "liquidity_depth_2_percent_ask_volume_units" : "10983104.902848331"
+  }, {
+    "market" : "coinbase-btc-usd-spot",
+    "time" : "2023-05-05T00:00:00.000000000Z",
+    "liquidity_depth_2_percent_ask_volume_units" : "11103789.859471431"
+  } ]
+}
+```
 
-* market. The IDs of the markets.
-* time. The time in ISO 8601 date-time format.
-* liquidity\_depth\_2\_percent\_bid\_volume\_usd. The USD depth of orderbook asks within 2 percent of the mid price.
+* **`market`**: The id of the markets.\
+
+* **`time`**: The time in ISO 8601 date-time format.\
+
+* **`liquidity_depth_2_percent_bid_volume_usd`**: The USD depth of orderbook asks within 2 percent of the mid price.
+
+## Frequently Asked Questions
+
+### How often are the metrics calculated?
+
+The depth metrics are calculated once an hour.
 
 ## Release History
 
-* Release Version. Market Data Feed (January 2023)
+* **Release Version. Market Data Feed v2.8 on May 2023**.

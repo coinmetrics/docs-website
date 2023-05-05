@@ -648,7 +648,7 @@
   * [Liquidation Sell Orders (USD)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_usd.md)
   * [Liquidation Sell Orders (Units)](market-metrics/liquidations/liquidations\_reported\_future\_sell\_units.md)
 * [Liquidity](market-metrics/liquidity/README.md)
-  * [Bid/Ask Spread Percentage](market-metrics/liquidity/liquidity\_bid\_ask\_spread\_percent.md)
+  * [Bid-Ask Spread Percent](market-metrics/liquidity/liquidity\_bid\_ask\_spread\_percent.md)
   * [Liquidity Depth Bid Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_usd.md)
   * [Liquidity Depth Bid Volume (Units)](market-metrics/liquidity/liquidity\_depth\_percent\_bid\_volume\_units.md)
   * [Liquidity Depth Ask Volume (USD)](market-metrics/liquidity/liquidity\_depth\_percent\_ask\_volume\_usd.md)
