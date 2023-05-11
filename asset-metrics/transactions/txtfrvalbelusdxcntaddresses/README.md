@@ -4,12 +4,12 @@
 
 The sum count of payments (transfers) below a specific USD amount. This family of metric supports $100, $500, $1,000, and $10,000 USD value thresholds.
 
-| Name                     | MetricID                      | Category     | Subcategory  | Type | Unit | Interval |
-| ------------------------ | ----------------------------- | ------------ | ------------ | ---- | ---- | -------- |
-| Payments Below $100 Cnt  | TxTfrValBelUSD100CntAddresses | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Payments Below $500 Cnt  | TxTfrValBelUSD500CntAddresses | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Payments Below $1000 Cnt | TxTfrValBelUSD1kCntAddresses  | Transactions | Transactions | Sum  | Txs  | 1d       |
-| Payments Below $1000 Cnt | TxTfrValBelUSD10kCntAddresses | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Name                       | MetricID             | Category     | Subcategory  | Type | Unit | Interval |
+| -------------------------- | -------------------- | ------------ | ------------ | ---- | ---- | -------- |
+| Payments Below $100 Cnt    | TxTfrValBelUSD100Cnt | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Below $500 Cnt    | TxTfrValBelUSD500Cnt | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Below $1000 Cnt   | TxTfrValBelUSD1kCnt  | Transactions | Transactions | Sum  | Txs  | 1d       |
+| Payments Below $10,000 Cnt | TxTfrValBelUSD10kCnt | Transactions | Transactions | Sum  | Txs  | 1d       |
 
 ## Details
 
