@@ -45,3 +45,11 @@ The CM Prices are collectively governed by rules-based methodologies described i
 {% content-ref url="methodologies/coin-metrics-prices-methodology.md" %}
 [coin-metrics-prices-methodology.md](methodologies/coin-metrics-prices-methodology.md)
 {% endcontent-ref %}
+
+### What do the frequency parameters `1d` and `1d-ny-close` mean?
+
+Our CM Prices are served through our [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4/#tag/Timeseries/operation/getTimeseriesAssetMetrics) API endpoint, and this endpoint supports a frequency parameter that can take several values, including `1d` and `1d-ny-close`.
+
+The `1d` frequency represents a daily frequency that ends at 00:00:00 in the UTC timezone and the `1d-ny-close` represents a daily frequency that ends at 16:00:00 in the America/New\_York timezone. These timestamps are not altered for weekends or holidays.
+
+Please also see our FAQ on [What timestamp conventions does Coin Metrics use?](https://docs.coinmetrics.io/market-data/market-data-faqs#what-timestamp-conventions-does-coin-metrics-use) for more information.

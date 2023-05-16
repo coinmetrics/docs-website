@@ -10,7 +10,7 @@ Index levels represent the level of an index.&#x20;
 
 ## **Details**
 
-For more information on the various indexes and what the various index levels represent, please consult the [CMBI Single Asset Series Methodology](https://coinmetrics.io/cmbi-single-asset-methodology/), the [CMBI Multi Asset Series Methodology](https://coinmetrics.io/cmbi-multi-asset-series-methodology/), the [CMBI Momentum Series Methodology](https://coinmetrics.io/cmbi-momentum-series-methodology/) and the [CMBI Mining Series Methodology](https://coinmetrics.io/cmbi-multi-asset-series-methodology/).&#x20;
+For more information on the various indexes and what the various index levels represent, please consult the [CMBI Single Asset Series Methodology](https://coinmetrics.io/cmbi-single-asset-methodology/), the [CMBI Multi Asset Series Methodology](https://coinmetrics.io/cmbi-multi-asset-series-methodology/), the [CMBI Momentum Series Methodology](https://coinmetrics.io/cmbi-momentum-series-methodology/), the [CMBI Mining Series Methodology](https://coinmetrics.io/cmbi-multi-asset-series-methodology/), and the [CMBI Total Market Series Methodology](https://coinmetrics.io/wp-content/uploads/2022/12/CMBI-Total-Market-Series-Methodology.pdf).&#x20;
 
 Coin Metrics produces index values at the following frequencies:&#x20;
 
@@ -22,7 +22,10 @@ Coin Metrics produces index values at the following frequencies:&#x20;
 
 * `1h`: Hourly closing levels every hour. \
 
-* `15s`: Intraday levels every 15 seconds.&#x20;
+*   `15s`: Intraday levels every 15 seconds.
+
+    &#x20;
+* `1s`: Intraday levels every 1 second.&#x20;
 
 ## **Example**
 
@@ -82,6 +85,10 @@ A sample of the daily levels for the CMBI10 from our [`/timeseries/index-levels`
 ### CMBI Momentum Series
 
 * **Version 1.0 on June 2020**: Methodology launch and release of CMBI10M.&#x20;
+
+### CMBI Total Market Series
+
+* **Version 1.0 on November 2022**: Methodology launch and release of CMBITM, CMBIAUE, CMBIBUE, CMBIBSE, CMBIDFIE, CMBIIFE, CMBIITE, CMBIMSE, CMBIMTAE, CMBISCPE. CMBISCE, CMBIVTCE, CMBIDEXE, CMBINSE, and CMBINFTE.&#x20;
 
 ## **Availability**
 

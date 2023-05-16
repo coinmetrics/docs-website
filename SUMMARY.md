@@ -43,8 +43,7 @@
 ## Index Data
 
 * [Index Overview](index-data/index.md)
-* [Methodologies](methodologies/coin-metrics-bletchley-indexes-cmbi/README.md)
-  * [CMBI Single Asset Series Methodology](methodologies/coin-metrics-bletchley-indexes-cmbi/cmbi-single-asset-series-methodology.md)
+* [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi.md)
 * [Indexes Glossary](glossary/indexes.md)
 * [Index FAQs](index-data/index-faqs.md)
 

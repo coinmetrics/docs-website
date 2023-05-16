@@ -35,7 +35,6 @@ Welcome to **Coin Metrics Data Encyclopedia**. At Coin Metrics, we organize the 
 
 * **Coin Metrics Bletchley Indexes (CMBI)** are a comprehensive suite of single-asset, multi-asset, and unique crypto asset benchmarks used by leading crypto and traditional financial institutions.  This data is available through our [API](api.md) (`timeseries/index-levels` and `/timeseries/index-constituents` endpoints) and also in our [Data Visualization](charting-tools/data-visualization/) and [CM Pro Charts](charting-tools/cmpro/).&#x20;
 * **CMBI Community** (Community [API](api.md), [Data Visualization](charting-tools/data-visualization/), [Pro Charts](charting-tools/cmpro/)) provides access to all of our index levels with a limited amount of history for our more granular resolutions. For more info on our Community terms and offerings see our [Labs](https://coinmetrics.io/cm-labs/) page. A further description of the limitations of this data is listed in the data concepts in the **Indexes** section of this Encyclopedia.
-* [**Bletchley Indexes**](https://bletchleyindexes.com/)  provided the foundation for our now commercial CMBI lineup. Bletchley Indexes continues to be a community offering and the home for our index experimentation. For more info on our Community terms and offerings (including our Bletchley Indexes) see our [Labs](https://coinmetrics.io/cm-labs/) page.
 
 ## Reference Data
 
