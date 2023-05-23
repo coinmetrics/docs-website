@@ -36,6 +36,7 @@ Atlas v 2.0 currently supports the following assets:
 | Binance Chain (ERC-20)                | bnb\_eth   |
 | Binance USD                           | busd       |
 | Bitcoin                               | btc        |
+| Bitcoin Cash                          | bch        |
 | Bytom                                 | btm\_eth   |
 | Celsius                               | cel        |
 | CENNZnet                              | cennz      |
