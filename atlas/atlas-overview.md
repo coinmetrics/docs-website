@@ -161,6 +161,7 @@ Atlas v 2.0 currently supports the following assets:
 | Wrapped Bitcoin                       | wbtc       |
 | Wrapped Ether                         | weth       |
 | Wrapped liquid staked Ether 2.0       | wsteth     |
+| Ripple                                | xrp        |
 | yearn.finance                         | yfi        |
 | Zcash                                 | zec        |
 | Zilliqa                               | zil\_eth   |
