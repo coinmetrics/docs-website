@@ -81,13 +81,13 @@ The following API endpoints serve data using the point-in-time convention:
 * `/timeseries/market-greeks`
 * `/timeseries/index-levels`
 * `/timeseries/index-constituents`
-* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` with `snake_case` naming convention and without an interval suffix, such as `open_interest_reported_future_usd`
+* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` , `/timeseries/market-metrics` with `snake_case` naming convention and without an interval suffix, such as `open_interest_reported_future_usd`
 
 The following API endpoints serve data using the beginning-of-interval convention:
 
 * `/timeseries/market-candles`
 * Any metric in `/timeseries/asset-metrics` with upper camel case (ex: `UpperCamelCase`) naming convention
-* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics` with snake case (ex: `snake_case`) naming convention and with an interval suffix, such as `volume_reported_future_perpetual_usd_1d`
+* Any metric in `/timeseries/asset-metrics`, `/timeseries/exchange-metrics`, `/timeseries/exchange-asset-metrics`, `/timeseries/pair-metrics`, `/timeseries/institution-metrics`, `/timeseries/market-metrics` with `snake_case` naming convention and with an interval suffix, such as `volume_reported_future_perpetual_usd_1d`
 
 ### What asset ticker naming conventions does Coin Metrics use?
 
