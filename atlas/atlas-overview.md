@@ -38,6 +38,7 @@ Atlas v 2.0 currently supports the following assets:
 | Bitcoin                               | btc        |
 | Bitcoin Cash                          | bch        |
 | Bytom                                 | btm\_eth   |
+| Cardano                               | ada        |
 | Celsius                               | cel        |
 | CENNZnet                              | cennz      |
 | Chainlink                             | link       |
