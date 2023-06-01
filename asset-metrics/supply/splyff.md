@@ -24,6 +24,11 @@ The sum of all native units ever created and visible on the ledger excluding nat
 * Released in the 4.8 release of NDP
 * Free Float expanded to DOT, UNI, UMA, Aave, Yearn, Curve, REN, and BAL in the 4.9 release of NDP
 
+## Asset-Specific Details
+
+* ETH Free Float Supply includes tokens on the Consensus Layer and Execution Layer\
+
+
 ## **See Also**
 
 * [Introducing Fee Float Supply](https://coinmetrics.io/introducing-free-float-supply/)&#x20;

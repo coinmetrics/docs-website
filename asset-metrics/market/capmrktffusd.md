@@ -17,6 +17,7 @@ The sum USD value of the free float supply. Also referred to as free float netwo
 ## Asset-Specific Details
 
 * Only applicable to assets for which we have Free Float Supply (SplyFF) data available.
+* ETH Free Float Supply includes tokens on the Consensus Layer and Execution Layer
 
 ## Release History
 
