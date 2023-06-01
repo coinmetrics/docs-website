@@ -34,6 +34,7 @@
 * [Market Data Exchange Coverage](exchanges/all-exchanges.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
 * [CM Prices FAQs](market-data/cm-prices-faqs.md)
+* [Trusted Exchange Framework FAQs](market-data/trusted-exchange-framework-faqs.md)
 
 ## DeFi Data
 
