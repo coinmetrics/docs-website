@@ -4,9 +4,7 @@
 
 The Principal Market Price is the price of an asset quoted in U.S. dollars derived from the asset's principal market, the market with the most trading volume or activity. This metric represents the identity of the principal market.
 
-| Name             | **MetricID**           | **Category** | **Subcategory** | **Type** | **Unit** | **Interval**   |
-| ---------------- | ---------------------- | ------------ | --------------- | -------- | -------- | -------------- |
-| Principal Market | principal\_market\_usd | Market       | Price           | n/a      | n/a      | 1d, 1h, 1m, 1s |
+<table data-header-hidden><thead><tr><th width="150">Name</th><th width="239">MetricID</th><th width="141">Category</th><th width="138">Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td><strong>MetricID</strong></td><td><strong>Category</strong></td><td><strong>Subcategory</strong></td><td><strong>Type</strong></td><td><strong>Unit</strong></td><td><strong>Interval</strong></td></tr><tr><td>Principal Market</td><td>principal_market_usd</td><td>Market</td><td>Price</td><td>n/a</td><td>n/a</td><td>1d, 1h, 1m, 1s</td></tr></tbody></table>
 
 ## Details
 

@@ -1,12 +1,12 @@
-# Reference Rate (ETH)
+# Reference Rate (BTC)
 
 ## Definition
 
-The CM Reference Rates represent the reference rate of one unit of the asset quoted in Ethereum.
+The CM Reference Rates represent the reference rate of one unit of the asset quoted in Bitcoin.
 
 | Name                | MetricID         | Category | Subcategory | Type | Unit | Interval                           |
 | ------------------- | ---------------- | -------- | ----------- | ---- | ---- | ---------------------------------- |
-| Reference Rate, ETH | ReferenceRateETH | Market   | Price       | n/a  | ETH  | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
+| Reference Rate, BTC | ReferenceRateBTC | Market   | Price       | n/a  | BTC  | 1d, 1d-ny-close, 1h, 1m, 1s, 200ms |
 
 ## Details
 
@@ -24,58 +24,58 @@ The CM Reference Rates represent the reference rate of one unit of the asset quo
 
 ## Example
 
-A sample of the reference rates data for Bitcoin with one hour frequency is shown below:
+A sample of the reference rates data for Ethereum with one hour frequency is shown below:
 
 ```
 {
   "data" : [ {
-    "asset" : "btc",
+    "asset" : "eth",
     "time" : "2023-03-23T10:00:00.000000000Z",
-    "ReferenceRateETH" : "15.7589036393475"
+    "ReferenceRateBTC" : "0.0634561910451156"
   }, {
-    "asset" : "btc",
+    "asset" : "eth",
     "time" : "2023-03-23T11:00:00.000000000Z",
-    "ReferenceRateETH" : "15.7644408373932"
+    "ReferenceRateBTC" : "0.0634339023067664"
   }, {
-    "asset" : "btc",
+    "asset" : "eth",
     "time" : "2023-03-23T12:00:00.000000000Z",
-    "ReferenceRateETH" : "15.7242581065847"
+    "ReferenceRateBTC" : "0.0635960051801262"
   }, {
-    "asset" : "btc",
+    "asset" : "eth",
     "time" : "2023-03-23T13:00:00.000000000Z",
-    "ReferenceRateETH" : "15.7117656446775"
+    "ReferenceRateBTC" : "0.063646570513783"
   }, {
-    "asset" : "btc",
+    "asset" : "eth",
     "time" : "2023-03-23T14:00:00.000000000Z",
-    "ReferenceRateETH" : "15.6681462588256"
+    "ReferenceRateBTC" : "0.0638237595871763"
   }
 }
 ```
 
-A sample of the reference rates data for Bitcoin with one second frequency is shown below:
+A sample of the reference rates data for Ethereum with one second frequency is shown below:
 
 ```
 {
   "data" : [ {
-    "asset" : "btc",
-    "time" : "2023-03-23T14:49:42.000000000Z",
-    "ReferenceRateETH" : "15.5656945186602"
+    "asset" : "eth",
+    "time" : "2023-03-23T14:45:26.000000000Z",
+    "ReferenceRateBTC" : "0.0639104174111383"
   }, {
-    "asset" : "btc",
-    "time" : "2023-03-23T14:49:43.000000000Z",
-    "ReferenceRateETH" : "15.5638001214384"
+    "asset" : "eth",
+    "time" : "2023-03-23T14:45:27.000000000Z",
+    "ReferenceRateBTC" : "0.0639078592679277"
   }, {
-    "asset" : "btc",
-    "time" : "2023-03-23T14:49:44.000000000Z",
-    "ReferenceRateETH" : "15.5662555789142"
+    "asset" : "eth",
+    "time" : "2023-03-23T14:45:28.000000000Z",
+    "ReferenceRateBTC" : "0.0638896884186885"
   }, {
-    "asset" : "btc",
-    "time" : "2023-03-23T14:49:45.000000000Z",
-    "ReferenceRateETH" : "15.5621629524661"
+    "asset" : "eth",
+    "time" : "2023-03-23T14:45:29.000000000Z",
+    "ReferenceRateBTC" : "0.0638959235965864"
   }, {
-    "asset" : "btc",
-    "time" : "2023-03-23T14:49:46.000000000Z",
-    "ReferenceRateETH" : "15.5692889374008"
+    "asset" : "eth",
+    "time" : "2023-03-23T14:45:30.000000000Z",
+    "ReferenceRateBTC" : "0.0638897387939562"
   }
 }
 ```
@@ -84,7 +84,7 @@ A sample of the reference rates data for Bitcoin with one second frequency is sh
 
 * **`time`**: The reference rate time in ISO 8601 date-time format.\
 
-* **`ReferenceRateETH`**: The published reference rate value quoted in Ethereum.
+* **`ReferenceRateBTC`**: The published reference rate value quoted in Bitcoin.
 
 ## **Release History**
 
@@ -96,4 +96,4 @@ Community and pro asset availability does not differ.  Community is available vi
 
 Please see our Coin Metrics Coverage below for our asset coverage universe.
 
-{% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateETH" %}
+{% embed url="https://coverage.coinmetrics.io/asset-metrics/ReferenceRateBTC" %}

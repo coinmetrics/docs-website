@@ -1,4 +1,4 @@
-# DeFi Data Overview
+# DeFi Data Overview (Labs)
 
 Decentralized Finance (DeFi) is a rapidly emerging ecosystem of applications and protocols used for trading, lending, and various other financial services. Rather than relying on centralized intermediaries, these protocols utilize permissionless blockchains such as Ethereum to conduct the majority of their activities and transactions on-chain.
 
@@ -10,11 +10,7 @@ Market coverage can be found by querying our [`/catalog/markets`](https://docs.c
 
 Currently we offer coverage of 3 DEX protocols:
 
-| Exchange   | Spot Market Count | Start Date |
-| ---------- | :---------------: | :--------: |
-| Sushiswap  |        134        | 2020-09-04 |
-| Uniswap v2 |        407        | 2020-07-04 |
-| Uniswap v3 |        345        | 2020-07-04 |
+<table><thead><tr><th width="181.33333333333331">Exchange</th><th width="217" align="center">Spot Market Count</th><th align="center">Start Date</th></tr></thead><tbody><tr><td>Sushiswap</td><td align="center">134</td><td align="center">2020-09-04</td></tr><tr><td>Uniswap v2</td><td align="center">407</td><td align="center">2020-07-04</td></tr><tr><td>Uniswap v3</td><td align="center">345</td><td align="center">2020-07-04</td></tr></tbody></table>
 
 In addition to returning standard metadata such as the market's base and quote asset, DEX market entries in the catalog also contain several DeFi-specific fields:
 

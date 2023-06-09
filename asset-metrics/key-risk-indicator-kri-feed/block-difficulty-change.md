@@ -6,9 +6,7 @@ The latest change in network difficulty. Difficulty represents how hard it is to
 
 **Dictionary**
 
-| Name                    | MetricID                  | Category | Sub-category     | Type  | Unit       | Interval |
-| ----------------------- | ------------------------- | -------- | ---------------- | ----- | ---------- | -------- |
-| Block Difficulty Change | block\_difficulty\_change | KRI      | Block Attributes | Delta | Difficulty | 1 block  |
+<table data-header-hidden><thead><tr><th width="165"></th><th width="210"></th><th width="116"></th><th width="141"></th><th></th><th width="107"></th><th></th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Sub-category</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Block Difficulty Change</td><td>block_difficulty_change</td><td>KRI</td><td>Block Attributes</td><td>Delta</td><td>Difficulty</td><td>1 block</td></tr></tbody></table>
 
 **Methodology**
 

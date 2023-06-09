@@ -8,9 +8,7 @@ The sum of the supply being held by all wallets whose balance was at least one i
 
 
 
-| Name                                                  | MetricID          | Category | Subcategory | Type | Unit         | Interval |
-| ----------------------------------------------------- | ----------------- | -------- | ----------- | ---- | ------------ | -------- |
-| Supply, in wallets with balance, greater than 1in100M | SplyWalBal1in100M | Wallets  | Balance     | Sum  | Native units | 1 day    |
+<table data-header-hidden><thead><tr><th width="222">Name</th><th width="279">MetricID</th><th>Category</th><th>Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Subcategory</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Supply, in wallets with balance, greater than 1in100M</td><td>SplyWalBal1in100M</td><td>Wallets</td><td>Balance</td><td>Sum</td><td>Native units</td><td>1 day</td></tr></tbody></table>
 
 ## Details <a href="#details" id="details"></a>
 

@@ -4,12 +4,7 @@
 
 The sum of all payments (transfers) that have occured in the measuring interval above a specific USD amount, displayed in USD. This family of metric supports $100k, $1M, $10M, and $100M USD value thresholds.
 
-| Name                                    | MetricID             | Category     | Subcategory  | Type | Unit | Interval |
-| --------------------------------------- | -------------------- | ------------ | ------------ | ---- | ---- | -------- |
-| Sum Value of Payments Above $100k (USD) | TxTfrValAbUSD100kUSD | Transactions | Transactions | Sum  | USD  | 1d       |
-| Sum Value of Payments Above $1M (USD)   | TxTfrValAbUSD1MUSD   | Transactions | Transactions | Sum  | USD  | 1d       |
-| Sum Value of Payments Above $10M (USD)  | TxTfrValAbUSD10MUSD  | Transactions | Transactions | Sum  | USD  | 1d       |
-| Sum Value of Payments Above $100M (USD) | TxTfrValAbUSD100MUSD | Transactions | Transactions | Sum  | USD  | 1d       |
+<table data-header-hidden><thead><tr><th width="373">Name</th><th>MetricID</th><th>Category</th><th>Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Subcategory</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Sum Value of Payments Above $100k (USD)</td><td>TxTfrValAbUSD100kUSD</td><td>Transactions</td><td>Transactions</td><td>Sum</td><td>USD</td><td>1d</td></tr><tr><td>Sum Value of Payments Above $1M (USD)</td><td>TxTfrValAbUSD1MUSD</td><td>Transactions</td><td>Transactions</td><td>Sum</td><td>USD</td><td>1d</td></tr><tr><td>Sum Value of Payments Above $10M (USD)</td><td>TxTfrValAbUSD10MUSD</td><td>Transactions</td><td>Transactions</td><td>Sum</td><td>USD</td><td>1d</td></tr><tr><td>Sum Value of Payments Above $100M (USD)</td><td>TxTfrValAbUSD100MUSD</td><td>Transactions</td><td>Transactions</td><td>Sum</td><td>USD</td><td>1d</td></tr></tbody></table>
 
 ## Details
 

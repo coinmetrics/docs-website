@@ -6,9 +6,7 @@ The sum of the supply being held by all wallets whose balance is equivalent to a
 
 ## Dictionary <a href="#dictionary" id="dictionary"></a>
 
-| Name                                               | MetricID         | Category | Subcategory | Type | Unit | Interval |
-| -------------------------------------------------- | ---------------- | -------- | ----------- | ---- | ---- | -------- |
-| Supply, in wallets with balance, greater than $10K | SplyWalBalUSD10k | Wallets  | Balance     | Sum  | USD  | 1 day    |
+<table data-header-hidden><thead><tr><th width="222">Name</th><th width="185">MetricID</th><th width="196">Category</th><th>Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Subcategory</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Supply, in wallets with balance, greater than $10K</td><td>SplyWalBalUSD10k</td><td>Wallets</td><td>Balance</td><td>Sum</td><td>USD</td><td>1 day</td></tr></tbody></table>
 
 ## Details <a href="#details" id="details"></a>
 

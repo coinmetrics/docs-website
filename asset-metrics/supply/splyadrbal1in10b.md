@@ -6,9 +6,7 @@ The sum of all native units being held in addresses whose balance was at least o
 
 ## Dictionary
 
-| Name                                               | MetricID         | Category | Subcategory            | Type | Unit         | Interval |
-| -------------------------------------------------- | ---------------- | -------- | ---------------------- | ---- | ------------ | -------- |
-| Val in Addrs w/ Bal ≥ .00000001% of Current Supply | SplyAdrBal1in10B | Supply   | Addresses with Balance | Sum  | Native units | 1 day    |
+<table data-header-hidden><thead><tr><th>Name</th><th width="160">MetricID</th><th>Category</th><th>Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Subcategory</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Val in Addrs w/ Bal ≥ .00000001% of Current Supply</td><td>SplyAdrBal1in10B</td><td>Supply</td><td>Addresses with Balance</td><td>Sum</td><td>Native units</td><td>1 day</td></tr></tbody></table>
 
 ## Details
 

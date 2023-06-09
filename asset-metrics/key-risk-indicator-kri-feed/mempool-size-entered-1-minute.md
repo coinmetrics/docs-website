@@ -6,9 +6,7 @@ The total size in bytes of all transactions that have entered the mempool over t
 
 **Dictionary**
 
-| Name                    | MetricID                   | Category | Sub-category | Type | Unit  | Interval |
-| ----------------------- | -------------------------- | -------- | ------------ | ---- | ----- | -------- |
-| Mempool Size Entered 1m | mempool\_size\_entered\_1m | KRI      | Mempool      | Sum  | bytes | 1m       |
+<table data-header-hidden><thead><tr><th width="162"></th><th width="240"></th><th width="107"></th><th width="144"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Sub-category</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Mempool Size Entered 1m</td><td>mempool_size_entered_1m</td><td>KRI</td><td>Mempool</td><td>Sum</td><td>bytes</td><td>1m</td></tr></tbody></table>
 
 **Methodology**
 

@@ -6,9 +6,7 @@ The count of consecutive empty blocks captured within the most-recent 1-minute i
 
 **Dictionary**
 
-| Name                     | MetricID                         | Category | Sub-category | Type | Unit             | Interval |
-| ------------------------ | -------------------------------- | -------- | ------------ | ---- | ---------------- | -------- |
-| Consecutive Empty Blocks | block\_count\_consecutive\_empty | KRI      | Empty Blocks | Sum  | Count of  Blocks | 1b       |
+<table data-header-hidden><thead><tr><th width="170"></th><th width="177"></th><th width="107"></th><th width="106"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Sub-category</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Consecutive Empty Blocks</td><td>block_count_consecutive_empty</td><td>KRI</td><td>Empty Blocks</td><td>Sum</td><td>Count of  Blocks</td><td>1b</td></tr></tbody></table>
 
 **Methodology**
 

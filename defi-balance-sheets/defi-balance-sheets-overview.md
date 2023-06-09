@@ -16,10 +16,7 @@ Coin Metrics collects various data from DeFi protocols and we serve this data in
 
 The protocols covered in our DeFi balance sheets endpoint are listed below:
 
-| Protocol    |       Ticker      | Start Date |
-| ----------- | :---------------: | :--------: |
-| Aave V2     |   `aave_v2_eth`   | 2020-12-01 |
-| Compound V2 | `compound_v2_eth` | 2019-05-17 |
+<table><thead><tr><th width="181.33333333333331">Protocol</th><th align="center">Ticker</th><th align="center">Start Date</th></tr></thead><tbody><tr><td>Aave V2</td><td align="center"><code>aave_v2_eth</code></td><td align="center">2020-12-01</td></tr><tr><td>Compound V2</td><td align="center"><code>compound_v2_eth</code></td><td align="center">2019-05-17</td></tr></tbody></table>
 
 ## Endpoint Response
 

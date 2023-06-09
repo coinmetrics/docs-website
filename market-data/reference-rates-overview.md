@@ -20,12 +20,12 @@ Please note that this metric is served through both the [/timeseries/asset-metri
 [referencerateeur.md](../asset-metrics/market/referencerateeur.md)
 {% endcontent-ref %}
 
-{% content-ref url="../asset-metrics/market/referencerateeth.md" %}
-[referencerateeth.md](../asset-metrics/market/referencerateeth.md)
+{% content-ref url="../asset-metrics/market/referenceratebtc.md" %}
+[referenceratebtc.md](../asset-metrics/market/referenceratebtc.md)
 {% endcontent-ref %}
 
-{% content-ref url="../asset-metrics/market/referencerateeth-1.md" %}
-[referencerateeth-1.md](../asset-metrics/market/referencerateeth-1.md)
+{% content-ref url="../asset-metrics/market/referencerateeth.md" %}
+[referencerateeth.md](../asset-metrics/market/referencerateeth.md)
 {% endcontent-ref %}
 
 ## Data Available for CM Principal Market Prices

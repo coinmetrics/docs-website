@@ -6,9 +6,7 @@ The mean feerate (fee/vsize) of all mempool transactions, in native units per by
 
 **Dictionary**
 
-| Name                 | MetricID               | Category | Sub-category | Type | Unit      | Interval |
-| -------------------- | ---------------------- | -------- | ------------ | ---- | --------- | -------- |
-| Mean Feerate Mempool | mempool\_feerate\_mean | KRI      | Mempool      | Mean | fee/vsize | 1m       |
+<table data-header-hidden><thead><tr><th width="241"></th><th width="221"></th><th width="112"></th><th width="141"></th><th></th><th width="114"></th><th></th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Sub-category</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Mean Feerate Mempool</td><td>mempool_feerate_mean</td><td>KRI</td><td>Mempool</td><td>Mean</td><td>fee/vsize</td><td>1m</td></tr></tbody></table>
 
 **Methodology**
 

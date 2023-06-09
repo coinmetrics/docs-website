@@ -4,9 +4,7 @@
 
 The percentage of network hash rate contributed by the Antminer S9 series in the last 30 days, estimated using Coin Metrics' nonce analysis methodology.
 
-| Name                                                      | MetricID         | Category | Subcategory        | Type  | Unit          | Interval |
-| --------------------------------------------------------- | ---------------- | -------- | ------------------ | ----- | ------------- | -------- |
-| Hash Rate Contributed by Antminer S9 Hardware, 30 Day (%) | HashRate30dS9Pct | Mining   | Hardware Hash Rate | Ratio | Dimensionless | 30 days  |
+<table data-header-hidden><thead><tr><th width="328">Name</th><th>MetricID</th><th>Category</th><th>Subcategory</th><th>Type</th><th>Unit</th><th>Interval</th></tr></thead><tbody><tr><td>Name</td><td>MetricID</td><td>Category</td><td>Subcategory</td><td>Type</td><td>Unit</td><td>Interval</td></tr><tr><td>Hash Rate Contributed by Antminer S9 Hardware, 30 Day (%)</td><td>HashRate30dS9Pct</td><td>Mining</td><td>Hardware Hash Rate</td><td>Ratio</td><td>Dimensionless</td><td>30 days</td></tr></tbody></table>
 
 ## Release History
 
