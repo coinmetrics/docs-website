@@ -14,7 +14,7 @@ The price of the asset denominated in Bitcoin units.&#x20;
 
 * This metric is identical to `ReferenceRateBTC` but with different timestamp conventions. Please see the frequently asked questions below for more information on this topic.\
 
-* This price is computed using our CM Reference Rates. Please see our [CM Prices Overview](../../market-data/reference-rates-overview.md) for more information on methodology and policies.
+* This price is computed using our CM Reference Rates. Please see our [CM Prices Overview](../../market-data/cm-prices-overview.md) for more information on methodology and policies.
 
 ## Example
 

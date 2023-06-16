@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/coin-metrics-prices-methodology (1).pdf" %}
+{% file src="../../.gitbook/assets/coin-metrics-prices-methodology.pdf" %}
 
 ## Introduction
 
@@ -271,7 +271,7 @@ The calculation algorithm of the CM Reference Rates for daily and hourly frequen
 
 A chart of the weights is included below and the exact weights for each time interval are listed in Appendix B:
 
-<figure><img src="../../.gitbook/assets/reference-rates-weights (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/reference-rates-weights.png" alt=""><figcaption></figcaption></figure>
 
 ### Data Contingency Rules for Daily and Hourly Frequencies
 

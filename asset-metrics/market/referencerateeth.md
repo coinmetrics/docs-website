@@ -20,7 +20,7 @@ The CM Reference Rates represent the reference rate of one unit of the asset quo
 
 * Please note that this metric is served through both the [/timeseries/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesAssetMetrics) HTTP endpoint and the [/timeseries-stream/asset-metrics](https://docs.coinmetrics.io/api/v4#operation/getTimeseriesStreamAssetMetrics) websocket endpoint. The HTTP endpoint supports the frequencies 1d, 1h, 1m, and 1s. The websocket endpoint supports the frequencies 1s and 200ms.\
 
-* Please see our [CM Prices Overview](../../market-data/reference-rates-overview.md) for more information on methodology and policies.
+* Please see our [CM Prices Overview](../../market-data/cm-prices-overview.md) for more information on methodology and policies.
 
 ## Example
 
