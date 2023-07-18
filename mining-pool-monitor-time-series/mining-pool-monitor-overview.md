@@ -20,7 +20,6 @@ Coverage of about 73% of the Bitcoin Hashrate (1Q21)
   * Canada&#x20;
   * Singapore&#x20;
   * Japan&#x20;
-  * China&#x20;
   * Russia
 * **Poolin**
   * China Beijing&#x20;
@@ -39,6 +38,5 @@ Coverage of about 73% of the Bitcoin Hashrate (1Q21)
 * **Antpool**
 * **ViaBTC**
 * **NovaBlock**&#x20;
-* **1THash**&#x20;
 * **Binance Pool**&#x20;
 * **OKPool**

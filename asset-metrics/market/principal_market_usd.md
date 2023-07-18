@@ -14,7 +14,7 @@ The Principal Market Price is the price of an asset quoted in U.S. dollars deriv
 
 * This metric represents the identity of the principal market from which the principal market price is calculated. If you are interested in the principal market price, please see the [Principal Market Price (USD)](https://docs.coinmetrics.io/asset-metrics/market/principalmarketprice) page for more details.\
 
-* Please see our [CM Prices Overview](../../market-data/cm-prices-overview.md) for more information on methodology and policies.
+* Please see our [CM Prices Overview](../../market-data/reference-rates-overview.md) for more information on methodology and policies.
 
 ## **Example**
 

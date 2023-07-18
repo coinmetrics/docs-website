@@ -26,7 +26,7 @@
 ## Market Data
 
 * [Market Data Overview](market-data/market-data-overview.md)
-* [CM Prices Overview](market-data/cm-prices-overview.md)
+* [CM Prices Overview](market-data/reference-rates-overview.md)
 * [Methodologies](market-data/methodologies/README.md)
   * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
   * [Coin Metrics Prices Methodology](market-data/methodologies/coin-metrics-prices-methodology.md)
@@ -304,7 +304,7 @@
   * [Reference Rate (USD)](asset-metrics/market/referencerateusd.md)
   * [Reference Rate (EUR)](asset-metrics/market/referencerateeur.md)
   * [Reference Rate (BTC)](asset-metrics/market/referenceratebtc.md)
-  * [Reference Rate (ETH)](asset-metrics/market/referencerateeth.md)
+  * [Reference Rate (ETH)](asset-metrics/market/referencerateeth-1.md)
   * [Principal Market Price (USD)](asset-metrics/market/principal\_market\_price\_usd.md)
   * [Principal Market (USD)](asset-metrics/market/principal\_market\_usd.md)
   * [Realized Market Cap (USD)](asset-metrics/market/caprealusd.md)
