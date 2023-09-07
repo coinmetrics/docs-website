@@ -2,7 +2,7 @@
 
 The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
 
-{% file src="../../.gitbook/assets/coin-metrics-prices-methodology (1).pdf" %}
+{% file src="../../.gitbook/assets/coin-metrics-prices-methodology.pdf" %}
 
 ## Introduction
 
@@ -354,650 +354,657 @@ An investigation into the causes of the potential error, including whether any p
 
 The following table lists the current coverage universe:
 
-| #   | Name                                 | Ticker                  |
-| --- | ------------------------------------ | ----------------------- |
-| 1   | Bitcoin                              | btc                     |
-| 2   | Bitcoin Cash                         | bch                     |
-| 3   | Litecoin                             | ltc                     |
-| 4   | Euro                                 | eur                     |
-| 5   | XRP                                  | xrp                     |
-| 6   | Ethereum                             | eth                     |
-| 7   | Ethereum Classic                     | etc                     |
-| 8   | British Pound                        | gbp                     |
-| 9   | Zcash                                | zec                     |
-| 10  | Monero                               | xmr                     |
-| 11  | Dash                                 | dash                    |
-| 12  | Japanese Yen                         | jpy                     |
-| 13  | IOTA                                 | miota                   |
-| 14  | EOS                                  | eos                     |
-| 15  | OMG Network                          | omg                     |
-| 16  | Neo                                  | neo                     |
-| 17  | Metaverse ETP                        | etp                     |
-| 18  | Qtum                                 | qtum                    |
-| 19  | Aventus                              | avt                     |
-| 20  | Bitcoin Gold                         | btg                     |
-| 21  | Streamr                              | data                    |
-| 22  | QASH                                 | qash                    |
-| 23  | Status                               | snt                     |
-| 24  | Basic Attention Token                | bat                     |
-| 25  | Decentraland                         | mana                    |
-| 26  | FUNToken                             | fun                     |
-| 27  | 0x                                   | zrx                     |
-| 28  | Time New Bank                        | tnb                     |
-| 29  | TRON                                 | trx                     |
-| 30  | iExec RLC                            | rlc                     |
-| 31  | Augur                                | rep                     |
-| 32  | aelf                                 | elf                     |
-| 33  | IOST                                 | iost                    |
-| 34  | Aion                                 | aion                    |
-| 35  | Request                              | req                     |
-| 36  | Loopring                             | lrc                     |
-| 37  | WAX                                  | waxp                    |
-| 38  | Aragon                               | ant                     |
-| 39  | Mithril                              | mith                    |
-| 40  | Storj                                | storj                   |
-| 41  | Stellar                              | xlm                     |
-| 42  | Verge                                | xvg                     |
-| 43  | Lympo                                | lym                     |
-| 44  | Maker                                | mkr                     |
-| 45  | VeChain                              | vet                     |
-| 46  | Kyber Network Crystal                | knc                     |
-| 47  | Utrust                               | utk                     |
-| 48  | Ripio Credit Network                 | rcn\_ripiocreditnetwork |
-| 49  | Polymath                             | poly                    |
-| 50  | Fusion                               | fsn                     |
-| 51  | Nitro Network                        | ncash                   |
-| 52  | Cortex                               | ctxc                    |
-| 53  | DATA                                 | dta                     |
-| 54  | Zilliqa                              | zil                     |
-| 55  | Bancor                               | bnt                     |
-| 56  | MonaCoin                             | mona                    |
-| 57  | NEM                                  | xem                     |
-| 58  | BNB                                  | bnb                     |
-| 59  | Gas                                  | gas                     |
-| 60  | Tether                               | usdt                    |
-| 61  | OAX                                  | oax                     |
-| 62  | district0x                           | dnt                     |
-| 63  | Waltonchain                          | wtc                     |
-| 64  | Chainlink                            | link                    |
-| 65  | Moeda Loyalty Points                 | mda                     |
-| 66  | Metal DAO                            | mtl\_metal              |
-| 67  | AirSwap                              | ast                     |
-| 68  | Viberate                             | vib                     |
-| 69  | Powerledger                          | powr                    |
-| 70  | Ark                                  | ark                     |
-| 71  | Enjin Coin                           | enj                     |
-| 72  | Komodo                               | kmd                     |
-| 73  | NULS                                 | nuls                    |
-| 74  | AirDAO                               | amb                     |
-| 75  | Quantstamp                           | qsp                     |
-| 76  | BitShares                            | bts                     |
-| 77  | Lisk                                 | lsk                     |
-| 78  | Bitcoin Diamond                      | bcd                     |
-| 79  | Ambire AdEx                          | adx                     |
-| 80  | Cardano                              | ada                     |
-| 81  | CyberMiles                           | cmt                     |
-| 82  | Waves                                | waves                   |
-| 83  | ICON                                 | icx                     |
-| 84  | PIVX                                 | pivx                    |
-| 85  | OST                                  | ost                     |
-| 86  | ChatCoin                             | chat                    |
-| 87  | Civic                                | cvc                     |
-| 88  | Steem                                | steem                   |
-| 89  | Nano (New)                           | nano                    |
-| 90  | Bluzelle                             | blz                     |
-| 91  | Aeternity                            | ae                      |
-| 92  | Ontology                             | ont                     |
-| 93  | Wanchain                             | wan                     |
-| 94  | Kepple                               | qlc                     |
-| 95  | Syscoin                              | sys                     |
-| 96  | Ardor                                | ardr                    |
-| 97  | Holo                                 | hot\_holo               |
-| 98  | Loom Network                         | loom                    |
-| 99  | Bytecoin                             | bcn                     |
-| 100 | TrueUSD                              | tusd                    |
-| 101 | Horizen                              | zen                     |
-| 102 | Theta Network                        | theta                   |
-| 103 | IoTeX                                | iotx                    |
-| 104 | QuarkChain                           | qkc                     |
-| 105 | SelfKey                              | key                     |
-| 106 | Siacoin                              | sc                      |
-| 107 | Nebulas                              | nas                     |
-| 108 | Dent                                 | dent                    |
-| 109 | Dock                                 | dock                    |
-| 110 | Gnosis                               | gno                     |
-| 111 | Canadian Dollar                      | cad                     |
-| 112 | Enzyme                               | mln                     |
-| 113 | Dogecoin                             | doge                    |
-| 114 | Bytom                                | btm                     |
-| 115 | BitKan                               | kan                     |
-| 116 | Arcblock                             | abt                     |
-| 117 | Auto                                 | auto                    |
-| 118 | CyberVein                            | cvt                     |
-| 119 | Decred                               | dcr                     |
-| 120 | DigiByte                             | dgb                     |
-| 121 | Cred                                 | lba                     |
-| 122 | Measurable Data Token                | mdt                     |
-| 123 | Molecular Future                     | mof                     |
-| 124 | TenX                                 | pay                     |
-| 125 | Revain                               | rev                     |
-| 126 | Ren                                  | ren                     |
-| 127 | SwftCoin                             | swftc                   |
-| 128 | Nxt                                  | nxt                     |
-| 129 | VITE                                 | vite                    |
-| 130 | Odyssey                              | ocn                     |
-| 131 | Huobi Token                          | ht                      |
-| 132 | Elastos                              | ela                     |
-| 133 | WaykiChain                           | wicc                    |
-| 134 | SIRIN LABS Token                     | srn                     |
-| 135 | DeepBrain Chain                      | dbc                     |
-| 136 | Propy                                | pro                     |
-| 137 | Bibox Token                          | bix                     |
-| 138 | HyperCash                            | hc\_hypercash           |
-| 139 | MaidSafeCoin                         | maid                    |
-| 140 | Amp                                  | amp                     |
-| 141 | Chrono.tech                          | time                    |
-| 142 | Pluton                               | plu                     |
-| 143 | Tezos                                | xtz                     |
-| 144 | Stacks                               | stx                     |
-| 145 | Ignis                                | ignis                   |
-| 146 | Atletico De Madrid Fan Token         | atm                     |
-| 147 | PolySwarm                            | nct                     |
-| 148 | Kin                                  | kin                     |
-| 149 | IndiGG                               | indi                    |
-| 150 | SwissBorg                            | chsb                    |
-| 151 | OriginTrail                          | trac                    |
-| 152 | Nexo                                 | nexo                    |
-| 153 | Telcoin                              | tel                     |
-| 154 | Berry                                | berry                   |
-| 155 | Crypterium                           | crpt                    |
-| 156 | IHT Real Estate Protocol             | iht                     |
-| 157 | VeThor Token                         | vtho                    |
-| 158 | DxChain Token                        | dx                      |
-| 159 | CEEK VR                              | ceek                    |
-| 160 | Oxygen                               | oxy                     |
-| 161 | UNUS SED LEO                         | leo                     |
-| 162 | Vertcoin                             | vtc                     |
-| 163 | Game.com                             | gtc\_gamecom            |
-| 164 | MediBloc                             | med                     |
-| 165 | Creditcoin                           | ctc                     |
-| 166 | NKN                                  | nkn                     |
-| 167 | Uquid Coin                           | uqc                     |
-| 168 | Korean won                           | krw                     |
-| 169 | IQ                                   | iq                      |
-| 170 | Ravencoin                            | rvn                     |
-| 171 | LBRY Credits                         | lbc                     |
-| 172 | ReddCoin                             | rdd                     |
-| 173 | Numeraire                            | nmr                     |
-| 174 | Russian Ruble                        | rub                     |
-| 175 | Ukrainian Hryvnia                    | uah                     |
-| 176 | Turkish Lira                         | try                     |
-| 177 | Aurora Chain                         | aoa                     |
-| 178 | Australian Dollar                    | aud                     |
-| 179 | Brazilian Real                       | brl                     |
-| 180 | Swiss Franc                          | chf                     |
-| 181 | Ethernity                            | ern                     |
-| 182 | Hong Kong Dollar                     | hkd                     |
-| 183 | Singapore Dollar                     | sgd                     |
-| 184 | OpenDAO                              | sos                     |
-| 185 | Dragonchain                          | drgn                    |
-| 186 | Kleros                               | pnk                     |
-| 187 | USD Coin                             | usdc                    |
-| 188 | KuCoin Token                         | kcs                     |
-| 189 | Paxos Standard                       | pax                     |
-| 190 | Gemini Dollar                        | gusd                    |
-| 191 | Constellation                        | dag                     |
-| 192 | Nimiq                                | nim                     |
-| 193 | GoChain                              | go                      |
-| 194 | Electroneum                          | etn                     |
-| 195 | Bitcoin SV                           | bsv                     |
-| 196 | MXC                                  | mxc                     |
-| 197 | TomoChain                            | tomo                    |
-| 198 | Livepeer                             | lpt                     |
-| 199 | RSK Infrastructure Framework         | rif                     |
-| 200 | v.systems                            | vsys                    |
-| 201 | Grin                                 | grin                    |
-| 202 | Seele                                | seele                   |
-| 203 | Lambda                               | lamb                    |
-| 204 | Dora Factory                         | dora                    |
-| 205 | Beam                                 | beam                    |
-| 206 | Unibright                            | ubt                     |
-| 207 | FTX Token                            | ftt                     |
-| 208 | Kryll                                | krl                     |
-| 209 | Fetch.ai                             | fet                     |
-| 210 | Ontology Gas                         | ong\_ontologygas        |
-| 211 | Ankr                                 | ankr                    |
-| 212 | Haven Protocol                       | xhv                     |
-| 213 | Quant                                | qnt                     |
-| 214 | SOLVE                                | solve                   |
-| 215 | Aergo                                | aergo                   |
-| 216 | Circuits of Value                    | coval                   |
-| 217 | Cronos                               | cro                     |
-| 218 | Cosmos                               | atom                    |
-| 219 | Orbs                                 | orbs                    |
-| 220 | Theta Fuel                           | tfuel                   |
-| 221 | BORA                                 | bora                    |
-| 222 | Function X                           | fx                      |
-| 223 | IRISnet                              | iris                    |
-| 224 | Celer Network                        | celr                    |
-| 225 | ABBC Coin                            | abbc                    |
-| 226 | Verasity                             | vra                     |
-| 227 | Wrapped Bitcoin                      | wbtc                    |
-| 228 | Polygon                              | matic                   |
-| 229 | Litentry                             | lit                     |
-| 230 | Fantom                               | ftm                     |
-| 231 | Algorand                             | algo                    |
-| 232 | Dusk Network                         | dusk                    |
-| 233 | XYO                                  | xyo                     |
-| 234 | Ocean Protocol                       | ocean                   |
-| 235 | Celsius                              | cel                     |
-| 236 | Synthetix                            | snx                     |
-| 237 | ThunderCore                          | tt                      |
-| 238 | MovieBloc                            | mbl                     |
-| 239 | Reserve Rights                       | rsr                     |
-| 240 | STP                                  | stpt                    |
-| 241 | Harmony                              | one\_harmony            |
-| 242 | ARPA                                 | arpa                    |
-| 243 | Phoenix                              | phb                     |
-| 244 | WINkLink                             | win\_wink               |
-| 245 | Binance USD                          | busd                    |
-| 246 | Dai                                  | dai                     |
-| 247 | Tether Gold                          | xaut                    |
-| 248 | PAX Gold                             | paxg                    |
-| 249 | OKB                                  | okb                     |
-| 250 | Hedera                               | hbar                    |
-| 251 | Nervos Network                       | ckb                     |
-| 252 | Solar                                | sxp                     |
-| 253 | Terra Classic                        | luna                    |
-| 254 | Chiliz                               | chz                     |
-| 255 | Orchid                               | oxt                     |
-| 256 | LCX                                  | lcx                     |
-| 257 | Nahmii                               | nii                     |
-| 258 | USDK                                 | usdk                    |
-| 259 | WazirX                               | wrx                     |
-| 260 | Band Protocol                        | band                    |
-| 261 | Kusama                               | ksm                     |
-| 262 | Hive                                 | hive                    |
-| 263 | Energi                               | nrg                     |
-| 264 | GateToken                            | gt                      |
-| 265 | Kava                                 | kava                    |
-| 266 | MX TOKEN                             | mx                      |
-| 267 | Arweave                              | ar                      |
-| 268 | Compound                             | comp                    |
-| 269 | NuCypher                             | nu                      |
-| 270 | Keep Network                         | keep                    |
-| 271 | Origin Protocol                      | ogn                     |
-| 272 | Render Token                         | rndr                    |
-| 273 | Cocos-BCX                            | cocos                   |
-| 274 | DREP                                 | drep                    |
-| 275 | LTO Network                          | lto                     |
-| 276 | COTI                                 | coti                    |
-| 277 | Solana                               | sol                     |
-| 278 | Cartesi                              | ctsi                    |
-| 279 | Chromia                              | chr                     |
-| 280 | StormX                               | stmx                    |
-| 281 | BIDR                                 | bidr                    |
-| 282 | Polkadot                             | dot                     |
-| 283 | Celo                                 | celo                    |
-| 284 | Filecoin                             | fil                     |
-| 285 | sUSD                                 | susd                    |
-| 286 | Travala.com                          | ava                     |
-| 287 | Wirex Token                          | wxt                     |
-| 288 | Syntropy                             | noia                    |
-| 289 | Akropolis                            | akro                    |
-| 290 | Ampleforth                           | ampl                    |
-| 291 | SENSO                                | senso                   |
-| 292 | DigitalBits                          | xdb                     |
-| 293 | Sylo                                 | sylo                    |
-| 294 | Neutrino USD                         | usdn                    |
-| 295 | KardiaChain                          | kai                     |
-| 296 | Energy Web Token                     | ewt                     |
-| 297 | yearn.finance                        | yfi                     |
-| 298 | UMA                                  | uma                     |
-| 299 | renBTC                               | renbtc                  |
-| 300 | Avalanche                            | avax                    |
-| 301 | BOSagora                             | boa                     |
-| 302 | JUST                                 | jst                     |
-| 303 | Bifrost                              | bfc                     |
-| 304 | DIA                                  | dia                     |
-| 305 | ForTube                              | for                     |
-| 306 | Green Satoshi Token                  | gst                     |
-| 307 | Helium                               | hnt                     |
-| 308 | IDEX                                 | idex                    |
-| 309 | Kadena                               | kda                     |
-| 310 | Klaytn                               | klay                    |
-| 311 | mStable Governance Token: Meta (MTA) | mta                     |
-| 312 | NEST Protocol                        | nest                    |
-| 313 | MANTRA                               | om                      |
-| 314 | Orion Protocol                       | orn                     |
-| 315 | Prom                                 | prom                    |
-| 316 | PARSIQ                               | prq                     |
-| 317 | Rocket Pool                          | rpl                     |
-| 318 | Reserve                              | rsv                     |
-| 319 | THORChain                            | rune                    |
-| 320 | ShareToken                           | shr                     |
-| 321 | Serum                                | srm                     |
-| 322 | SUKU                                 | suku                    |
-| 323 | tBTC                                 | tbtc                    |
-| 324 | Tellor                               | trb                     |
-| 325 | BiLira                               | tryb                    |
-| 326 | Curve DAO Token                      | crv                     |
-| 327 | Velas                                | vlx                     |
-| 328 | Wrapped NXM                          | wnxm                    |
-| 329 | DFI.Money                            | yfii                    |
-| 330 | Balancer                             | bal                     |
-| 331 | SushiSwap                            | sushi                   |
-| 332 | Swerve                               | swrv                    |
-| 333 | Cream Finance                        | cream                   |
-| 334 | Sun Token                            | sun                     |
-| 335 | MultiversX                           | egld                    |
-| 336 | Uniswap                              | uni                     |
-| 337 | Alchemy Pay                          | ach                     |
-| 338 | Aleph.im                             | aleph                   |
-| 339 | Bella Protocol                       | bel                     |
-| 340 | Frontier                             | front                   |
-| 341 | Insight Protocol                     | inx                     |
-| 342 | Klever                               | klv                     |
-| 343 | TrustSwap                            | swap                    |
-| 344 | Toncoin                              | ton                     |
-| 345 | TerraUSD                             | ust                     |
-| 346 | Handshake                            | hns                     |
-| 347 | Ultra                                | uos                     |
-| 348 | BakeryToken                          | bake                    |
-| 349 | Aavegotchi                           | ghst                    |
-| 350 | Rarible                              | rari                    |
-| 351 | Velo                                 | velo                    |
-| 352 | Aave                                 | aave                    |
-| 353 | PancakeSwap                          | cake                    |
-| 354 | DODO                                 | dodo                    |
-| 355 | Harvest Finance                      | farm                    |
-| 356 | Polkastarter                         | pols                    |
-| 357 | Secret                               | scrt                    |
-| 358 | Venus                                | xvs                     |
-| 359 | Core                                 | core                    |
-| 360 | Dego Finance                         | dego                    |
-| 361 | Ergo                                 | erg                     |
-| 362 | MATH                                 | math                    |
-| 363 | NEAR Protocol                        | near                    |
-| 364 | DeFiChain                            | dfi                     |
-| 365 | Audius                               | audio                   |
-| 366 | Axie Infinity                        | axs                     |
-| 367 | Conflux                              | cfx                     |
-| 368 | Shentu                               | ctk                     |
-| 369 | Celo Dollar                          | cusd                    |
-| 370 | Injective                            | inj                     |
-| 371 | Keep3rV1                             | kp3r                    |
-| 372 | Oasys                                | oas                     |
-| 373 | Smooth Love Potion                   | slp                     |
-| 374 | StaFi                                | fis                     |
-| 375 | Flamingo                             | flm                     |
-| 376 | Oasis Network                        | rose                    |
-| 377 | TrueFi                               | tru                     |
-| 378 | Unifi Protocol DAO                   | unfi                    |
-| 379 | Golem                                | glm                     |
-| 380 | Hegic                                | hegic                   |
-| 381 | API3                                 | api3                    |
-| 382 | Badger DAO                           | badger                  |
-| 383 | Firo                                 | firo                    |
-| 384 | MobileCoin                           | mob                     |
-| 385 | Synapse                              | syn                     |
-| 386 | Virtua                               | tvk                     |
-| 387 | The Graph                            | grt                     |
-| 388 | 1inch                                | 1inch                   |
-| 389 | Alpha Venture DAO                    | alpha                   |
-| 390 | OctoFi                               | octo                    |
-| 391 | saffron.finance                      | sfi                     |
-| 392 | Perpetual Protocol                   | perp                    |
-| 393 | AS Roma Fan Token                    | asr                     |
-| 394 | BarnBridge                           | bond                    |
-| 395 | CUDOS                                | cudos                   |
-| 396 | DeXe                                 | dexe                    |
-| 397 | Bonfida                              | fida                    |
-| 398 | Frax                                 | frax                    |
-| 399 | Frax Share                           | fxs                     |
-| 400 | Juventus Fan Token                   | juv                     |
-| 401 | Linear                               | lina                    |
-| 402 | Mdex                                 | mdx                     |
-| 403 | Mirror Protocol                      | mir                     |
-| 404 | OG Fan Token                         | og                      |
-| 405 | Marlin                               | pond                    |
-| 406 | Paris Saint-Germain Fan Token        | psg                     |
-| 407 | REVV                                 | revv                    |
-| 408 | Rook                                 | rook                    |
-| 409 | Trust Wallet Token                   | twt                     |
-| 410 | ZKSpace                              | zks                     |
-| 411 | Flow                                 | flow                    |
-| 412 | Stratis                              | strax                   |
-| 413 | Reef                                 | reef                    |
-| 414 | Bitcoin Standard Hashrate Token      | btcst                   |
-| 415 | The Sandbox                          | sand                    |
-| 416 | SafePal                              | sfp                     |
-| 417 | SKALE                                | skl                     |
-| 418 | Phala Network                        | pha                     |
-| 419 | WOO Network                          | woo                     |
-| 420 | Raydium                              | ray                     |
-| 421 | AC Milan Fan Token                   | acm                     |
-| 422 | Akash Network                        | akt                     |
-| 423 | Alchemix                             | alcx                    |
-| 424 | DAO Maker                            | dao                     |
-| 425 | DerivaDAO                            | ddx                     |
-| 426 | Dypius                               | dyp                     |
-| 427 | Inverse Finance                      | inv                     |
-| 428 | MAPS                                 | maps                    |
-| 429 | Mask Network                         | mask                    |
-| 430 | NFTX                                 | nftx                    |
-| 431 | Prosper                              | pros                    |
-| 432 | BENQI                                | qi                      |
-| 433 | Radicle                              | rad                     |
-| 434 | Rally                                | rly                     |
-| 435 | SuperVerse                           | super                   |
-| 436 | Tornado Cash                         | torn                    |
-| 437 | AIOZ Network                         | aioz                    |
-| 438 | Alpaca Finance                       | alpaca                  |
-| 439 | Anchor Protocol                      | anc                     |
-| 440 | Boson Protocol                       | boson                   |
-| 441 | Convergence                          | conv                    |
-| 442 | Fei USD                              | fei                     |
-| 443 | Fire Protocol                        | fire                    |
-| 444 | Flux                                 | flux                    |
-| 445 | Franklin                             | fly                     |
-| 446 | Galxe                                | gal                     |
-| 447 | Illuvium                             | ilv                     |
-| 448 | JasmyCoin                            | jasmy                   |
-| 449 | Polkacity                            | polc                    |
-| 450 | Rai Reflex Index                     | rai                     |
-| 451 | Strike                               | strk                    |
-| 452 | Alien Worlds                         | tlm                     |
-| 453 | Tribe                                | tribe                   |
-| 454 | Symbol                               | xym                     |
-| 455 | Internet Computer                    | icp                     |
-| 456 | Shiba Inu                            | shib                    |
-| 457 | FC Barcelona Fan Token               | bar                     |
-| 458 | SpookySwap                           | boo                     |
-| 459 | Somnium Space Cubes                  | cube                    |
-| 460 | Dogelon Mars                         | elon                    |
-| 461 | Ampleforth Governance Token          | forth                   |
-| 462 | Gitcoin                              | gtc                     |
-| 463 | Kishu Inu                            | kishu                   |
-| 464 | Liquity                              | lqty                    |
-| 465 | Media Network                        | media                   |
-| 466 | APENFT                               | nft                     |
-| 467 | QuickSwap                            | quick                   |
-| 468 | Songbird                             | sgb                     |
-| 469 | Step Finance                         | step                    |
-| 470 | Persistence                          | xprt                    |
-| 471 | Liquity USD                          | lusd                    |
-| 472 | Lido DAO                             | ldo                     |
-| 473 | Baby Doge Coin                       | babydoge                |
-| 474 | BitDAO                               | bit                     |
-| 475 | Coin98                               | c98                     |
-| 476 | Celo Euro                            | ceur                    |
-| 477 | Tranchess                            | chess                   |
-| 478 | CLV                                  | clv                     |
-| 479 | Covalent                             | cqt                     |
-| 480 | Convex Finance                       | cvx                     |
-| 481 | Dvision Network                      | dvi                     |
-| 482 | Gala                                 | gala                    |
-| 483 | Goldfinch                            | gfi                     |
-| 484 | Metahero                             | hero                    |
-| 485 | Karura                               | kar                     |
-| 486 | MOBOX                                | mbox                    |
-| 487 | Moonriver                            | movr                    |
-| 488 | PlayDapp                             | pla                     |
-| 489 | Qredo                                | qrdo                    |
-| 490 | RadioCaca                            | raca                    |
-| 491 | SuperRare                            | rare                    |
-| 492 | Saitama                              | saitama                 |
-| 493 | Shiden Network                       | sdn                     |
-| 494 | SOMESING                             | ssx                     |
-| 495 | StarLink                             | starl                   |
-| 496 | Wrapped NCG                          | wncg                    |
-| 497 | XCAD Network                         | xcad                    |
-| 498 | eCash                                | xec                     |
-| 499 | Yield Guild Games                    | ygg                     |
-| 500 | Pax Dollar                           | usdp                    |
-| 501 | My Neighbor Alice                    | alice                   |
-| 502 | ASD                                  | asd                     |
-| 503 | XDC Network                          | xdc                     |
-| 504 | Mina                                 | mina                    |
-| 505 | Adventure Gold                       | agld                    |
-| 506 | Star Atlas DAO                       | polis                   |
-| 507 | dYdX                                 | dydx                    |
-| 508 | Spell Token                          | spell                   |
-| 509 | Angle                                | angle                   |
-| 510 | Ariva                                | arv                     |
-| 511 | Assemble Protocol                    | asm                     |
-| 512 | AstroSwap                            | astro                   |
-| 513 | Star Atlas                           | atlas                   |
-| 514 | Beta Finance                         | beta                    |
-| 515 | BinaryX                              | bnx                     |
-| 516 | Braintrust                           | btrst                   |
-| 517 | Manchester City Fan Token            | city                    |
-| 518 | Clearpool                            | cpool                   |
-| 519 | FLOKI                                | floki                   |
-| 520 | Gods Unchained                       | gods                    |
-| 521 | Highstreet                           | high                    |
-| 522 | JOE                                  | joe                     |
-| 523 | S.S. Lazio Fan Token                 | lazio                   |
-| 524 | Moss Carbon Credit                   | mco2                    |
-| 525 | Marinade Staked SOL                  | msol                    |
-| 526 | Olympus                              | ohm                     |
-| 527 | Orca                                 | orca                    |
-| 528 | PackagePortal                        | port                    |
-| 529 | Ribbon Finance                       | rbn                     |
-| 530 | Samoyedcoin                          | samo                    |
-| 531 | Saber                                | sbr                     |
-| 532 | ssv.network                          | ssv                     |
-| 533 | Strips Finance                       | strp                    |
-| 534 | Tokemak                              | toke                    |
-| 535 | VEMP                                 | vemp                    |
-| 536 | Wrapped Centrifuge                   | wcfg                    |
-| 537 | Mines of Dalarnia                    | dar                     |
-| 538 | Ethereum Name Service                | ens                     |
-| 539 | GM Wagmi                             | gm                      |
-| 540 | GYEN                                 | gyen                    |
-| 541 | ImmutableX                           | imx                     |
-| 542 | KOK                                  | kok                     |
-| 543 | Magic Internet Money                 | mim                     |
-| 544 | FC Porto Fan Token                   | porto                   |
-| 545 | ParaSwap                             | psp                     |
-| 546 | Aurora                               | aurora                  |
-| 547 | Binance Beacon ETH                   | beth                    |
-| 548 | Boba Network                         | boba                    |
-| 549 | Everscale                            | ever                    |
-| 550 | Merit Circle                         | mc                      |
-| 551 | Maple                                | mpl                     |
-| 552 | ONSTON                               | onston                  |
-| 553 | ConstitutionDAO                      | people                  |
-| 554 | Santos FC Fan Token                  | santos                  |
-| 555 | BitTorrent (new)                     | bttc                    |
-| 556 | Vulcan Forged PYR                    | pyr                     |
-| 557 | Tether EURt                          | eurt                    |
-| 558 | Casper                               | cspr                    |
-| 559 | Automata Network                     | ata                     |
-| 560 | ApeCoin                              | ape                     |
-| 561 | LooksRare                            | looks                   |
-| 562 | Moonbeam                             | glmr                    |
-| 563 | Tulip Protocol                       | tulip                   |
-| 564 | Osmosis                              | osmo                    |
-| 565 | STEPN                                | gmt                     |
-| 566 | Biconomy                             | bico                    |
-| 567 | Alpine F1 Team Fan Token             | alpine                  |
-| 568 | Astar                                | astr                    |
-| 569 | Biswap                               | bsw                     |
-| 570 | PowerPool                            | cvp                     |
-| 571 | Gari Network                         | gari                    |
-| 572 | Index Cooperative                    | index                   |
-| 573 | Multichain                           | multi                   |
-| 574 | Optimism                             | op                      |
-| 575 | REI Network                          | rei                     |
-| 576 | SHPING                               | shping                  |
-| 577 | Stargate Finance                     | stg                     |
-| 578 | Voxies                               | voxel                   |
-| 579 | Zebec Protocol                       | zbc                     |
-| 580 | Acala Token                          | aca                     |
-| 581 | Bounce Governance Token              | auction                 |
-| 582 | Eden                                 | eden                    |
-| 583 | Ellipsis                             | epx                     |
-| 584 | Shapeshift FOX Token                 | fox                     |
-| 585 | League of Kingdoms Arena             | loka                    |
-| 586 | MetisDAO                             | metis                   |
-| 587 | Ooki Protocol                        | ooki                    |
-| 588 | Pundi X                              | pundix                  |
-| 589 | Threshold                            | t                       |
-| 590 | Voyager Token                        | vgx                     |
-| 591 | USDD                                 | usdd                    |
-| 592 | Chia                                 | xch                     |
-| 593 | Euro Coin                            | euroc                   |
-| 594 | Beefy Finance                        | bifi\_beef              |
-| 595 | Staked Ether Lido                    | steth                   |
-| 596 | poundtoken                           | gbpt                    |
-| 597 | Terra 2.0                            | luna2                   |
-| 598 | Nano                                 | xno                     |
-| 599 | Onyxcoin                             | xcn                     |
-| 600 | NYM                                  | nym                     |
-| 601 | Efinity Token                        | efi                     |
-| 602 | WEMIX                                | wemix                   |
-| 603 | Step App                             | fitfi                   |
-| 604 | Sweat Economy                        | sweat                   |
-| 605 | FirmaChain                           | fct2                    |
-| 606 | Tokenlon Network Token               | lon                     |
-| 607 | pSTAKE Finance                       | pstake                  |
-| 608 | Vesper                               | vsp                     |
-| 609 | GuildFi                              | gf                      |
-| 610 | LeverFi                              | lever                   |
-| 611 | Euler                                | eul                     |
-| 612 | EthereumPoW                          | ethw                    |
-| 613 | Crabada                              | cra                     |
-| 614 | Reflexer Ungovernance Token          | flx                     |
-| 615 | JUNO                                 | juno                    |
-| 616 | Altered State Token                  | asto                    |
-| 617 | BreederDAO                           | breed                   |
-| 618 | Saddle                               | sdl                     |
-| 619 | Arsenal Fan Token                    | afc                     |
-| 620 | Aptos                                | apt                     |
-| 621 | Axelar                               | axl                     |
-| 622 | Bitcicoin                            | bitci                   |
-| 623 | Cult DAO                             | cult                    |
-| 624 | Forta                                | fort                    |
-| 625 | GMX                                  | gmx                     |
-| 626 | Hashflow                             | hft                     |
-| 627 | Polymesh                             | polyx                   |
-| 628 | Agoric                               | bld                     |
-| 629 | Avocado DAO Token                    | avg                     |
-| 630 | ECOx                                 | ecox                    |
-| 631 | Evmos                                | evmos                   |
-| 632 | PathDAO                              | path                    |
-| 633 | Stader                               | sd                      |
-| 634 | Tribal Token                         | tribl                   |
-| 635 | Bonk                                 | bonk                    |
-| 636 | Hooked Protocol                      | hook                    |
-| 637 | Dogechain                            | dc                      |
-| 638 | Flare                                | flr                     |
-| 639 | Hifi Finance                         | hifi                    |
-| 640 | DeFi Kingdoms                        | jewel                   |
-| 641 | Dopex                                | dpx                     |
-| 642 | MAGIC                                | magic                   |
+| Name                                 | Ticker                  |
+| ------------------------------------ | ----------------------- |
+| Bitcoin                              | btc                     |
+| Bitcoin Cash                         | bch                     |
+| Litecoin                             | ltc                     |
+| Euro                                 | eur                     |
+| XRP                                  | xrp                     |
+| Ethereum                             | eth                     |
+| Ethereum Classic                     | etc                     |
+| British Pound                        | gbp                     |
+| Zcash                                | zec                     |
+| Monero                               | xmr                     |
+| Dash                                 | dash                    |
+| Japanese Yen                         | jpy                     |
+| IOTA                                 | miota                   |
+| EOS                                  | eos                     |
+| OMG Network                          | omg                     |
+| Neo                                  | neo                     |
+| Metaverse ETP                        | etp                     |
+| Qtum                                 | qtum                    |
+| Aventus                              | avt                     |
+| Bitcoin Gold                         | btg                     |
+| Streamr                              | data                    |
+| QASH                                 | qash                    |
+| Status                               | snt                     |
+| Basic Attention Token                | bat                     |
+| Decentraland                         | mana                    |
+| FUNToken                             | fun                     |
+| 0x                                   | zrx                     |
+| Time New Bank                        | tnb                     |
+| TRON                                 | trx                     |
+| iExec RLC                            | rlc                     |
+| Augur                                | rep                     |
+| aelf                                 | elf                     |
+| IOST                                 | iost                    |
+| Request                              | req                     |
+| Loopring                             | lrc                     |
+| WAX                                  | waxp                    |
+| Aragon                               | ant                     |
+| Mithril                              | mith                    |
+| Storj                                | storj                   |
+| Stellar                              | xlm                     |
+| Verge                                | xvg                     |
+| Lympo                                | lym                     |
+| Maker                                | mkr                     |
+| VeChain                              | vet                     |
+| Kyber Network Crystal                | knc                     |
+| Utrust                               | utk                     |
+| Ripio Credit Network                 | rcn\_ripiocreditnetwork |
+| Polymath                             | poly                    |
+| Fusion                               | fsn                     |
+| Nitro Network                        | ncash                   |
+| Cortex                               | ctxc                    |
+| DATA                                 | dta                     |
+| Zilliqa                              | zil                     |
+| Bancor                               | bnt                     |
+| MonaCoin                             | mona                    |
+| NEM                                  | xem                     |
+| BNB                                  | bnb                     |
+| Gas                                  | gas                     |
+| Tether                               | usdt                    |
+| OAX                                  | oax                     |
+| district0x                           | dnt                     |
+| Waltonchain                          | wtc                     |
+| Chainlink                            | link                    |
+| Moeda Loyalty Points                 | mda                     |
+| Metal DAO                            | mtl\_metal              |
+| AirSwap                              | ast                     |
+| Viberate                             | vib                     |
+| Powerledger                          | powr                    |
+| Ark                                  | ark                     |
+| Enjin Coin                           | enj                     |
+| Komodo                               | kmd                     |
+| NULS                                 | nuls                    |
+| AirDAO                               | amb                     |
+| Quantstamp                           | qsp                     |
+| BitShares                            | bts                     |
+| Lisk                                 | lsk                     |
+| Bitcoin Diamond                      | bcd                     |
+| Ambire AdEx                          | adx                     |
+| Cardano                              | ada                     |
+| Waves                                | waves                   |
+| ICON                                 | icx                     |
+| PIVX                                 | pivx                    |
+| OST                                  | ost                     |
+| Civic                                | cvc                     |
+| Steem                                | steem                   |
+| Nano (New)                           | nano                    |
+| Bluzelle                             | blz                     |
+| Aeternity                            | ae                      |
+| Ontology                             | ont                     |
+| Wanchain                             | wan                     |
+| Syscoin                              | sys                     |
+| Ardor                                | ardr                    |
+| Holo                                 | hot\_holo               |
+| Loom Network                         | loom                    |
+| Bytecoin                             | bcn                     |
+| TrueUSD                              | tusd                    |
+| Horizen                              | zen                     |
+| Theta Network                        | theta                   |
+| IoTeX                                | iotx                    |
+| QuarkChain                           | qkc                     |
+| SelfKey                              | key                     |
+| Siacoin                              | sc                      |
+| Nebulas                              | nas                     |
+| Dent                                 | dent                    |
+| Dock                                 | dock                    |
+| Gnosis                               | gno                     |
+| Canadian Dollar                      | cad                     |
+| Enzyme                               | mln                     |
+| Dogecoin                             | doge                    |
+| Bytom                                | btm                     |
+| BitKan                               | kan                     |
+| Arcblock                             | abt                     |
+| Auto                                 | auto                    |
+| CyberVein                            | cvt                     |
+| Decred                               | dcr                     |
+| DigiByte                             | dgb                     |
+| Cred                                 | lba                     |
+| Measurable Data Token                | mdt                     |
+| TenX                                 | pay                     |
+| Revain                               | rev                     |
+| Ren                                  | ren                     |
+| SwftCoin                             | swftc                   |
+| Nxt                                  | nxt                     |
+| VITE                                 | vite                    |
+| Odyssey                              | ocn                     |
+| Huobi Token                          | ht                      |
+| Elastos                              | ela                     |
+| WaykiChain                           | wicc                    |
+| SIRIN LABS Token                     | srn                     |
+| DeepBrain Chain                      | dbc                     |
+| Propy                                | pro                     |
+| Bibox Token                          | bix                     |
+| HyperCash                            | hc\_hypercash           |
+| MaidSafeCoin                         | maid                    |
+| Amp                                  | amp                     |
+| Chrono.tech                          | time                    |
+| Pluton                               | plu                     |
+| Tezos                                | xtz                     |
+| Stacks                               | stx                     |
+| Ignis                                | ignis                   |
+| Atletico De Madrid Fan Token         | atm                     |
+| PolySwarm                            | nct                     |
+| Kin                                  | kin                     |
+| IndiGG                               | indi                    |
+| SwissBorg                            | chsb                    |
+| OriginTrail                          | trac                    |
+| Nexo                                 | nexo                    |
+| Telcoin                              | tel                     |
+| Berry                                | berry                   |
+| Crypterium                           | crpt                    |
+| IHT Real Estate Protocol             | iht                     |
+| VeThor Token                         | vtho                    |
+| DxChain Token                        | dx                      |
+| CEEK VR                              | ceek                    |
+| Oxygen                               | oxy                     |
+| UNUS SED LEO                         | leo                     |
+| Vertcoin                             | vtc                     |
+| Game.com                             | gtc\_gamecom            |
+| MediBloc                             | med                     |
+| Creditcoin                           | ctc                     |
+| NKN                                  | nkn                     |
+| Uquid Coin                           | uqc                     |
+| Korean won                           | krw                     |
+| IQ                                   | iq                      |
+| Ravencoin                            | rvn                     |
+| LBRY Credits                         | lbc                     |
+| ReddCoin                             | rdd                     |
+| Numeraire                            | nmr                     |
+| Russian Ruble                        | rub                     |
+| Ukrainian Hryvnia                    | uah                     |
+| Turkish Lira                         | try                     |
+| Aurora Chain                         | aoa                     |
+| Australian Dollar                    | aud                     |
+| Brazilian Real                       | brl                     |
+| Swiss Franc                          | chf                     |
+| Ethernity                            | ern                     |
+| Hong Kong Dollar                     | hkd                     |
+| Singapore Dollar                     | sgd                     |
+| OpenDAO                              | sos                     |
+| Dragonchain                          | drgn                    |
+| Kleros                               | pnk                     |
+| USD Coin                             | usdc                    |
+| KuCoin Token                         | kcs                     |
+| Paxos Standard                       | pax                     |
+| Gemini Dollar                        | gusd                    |
+| Constellation                        | dag                     |
+| Nimiq                                | nim                     |
+| GoChain                              | go                      |
+| Electroneum                          | etn                     |
+| Bitcoin SV                           | bsv                     |
+| Artificial Liquid Intelligence       | ali                     |
+| MXC                                  | mxc                     |
+| TomoChain                            | tomo                    |
+| Livepeer                             | lpt                     |
+| RSK Infrastructure Framework         | rif                     |
+| v.systems                            | vsys                    |
+| Grin                                 | grin                    |
+| Seele                                | seele                   |
+| Lambda                               | lamb                    |
+| Dora Factory                         | dora                    |
+| Beam                                 | beam                    |
+| Unibright                            | ubt                     |
+| FTX Token                            | ftt                     |
+| Kryll                                | krl                     |
+| Fetch.ai                             | fet                     |
+| Ontology Gas                         | ong\_ontologygas        |
+| Ankr                                 | ankr                    |
+| Haven Protocol                       | xhv                     |
+| Quant                                | qnt                     |
+| SOLVE                                | solve                   |
+| Aergo                                | aergo                   |
+| Circuits of Value                    | coval                   |
+| Cronos                               | cro                     |
+| Cosmos                               | atom                    |
+| Orbs                                 | orbs                    |
+| Theta Fuel                           | tfuel                   |
+| BORA                                 | bora                    |
+| Function X                           | fx                      |
+| IRISnet                              | iris                    |
+| Celer Network                        | celr                    |
+| ABBC Coin                            | abbc                    |
+| Verasity                             | vra                     |
+| Wrapped Bitcoin                      | wbtc                    |
+| Polygon                              | matic                   |
+| Litentry                             | lit                     |
+| Fantom                               | ftm                     |
+| Algorand                             | algo                    |
+| Dusk Network                         | dusk                    |
+| XYO                                  | xyo                     |
+| Ocean Protocol                       | ocean                   |
+| Celsius                              | cel                     |
+| Synthetix                            | snx                     |
+| ThunderCore                          | tt                      |
+| MovieBloc                            | mbl                     |
+| Reserve Rights                       | rsr                     |
+| STP                                  | stpt                    |
+| Harmony                              | one\_harmony            |
+| ARPA                                 | arpa                    |
+| Phoenix                              | phb                     |
+| WINkLink                             | win\_wink               |
+| Binance USD                          | busd                    |
+| Dai                                  | dai                     |
+| Tether Gold                          | xaut                    |
+| PAX Gold                             | paxg                    |
+| OKB                                  | okb                     |
+| Hedera                               | hbar                    |
+| Nervos Network                       | ckb                     |
+| Solar                                | sxp                     |
+| Terra Classic                        | luna                    |
+| Chiliz                               | chz                     |
+| Orchid                               | oxt                     |
+| LCX                                  | lcx                     |
+| Nahmii                               | nii                     |
+| WazirX                               | wrx                     |
+| Band Protocol                        | band                    |
+| Kusama                               | ksm                     |
+| Hive                                 | hive                    |
+| Energi                               | nrg                     |
+| GateToken                            | gt                      |
+| Kava                                 | kava                    |
+| MX TOKEN                             | mx                      |
+| Arweave                              | ar                      |
+| Compound                             | comp                    |
+| Keep Network                         | keep                    |
+| Origin Protocol                      | ogn                     |
+| Render Token                         | rndr                    |
+| Cocos-BCX                            | cocos                   |
+| DREP                                 | drep                    |
+| LTO Network                          | lto                     |
+| COTI                                 | coti                    |
+| Solana                               | sol                     |
+| Cartesi                              | ctsi                    |
+| Chromia                              | chr                     |
+| StormX                               | stmx                    |
+| BIDR                                 | bidr                    |
+| Polkadot                             | dot                     |
+| Celo                                 | celo                    |
+| Filecoin                             | fil                     |
+| sUSD                                 | susd                    |
+| Travala.com                          | ava                     |
+| Wirex Token                          | wxt                     |
+| Syntropy                             | noia                    |
+| Akropolis                            | akro                    |
+| Ampleforth                           | ampl                    |
+| SENSO                                | senso                   |
+| DigitalBits                          | xdb                     |
+| Sylo                                 | sylo                    |
+| KardiaChain                          | kai                     |
+| Energy Web Token                     | ewt                     |
+| yearn.finance                        | yfi                     |
+| UMA                                  | uma                     |
+| Avalanche                            | avax                    |
+| BOSagora                             | boa                     |
+| JUST                                 | jst                     |
+| Bifrost                              | bfc                     |
+| DEAPcoin                             | dep                     |
+| DIA                                  | dia                     |
+| ForTube                              | for                     |
+| Green Satoshi Token                  | gst                     |
+| Helium                               | hnt                     |
+| IDEX                                 | idex                    |
+| Kadena                               | kda                     |
+| Klaytn                               | klay                    |
+| mStable Governance Token: Meta (MTA) | mta                     |
+| NEST Protocol                        | nest                    |
+| MANTRA                               | om                      |
+| Orion Protocol                       | orn                     |
+| Prom                                 | prom                    |
+| PARSIQ                               | prq                     |
+| Rocket Pool                          | rpl                     |
+| Reserve                              | rsv                     |
+| THORChain                            | rune                    |
+| ShareToken                           | shr                     |
+| Serum                                | srm                     |
+| SUKU                                 | suku                    |
+| tBTC                                 | tbtc                    |
+| Tellor                               | trb                     |
+| BiLira                               | tryb                    |
+| Curve DAO Token                      | crv                     |
+| Velas                                | vlx                     |
+| Wrapped NXM                          | wnxm                    |
+| DFI.Money                            | yfii                    |
+| Balancer                             | bal                     |
+| SushiSwap                            | sushi                   |
+| Swerve                               | swrv                    |
+| Cream Finance                        | cream                   |
+| Sun Token                            | sun                     |
+| MultiversX                           | egld                    |
+| Uniswap                              | uni                     |
+| Alchemy Pay                          | ach                     |
+| Aleph.im                             | aleph                   |
+| Bella Protocol                       | bel                     |
+| Frontier                             | front                   |
+| Klever                               | klv                     |
+| TrustSwap                            | swap                    |
+| Toncoin                              | ton                     |
+| TerraUSD                             | ust                     |
+| Handshake                            | hns                     |
+| Ultra                                | uos                     |
+| BakeryToken                          | bake                    |
+| Aavegotchi                           | ghst                    |
+| Rarible                              | rari                    |
+| Velo                                 | velo                    |
+| Aave                                 | aave                    |
+| PancakeSwap                          | cake                    |
+| DODO                                 | dodo                    |
+| Harvest Finance                      | farm                    |
+| Polkastarter                         | pols                    |
+| Secret                               | scrt                    |
+| Venus                                | xvs                     |
+| Core                                 | core                    |
+| Dego Finance                         | dego                    |
+| Ergo                                 | erg                     |
+| MATH                                 | math                    |
+| NEAR Protocol                        | near                    |
+| DeFiChain                            | dfi                     |
+| Audius                               | audio                   |
+| Axie Infinity                        | axs                     |
+| Conflux                              | cfx                     |
+| Shentu                               | ctk                     |
+| Celo Dollar                          | cusd                    |
+| Injective                            | inj                     |
+| Keep3rV1                             | kp3r                    |
+| Oasys                                | oas                     |
+| Smooth Love Potion                   | slp                     |
+| StaFi                                | fis                     |
+| Flamingo                             | flm                     |
+| Oasis Network                        | rose                    |
+| TrueFi                               | tru                     |
+| Unifi Protocol DAO                   | unfi                    |
+| Golem                                | glm                     |
+| Hegic                                | hegic                   |
+| API3                                 | api3                    |
+| Badger DAO                           | badger                  |
+| Firo                                 | firo                    |
+| MobileCoin                           | mob                     |
+| Synapse                              | syn                     |
+| Virtua                               | tvk                     |
+| The Graph                            | grt                     |
+| 1inch                                | 1inch                   |
+| Alpha Venture DAO                    | alpha                   |
+| OctoFi                               | octo                    |
+| saffron.finance                      | sfi                     |
+| Perpetual Protocol                   | perp                    |
+| AS Roma Fan Token                    | asr                     |
+| BarnBridge                           | bond                    |
+| CUDOS                                | cudos                   |
+| DeXe                                 | dexe                    |
+| Bonfida                              | fida                    |
+| Frax                                 | frax                    |
+| Frax Share                           | fxs                     |
+| Juventus Fan Token                   | juv                     |
+| Linear                               | lina                    |
+| Mdex                                 | mdx                     |
+| Mirror Protocol                      | mir                     |
+| OG Fan Token                         | og                      |
+| Marlin                               | pond                    |
+| Paris Saint-Germain Fan Token        | psg                     |
+| REVV                                 | revv                    |
+| Rook                                 | rook                    |
+| Trust Wallet Token                   | twt                     |
+| ZKSpace                              | zks                     |
+| Flow                                 | flow                    |
+| Stratis                              | strax                   |
+| Reef                                 | reef                    |
+| Bitcoin Standard Hashrate Token      | btcst                   |
+| The Sandbox                          | sand                    |
+| SafePal                              | sfp                     |
+| SKALE                                | skl                     |
+| Phala Network                        | pha                     |
+| WOO Network                          | woo                     |
+| Raydium                              | ray                     |
+| AC Milan Fan Token                   | acm                     |
+| Akash Network                        | akt                     |
+| Alchemix                             | alcx                    |
+| DAO Maker                            | dao                     |
+| DerivaDAO                            | ddx                     |
+| Dypius                               | dyp                     |
+| Inverse Finance                      | inv                     |
+| MAPS                                 | maps                    |
+| Mask Network                         | mask                    |
+| NFTX                                 | nftx                    |
+| Prosper                              | pros                    |
+| BENQI                                | qi                      |
+| Radicle                              | rad                     |
+| Rally                                | rly                     |
+| SuperVerse                           | super                   |
+| Tornado Cash                         | torn                    |
+| AIOZ Network                         | aioz                    |
+| Alpaca Finance                       | alpaca                  |
+| Anchor Protocol                      | anc                     |
+| Boson Protocol                       | boson                   |
+| Convergence                          | conv                    |
+| Fei USD                              | fei                     |
+| Fire Protocol                        | fire                    |
+| Flux                                 | flux                    |
+| Franklin                             | fly                     |
+| Galxe                                | gal                     |
+| Illuvium                             | ilv                     |
+| JasmyCoin                            | jasmy                   |
+| Polkacity                            | polc                    |
+| Rai Reflex Index                     | rai                     |
+| Strike                               | strk                    |
+| Alien Worlds                         | tlm                     |
+| Tribe                                | tribe                   |
+| Symbol                               | xym                     |
+| Internet Computer                    | icp                     |
+| Shiba Inu                            | shib                    |
+| FC Barcelona Fan Token               | bar                     |
+| SpookySwap                           | boo                     |
+| Somnium Space Cubes                  | cube                    |
+| Dogelon Mars                         | elon                    |
+| Ampleforth Governance Token          | forth                   |
+| Gitcoin                              | gtc                     |
+| Hot Cross                            | hotcross                |
+| Kishu Inu                            | kishu                   |
+| Liquity                              | lqty                    |
+| Media Network                        | media                   |
+| APENFT                               | nft                     |
+| QuickSwap                            | quick                   |
+| Songbird                             | sgb                     |
+| Step Finance                         | step                    |
+| Telos                                | tlos                    |
+| Persistence                          | xprt                    |
+| Liquity USD                          | lusd                    |
+| Lido DAO                             | ldo                     |
+| Baby Doge Coin                       | babydoge                |
+| BitDAO                               | bit                     |
+| Coin98                               | c98                     |
+| Celo Euro                            | ceur                    |
+| Centrifuge                           | cfg                     |
+| Tranchess                            | chess                   |
+| CLV                                  | clv                     |
+| Covalent                             | cqt                     |
+| Convex Finance                       | cvx                     |
+| Dvision Network                      | dvi                     |
+| Gala                                 | gala                    |
+| Goldfinch                            | gfi                     |
+| Metahero                             | hero                    |
+| Karura                               | kar                     |
+| Lithium                              | lith                    |
+| MOBOX                                | mbox                    |
+| Moonriver                            | movr                    |
+| PlayDapp                             | pla                     |
+| Qredo                                | qrdo                    |
+| RadioCaca                            | raca                    |
+| SuperRare                            | rare                    |
+| Saitama                              | saitama                 |
+| Shiden Network                       | sdn                     |
+| Seedify.fund                         | sfund                   |
+| SOMESING                             | ssx                     |
+| StarLink                             | starl                   |
+| Wrapped NCG                          | wncg                    |
+| XCAD Network                         | xcad                    |
+| eCash                                | xec                     |
+| Yield Guild Games                    | ygg                     |
+| Pax Dollar                           | usdp                    |
+| My Neighbor Alice                    | alice                   |
+| ASD                                  | asd                     |
+| XDC Network                          | xdc                     |
+| Mina                                 | mina                    |
+| Adventure Gold                       | agld                    |
+| Star Atlas DAO                       | polis                   |
+| dYdX                                 | dydx                    |
+| Spell Token                          | spell                   |
+| Angle                                | angle                   |
+| Ariva                                | arv                     |
+| Assemble Protocol                    | asm                     |
+| AstroSwap                            | astro                   |
+| Star Atlas                           | atlas                   |
+| Beta Finance                         | beta                    |
+| BinaryX                              | bnx                     |
+| Braintrust                           | btrst                   |
+| Manchester City Fan Token            | city                    |
+| Clearpool                            | cpool                   |
+| DOSE                                 | dose                    |
+| FLOKI                                | floki                   |
+| Gods Unchained                       | gods                    |
+| Highstreet                           | high                    |
+| JOE                                  | joe                     |
+| S.S. Lazio Fan Token                 | lazio                   |
+| Moss Carbon Credit                   | mco2                    |
+| Marinade Staked SOL                  | msol                    |
+| Olympus                              | ohm                     |
+| Orca                                 | orca                    |
+| PackagePortal                        | port                    |
+| Ribbon Finance                       | rbn                     |
+| Samoyedcoin                          | samo                    |
+| Saber                                | sbr                     |
+| ssv.network                          | ssv                     |
+| Strips Finance                       | strp                    |
+| Tokemak                              | toke                    |
+| VEMP                                 | vemp                    |
+| Wrapped Centrifuge                   | wcfg                    |
+| Mines of Dalarnia                    | dar                     |
+| Ethereum Name Service                | ens                     |
+| GM Wagmi                             | gm                      |
+| GYEN                                 | gyen                    |
+| Immutable                            | imx                     |
+| KOK                                  | kok                     |
+| Magic Internet Money                 | mim                     |
+| FC Porto Fan Token                   | porto                   |
+| ParaSwap                             | psp                     |
+| Aurora                               | aurora                  |
+| Binance Beacon ETH                   | beth                    |
+| Boba Network                         | boba                    |
+| Everscale                            | ever                    |
+| Merit Circle                         | mc                      |
+| Maple                                | mpl                     |
+| Numbers Protocol                     | num                     |
+| ONSTON                               | onston                  |
+| ConstitutionDAO                      | people                  |
+| Santos FC Fan Token                  | santos                  |
+| Symbiosis                            | sis                     |
+| BitTorrent (new)                     | bttc                    |
+| Vulcan Forged PYR                    | pyr                     |
+| Tether EURt                          | eurt                    |
+| Casper                               | cspr                    |
+| Automata Network                     | ata                     |
+| ApeCoin                              | ape                     |
+| LooksRare                            | looks                   |
+| Moonbeam                             | glmr                    |
+| Tulip Protocol                       | tulip                   |
+| Osmosis                              | osmo                    |
+| STEPN                                | gmt                     |
+| Biconomy                             | bico                    |
+| Alpine F1 Team Fan Token             | alpine                  |
+| Astar                                | astr                    |
+| Biswap                               | bsw                     |
+| PowerPool                            | cvp                     |
+| Gari Network                         | gari                    |
+| Index Cooperative                    | index                   |
+| Multichain                           | multi                   |
+| Optimism                             | op                      |
+| REI Network                          | rei                     |
+| SHPING                               | shping                  |
+| Stargate Finance                     | stg                     |
+| Voxies                               | voxel                   |
+| Zebec Protocol                       | zbc                     |
+| Acala Token                          | aca                     |
+| Bounce Token                         | auction                 |
+| Eden                                 | eden                    |
+| Ellipsis                             | epx                     |
+| Shapeshift FOX Token                 | fox                     |
+| Geojam Token                         | jam\_geojam             |
+| League of Kingdoms Arena             | loka                    |
+| MetisDAO                             | metis                   |
+| Ooki Protocol                        | ooki                    |
+| Pundi X                              | pundix                  |
+| Threshold                            | t                       |
+| Voyager Token                        | vgx                     |
+| USDD                                 | usdd                    |
+| Chia                                 | xch                     |
+| Euro Coin                            | euroc                   |
+| Beefy Finance                        | bifi\_beef              |
+| Staked Ether Lido                    | steth                   |
+| poundtoken                           | gbpt                    |
+| Terra 2.0                            | luna2                   |
+| Nano                                 | xno                     |
+| Onyxcoin                             | xcn                     |
+| NYM                                  | nym                     |
+| Efinity Token                        | efi                     |
+| WEMIX                                | wemix                   |
+| Step App                             | fitfi                   |
+| Sweat Economy                        | sweat                   |
+| FirmaChain                           | fct2                    |
+| Tokenlon Network Token               | lon                     |
+| pSTAKE Finance                       | pstake                  |
+| Vesper                               | vsp                     |
+| GuildFi                              | gf                      |
+| LeverFi                              | lever                   |
+| Euler                                | eul                     |
+| GensoKishi Metaverse                 | mv                      |
+| EthereumPoW                          | ethw                    |
+| Crabada                              | cra                     |
+| Reflexer Ungovernance Token          | flx                     |
+| JUNO                                 | juno                    |
+| Altered State Token                  | asto                    |
+| BreederDAO                           | breed                   |
+| Saddle                               | sdl                     |
+| Arsenal Fan Token                    | afc                     |
+| Aptos                                | apt                     |
+| Axelar                               | axl                     |
+| Bitcicoin                            | bitci                   |
+| Cult DAO                             | cult                    |
+| Forta                                | fort                    |
+| GMX                                  | gmx                     |
+| Hashflow                             | hft                     |
+| Metaplex                             | mplx                    |
+| Polymesh                             | polyx                   |
+| SIDUS                                | sidus                   |
+| Agoric                               | bld                     |
+| Avocado DAO Token                    | avg                     |
+| ECOx                                 | ecox                    |
+| Evmos                                | evmos                   |
+| PathDAO                              | path                    |
+| Stader                               | sd                      |
+| Tribal Token                         | tribl                   |
+| Bonk                                 | bonk                    |
+| Hooked Protocol                      | hook                    |
+| Dogechain                            | dc                      |
+| Flare                                | flr                     |
+| Hifi Finance                         | hifi                    |
+| Access Protocol                      | acs                     |
+| Blur                                 | blur                    |
+| DeFi Kingdoms                        | jewel                   |
+| Dopex                                | dpx                     |
+| MAGIC                                | magic                   |
+| Arbitrum                             | arb                     |
 
 ## Appendix B
 
@@ -1069,26 +1076,27 @@ The following table lists the weights applied to each one-minute time interval d
 
 ## Change Log
 
-1. **Version 1.0 on March 16, 2023**: Initial publication of Coin Metrics Pricing Methodology. Previous versions of this document were contained in our Market Selection Framework, Hourly Reference Rates Methodology, Real-Time Reference Rates Methodology, and Principal Mark Price Methodology. Those four documents are now consolidated into the Coin Metrics Pricing Methodology. The coverage universe is expanded to include the following assets: `bonk`, `cusd`, `cra`, `jewel`, `apt`, `asto`, `aurora`, `avg`, `axl`, `bld`, `breed`, `ceur`, `cpool`, `ecox`, `evmos`, `flx`, `fly`, `fort`, `gf`, `index`, `indi`, `inx`, `multi`, `path`, `rpl`, `rsv`, `sd`, `sdl`, `tbtc`, `tribl`, `gmx`, `bifi_beef`, `dpx`, `boo`, `beth`, `magic`, `juno`, `port`, `phb`, `kishu`, `lever`, `flr`, `hft`, `porto`, `polyx`, `lazio`, `atm`, `acm`, `xcad`, `ssv`, `pros`, `rei`, `qlc`, `dego`, `vite`, `firo`, `iq`, `bar`, `og`, `hifi`, `asr`, `dyp`, `time`, `sylo`, `polc`, `bitci`, `fct2`, `onston`, `vsp`, `afc`, `bsw`, `epx`, `xno`, `dexe`, `core`, `vemp`, `cult`, `saitama`, `ever`, `babydoge`, `dc`, `kar`, `fsn`, `hero`, `oas`, `hook`, `cocos`. The following assets are terminated from the coverage universe: `mft`, `hpt`, `hxro`, `usdn`, `aion`.
-2. **Coin Metrics Real-Time Reference Rates Methodology Version 0.15 on February 9, 2023**: Added a 200 milliseconds publication frequency.
-3. **Coin Metrics Hourly Reference Rates Methodology Version 2.13 and Coin Metrics Real-Time Reference Rates Methodology Version 0.14 on September 21, 2022**: The coverage universe is expanded to include the following assets: `loka`, `mc`, `polis`, `sgb`, `steth`, `frax`, `rai`, `lusd` , `dfi`, `gbpt`, `ooki`, `fis`, `nest`, `drep`, `math`, `aleph`, `media`, `luna2`, `t`, `ethw`, `bttc`, `vra`, `swftc`, `raca`, `pyr`, `mbox`, `sweat`, `fitfi`, `qrdo`, `wemix`, `zbc`, `psg`, `voxel`, `chess`, `prq`, `gari`, `nym`, `arv`, `cudos`, `efi`, `for`, `juv`, `cvp`, `mbl`, `auto`, `eden`, `xcn`, `kai`, `velo`, `akt`, `berry`, `klv`, `kok`, `senso`, `floki`, `sdn`, `alpine`, `step`, `eurt`, `bfc`, `toke`, `shping`, `oxy`, `ssx`, `lit`, `conv`. The publication of reference rates is terminated for the following assets: `ramp`, `grs`, `ppt`, `nav`, `itc`, `qc`, `meta`, `cope`, `zb`. Minor changes to internal audit section.
-4. **Coin Metrics Hourly Reference Rates Methodology Version 2.12 and Coin Metrics Real-Time Reference Rates Methodology Version 0.13 on July 1, 2022**: The coverage universe is expanded to include the following assets: `fei`, `op`, `usdd`, `xch`, `gmt`, `bico`, `ctk`, `flm`, `sfp`, `starl`, `glmr`, `tulip`, `astro`, `sfi`, `gst`, `mob`, `bit`, `vgx`, `auction`, `pundix`, `stg`, `ata`, `bel`, `dar`, `gal`, `astr`, `cqt`, `cspr`, `metis`, `boba`, `twt`, `aca`, `dao`, `xprt`, `cube`. The publication of reference rates is terminated for the following assets: `gxs`, `dgtx`, `wluna`, `dgd`, `foam`, `csp`, `cnn`, `bft`.
-5. **Market Selection Framework Version 1.0.2 on February 15, 2022**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 5 percent of the volume of the selected market with the largest volume is excluded.
-6. **Coin Metrics Hourly Reference Rates Methodology Version 2.11 and Coin Metrics Real-Time Reference Rates Methodology Version 0.12 on February 15, 2022**: The coverage universe is expanded to include the following assets: `xec`, `kda`, `mina`, `xdc`, `elon`, `flux`, `movr`, `ceek`, `win_wink`, `dvi`, `dusk`, `asd`, `gala`, `spell`, `ens`, `tru`, `alcx`, `clv`, `imx`, `agld`, `jasmy`, `farm`, `alice`, `chr`, `dydx`, `tlm`, `mdt`, `gtc`, `sun`, `c98`, `people`, `lina`, `rndr`, `ach`, `super`, `mask`, `quick`, `arpa`, `qi`, `idex`, `rad`, `bond`, `mir`, `joe`, `gods`, `front`, `pla`, `orn`, `ramp`, `rgt`, `fida`, `forth`, `tribe`, `wluna`, `coval`, `rbn`, `lcx`, `asm`, `ddx`, `suku`, `krl`, `rari`, `mco2`, `gyen`, `btrst`, `api3`, `rly`, `wcfg`, `musd`, `ilv`, `atlas`, `usdp`, `joe`, `ldo`, `cvx`, `fxs`, `kp3r`, `alpaca`, `bnx`, `boson`, `dora`, `ghst`, `nft`, `ohm`, `om`, `pond`, `rare`, `revv`, `stpt`, `torn`, `tvk`, `wncg`, `xym`, `ygg`. The publication of reference rates is terminated for the following assets: `hedg`, `eurs`, `bzrx`, `poa`, `wpr`, `dmg`, `cdt`, `phx`, `appc`, `btt`, `idrt`, `rdn`, `via`, `evx`. The section “Data Inputs”, subsections “Other Cryptocurrencies Excluding Stablecoins” and “Stablecoins”, was modified to consider markets quoted in USD Coin or Tether to serve as constituent markets. The constituent markets for all assets in the coverage universe are updated. The constituent markets for all assets in the coverage universe are updated.
-7. **Coin Metrics Hourly Reference Rates Methodology Version 2.10 and Coin Metrics Real-Time Reference Rates Methodology Version 0.11 on September 28, 2021**: The coverage universe is expanded to include the following assets: `amp`, `axs`, `shib`, `audio`, `bake`, `med`, `dag`, `slp`, `xdb`. The publication of reference rates is terminated for the following assets: `agi` ,`btmx`, `dgx`, `ethos`, `mco`, `sngls`, `cpay`, `eng`, `lun`, `pnt`. The constituent markets for all assets in the coverage universe are updated.
-8. **Coin Metrics Hourly Reference Rates Methodology Version 2.9 and Coin Metrics Real-Time Reference Rates Methodology Version 0.10 on May 27, 2021**: The coverage universe is expanded to include the following assets: `icp`, `cope`, `maps`, `btcst`, `ctsi`, `erg`, `woo`, `prom`, `strax`, `usdn`, `cfx`, `mdx`, `nkn`, `sand`, `fx`, `pha`. The publication of reference rates is terminated for the following assets: `tnt`, `npxs`, `zar`. The constituent markets for all assets in the coverage universe are updated.
-9. **Coin Metrics Hourly Reference Rates Methodology Version 2.8 and Coin Metrics Real-Time Reference Rates Methodology Version 0.9 on April 25, 2021**: The methodology was modified to add fiat currencies to the coverage universe. The coverage universe is expanded to include the following assets: `eur`, `krw`, `gbp`, `jpy`, `aud`, `try`, `brl`, `rub`, `sgd`, `bidr`, `ngn`, `cad`, `chf`, `zar`, `idrt`, `hkd`, `uah`, `qc`, `klay`, `cake`, `btmx`, `flow`, `zks`, `stmx`, `skl`, `reef`, `dodo`, `coti`, `bora`, `cream`, `ray`, `tryb`, `rook`. The publication of reference rates is terminated for the following assets: `xzc`, `bcpt`, `yamv2`, `xns`, `tmtg`, `kp3r`.
-10. **Coin Metrics Hourly Reference Rates Methodology Version 2.7 and Coin Metrics Real-Time Reference Rates Methodology Version 0.8 on February 23, 2021**: The coverage universe is expanded to include the following assets: `1inch`, `alpha`, `octo`, `perp`, `scrt`, `grt`, `keep`, `xvs`, `nu`, `tel`, `badger`.
-11. **Coin Metrics Hourly Reference Rates Methodology Version 2.6 and Coin Metrics Real-Time Reference Rates Methodology Version 0.7 on January 26, 2021**: The coverage universe is expanded to include the following assets: `susd`, `pols`, `ust`, `lto`, `swap`, `nim,` `lbc`, `mta`, `kp3r`, `glm`, `near`, `noia`, `rose`, `inj`. The publication of reference rates is terminated for the following assets: `gnt`, `fxc`, `bht`, `cmct`, `strat`, `loki`. The constituent markets for all assets in the coverage universe are updated.
-12. **Coin Metrics Hourly Reference Rates Methodology Version 2.5 and Coin Metrics Real-Time Reference Rates Methodology Version 0.6 on November 5, 2020**: The coverage universe is expanded to include the following assets: `akro`, `ampl`, `ar`, `bal`, `bzrx`, `celo`, `comp`, `crv`, `csp`, `dmg`, `dot`, `foam`, `kin`, `oxt`, `rune`, `sol`, `srm`, `vtho`, `wbtc`, `wnxm`, `xhv`, `xyo`, `yamv2`, `yfi`, `yfii`, `uma`, `ewt`, `rev`, `rsr`, `avax`, `tmtg`, `jst`, `hnt`, `trac`, `vlx`, `mxc`, `fet`, `aoa`, `iris`, `pnk`, `mln`, `shr`, `uqc`, `one_harmony`, `trb`, `ogn`, `ava`, `loki`, `hxro`, `wxt`, `cpay`, `fil`, `uni`, `swrv`, `sushi`, `aave`, `egld`, `hns`, `dia`, `boa`, `uos`, `ctc`, `renbtc`. The publication of reference rates is terminated for the following assets: `arn`, `pma`, `erd`, `man`, `iq`, `lend`. The Market Selection Framework was amended such that extremely low volume markets are less likely to be selected as a constituent market if higher volume markets of similar quality are available. The constituent markets for all assets in the coverage universe are updated.
-13. **Market Selection Framework Version 1.0.1 on November 5, 2020**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 1 percent of the volume of the selected market with the largest volume is excluded.
-14. **Coin Metrics Hourly Reference Rates Methodology Version 2.4 on July 29, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.5 on July 29, 2020**: The coverage universe is expanded to include the following assets: `wrx`, `band`, `ksm`, `usdk`, `snx`, `stx`, `fxc`, `kcs`, `hive`, `nrg`, `cel`, `ubt`, `chsb`, `crpt`, `bht`, `cvt`, `data`, `eurs`, `xns`, `gt`, `dgtx`, `kava`, `tt`, `sxp`, `mx`, `ocean`, `erd`, `lpt`. The publication of reference rates is terminated for the following assets: `storm`, `gto`. A revision policy was amended. The constituent markets for all assets in the coverage universe are updated.
-15. **Coin Metrics Hourly Reference Rates Methodology Version 2.3 on February 27, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.4 on February 27, 2020**: The coverage universe is expanded to include the following assets: `xaut`, `paxg`, `husd`, `dgx`, `busd`, `ftt`, `hedg`, `okb`, `zb`, `hbar`, `ckb`, `mof`, `vsys`, `cennz`, `luna`, `chz`, `seele`, `dx`, `matic`, `abbc`, `rif`, `tomo`, `hpt`, and `ant`.
-16. **Coin Metrics Hourly Reference Rates Methodology Version 2.2 on February 6, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.3 on February 6, 2020**: The constituent markets for all assets in the coverage universe are updated. The coverage universe is adjusted to remove the following assets: `box`, `cosm`, `fsn`, `medx`, `pst`, and `ttc_protocol`. The coverage universe was expanded to include Dai and the previous asset with this name was renamed to Sai to appropriately reflect MakerDAO’s transition from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai).
-17. **Coin Metrics Hourly Reference Rates Methodology Version 2.1 on December 9, 2019 and Coin Metrics Real-Time Reference Rates Methodology Version 0.2 on December 9, 2019**: The coverage universe is expanded to include the following assets: `algo` and `beam`. Updated calculation methodology to include price inverse variance weighting to reduce the impact of outliers.
-18. **Coin Metrics Real-Time Reference Rates Methodology Version 0.1 on August 30, 2019**: Initial publication of Real-Time Reference Rates Methodology.
-19. **Coin Metrics Hourly Reference Rates Methodology Version 2.0 on July 8, 2019**: Increased publication times from once daily at midnight UTC to once hourly. Changed human oversight from once daily at midnight UTC to once daily at 16:00 New York time.
-20. **Coin Metrics Hourly Reference Rates Methodology Version 1.2 on June 13, 2019**: The coverage universe is expanded to include the following assets: `gno`, `hot_holo`, `maid`, `nuls`, `qkc`, `rdd`, `rvn`, `zen`, and `mona`.
-21. **Coin Metrics Hourly Reference Rates Methodology Version 1.1 on May 30, 2019**: Updated data contingency rules. If no observable transactions from constituent markets occur during a one-minute time interval, the next one-minute time interval’s volume-weighted median price is used instead of the previous. This contingency rule is applied recursively.
-22. **Coin Metrics Hourly Reference Rates Methodology Version 1.0 on May 13, 2019**: Initial publication of Reference Rates Methodology.
-23. **Market Selection Framework Version 1.0.0 on May 13, 2019**: Initial publication of Market Selection Framework.
+1. **Version 1.1 on August 15, 2023**: The coverage universe is expanded to include the following assets: `ali`, `dep`, `hotcross`, `tlos`, `cfg`, `lith`, `sfund`, `dose`, `num`, `sis`, `jam_geojam`, `mv`, `mplx`, `sidus`, `acs`, `blur`, `arb`, `snm`, `fuel`, `tct`, `edu`, `bob`, `mnt`, `ron`, `cos`, `perl`, `troy`, `vidt`, `wom`, `brz`, `fio`, `mtr`, `mtrg`, `solo`, `spa`, `xpr`, `df`, `burger`, `nbs`, `hard`, `cover`, `vai`, `ez`, `ousd`, `iag`, `mngo`, `wing`, `aury`, `gofx`, `ice`, `pendle`, `xrd`, `id`, `mbs`, `umee`, `tko`, `uft`, `radar`, `mnde`, `xen`, `vinu`, `volt`, `prmx`, `myth`, `bone`, `brise`, `gft`, `gns`, `prime`, `rdnt`, `agix`, `xeta`, `igu`, `kcal`, `movez`, `rss3`, `grail`, `strm`, `lai`, `pepe`, `aidoge`, `astra`, `canto`, `cetus`, `cgpt`, `kas`, `ladys`, `mong`, `squad`, `sui`, `tenet`, `tomi`, `turbo`, `turbos`, `wojak`, `combo_combo`, `mav`, `rlb`, `tapt`, `hades`, `smr`, `vela`, `bgb`, `quick_new`, `arkm`, `wld`, `neon`, `sei`. The following assets are terminated from the coverage universe: `nu`, `usdk`, `chat`, `cmt`, `mof`, `inx`, `qlc`, `renbtc`, `dta`, `hkd`, `cocos`, `rsv`, `xhv`, `nrg`, `aoa`, `seele`, `ohm`, `tnb`, `path`, `ncash`, `hades`.
+2. **Version 1.0 on March 16, 2023**: Initial publication of Coin Metrics Pricing Methodology. Previous versions of this document were contained in our Market Selection Framework, Hourly Reference Rates Methodology, Real-Time Reference Rates Methodology, and Principal Mark Price Methodology. Those four documents are now consolidated into the Coin Metrics Pricing Methodology. The coverage universe is expanded to include the following assets: `bonk`, `cusd`, `cra`, `jewel`, `apt`, `asto`, `aurora`, `avg`, `axl`, `bld`, `breed`, `ceur`, `cpool`, `ecox`, `evmos`, `flx`, `fly`, `fort`, `gf`, `index`, `indi`, `inx`, `multi`, `path`, `rpl`, `rsv`, `sd`, `sdl`, `tbtc`, `tribl`, `gmx`, `bifi_beef`, `dpx`, `boo`, `beth`, `magic`, `juno`, `port`, `phb`, `kishu`, `lever`, `flr`, `hft`, `porto`, `polyx`, `lazio`, `atm`, `acm`, `xcad`, `ssv`, `pros`, `rei`, `qlc`, `dego`, `vite`, `firo`, `iq`, `bar`, `og`, `hifi`, `asr`, `dyp`, `time`, `sylo`, `polc`, `bitci`, `fct2`, `onston`, `vsp`, `afc`, `bsw`, `epx`, `xno`, `dexe`, `core`, `vemp`, `cult`, `saitama`, `ever`, `babydoge`, `dc`, `kar`, `fsn`, `hero`, `oas`, `hook`, `cocos`. The following assets are terminated from the coverage universe: `mft`, `hpt`, `hxro`, `usdn`, `aion`.
+3. **Coin Metrics Real-Time Reference Rates Methodology Version 0.15 on February 9, 2023**: Added a 200 milliseconds publication frequency.
+4. **Coin Metrics Hourly Reference Rates Methodology Version 2.13 and Coin Metrics Real-Time Reference Rates Methodology Version 0.14 on September 21, 2022**: The coverage universe is expanded to include the following assets: `loka`, `mc`, `polis`, `sgb`, `steth`, `frax`, `rai`, `lusd` , `dfi`, `gbpt`, `ooki`, `fis`, `nest`, `drep`, `math`, `aleph`, `media`, `luna2`, `t`, `ethw`, `bttc`, `vra`, `swftc`, `raca`, `pyr`, `mbox`, `sweat`, `fitfi`, `qrdo`, `wemix`, `zbc`, `psg`, `voxel`, `chess`, `prq`, `gari`, `nym`, `arv`, `cudos`, `efi`, `for`, `juv`, `cvp`, `mbl`, `auto`, `eden`, `xcn`, `kai`, `velo`, `akt`, `berry`, `klv`, `kok`, `senso`, `floki`, `sdn`, `alpine`, `step`, `eurt`, `bfc`, `toke`, `shping`, `oxy`, `ssx`, `lit`, `conv`. The publication of reference rates is terminated for the following assets: `ramp`, `grs`, `ppt`, `nav`, `itc`, `qc`, `meta`, `cope`, `zb`. Minor changes to internal audit section.
+5. **Coin Metrics Hourly Reference Rates Methodology Version 2.12 and Coin Metrics Real-Time Reference Rates Methodology Version 0.13 on July 1, 2022**: The coverage universe is expanded to include the following assets: `fei`, `op`, `usdd`, `xch`, `gmt`, `bico`, `ctk`, `flm`, `sfp`, `starl`, `glmr`, `tulip`, `astro`, `sfi`, `gst`, `mob`, `bit`, `vgx`, `auction`, `pundix`, `stg`, `ata`, `bel`, `dar`, `gal`, `astr`, `cqt`, `cspr`, `metis`, `boba`, `twt`, `aca`, `dao`, `xprt`, `cube`. The publication of reference rates is terminated for the following assets: `gxs`, `dgtx`, `wluna`, `dgd`, `foam`, `csp`, `cnn`, `bft`.
+6. **Market Selection Framework Version 1.0.2 on February 15, 2022**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 5 percent of the volume of the selected market with the largest volume is excluded.
+7. **Coin Metrics Hourly Reference Rates Methodology Version 2.11 and Coin Metrics Real-Time Reference Rates Methodology Version 0.12 on February 15, 2022**: The coverage universe is expanded to include the following assets: `xec`, `kda`, `mina`, `xdc`, `elon`, `flux`, `movr`, `ceek`, `win_wink`, `dvi`, `dusk`, `asd`, `gala`, `spell`, `ens`, `tru`, `alcx`, `clv`, `imx`, `agld`, `jasmy`, `farm`, `alice`, `chr`, `dydx`, `tlm`, `mdt`, `gtc`, `sun`, `c98`, `people`, `lina`, `rndr`, `ach`, `super`, `mask`, `quick`, `arpa`, `qi`, `idex`, `rad`, `bond`, `mir`, `joe`, `gods`, `front`, `pla`, `orn`, `ramp`, `rgt`, `fida`, `forth`, `tribe`, `wluna`, `coval`, `rbn`, `lcx`, `asm`, `ddx`, `suku`, `krl`, `rari`, `mco2`, `gyen`, `btrst`, `api3`, `rly`, `wcfg`, `musd`, `ilv`, `atlas`, `usdp`, `joe`, `ldo`, `cvx`, `fxs`, `kp3r`, `alpaca`, `bnx`, `boson`, `dora`, `ghst`, `nft`, `ohm`, `om`, `pond`, `rare`, `revv`, `stpt`, `torn`, `tvk`, `wncg`, `xym`, `ygg`. The publication of reference rates is terminated for the following assets: `hedg`, `eurs`, `bzrx`, `poa`, `wpr`, `dmg`, `cdt`, `phx`, `appc`, `btt`, `idrt`, `rdn`, `via`, `evx`. The section “Data Inputs”, subsections “Other Cryptocurrencies Excluding Stablecoins” and “Stablecoins”, was modified to consider markets quoted in USD Coin or Tether to serve as constituent markets. The constituent markets for all assets in the coverage universe are updated. The constituent markets for all assets in the coverage universe are updated.
+8. **Coin Metrics Hourly Reference Rates Methodology Version 2.10 and Coin Metrics Real-Time Reference Rates Methodology Version 0.11 on September 28, 2021**: The coverage universe is expanded to include the following assets: `amp`, `axs`, `shib`, `audio`, `bake`, `med`, `dag`, `slp`, `xdb`. The publication of reference rates is terminated for the following assets: `agi` ,`btmx`, `dgx`, `ethos`, `mco`, `sngls`, `cpay`, `eng`, `lun`, `pnt`. The constituent markets for all assets in the coverage universe are updated.
+9. **Coin Metrics Hourly Reference Rates Methodology Version 2.9 and Coin Metrics Real-Time Reference Rates Methodology Version 0.10 on May 27, 2021**: The coverage universe is expanded to include the following assets: `icp`, `cope`, `maps`, `btcst`, `ctsi`, `erg`, `woo`, `prom`, `strax`, `usdn`, `cfx`, `mdx`, `nkn`, `sand`, `fx`, `pha`. The publication of reference rates is terminated for the following assets: `tnt`, `npxs`, `zar`. The constituent markets for all assets in the coverage universe are updated.
+10. **Coin Metrics Hourly Reference Rates Methodology Version 2.8 and Coin Metrics Real-Time Reference Rates Methodology Version 0.9 on April 25, 2021**: The methodology was modified to add fiat currencies to the coverage universe. The coverage universe is expanded to include the following assets: `eur`, `krw`, `gbp`, `jpy`, `aud`, `try`, `brl`, `rub`, `sgd`, `bidr`, `ngn`, `cad`, `chf`, `zar`, `idrt`, `hkd`, `uah`, `qc`, `klay`, `cake`, `btmx`, `flow`, `zks`, `stmx`, `skl`, `reef`, `dodo`, `coti`, `bora`, `cream`, `ray`, `tryb`, `rook`. The publication of reference rates is terminated for the following assets: `xzc`, `bcpt`, `yamv2`, `xns`, `tmtg`, `kp3r`.
+11. **Coin Metrics Hourly Reference Rates Methodology Version 2.7 and Coin Metrics Real-Time Reference Rates Methodology Version 0.8 on February 23, 2021**: The coverage universe is expanded to include the following assets: `1inch`, `alpha`, `octo`, `perp`, `scrt`, `grt`, `keep`, `xvs`, `nu`, `tel`, `badger`.
+12. **Coin Metrics Hourly Reference Rates Methodology Version 2.6 and Coin Metrics Real-Time Reference Rates Methodology Version 0.7 on January 26, 2021**: The coverage universe is expanded to include the following assets: `susd`, `pols`, `ust`, `lto`, `swap`, `nim,` `lbc`, `mta`, `kp3r`, `glm`, `near`, `noia`, `rose`, `inj`. The publication of reference rates is terminated for the following assets: `gnt`, `fxc`, `bht`, `cmct`, `strat`, `loki`. The constituent markets for all assets in the coverage universe are updated.
+13. **Coin Metrics Hourly Reference Rates Methodology Version 2.5 and Coin Metrics Real-Time Reference Rates Methodology Version 0.6 on November 5, 2020**: The coverage universe is expanded to include the following assets: `akro`, `ampl`, `ar`, `bal`, `bzrx`, `celo`, `comp`, `crv`, `csp`, `dmg`, `dot`, `foam`, `kin`, `oxt`, `rune`, `sol`, `srm`, `vtho`, `wbtc`, `wnxm`, `xhv`, `xyo`, `yamv2`, `yfi`, `yfii`, `uma`, `ewt`, `rev`, `rsr`, `avax`, `tmtg`, `jst`, `hnt`, `trac`, `vlx`, `mxc`, `fet`, `aoa`, `iris`, `pnk`, `mln`, `shr`, `uqc`, `one_harmony`, `trb`, `ogn`, `ava`, `loki`, `hxro`, `wxt`, `cpay`, `fil`, `uni`, `swrv`, `sushi`, `aave`, `egld`, `hns`, `dia`, `boa`, `uos`, `ctc`, `renbtc`. The publication of reference rates is terminated for the following assets: `arn`, `pma`, `erd`, `man`, `iq`, `lend`. The Market Selection Framework was amended such that extremely low volume markets are less likely to be selected as a constituent market if higher volume markets of similar quality are available. The constituent markets for all assets in the coverage universe are updated.
+14. **Market Selection Framework Version 1.0.1 on November 5, 2020**: The selection algorithm was modified so that any market with volume, measured in U.S. dollars over the past 90 days, of less than 1 percent of the volume of the selected market with the largest volume is excluded.
+15. **Coin Metrics Hourly Reference Rates Methodology Version 2.4 on July 29, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.5 on July 29, 2020**: The coverage universe is expanded to include the following assets: `wrx`, `band`, `ksm`, `usdk`, `snx`, `stx`, `fxc`, `kcs`, `hive`, `nrg`, `cel`, `ubt`, `chsb`, `crpt`, `bht`, `cvt`, `data`, `eurs`, `xns`, `gt`, `dgtx`, `kava`, `tt`, `sxp`, `mx`, `ocean`, `erd`, `lpt`. The publication of reference rates is terminated for the following assets: `storm`, `gto`. A revision policy was amended. The constituent markets for all assets in the coverage universe are updated.
+16. **Coin Metrics Hourly Reference Rates Methodology Version 2.3 on February 27, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.4 on February 27, 2020**: The coverage universe is expanded to include the following assets: `xaut`, `paxg`, `husd`, `dgx`, `busd`, `ftt`, `hedg`, `okb`, `zb`, `hbar`, `ckb`, `mof`, `vsys`, `cennz`, `luna`, `chz`, `seele`, `dx`, `matic`, `abbc`, `rif`, `tomo`, `hpt`, and `ant`.
+17. **Coin Metrics Hourly Reference Rates Methodology Version 2.2 on February 6, 2020 and Coin Metrics Real-Time Reference Rates Methodology Version 0.3 on February 6, 2020**: The constituent markets for all assets in the coverage universe are updated. The coverage universe is adjusted to remove the following assets: `box`, `cosm`, `fsn`, `medx`, `pst`, and `ttc_protocol`. The coverage universe was expanded to include Dai and the previous asset with this name was renamed to Sai to appropriately reflect MakerDAO’s transition from Single-Collateral Dai (Sai) to Multi-Collateral Dai (Dai).
+18. **Coin Metrics Hourly Reference Rates Methodology Version 2.1 on December 9, 2019 and Coin Metrics Real-Time Reference Rates Methodology Version 0.2 on December 9, 2019**: The coverage universe is expanded to include the following assets: `algo` and `beam`. Updated calculation methodology to include price inverse variance weighting to reduce the impact of outliers.
+19. **Coin Metrics Real-Time Reference Rates Methodology Version 0.1 on August 30, 2019**: Initial publication of Real-Time Reference Rates Methodology.
+20. **Coin Metrics Hourly Reference Rates Methodology Version 2.0 on July 8, 2019**: Increased publication times from once daily at midnight UTC to once hourly. Changed human oversight from once daily at midnight UTC to once daily at 16:00 New York time.
+21. **Coin Metrics Hourly Reference Rates Methodology Version 1.2 on June 13, 2019**: The coverage universe is expanded to include the following assets: `gno`, `hot_holo`, `maid`, `nuls`, `qkc`, `rdd`, `rvn`, `zen`, and `mona`.
+22. **Coin Metrics Hourly Reference Rates Methodology Version 1.1 on May 30, 2019**: Updated data contingency rules. If no observable transactions from constituent markets occur during a one-minute time interval, the next one-minute time interval’s volume-weighted median price is used instead of the previous. This contingency rule is applied recursively.
+23. **Coin Metrics Hourly Reference Rates Methodology Version 1.0 on May 13, 2019**: Initial publication of Reference Rates Methodology.
+24. **Market Selection Framework Version 1.0.0 on May 13, 2019**: Initial publication of Market Selection Framework.
