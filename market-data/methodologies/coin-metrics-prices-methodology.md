@@ -383,7 +383,6 @@ The following table lists the current coverage universe:
 | Decentraland                         | mana                    |
 | FUNToken                             | fun                     |
 | 0x                                   | zrx                     |
-| Time New Bank                        | tnb                     |
 | TRON                                 | trx                     |
 | iExec RLC                            | rlc                     |
 | Augur                                | rep                     |
@@ -407,7 +406,6 @@ The following table lists the current coverage universe:
 | Fusion                               | fsn                     |
 | Nitro Network                        | ncash                   |
 | Cortex                               | ctxc                    |
-| DATA                                 | dta                     |
 | Zilliqa                              | zil                     |
 | Bancor                               | bnt                     |
 | MonaCoin                             | mona                    |
@@ -418,6 +416,7 @@ The following table lists the current coverage universe:
 | OAX                                  | oax                     |
 | district0x                           | dnt                     |
 | Waltonchain                          | wtc                     |
+| SONM                                 | snm                     |
 | Chainlink                            | link                    |
 | Moeda Loyalty Points                 | mda                     |
 | Metal DAO                            | mtl\_metal              |
@@ -432,6 +431,7 @@ The following table lists the current coverage universe:
 | Quantstamp                           | qsp                     |
 | BitShares                            | bts                     |
 | Lisk                                 | lsk                     |
+| Etherparty                           | fuel                    |
 | Bitcoin Diamond                      | bcd                     |
 | Ambire AdEx                          | adx                     |
 | Cardano                              | ada                     |
@@ -478,6 +478,7 @@ The following table lists the current coverage universe:
 | Revain                               | rev                     |
 | Ren                                  | ren                     |
 | SwftCoin                             | swftc                   |
+| TokenClub                            | tct                     |
 | Nxt                                  | nxt                     |
 | VITE                                 | vite                    |
 | Odyssey                              | ocn                     |
@@ -487,6 +488,7 @@ The following table lists the current coverage universe:
 | SIRIN LABS Token                     | srn                     |
 | DeepBrain Chain                      | dbc                     |
 | Propy                                | pro                     |
+| EduCoin                              | edu                     |
 | Bibox Token                          | bix                     |
 | HyperCash                            | hc\_hypercash           |
 | MaidSafeCoin                         | maid                    |
@@ -527,12 +529,13 @@ The following table lists the current coverage universe:
 | Russian Ruble                        | rub                     |
 | Ukrainian Hryvnia                    | uah                     |
 | Turkish Lira                         | try                     |
-| Aurora Chain                         | aoa                     |
 | Australian Dollar                    | aud                     |
+| Bolivian Boliviano                   | bob                     |
 | Brazilian Real                       | brl                     |
 | Swiss Franc                          | chf                     |
 | Ethernity                            | ern                     |
-| Hong Kong Dollar                     | hkd                     |
+| Mantle                               | mnt                     |
+| Ronin                                | ron                     |
 | Singapore Dollar                     | sgd                     |
 | OpenDAO                              | sos                     |
 | Dragonchain                          | drgn                    |
@@ -553,7 +556,6 @@ The following table lists the current coverage universe:
 | RSK Infrastructure Framework         | rif                     |
 | v.systems                            | vsys                    |
 | Grin                                 | grin                    |
-| Seele                                | seele                   |
 | Lambda                               | lamb                    |
 | Dora Factory                         | dora                    |
 | Beam                                 | beam                    |
@@ -563,7 +565,6 @@ The following table lists the current coverage universe:
 | Fetch.ai                             | fet                     |
 | Ontology Gas                         | ong\_ontologygas        |
 | Ankr                                 | ankr                    |
-| Haven Protocol                       | xhv                     |
 | Quant                                | qnt                     |
 | SOLVE                                | solve                   |
 | Aergo                                | aergo                   |
@@ -613,7 +614,6 @@ The following table lists the current coverage universe:
 | Band Protocol                        | band                    |
 | Kusama                               | ksm                     |
 | Hive                                 | hive                    |
-| Energi                               | nrg                     |
 | GateToken                            | gt                      |
 | Kava                                 | kava                    |
 | MX TOKEN                             | mx                      |
@@ -622,7 +622,9 @@ The following table lists the current coverage universe:
 | Keep Network                         | keep                    |
 | Origin Protocol                      | ogn                     |
 | Render Token                         | rndr                    |
-| Cocos-BCX                            | cocos                   |
+| Contentos                            | cos                     |
+| Perlin                               | perl                    |
+| TROY                                 | troy                    |
 | DREP                                 | drep                    |
 | LTO Network                          | lto                     |
 | COTI                                 | coti                    |
@@ -638,11 +640,13 @@ The following table lists the current coverage universe:
 | Travala.com                          | ava                     |
 | Wirex Token                          | wxt                     |
 | Syntropy                             | noia                    |
+| VIDT DAO                             | vidt                    |
 | Akropolis                            | akro                    |
 | Ampleforth                           | ampl                    |
 | SENSO                                | senso                   |
 | DigitalBits                          | xdb                     |
 | Sylo                                 | sylo                    |
+| WOM Protocol                         | wom                     |
 | KardiaChain                          | kai                     |
 | Energy Web Token                     | ewt                     |
 | yearn.finance                        | yfi                     |
@@ -651,8 +655,10 @@ The following table lists the current coverage universe:
 | BOSagora                             | boa                     |
 | JUST                                 | jst                     |
 | Bifrost                              | bfc                     |
+| Brazilian Digital Token              | brz                     |
 | DEAPcoin                             | dep                     |
 | DIA                                  | dia                     |
+| FIO Protocol                         | fio                     |
 | ForTube                              | for                     |
 | Green Satoshi Token                  | gst                     |
 | Helium                               | hnt                     |
@@ -660,15 +666,18 @@ The following table lists the current coverage universe:
 | Kadena                               | kda                     |
 | Klaytn                               | klay                    |
 | mStable Governance Token: Meta (MTA) | mta                     |
+| Meter Stable                         | mtr                     |
+| Meter Governance                     | mtrg                    |
 | NEST Protocol                        | nest                    |
 | MANTRA                               | om                      |
 | Orion Protocol                       | orn                     |
 | Prom                                 | prom                    |
 | PARSIQ                               | prq                     |
 | Rocket Pool                          | rpl                     |
-| Reserve                              | rsv                     |
 | THORChain                            | rune                    |
 | ShareToken                           | shr                     |
+| Sologenic                            | solo                    |
+| Sperax                               | spa                     |
 | Serum                                | srm                     |
 | SUKU                                 | suku                    |
 | tBTC                                 | tbtc                    |
@@ -677,6 +686,7 @@ The following table lists the current coverage universe:
 | Curve DAO Token                      | crv                     |
 | Velas                                | vlx                     |
 | Wrapped NXM                          | wnxm                    |
+| Proton                               | xpr                     |
 | DFI.Money                            | yfii                    |
 | Balancer                             | bal                     |
 | SushiSwap                            | sushi                   |
@@ -688,6 +698,7 @@ The following table lists the current coverage universe:
 | Alchemy Pay                          | ach                     |
 | Aleph.im                             | aleph                   |
 | Bella Protocol                       | bel                     |
+| Daily Funds                          | df                      |
 | Frontier                             | front                   |
 | Klever                               | klv                     |
 | TrustSwap                            | swap                    |
@@ -696,7 +707,9 @@ The following table lists the current coverage universe:
 | Handshake                            | hns                     |
 | Ultra                                | uos                     |
 | BakeryToken                          | bake                    |
+| Burger Swap                          | burger                  |
 | Aavegotchi                           | ghst                    |
+| New BitShares                        | nbs                     |
 | Rarible                              | rari                    |
 | Velo                                 | velo                    |
 | Aave                                 | aave                    |
@@ -717,6 +730,7 @@ The following table lists the current coverage universe:
 | Conflux                              | cfx                     |
 | Shentu                               | ctk                     |
 | Celo Dollar                          | cusd                    |
+| Hard Protocol                        | hard                    |
 | Injective                            | inj                     |
 | Keep3rV1                             | kp3r                    |
 | Oasys                                | oas                     |
@@ -730,6 +744,7 @@ The following table lists the current coverage universe:
 | Hegic                                | hegic                   |
 | API3                                 | api3                    |
 | Badger DAO                           | badger                  |
+| COVER Protocol                       | cover                   |
 | Firo                                 | firo                    |
 | MobileCoin                           | mob                     |
 | Synapse                              | syn                     |
@@ -760,6 +775,7 @@ The following table lists the current coverage universe:
 | ZKSpace                              | zks                     |
 | Flow                                 | flow                    |
 | Stratis                              | strax                   |
+| Vai                                  | vai                     |
 | Reef                                 | reef                    |
 | Bitcoin Standard Hashrate Token      | btcst                   |
 | The Sandbox                          | sand                    |
@@ -808,6 +824,7 @@ The following table lists the current coverage universe:
 | SpookySwap                           | boo                     |
 | Somnium Space Cubes                  | cube                    |
 | Dogelon Mars                         | elon                    |
+| EasyFi V2                            | ez                      |
 | Ampleforth Governance Token          | forth                   |
 | Gitcoin                              | gtc                     |
 | Hot Cross                            | hotcross                |
@@ -815,7 +832,8 @@ The following table lists the current coverage universe:
 | Liquity                              | lqty                    |
 | Media Network                        | media                   |
 | APENFT                               | nft                     |
-| QuickSwap                            | quick                   |
+| Origin Dollar                        | ousd                    |
+| QuickSwap (Old)                      | quick                   |
 | Songbird                             | sgb                     |
 | Step Finance                         | step                    |
 | Telos                                | tlos                    |
@@ -835,9 +853,11 @@ The following table lists the current coverage universe:
 | Gala                                 | gala                    |
 | Goldfinch                            | gfi                     |
 | Metahero                             | hero                    |
+| IAGON                                | iag                     |
 | Karura                               | kar                     |
 | Lithium                              | lith                    |
 | MOBOX                                | mbox                    |
+| Mango Markets                        | mngo                    |
 | Moonriver                            | movr                    |
 | PlayDapp                             | pla                     |
 | Qredo                                | qrdo                    |
@@ -848,6 +868,7 @@ The following table lists the current coverage universe:
 | Seedify.fund                         | sfund                   |
 | SOMESING                             | ssx                     |
 | StarLink                             | starl                   |
+| Wing Finance                         | wing                    |
 | Wrapped NCG                          | wncg                    |
 | XCAD Network                         | xcad                    |
 | eCash                                | xec                     |
@@ -866,6 +887,7 @@ The following table lists the current coverage universe:
 | Assemble Protocol                    | asm                     |
 | AstroSwap                            | astro                   |
 | Star Atlas                           | atlas                   |
+| Aurory                               | aury                    |
 | Beta Finance                         | beta                    |
 | BinaryX                              | bnx                     |
 | Braintrust                           | btrst                   |
@@ -874,14 +896,16 @@ The following table lists the current coverage universe:
 | DOSE                                 | dose                    |
 | FLOKI                                | floki                   |
 | Gods Unchained                       | gods                    |
+| GooseFX                              | gofx                    |
 | Highstreet                           | high                    |
+| Popsicle Finance                     | ice                     |
 | JOE                                  | joe                     |
 | S.S. Lazio Fan Token                 | lazio                   |
 | Moss Carbon Credit                   | mco2                    |
 | Marinade Staked SOL                  | msol                    |
-| Olympus                              | ohm                     |
 | Orca                                 | orca                    |
-| PackagePortal                        | port                    |
+| Pendle                               | pendle                  |
+| Port Finance                         | port                    |
 | Ribbon Finance                       | rbn                     |
 | Samoyedcoin                          | samo                    |
 | Saber                                | sbr                     |
@@ -912,7 +936,9 @@ The following table lists the current coverage universe:
 | Symbiosis                            | sis                     |
 | BitTorrent (new)                     | bttc                    |
 | Vulcan Forged PYR                    | pyr                     |
+| Radix                                | xrd                     |
 | Tether EURt                          | eurt                    |
+| SPACE ID                             | id                      |
 | Casper                               | cspr                    |
 | Automata Network                     | ata                     |
 | ApeCoin                              | ape                     |
@@ -928,11 +954,13 @@ The following table lists the current coverage universe:
 | PowerPool                            | cvp                     |
 | Gari Network                         | gari                    |
 | Index Cooperative                    | index                   |
+| MonkeyLeague                         | mbs                     |
 | Multichain                           | multi                   |
 | Optimism                             | op                      |
 | REI Network                          | rei                     |
 | SHPING                               | shping                  |
 | Stargate Finance                     | stg                     |
+| Umee                                 | umee                    |
 | Voxies                               | voxel                   |
 | Zebec Protocol                       | zbc                     |
 | Acala Token                          | aca                     |
@@ -946,6 +974,8 @@ The following table lists the current coverage universe:
 | Ooki Protocol                        | ooki                    |
 | Pundi X                              | pundix                  |
 | Threshold                            | t                       |
+| Toko Token                           | tko                     |
+| UniLend                              | uft                     |
 | Voyager Token                        | vgx                     |
 | USDD                                 | usdd                    |
 | Chia                                 | xch                     |
@@ -970,6 +1000,7 @@ The following table lists the current coverage universe:
 | Euler                                | eul                     |
 | GensoKishi Metaverse                 | mv                      |
 | EthereumPoW                          | ethw                    |
+| DappRadar                            | radar                   |
 | Crabada                              | cra                     |
 | Reflexer Ungovernance Token          | flx                     |
 | JUNO                                 | juno                    |
@@ -984,9 +1015,11 @@ The following table lists the current coverage universe:
 | Forta                                | fort                    |
 | GMX                                  | gmx                     |
 | Hashflow                             | hft                     |
+| Marinade                             | mnde                    |
 | Metaplex                             | mplx                    |
 | Polymesh                             | polyx                   |
 | SIDUS                                | sidus                   |
+| XEN Crypto                           | xen                     |
 | Agoric                               | bld                     |
 | Avocado DAO Token                    | avg                     |
 | ECOx                                 | ecox                    |
@@ -996,15 +1029,62 @@ The following table lists the current coverage universe:
 | Tribal Token                         | tribl                   |
 | Bonk                                 | bonk                    |
 | Hooked Protocol                      | hook                    |
+| Vita Inu                             | vinu                    |
+| Volt Inu V2                          | volt                    |
 | Dogechain                            | dc                      |
 | Flare                                | flr                     |
 | Hifi Finance                         | hifi                    |
+| PREMA                                | prmx                    |
+| Mythos                               | myth                    |
 | Access Protocol                      | acs                     |
 | Blur                                 | blur                    |
 | DeFi Kingdoms                        | jewel                   |
 | Dopex                                | dpx                     |
 | MAGIC                                | magic                   |
 | Arbitrum                             | arb                     |
+| Bone ShibaSwap                       | bone                    |
+| Bitgert                              | brise                   |
+| Gifto                                | gft                     |
+| Gains Network                        | gns                     |
+| Echelon Prime                        | prime                   |
+| Radiant Capital                      | rdnt                    |
+| SingularityNET                       | agix                    |
+| XANA                                 | xeta                    |
+| IguVerse IGU                         | igu                     |
+| KCAL                                 | kcal                    |
+| MoveZ                                | movez                   |
+| RSS3                                 | rss3                    |
+| Camelot Token                        | grail                   |
+| StreamCoin                           | strm                    |
+| LayerAI                              | lai                     |
+| Pepe                                 | pepe                    |
+| ArbDoge AI                           | aidoge                  |
+| ASTRA Protocol                       | astra                   |
+| CANTO                                | canto                   |
+| Cetus Protocol                       | cetus                   |
+| ChainGPT                             | cgpt                    |
+| Kaspa                                | kas                     |
+| Milady Meme Coin                     | ladys                   |
+| MongCoin                             | mong                    |
+| Superpower Squad                     | squad                   |
+| Sui                                  | sui                     |
+| TENET                                | tenet                   |
+| tomiNet                              | tomi                    |
+| Turbo                                | turbo                   |
+| Turbos Finance                       | turbos                  |
+| Wojak                                | wojak                   |
+| COMBO                                | combo\_combo            |
+| Maverick Protocol                    | mav                     |
+| Rollbit Coin                         | rlb                     |
+| Tortuga Staked Aptos                 | tapt                    |
+| Hades                                | hades                   |
+| Shimmer                              | smr                     |
+| Vela Token                           | vela                    |
+| Bitget Token                         | bgb                     |
+| Quickswap                            | quick\_new              |
+| Arkham                               | arkm                    |
+| Worldcoin                            | wld                     |
+| Neon EVM                             | neon                    |
 
 ## Appendix B
 
