@@ -8,3 +8,10 @@ We also created our security master as part of our efforts to enhance our produc
 
 Security Master data is available through the [Security Master API endpoints](https://docs.coinmetrics.io/api/v4/#tag/Security-Master).  More details on these endpoints can be found in the sections below:
 
+{% content-ref url="../security-master/assets.md" %}
+[assets.md](../security-master/assets.md)
+{% endcontent-ref %}
+
+{% content-ref url="../security-master/markets.md" %}
+[markets.md](../security-master/markets.md)
+{% endcontent-ref %}
