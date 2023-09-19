@@ -318,6 +318,8 @@
   * [Realized Volatility, Rolling 24 Hours (USD)](asset-metrics/market/realized-volatility-rolling-24-hours-usd.md)
   * [Realized Volatility, Rolling 7 Days (USD)](asset-metrics/market/realized-volatility-rolling-7-days-usd.md)
   * [Realized Volatility, Rolling 30 Days (USD)](asset-metrics/market/realized-volatility-rolling-30-days-usd.md)
+  * [Aggregated Futures Funding Rate](asset-metrics/market/aggregated-futures-funding-rate.md)
+  * [Cumulative Futures Funding Rate](asset-metrics/market/cumulative-futures-funding-rate.md)
   * [Future Market Cap (USD)](asset-metrics/market/capfutexp10yrusd.md)
   * [Active Market Cap (1yr) (USD)](asset-metrics/market/capact1yrusd.md)
   * [Free Float MVRV (Free Float Market Cap / Realized Market Cap)](asset-metrics/market/capmvrvff.md)
