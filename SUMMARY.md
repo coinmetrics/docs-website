@@ -55,6 +55,7 @@
 * [Methodologies](reference-data/methodologies/README.md)
   * [Guiding Principles and Methodology for datonomy](reference-data/methodologies/guiding-principles-and-methodology-for-datonomy.md)
 * [datonomy FAQs](reference-data/datonomy-faqs.md)
+* [Security Master Overview](reference-data/security-master-overview.md)
 
 ## Asset Metrics (Time Series) <a href="#asset-metrics" id="asset-metrics"></a>
 
@@ -813,6 +814,11 @@
 ## Profiles
 
 * [Asset Profiles](profiles/asset-profiles.md)
+
+## Security Master
+
+* [Security Master Assets](security-master/assets.md)
+* [Security Master Markets](security-master/markets.md)
 
 ## Universal Blockchain Explorer (Entities) <a href="#atlas" id="atlas"></a>
 
