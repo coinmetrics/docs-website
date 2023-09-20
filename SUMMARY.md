@@ -701,6 +701,7 @@
 * [Liquidations](exchange-asset-metrics/liquidations.md)
 * [Open Interest](exchange-asset-metrics/open-interest.md)
 * [Volume](exchange-asset-metrics/volume.md)
+* [Futures Funding Rates](exchange-asset-metrics/futures-funding-rates.md)
 
 ## Pair Metrics (Time Series) <a href="#pair-metrics" id="pair-metrics"></a>
 
