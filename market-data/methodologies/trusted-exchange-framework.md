@@ -10,5 +10,5 @@ The Coin Metrics’ Trusted Exchange Framework thus aims to quantitatively asses
 
 ## Change Log
 
-1. **October 5, 2023:** Revamped Transparency, Resilience & Security, Regulatory scores; add grading scale, add rate limiting score
-2. **March 1, 2023:** Trusted Exchange Framework V2.0 released
+1. **Version 2.1 on October 5, 2023:** Revamped Transparency, Resilience & Security, Regulatory scores; add grading scale, add rate limiting score
+2. **Version 2.0 on March 1, 2023:** Trusted Exchange Framework V2.0 released
