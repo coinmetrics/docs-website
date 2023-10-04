@@ -30,6 +30,7 @@
 * [Methodologies](market-data/methodologies/README.md)
   * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
   * [Coin Metrics Prices Methodology](market-data/methodologies/coin-metrics-prices-methodology.md)
+  * [Trusted Exchange Framework](market-data/methodologies/trusted-exchange-framework.md)
   * [Coin Metrics Oversight Committee Charter](market-data/methodologies/coin-metrics-oversight-committee-charter.md)
 * [Market Data Exchange Coverage](exchanges/all-exchanges.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
@@ -52,10 +53,10 @@
 
 * [datonomy Overview](reference-data/datonomy-overview.md)
 * [Asset Profiles Overview](reference-data/asset-profiles-overview.md)
+* [Security Master Overview](reference-data/security-master-overview.md)
 * [Methodologies](reference-data/methodologies/README.md)
   * [Guiding Principles and Methodology for datonomy](reference-data/methodologies/guiding-principles-and-methodology-for-datonomy.md)
 * [datonomy FAQs](reference-data/datonomy-faqs.md)
-* [Security Master Overview](reference-data/security-master-overview.md)
 
 ## Asset Metrics (Time Series) <a href="#asset-metrics" id="asset-metrics"></a>
 
