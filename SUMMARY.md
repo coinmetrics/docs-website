@@ -45,7 +45,8 @@
 ## Index Data
 
 * [Index Overview](index-data/index.md)
-* [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi.md)
+* [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi/README.md)
+  * [Governance Committees](index-data/coin-metrics-bletchley-indexes-cmbi/governance-committees.md)
 * [Indexes Glossary](glossary/indexes.md)
 * [Index FAQs](index-data/index-faqs.md)
 
