@@ -45,6 +45,7 @@
 ## Index Data
 
 * [Index Overview](index-data/index.md)
+* [Policies](index-data/policies.md)
 * [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi.md)
   * [Governance Committees](index-data/coin-metrics-bletchley-indexes-cmbi/governance-committees.md)
   * [Fork Legitimacy Framework](index-data/coin-metrics-bletchley-indexes-cmbi/fork-legitimacy-framework.md)
