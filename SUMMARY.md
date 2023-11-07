@@ -45,9 +45,10 @@
 ## Index Data
 
 * [Index Overview](index-data/index.md)
-* [Policies & Charters](index-data/policies-and-charters.md)
+* [Policies & Charters](index-data/policies-and-charters/README.md)
+  * [CMBI Index Policies](index-data/policies-and-charters/cmbi-index-policies.md)
+  * [Governance Committees](index-data/policies-and-charters/governance-committees.md)
 * [Methodologies](index-data/coin-metrics-bletchley-indexes-cmbi.md)
-  * [Governance Committees](index-data/coin-metrics-bletchley-indexes-cmbi/governance-committees.md)
   * [Fork Legitimacy Framework](index-data/coin-metrics-bletchley-indexes-cmbi/fork-legitimacy-framework.md)
   * [Adjusted Free Float Supply Methodology](index-data/coin-metrics-bletchley-indexes-cmbi/adjusted-free-float-supply-methodology.md)
 * [Indexes Glossary](glossary/indexes.md)
