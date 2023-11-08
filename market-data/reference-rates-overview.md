@@ -2,7 +2,7 @@
 
 Coin Metrics publishes a collection of prices for a set of cryptocurrencies and fiat currencies consisting of the Coin Metrics Reference Rates ("CM Reference Rates") and the Coin Metrics Principal Market Prices ("CM Principal Market Prices"), which are collectively referred to as the Coin Metrics Prices ("CM Prices").
 
-Our coverage universe consists of over 640 assets and utilize a transparent and rules-based [methodology](methodologies/coin-metrics-prices-methodology.md). Our prices are robust to manipulation and are derived from high quality constituent markets and are governed by our [policies](methodologies/coin-metrics-prices-policies.md).
+Our coverage universe consists of over [800 assets](https://coverage.coinmetrics.io/asset-metrics/ReferenceRate) and utilizes a transparent and rules-based [methodology](methodologies/coin-metrics-prices-methodology.md). Our prices are robust to manipulation and are derived from high quality constituent markets and are governed by our [policies](methodologies/coin-metrics-prices-policies.md).
 
 ## Data Available for CM Reference Rates
 
