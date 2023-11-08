@@ -4,7 +4,7 @@ Coin Metrics publishes a collection of prices for a set of cryptocurrencies and 
 
 ## Coin Metrics Prices Policies
 
-The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes and terminations, recalculations, internal controls, complaints, record retention, and compliance policies.
+The CM Prices are collectively governed by policies described in [Coin Metrics Prices Policies](https://docs.coinmetrics.io/market-data/methodologies/coin-metrics-prices-policies) which describes the administration, oversight, conflicts of interest, material changes, recalculations, internal controls, complaints, record retention, and compliance policies.
 
 {% content-ref url="coin-metrics-prices-policies.md" %}
 [coin-metrics-prices-policies.md](coin-metrics-prices-policies.md)
@@ -16,12 +16,4 @@ The CM Prices are collectively governed by rules-based methodologies described i
 
 {% content-ref url="coin-metrics-prices-methodology.md" %}
 [coin-metrics-prices-methodology.md](coin-metrics-prices-methodology.md)
-{% endcontent-ref %}
-
-## Coin Metrics Oversight Committee Charter
-
-The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](broken-reference) which defines the responsibilities of the Oversight Committee.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
 {% endcontent-ref %}
