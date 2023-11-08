@@ -31,7 +31,6 @@
   * [Coin Metrics Prices Policies](market-data/methodologies/coin-metrics-prices-policies.md)
   * [Coin Metrics Prices Methodology](market-data/methodologies/coin-metrics-prices-methodology.md)
   * [Trusted Exchange Framework](market-data/methodologies/trusted-exchange-framework.md)
-  * [Coin Metrics Oversight Committee Charter](market-data/methodologies/coin-metrics-oversight-committee-charter.md)
 * [Market Data Exchange Coverage](exchanges/all-exchanges.md)
 * [Market Data FAQs](market-data/market-data-faqs.md)
 * [CM Prices FAQs](market-data/cm-prices-faqs.md)

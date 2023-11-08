@@ -20,8 +20,8 @@ The CM Prices are collectively governed by rules-based methodologies described i
 
 ## Coin Metrics Oversight Committee Charter
 
-The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](coin-metrics-oversight-committee-charter.md) which defines the responsibilities of the Oversight Committee.
+The CM Prices are supervised by the [Coin Metrics Oversight Committee Charter](broken-reference) which defines the responsibilities of the Oversight Committee.
 
-{% content-ref url="coin-metrics-oversight-committee-charter.md" %}
-[coin-metrics-oversight-committee-charter.md](coin-metrics-oversight-committee-charter.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
