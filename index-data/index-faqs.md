@@ -27,17 +27,12 @@ Completion timing is less relevant for indexes as the publishing time for index 
 | Kraken          | Delaware Corporation   |                      | Yes                        |                   |
 | Bitstamp (USA)  | Delaware Corporation   | Yes                  | Yes                        |                   |
 | Gemini          | New York Trust Company | Yes                  | Yes                        |                   |
-| itBit           | New York Trust Company | Yes                  | Yes                        |                   |
-| Binance.US      | California             | Yes                  |                            |                   |
-| Bittrex         | Delaware Corporation   |                      | Yes                        | Yes               |
-
-Note: Binance.US is operated by BAM Trading Services.&#x20;
 
 You can find the latest constituent markets in our [fact sheet](https://cmbi-indexes.coinmetrics.io/cmbibtc).
 
 ### **What are the criteria considered for an exchange to become a constituent exchange?**
 
-Please refer to our [Market Selection Framework](../market-data/methodologies/coin-metrics-prices-methodology.md#data-inputs) for more information.&#x20;
+Please refer to our [Market Selection Framework](../market-data/methodologies/coin-metrics-prices-methodology.md#data-inputs) for more information.
 
 ### **The methodology states that the index does not utilize data from over-the-counter markets or derivatives platforms but may do so in the future. What are the factors in determining whether to utilize data from the over-the-counter markets or derivative platforms?**
 
