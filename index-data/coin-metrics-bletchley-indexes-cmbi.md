@@ -4,20 +4,22 @@
 
 ## CMBI Single Asset Series
 
-{% embed url="https://coinmetrics.io/wp-content/uploads/2022/06/CMBI-Single-Asset-Methodology.pdf" %}
+{% embed url="https://coinmetrics.io/cmbi-single-asset-methodology/" %}
 
 ## CMBI Multi Asset Series
 
-{% embed url="https://coinmetrics.io/wp-content/uploads/2021/03/CMBI-Multi-Asset-Series-Methodology.pdf" %}
+{% embed url="https://coinmetrics.io/cmbi-multi-asset-series-methodology/" %}
 
 ## CMBI Mining Series
 
-{% embed url="https://coinmetrics.io/wp-content/uploads/2021/03/CMBI-Mining-Index-Series-Methodology.pdf" %}
+{% embed url="https://coinmetrics.io/cmbi-mining-index-series-methodology/" %}
 
 ## CMBI Momentum Series
 
-{% embed url="https://coinmetrics.io/wp-content/uploads/2021/07/CMBI-Momentum-Series-Methodology.pdf" %}
+{% embed url="https://coinmetrics.io/cmbi-momentum-series-methodology/" %}
 
 ## CMBI Total Market Series
+
+{% embed url="https://coinmetrics.io/cmbi-total-market-series-methodology/" %}
 
 {% embed url="https://coinmetrics.io/wp-content/uploads/2022/12/CMBI-Total-Market-Series-Methodology.pdf" %}
