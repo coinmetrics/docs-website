@@ -1,10 +1,28 @@
 # Methodologies
 
+
+
 **Coin Metrics Bletchley Indexes** (CMBI) are a comprehensive suite of single-asset, multi-asset and unique crypto asset benchmarks used by leading crypto and traditional financial institutions.&#x20;
 
 ## CMBI Single Asset Series
 
-{% embed url="https://coinmetrics.io/cmbi-single-asset-methodology/" %}
+
+
+<details>
+
+<summary>CMBI Single Asset Series</summary>
+
+[https://coinmetrics.io/cmbi-single-asset-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+
+</details>
+
+<details>
+
+<summary>CMBI Multi Asset Series</summary>
+
+[https://coinmetrics.io/cmbi-multi-asset-series-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+
+</details>
 
 ## CMBI Multi Asset Series
 
