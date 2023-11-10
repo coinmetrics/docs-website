@@ -8,7 +8,7 @@
 
 <summary>CMBI Single Asset Series</summary>
 
-[https://coinmetrics.io/cmbi-single-asset-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+[https://coinmetrics.io/cmbi-single-asset-methodology/](https://coinmetrics.io/cmbi-single-asset-methodology/)
 
 </details>
 
@@ -16,7 +16,7 @@
 
 <summary>CMBI Multi Asset Series</summary>
 
-[https://coinmetrics.io/cmbi-multi-asset-series-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+[https://coinmetrics.io/cmbi-multi-asset-series-methodology/](https://coinmetrics.io/cmbi-multi-asset-series-methodology/)
 
 </details>
 
@@ -32,7 +32,7 @@
 
 <summary>CMBI Momentum Series</summary>
 
-[https://coinmetrics.io/cmbi-momentum-series-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+[https://coinmetrics.io/cmbi-momentum-series-methodology/](https://coinmetrics.io/cmbi-momentum-series-methodology/)
 
 </details>
 
@@ -40,7 +40,7 @@
 
 <summary>CMBI Total Market Series</summary>
 
-[https://coinmetrics.io/cmbi-total-market-series-methodology/](https://coinmetrics.io/cmbi-mining-index-series-methodology/)
+[https://coinmetrics.io/cmbi-total-market-series-methodology/](https://coinmetrics.io/cmbi-total-market-series-methodology/)
 
 </details>
 
