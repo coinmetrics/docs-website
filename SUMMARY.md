@@ -857,9 +857,9 @@
 * [Balance Updates](atlas/balance-updates.md)
 * [Atlas Explorer User Interface](atlas/atlas-explorer-user-interface.md)
 
-***
+## Tagging Data
 
-* [Tagging Meta Data](tagging-meta-data.md)
+* [Tagging Meta Data](tagging-data/tagging-meta-data.md)
 
 ## Transaction Tracker (Tools)
 

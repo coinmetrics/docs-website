@@ -23,36 +23,32 @@ Example: `https://api.coinmetrics.io/v4/blockchain-metadata/tagged-entities?tags
 
 ### Example Result
 
-```
-// Result of Entity Search for Address "000000000006ec9792c0a516cbeb3b791e862949"
+<pre><code>// Result of Entity Search for Address "000000000006ec9792c0a516cbeb3b791e862949"
 {
-  "data": [
-    {
-      "entity": "000000000006ec9792c0a516cbeb3b791e862949",
-      "tag": "ADDRESS_IS_CONTRACT",
-      "location": "eth",
-      "type": "ADDRESS",
-      "tagger_type": "COINMETRICS",
-      "tagger_method": "DETERMINISTIC",
-      "start_time": "2021-01-26T22:14:08.000000000Z",
-      "end_time": "2023-06-14T21:57:56.994603000Z",
-      "start_block_hash": "dfe7e9cbbced47d27e4742e2002c56babd6d66de7077f2b1b6d6852c846b2a37"
-    },
-    {
-      "entity": "000000000007232d9e1d5ae25a80a0d707e94a4b",
-      "tag": "ADDRESS_IS_SWAPPER",
-      "location": "uni_v2_eth",
-      "type": "ADDRESS",
-      "tagger_type": "COINMETRICS",
-      "tagger_method": "DETERMINISTIC",
-      "start_time": "2021-02-10T03:27:08.000000000Z",
-      "end_time": "2023-06-14T21:57:56.994603000Z",
-      "start_block_height": "11735382",
-      "end_block_height": "11735401",
-      "start_block_hash": "52eb7ff27c415b87a7917c9a884836186a46ffe5227c6f96a10500d5331db4f9",
-      "end_block_hash": "b7f74e1614742d214b82dec0b85e188f843bcb587cd470b8c931bd6f6fc077ec"
-    }
-```
+"data": [
+{
+<strong>"entity": "00000000000003441d59dde9a90bffb1cd3fabf1",
+</strong>"tag": "ADDRESS_IS_CONTRACT",
+"location": "eth",
+"type": "ADDRESS",
+"tagger_type": "COINMETRICS",
+"tagger_method": "DETERMINISTIC",
+"start_time": "2021-04-24T09:23:53.000000000Z",
+"start_block_height": "12302098",
+"start_block_hash": "3f18d476b03fca40a128b3a715f2f6da1056cf4dcc9ec24500f7a53acee4733b"
+},
+{
+"entity": "00000000000006b2ab6decbc6fc7ec6bd2fbc720",
+"tag": "ADDRESS_IS_CONTRACT",
+"location": "eth",
+"type": "ADDRESS",
+"tagger_type": "COINMETRICS",
+"tagger_method": "DETERMINISTIC",
+"start_time": "2023-10-12T21:50:47.000000000Z",
+"start_block_height": "18337128",
+"start_block_hash": "5184d01e7ba0c8769553342bdf66b4a5aabb096ad4f5c754429733613a155ae5"
+}
+</code></pre>
 
 ## Coin Metrics OPEN Values
 
