@@ -1,6 +1,8 @@
 # Coin Metrics Prices Policies
 
-The full text of this methodology can be downloaded as a pdf document using the link below.&#x20;
+The full text of this document can be downloaded as a pdf document using the link below.&#x20;
+
+{% file src="../../.gitbook/assets/coin-metrics-prices-policies.pdf" %}
 
 ## Introduction
 
