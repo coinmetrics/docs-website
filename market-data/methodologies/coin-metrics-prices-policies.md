@@ -10,7 +10,7 @@ The Coin Metrics Hourly Reference Rates is published once an hour and utilizes v
 
 The Coin Metrics Real-Time Reference Rates is published once a second and once every 200 milliseconds and utilizes volume-weighted median and inverse price variance-weighted median techniques. Common use cases for the Coin Metrics Real-Time Reference rates include serving as a data source for on-chain price oracles, risk management, indicative intraday values for investment funds and financial benchmarks, and any use cases where real-time pricing is needed.
 
-The Coin Metrics Principal Market Prices is published once a second and adheres to the guidelines regarding fair value measurement issued by the International Financial Reporting Standards and the Association of International Certified Professional Accountants, specifically standards IFRS 13 and FASB ASC 820. The Coin Metrics Principal Market Prices identifies a principal market for each asset and utilizes the most recent price from this market. A common use cases are for fair value measurement and for preparing financial statements.
+The Coin Metrics Principal Market Prices is published once a second and adheres to the guidelines regarding fair value measurement issued by the International Financial Reporting Standards and the Association of International Certified Professional Accountants, specifically standards IFRS 13 and FASB ASC 820. The Coin Metrics Principal Market Prices identifies a principal market for each asset and utilizes the most recent price from this market. Common use cases are for fair value measurement and for preparing financial statements.
 
 The CM Prices are designed to serve as a set of transparent and independent pricing sources that promote the functioning of efficient markets, reduce information asymmetries among market participants, facilitate trading in standardized contracts, and accelerate the adoption of cryptocurrencies as an asset class with the highest standards. The CM Prices are calculated using robust and resilient methodologies that are resistant to manipulation.&#x20;
 
@@ -70,5 +70,5 @@ Coin Metrics maintains records and has processes in place to comply with request
 
 ## Change Log
 
-1. **Version 1.1 on November 8, 2023:**  Changes to Pricing Policies to clarify distinctions between CMB Single Asset Indexes and CM Prices.
+1. **Version 1.1 on November 8, 2023:**  Changes to Coin Metrics Prices Policies to clarify distinctions between CMBI Single Asset Indexes and CM Prices.
 2. **Version 1.0 on March 17, 2023**: Initial publication of the Coin Metrics Prices Policies. Previously, the contents of this document were contained within the Hourly Reference Rate Methodology and Real-Time Reference Rates Methodology documents.
