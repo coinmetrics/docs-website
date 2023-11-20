@@ -23,32 +23,31 @@ Example: `https://api.coinmetrics.io/v4/blockchain-metadata/tagged-entities?tags
 
 ### Example Result
 
-<pre><code>// Result of Entity Search for Address "000000000006ec9792c0a516cbeb3b791e862949"
+```
+// Result of Entity Search for Address "000000000006ec9792c0a516cbeb3b791e862949"
 {
-"data": [
-{
-<strong>"entity": "00000000000003441d59dde9a90bffb1cd3fabf1",
-</strong>"tag": "ADDRESS_IS_CONTRACT",
-"location": "eth",
-"type": "ADDRESS",
-"tagger_type": "COINMETRICS",
-"tagger_method": "DETERMINISTIC",
-"start_time": "2021-04-24T09:23:53.000000000Z",
-"start_block_height": "12302098",
-"start_block_hash": "3f18d476b03fca40a128b3a715f2f6da1056cf4dcc9ec24500f7a53acee4733b"
-},
-{
-"entity": "00000000000006b2ab6decbc6fc7ec6bd2fbc720",
-"tag": "ADDRESS_IS_CONTRACT",
-"location": "eth",
-"type": "ADDRESS",
-"tagger_type": "COINMETRICS",
-"tagger_method": "DETERMINISTIC",
-"start_time": "2023-10-12T21:50:47.000000000Z",
-"start_block_height": "18337128",
-"start_block_hash": "5184d01e7ba0c8769553342bdf66b4a5aabb096ad4f5c754429733613a155ae5"
-}
-</code></pre>
+"data" : [ {
+    "entity" : "000000000006ec9792c0a516cbeb3b791e862949",
+    "tag" : "ADDRESS_IS_CONTRACT",
+    "location" : "eth",
+    "type" : "ADDRESS",
+    "tagger_type" : "COINMETRICS",
+    "tagger_method" : "DETERMINISTIC",
+    "start_time" : "2021-01-26T22:14:08.000000000Z",
+    "start_block_height" : "11734034",
+    "start_block_hash" : "81c9410e149bfab4877faf08b01c3f1656d24bada66b1337f4802cc5304947af"
+  }, {
+    "entity" : "000000000006ec9792c0a516cbeb3b791e862949",
+    "tag" : "ADDRESS_IS_SWAPPER",
+    "location" : "uni_v2_eth",
+    "type" : "ADDRESS",
+    "tagger_type" : "COINMETRICS",
+    "tagger_method" : "DETERMINISTIC",
+    "start_time" : "2021-01-27T02:46:17.000000000Z",
+    "start_block_height" : "11735233",
+    "start_block_hash" : "10a39f4cdf992bfed5c62296804bf65a6e5f1eb18b32626235133a2cbab57959"
+    }...
+```
 
 ## Tagging Dictionary
 
