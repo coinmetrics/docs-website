@@ -50,6 +50,12 @@ Example: `https://api.coinmetrics.io/v4/blockchain-metadata/tagged-entities?tags
 }
 </code></pre>
 
+## Tagging Dictionary
+
+For Descriptions on our tagging defintions and sourcing information please see the document below.
+
+{% file src="../.gitbook/assets/Tag Dictionary v0.1 - Nov 2023.pdf" %}
+
 ## Coin Metrics OPEN Values
 
 It's essential to emphasize that the Coin Metrics Tagging Data operates in accordance with our Coin Metrics OPEN Values. The information provided by the API is gathered in a neutral and unbiased manner hoping to elucidate further understanding of blockchain activity and data.
