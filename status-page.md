@@ -6,51 +6,83 @@ description: >-
 
 # Status Page
 
-### **Subscribe to our Status Page**
+Ensuring uninterrupted data feeds and customer satisfaction is our top priority. To achieve this, we employ automated bots across our data production systems, enabling us to monitor pipelines continuously.&#x20;
 
-We understand that a reliable data-feed with maximum uptime is critical to our customers. To monitor our data pipelines, we run numerous automated bots across all of our data production systems to ensure continuous production and alerting when unexpected delays/issues arise.&#x20;
+If any unexpected delays or issues arise, we promptly alert our clients through our Status Page. Our dedicated team works diligently to resolve the problems as quickly as possible, providing timely updates along the way. Additionally, we maintain a change-log for historical recalculations and data cleanses, keeping our clients informed at all times.
 
-When issues are detected, we alert our clients immediately through our [Status Page](https://status.coinmetrics.io/) and work to resolve the issue as expediently as possible. We provide updates as they are available, and notify clients as soon as we’ve implemented a resolution. In addition to notifications for ongoing incidents, we also publish our change-log for historical recalculations and data cleanses.
+We highly recommend that our customers subscribe to our [Status Page](https://status.coinmetrics.io/) for the operational statuses of anything that impacts the usage of our products:
 
-We highly recommend that our customers subscribe to our Status Page for the operational statuses of anything that impacts the usage of our products:
 
-* Services
-  * **API**: REST and WebSocket API covering all products.
-  * **Website**: Covers the Coin Metrics website including main page and analytics.coinmetrics.io.
-* Infrastructure
-  * **Data Ingestion**: Infrastructure used to ingest data such as blockchain nodes and exchange scrapers.
-  * **Data Processing**: Infrastructure used to store, structure, process, aggregate and calculate data to derive product metrics.
-* Data Quality
-  * **Reference Rates:** Data quality issues regarding the CM Hourly Reference Rates and CM Real-Time Reference Rates.
-  * **Market Data Feed**: Data quality issues regarding the Market Data Feed.
-  * **Coin Metrics Bletchley Indexes (CMBI):** Data quality issues regarding the Coin Metrics Bletchley Indexes (CMBI).
-* Data Change Notifications
-  * **Network Data**: Changes regarding data in our on-chain data products, including Network Data Pro, ATLAS and FARUM.
-  * **Market Data**: Changes regarding data in Market Data Feed.
-  * **Reference Rates**: Changes regarding Reference Rates data.
-  * **Coin Metrics Bletchley Indexes (CMBI):** Data changes regarding the Coin Metrics Bletchley Indexes (CMBI).
 
-### Subscriber Feeds
+#### Market Data Products
 
-To subscribe to our Status Page, please go [here](https://status.coinmetrics.io/subscriptions/new). We push our updates through a variety of channels that you can manage to your preference:&#x20;
+* Market Data Feed: Information and updates on incidents affecting CM’s market data feed.
+* CM Prices: Information and updates on incidents affecting CM Prices.
+* CMBI Indexes: Information and updates on incidents affecting CM’s Bletchley Indexes.
+* Reference Data: Information and updates on incidents affecting CM’s Reference Data
+
+#### Onchain Products
+
+* Network Data Pro: Information and updates on incidents affecting CM’s Network Datapro.
+* ATLAS: Information and updates on incidents affecting CM’s ATLAS.
+* FARUM: Information and updates on incidents affecting CM’s FARUM.
+
+#### Services
+
+* Pro API V4: Information and updates on incidents affecting our Pro API v4 data only.
+* Community API V4: Information and updates on incidents affecting our Community API v4 data only.
+* Website: Information and updates on incidents affecting our website.
+* Mobile App: Information and updates on incidents affecting our mobile app.
+* Flat Files: Information and updates on incidents affecting our Flat Files.
+* Charting Tools: Information and updates on incidents affecting our charting tool functionality&#x20;
+
+#### Data Change Notifications
+
+* Market Data Feed Changes: Changes regarding Market Data Feed data.
+* CM Prices Changes: Changes regarding Reference Rates data.
+* Network Data Pro Changes: Changes regarding Network Data Pro data.
+* ATLAS Changes: Changes regarding Atlas data.
+* FARUM Changes: Changes regarding FARUM data.
+* CMBI Indexes Changes: Data changes regarding the Coin Metrics Bletchley Indexes.
+* Reference Data Changes: Changes regarding Datonomy data.
+* Flat Files Changes: Changes regarding Flat Files data.
+
+#### Labs
+
+#### Third Party Data
+
+* Market Data Vendor: Incidents originating from our supported exchanges.
+* Network Data Vendor: Incidents originating from our supported nodes.
+
+#### Maintenance
+
+* Data Center Maintenance: Coin Metrics Data Centre Maintenance.
+
+#### Subscriber Feeds
+
+To subscribe to our Status Page, please go[ here](http://status.coinmetrics.io). We push our updates through a variety of channels that you can manage to your preference:
 
 * Email
-* RSS Feed
+* Phone
 * Slack
+* Webhooks
+* RSS Feed
 * [Twitter](https://twitter.com/CM\_\_Status)
 
-If you’re a member of our Pro Community Slack workspace, you can also join our public channel #status for these updates. If you’re a Pro member and would like to join, please reach out to [customerservice@coinmetrics.io](mailto:customerservice@coinmetrics.io).&#x20;
+#### Navigating the Status Page
 
-### Navigating the Status Page
+Our Status Page displays any ongoing incidents at the top of the browser. If there are no issues, all components display "Operational"  written in green text, in the status column as shown in the image below.
 
-Our Status Page displays any ongoing and recently resolved incidents under the subcategories listed above. If there are no issues, there is a check-mark in the “Operational” column.&#x20;
+<figure><img src="https://lh7-us.googleusercontent.com/QjARDgfCkgWuIJuR65YLzLH9lClGZZYe_JisNNijyDQOWDcm1ir6uKcUUAJ1h0eCRoD1gzfbHBXb1Eeh-9EAZuMG7cDFEBQnJwMm8SJnbRiUcoAjEagtC1mZmzELi4iLaYe8B2Ukv28Fu6_IeqQsvHI" alt=""><figcaption></figcaption></figure>
 
-![](https://lh6.googleusercontent.com/kypj0yFGXKu4eMiT7567bGm0e6GLsSZfmBp27v3oQSR2R8HdQU8pR5ymlOBOnRh57bMS9vg6nlBePaZ76\_1tVr3lz0u00aA4k2EN\_DPPuaLxZ2O611MHKCzNP1NtrrtmMzGrRvP\_)
+However, if there is an ongoing issue, there won’t be an “operational” green text. Ongoing issues are written in either yellow, orange or red text, depending on the degree of severity of the issue, while a component undergoing maintenance is written in blue text as shown in the image below. &#x20;
 
-However, if there is an ongoing or recently resolved issue, there won’t be a check mark. Ongoing issues are written in red text and recently resolved issues are written in black text.
+<figure><img src="https://lh7-us.googleusercontent.com/4SIRgx2ndbcbA8I1ThCg34fkMBpwZVytez-lgbegg5QC4CYuHNtK79Dj-_TYjxLbiOAyKZ1VKkeleQ_0vuqbDiyqcT4dofyUb3oGAup7wbK_rn7uaQeiGGmq8z4XeNrex8A6QHr6_6ELuTGy0vfUe8U" alt=""><figcaption></figcaption></figure>
 
-![](https://lh3.googleusercontent.com/f0bDAXltBVE8v9CjLcmOAw0rdleVtY4usSPMLqYtG9cNtERMHjoPWee22ppfU55xrOkJNszyP7JprtL13Xm-9\_XEn6J-voA3KlgrNfycOquA96LkDtM\_0MXO-6qs6tNdNtyxk8RE)
 
-You can click into each issue for additional information on the time it was reported, the affected products and all historical updates to that particular issue. At the bottom of the Status Page, you can also see a stream of our incident resolution history.&#x20;
 
-If you have any questions about our Status Page, please feel free to reach out through our [Support Center](https://coinmetrics.io/support/).&#x20;
+You can click into each issue for additional information on the time it was reported, the affected products, and all historical updates to that particular issue. At the bottom of the Status Page, you can also see a stream of our incident history.
+
+If you have any questions about our Status Page, please feel free to reach out through our[ Support Center](https://coinmetrics.io/support/).
+
+\
