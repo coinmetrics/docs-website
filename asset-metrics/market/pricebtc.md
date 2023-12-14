@@ -4,9 +4,9 @@
 
 The price of the asset denominated in Bitcoin units.&#x20;
 
-| Name                  | MetricID | Category | Subcategory | Type | Unit | Interval |
-| --------------------- | -------- | -------- | ----------- | ---- | ---- | -------- |
-| BTC Denominated Price | PriceBTC | Market   | Price       | NA   | BTC  | 1 day    |
+| Name                  | MetricID | Category | Subcategory | Type | Unit | Interval      |
+| --------------------- | -------- | -------- | ----------- | ---- | ---- | ------------- |
+| BTC Denominated Price | PriceBTC | Market   | Price       | NA   | BTC  | 1 day, 1 hour |
 
 ## Details
 

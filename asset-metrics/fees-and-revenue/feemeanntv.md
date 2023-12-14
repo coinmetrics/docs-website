@@ -4,9 +4,9 @@
 
 The mean fee per transaction in native units that interval.
 
-| Name                       | MetricID   | Category         | Subcategory | Type | Unit         | Interval |
-| -------------------------- | ---------- | ---------------- | ----------- | ---- | ------------ | -------- |
-| Mean Tx Fee (native units) | FeeMeanNtv | Fees and revenue | Fees        | Mean | Native units | 1 day    |
+| Name                       | MetricID   | Category         | Subcategory | Type | Unit         | Interval      |
+| -------------------------- | ---------- | ---------------- | ----------- | ---- | ------------ | ------------- |
+| Mean Tx Fee (native units) | FeeMeanNtv | Fees and revenue | Fees        | Mean | Native units | 1 day, 1 hour |
 
 ## Details
 

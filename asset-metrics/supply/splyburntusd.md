@@ -6,9 +6,9 @@ The total Base Fees paid for transactions during a time interval (e.g. 1 day), s
 
 The concept of a Base Fee was introduced as part of [EIP-1559](https://notes.ethereum.org/@vbuterin/eip-1559-faq) and it represents the portion of the total transaction fees that is destroyed and taken out of circulation (i.e. _burnt)_. Ethereum post-1559 requires users to pay for a Base Fee as a prerequisite to include transactions in a block. The Base Fee can go up or down on the basis of the size (in gas units) of the previous block. In times of congestion, where blocks are sequentially increasing in size, paying a Base Fee does not guarantee that a transaction will be included in a block. In such events, users can optionally pay an additional Miner Tip to nudge miners to include their transactions in their block.
 
-| Name                        | MetricID     | Category | Subcategory | Type | Unit | Interval |
-| --------------------------- | ------------ | -------- | ----------- | ---- | ---- | -------- |
-| Total Base Fees Burnt (USD) | SplyBurntUSD | Supply   | Burnt       | Sum  | USD  | 1 day    |
+| Name                        | MetricID     | Category | Subcategory | Type | Unit | Interval      |
+| --------------------------- | ------------ | -------- | ----------- | ---- | ---- | ------------- |
+| Total Base Fees Burnt (USD) | SplyBurntUSD | Supply   | Burnt       | Sum  | USD  | 1 day, 1 hour |
 
 ## Details
 

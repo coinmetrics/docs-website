@@ -4,9 +4,9 @@
 
 The sum USD value of native units transferred divided by the count of transfers (i.e., the mean "size" in USD of a transfer) that interval.
 
-| Name               | MetricID        | Category     | Subcategory    | Type | Unit | Interval |
-| ------------------ | --------------- | ------------ | -------------- | ---- | ---- | -------- |
-| Mean Tx Size (USD) | TxTfrValMeanUSD | Transactions | Transfer value | Mean | USD  | 1 day    |
+| Name               | MetricID        | Category     | Subcategory    | Type | Unit | Interval      |
+| ------------------ | --------------- | ------------ | -------------- | ---- | ---- | ------------- |
+| Mean Tx Size (USD) | TxTfrValMeanUSD | Transactions | Transfer value | Mean | USD  | 1 day, 1 hour |
 
 ## Details
 

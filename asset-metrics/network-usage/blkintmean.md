@@ -8,9 +8,9 @@ description: /timeseries/asset-metrics
 
 The mean time (in seconds) between all the blocks created that interval.
 
-| Name            | MetricID   | Category      | Subcategory | Type | Unit    | Interval       |
-| --------------- | ---------- | ------------- | ----------- | ---- | ------- | -------------- |
-| Mean Time Block | BlkIntMean | Network Usage | Blocks      | Mean | Seconds | 1 block, 1 day |
+| Name            | MetricID   | Category      | Subcategory | Type | Unit    | Interval               |
+| --------------- | ---------- | ------------- | ----------- | ---- | ------- | ---------------------- |
+| Mean Time Block | BlkIntMean | Network Usage | Blocks      | Mean | Seconds | 1 block, 1 day, 1 hour |
 
 ## Details
 

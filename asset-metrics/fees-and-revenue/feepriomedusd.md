@@ -8,9 +8,9 @@ The concept of a Miner Tip was introduced as part of [EIP-1559](https://notes.et
 
 Ethereum post-1559 requires users to pay for a Base Fee as a prerequisite to include transactions in a block. The Base Fee can go up or down on the basis of the size (in gas units) of the previous block. In times of congestion, where blocks are sequentially increasing in size, paying a Base Fee does not guarantee that a transaction will be included in a block. In such events, users can optionally pay an additional miner tip to nudge miners to include their transactions in their block.
 
-| Name                   | MetricID      | Category         | Subcategory | Type   | Unit | Interval |
-| ---------------------- | ------------- | ---------------- | ----------- | ------ | ---- | -------- |
-| Median Miner Tip (USD) | FeePrioMedUSD | Fees and revenue | Fees        | Median | USD  | 1 day    |
+| Name                   | MetricID      | Category         | Subcategory | Type   | Unit | Interval      |
+| ---------------------- | ------------- | ---------------- | ----------- | ------ | ---- | ------------- |
+| Median Miner Tip (USD) | FeePrioMedUSD | Fees and revenue | Fees        | Median | USD  | 1 day, 1 hour |
 
 ## Details
 

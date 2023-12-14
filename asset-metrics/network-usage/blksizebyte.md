@@ -10,9 +10,9 @@ The sum of the size (in bytes) of all blocks created that interval.
 
 ## Dictionary
 
-| Name                      | MetricID    | Category      | Subcategory | Type | Unit  | Interval |
-| ------------------------- | ----------- | ------------- | ----------- | ---- | ----- | -------- |
-| Sum Block Size (in bytes) | BlkSizeByte | Network Usage | Blocks      | Sum  | Bytes | 1d, 1b   |
+| Name                      | MetricID    | Category      | Subcategory | Type | Unit  | Interval               |
+| ------------------------- | ----------- | ------------- | ----------- | ---- | ----- | ---------------------- |
+| Sum Block Size (in bytes) | BlkSizeByte | Network Usage | Blocks      | Sum  | Bytes | 1 day, 1 block, 1 hour |
 
 ## Details
 
@@ -21,7 +21,7 @@ The sum of the size (in bytes) of all blocks created that interval.
 
 ## Chart
 
-<figure><img src="../../.gitbook/assets/Sum_Block_Size_(in_bytes).png" alt=""><figcaption><p><em>Source:</em> <a href="https://charts.coinmetrics.io/network-data/#4297"><em>CM Network Data Charts</em></a><em></em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Sum_Block_Size_(in_bytes).png" alt=""><figcaption><p><em>Source:</em> <a href="https://charts.coinmetrics.io/network-data/#4297"><em>CM Network Data Charts</em></a></p></figcaption></figure>
 
 ## Asset-Specific Details
 

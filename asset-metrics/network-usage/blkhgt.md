@@ -10,9 +10,9 @@ The count of blocks from the genesis (first) block to the last block of that int
 
 ## Dictionary
 
-| Name         | MetriID | Category      | Subcategory | Type | Unit   | Interval       |
-| ------------ | ------- | ------------- | ----------- | ---- | ------ | -------------- |
-| Block Height | BlkHgt  | Network Usage | Blocks      | Sum  | Blocks | 1 block, 1 day |
+| Name         | MetriID | Category      | Subcategory | Type | Unit   | Interval               |
+| ------------ | ------- | ------------- | ----------- | ---- | ------ | ---------------------- |
+| Block Height | BlkHgt  | Network Usage | Blocks      | Sum  | Blocks | 1 block, 1 day, 1 hour |
 
 ## Details
 

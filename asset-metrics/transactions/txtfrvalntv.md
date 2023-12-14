@@ -4,9 +4,9 @@
 
 The sum of native units transferred (i.e., the aggregate "size" of all transfers) that interval. Also known as Transfer Value (native units).
 
-| Name                      | MetricID    | Category     | Subcategory    | Type | Unit         | Interval |
-| ------------------------- | ----------- | ------------ | -------------- | ---- | ------------ | -------- |
-| Xfer'd Val (native units) | TxTfrValNtv | Transactions | Transfer value | Sum  | Native units | 1 day    |
+| Name                      | MetricID    | Category     | Subcategory    | Type | Unit         | Interval      |
+| ------------------------- | ----------- | ------------ | -------------- | ---- | ------------ | ------------- |
+| Xfer'd Val (native units) | TxTfrValNtv | Transactions | Transfer value | Sum  | Native units | 1 day, 1 hour |
 
 ## Details
 

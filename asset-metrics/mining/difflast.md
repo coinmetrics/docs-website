@@ -4,9 +4,9 @@
 
 The difficulty of the last block in the considered time period. Difficulty represents how hard it is to find a hash that meets the protocol-designated requirement (i.e., the difficulty of finding a new block) that day. The requirement is unique to each applicable cryptocurrency protocol. Difficulty is adjusted periodically by the protocol as a function of how much hashing power is being deployed by miners.
 
-| Name       | MetricID | Category | Subcategory | Type | Unit          | Interval |
-| ---------- | -------- | -------- | ----------- | ---- | ------------- | -------- |
-| Difficulty | DiffLast | Mining   | Mining      | Mean | Dimensionless | 1 day    |
+| Name       | MetricID | Category | Subcategory | Type | Unit          | Interval      |
+| ---------- | -------- | -------- | ----------- | ---- | ------------- | ------------- |
+| Difficulty | DiffLast | Mining   | Mining      | Mean | Dimensionless | 1 day, 1 hour |
 
 ## Details
 

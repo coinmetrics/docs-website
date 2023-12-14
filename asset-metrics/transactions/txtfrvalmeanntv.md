@@ -4,9 +4,9 @@
 
 The sum value of native units transferred divided by the count of transfers (i.e., the mean size of a transfer) between distinct addresses that interval.
 
-| Name                        | MetricID        | Category     | Subcategory    | Type | Unit         | Interval |
-| --------------------------- | --------------- | ------------ | -------------- | ---- | ------------ | -------- |
-| Mean Tx Size (native units) | TxTfrValMeanNtv | Transactions | Transfer value | Mean | Native units | 1 day    |
+| Name                        | MetricID        | Category     | Subcategory    | Type | Unit         | Interval      |
+| --------------------------- | --------------- | ------------ | -------------- | ---- | ------------ | ------------- |
+| Mean Tx Size (native units) | TxTfrValMeanNtv | Transactions | Transfer value | Mean | Native units | 1 day, 1 hour |
 
 ## Details
 

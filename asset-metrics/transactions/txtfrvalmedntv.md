@@ -6,9 +6,9 @@ The median count of native units transferred per transfer (i.e., the median "siz
 
 ## Dictionary
 
-| Name                          | MetricID       | Category     | Subcategory    | Type   | Unit         | Interval |
-| ----------------------------- | -------------- | ------------ | -------------- | ------ | ------------ | -------- |
-| Median Tx Size (native units) | TxTfrValMedNtv | Transactions | Transfer value | Median | Native units | 1 day    |
+| Name                          | MetricID       | Category     | Subcategory    | Type   | Unit         | Interval      |
+| ----------------------------- | -------------- | ------------ | -------------- | ------ | ------------ | ------------- |
+| Median Tx Size (native units) | TxTfrValMedNtv | Transactions | Transfer value | Median | Native units | 1 day, 1 hour |
 
 ## Details
 

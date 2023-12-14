@@ -8,9 +8,9 @@ description: /timeseries/asset-metrics
 
 The sum count of blocks created that interval that were included in the main (base) chain.
 
-| Name      | MetricID | Category      | Subcategory | Type | Unit   | Interval |
-| --------- | -------- | ------------- | ----------- | ---- | ------ | -------- |
-| Block Cnt | BlkCnt   | Network Usage | Blocks      | Sum  | Blocks | 1 day    |
+| Name      | MetricID | Category      | Subcategory | Type | Unit   | Interval      |
+| --------- | -------- | ------------- | ----------- | ---- | ------ | ------------- |
+| Block Cnt | BlkCnt   | Network Usage | Blocks      | Sum  | Blocks | 1 day, 1 hour |
 
 ## Details
 

@@ -4,9 +4,9 @@
 
 The sum USD value of all native units transferred (i.e., the aggregate size in USD of all transfers) that interval. Also known as Transfer Value (USD).
 
-| Name             | MetricID    | Category     | Subcategory    | Type | Unit | Interval |
-| ---------------- | ----------- | ------------ | -------------- | ---- | ---- | -------- |
-| Xfer'd Val (USD) | TxTfrValUSD | Transactions | Transfer value | Sum  | USD  | 1 day    |
+| Name             | MetricID    | Category     | Subcategory    | Type | Unit | Interval      |
+| ---------------- | ----------- | ------------ | -------------- | ---- | ---- | ------------- |
+| Xfer'd Val (USD) | TxTfrValUSD | Transactions | Transfer value | Sum  | USD  | 1 day, 1 hour |
 
 ## Details
 

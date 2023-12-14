@@ -4,9 +4,9 @@
 
 The price of the asset denominated in U.S. Dollars.&#x20;
 
-| Name                          | MetricID | Category | Subcategory | Type | Unit | Interval |
-| ----------------------------- | -------- | -------- | ----------- | ---- | ---- | -------- |
-| USD Denominated Closing Price | PriceUSD | Market   | Price       | NA   | USD  | 1d, 1b   |
+| Name                          | MetricID | Category | Subcategory | Type | Unit | Interval              |
+| ----------------------------- | -------- | -------- | ----------- | ---- | ---- | --------------------- |
+| USD Denominated Closing Price | PriceUSD | Market   | Price       | NA   | USD  | 1 day, 1block, 1 hour |
 
 ## Details
 

@@ -4,9 +4,9 @@
 
 The sum USD value of all fees paid to miners, transaction validators, stakers and/or block producers that interval. In certain cryptonetworks, fees might be burned (destroyed), but they are still accounted for in this metric.
 
-| Name             | MetricID  | Category         | Subcategory | Type | Unit | Interval |
-| ---------------- | --------- | ---------------- | ----------- | ---- | ---- | -------- |
-| Total Fees (USD) | FeeTotUSD | Fees and revenue | Fees        | Sum  | USD  | 1 day    |
+| Name             | MetricID  | Category         | Subcategory | Type | Unit | Interval      |
+| ---------------- | --------- | ---------------- | ----------- | ---- | ---- | ------------- |
+| Total Fees (USD) | FeeTotUSD | Fees and revenue | Fees        | Sum  | USD  | 1 day, 1 hour |
 
 ## Details
 

@@ -4,9 +4,9 @@
 
 The median USD value transferred per transfer (i.e., the median "size" in USD of a transfer) that interval.
 
-| Name                 | MetricID       | Category     | Subcategory    | Type   | Unit | Interval |
-| -------------------- | -------------- | ------------ | -------------- | ------ | ---- | -------- |
-| Median Tx Size (USD) | TxTfrValMedUSD | Transactions | Transfer value | Median | USD  | 1 day    |
+| Name                 | MetricID       | Category     | Subcategory    | Type   | Unit | Interval      |
+| -------------------- | -------------- | ------------ | -------------- | ------ | ---- | ------------- |
+| Median Tx Size (USD) | TxTfrValMedUSD | Transactions | Transfer value | Median | USD  | 1 day, 1 hour |
 
 ## Details
 

@@ -5,9 +5,9 @@
 The return on investment for the asset assuming a purchase 30 days prior.[\
 ](https://docs.coinmetrics.io/info/metrics/ROI30d)
 
-| Name         | MetricID | Category | Subcategory | Type  | Unit          | Interval |
-| ------------ | -------- | -------- | ----------- | ----- | ------------- | -------- |
-| ROI, 30 Days | ROI30d   | Market   | Returns     | Ratio | Dimensionless | 1 Day    |
+| Name         | MetricID | Category | Subcategory | Type  | Unit          | Interval      |
+| ------------ | -------- | -------- | ----------- | ----- | ------------- | ------------- |
+| ROI, 30 Days | ROI30d   | Market   | Returns     | Ratio | Dimensionless | 1 day, 1 hour |
 
 ## Details
 

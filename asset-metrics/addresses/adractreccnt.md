@@ -6,9 +6,9 @@ The sum count of unique addresses that were active in the network (as a recipien
 
 **Dictionary**
 
-| **Name**                    | Metric ID    | **Category** | **Sub-category** | **Type** | **Unit**  | **Interval** |
-| --------------------------- | ------------ | ------------ | ---------------- | -------- | --------- | ------------ |
-| Active Addresses (Received) | AdrActRecCnt | Addresses    | Activity         | Sum      | Addresses | 1 day        |
+| **Name**                    | Metric ID    | **Category** | **Sub-category** | **Type** | **Unit**  | **Interval**  |
+| --------------------------- | ------------ | ------------ | ---------------- | -------- | --------- | ------------- |
+| Active Addresses (Received) | AdrActRecCnt | Addresses    | Activity         | Sum      | Addresses | 1 day, 1 hour |
 
 ## **Details**
 
