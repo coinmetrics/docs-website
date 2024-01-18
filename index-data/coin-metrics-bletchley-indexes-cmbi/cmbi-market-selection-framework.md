@@ -24,11 +24,10 @@ An assessment of whether the technology infrastructure of the market's exchange 
 
 1. **`has_rest_api`**: An indicator variable for the existence of a REST API.
 2. **`has_websocket_feed`**: An indicator variable for the existence of a WebSocket feed.
-3. **`has_fix_gateway`**: An indicator variable for the existence of a FIX gateway.
-4. **`has_historical_trade_data`**: An indicator variable for whether the exchange offers historical trade data via its API.
-5. **`has_real_time_trade_data`**: An indicator variable for whether the exchange offers real-time trade data via its API.
-6. **`has_real_time_order_book_data`**: An indicator variable for whether the exchange offers real-time order book data via its API.
-7. **`api_downtime_incidents`**: A feature that represents the stability of an API.
+3. **`has_historical_trade_data`**: An indicator variable for whether the exchange offers historical trade data via its API.
+4. **`has_real_time_trade_data`**: An indicator variable for whether the exchange offers real-time trade data via its API.
+5. **`has_real_time_order_book_data`**: An indicator variable for whether the exchange offers real-time order book data via its API.
+6. **`api_downtime_incidents`**: A feature that represents the stability of an API.
 
 #### Legal and Compliance
 
@@ -81,24 +80,9 @@ An assessment of the quality of the market's volume data, including testing for 
 2. **`market_volume_dispersion`**: The coefficient of variation of the market's daily volume in U.S. dollars over the past 90 days.
 3. **`market_volume_price_corr_raw`**: The correlation of the market's daily return to detrended daily volume where volume is quoted in raw units over the past 90 days.
 4. **`market_volume_price_corr_usd`**: The correlation of the market's daily return to detrended daily volume where volume is quoted in U.S. dollars over the past 90 days.
-5. **`alexa_rank`**: The global rank of the exchange's website as reported by Alexa.
-6. **`alexa_page_views_per_million`**: The average page views per million visitors of the exchange's website over the past month as reported by Alexa.
-7. **`alexa_reach_per_million`**: The average reach per million visitors of the exchange's website over the past month as reported by Alexa.
-8. **`alexa_pvpmvu`**: The total U.S. dollar volume of the exchange over the past month divided by the page views per million visitors as reported by Alexa.
-9. **`alexa_rpmvu`**: The total U.S. dollar volume of the exchange over the past month divided by the reach per million visitors as reported by Alexa.
-10. **`similarweb_global_rank`**: The global rank of the exchange's website as reported by SimilarWeb.
-11. **`similarweb_visit_monthly`**: The number of monthly visits as reported by SimilarWeb.
-12. **`similarweb_vmvu`**: The total U.S. dollar volume of the exchange over the past month divided by the monthly visits as reported by SimilarWeb.
-
-#### Order Book
-
-An assessment of the quality of the market's order book data, including tests for manipulated orders, and implementing tests that determine whether the market functions as an active market in the underlying digital asset and are anchored by observable transactions entered into at arm's length between buyers and sellers. The liquidity of the market is also considered.
-
-1. **`order_book_depth`**: The total volume of bids and offers on the order book within 1 percent of the mid price of the exchange's largest traded market where the given asset is the base currency reported in U.S. dollars.
-2. **`slippage`**: The amount of slippage in percent terms if an immediate market sell order of $50,000 U.S. dollars is executed of the exchange's largest traded market where the given asset is the base currency.
-3. **`spread`**: The median of the spread calculated as the difference between the best bid minus the best ask divided by the mid-price over the past 30 days.
-4. **`order_book_depth_residual`**: A regression model is fit by regressing volume on order book depth for the largest traded market for a collection of exchanges. Given an order book depth, an estimated volume is calculated and a residual is calculated as `actual_volume - estimated_volume`.
-5. **`slippage_residual`**: A regression model is fit by regressing volume on slippage for the largest traded market for a collection of exchanges. Given a slippage, an estimated volume is calculated and a residual is calculated as `actual_volume - estimated_volume`.
+5. **`similarweb_global_rank`**: The global rank of the exchange's website as reported by SimilarWeb.
+6. **`similarweb_visit_monthly`**: The number of monthly visits as reported by SimilarWeb.
+7. **`similarweb_vmvu`**: The total U.S. dollar volume of the exchange over the past month divided by the monthly visits as reported by SimilarWeb.
 
 ### Feature Normalization
 
@@ -113,7 +97,6 @@ The rating algorithm uses a weighted sum using a custom weighting function of th
 | Feature                          | Weight |
 | -------------------------------- | ------ |
 | has\_websocket\_feed             | 1      |
-| has\_fix\_gateway                | 0      |
 | has\_historical\_trade\_data     | 1      |
 | has\_trading\_policy             | 1      |
 | has\_market\_surveillance        | 1      |
@@ -140,11 +123,6 @@ The rating algorithm uses a weighted sum using a custom weighting function of th
 | market\_volume\_dispersion       | 1      |
 | market\_volume\_price\_corr\_raw | 1      |
 | market\_volume\_price\_corr\_usd | 1      |
-| alexa\_rank                      | 0      |
-| alexa\_page\_views\_per\_million | 0      |
-| alexa\_reach\_per\_million       | 0      |
-| alexa\_pvpmvu                    | 0      |
-| alexa\_rpmvu                     | 0      |
 | similarweb\_global\_rank         | 4      |
 | similarweb\_visit\_monthly       | 3      |
 | similarweb\_vmvu                 | 3      |
