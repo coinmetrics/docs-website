@@ -155,4 +155,4 @@ Markets with a rating higher than 22.5 are selected. For each asset in the cover
 
 ### Change Log
 
-* **January 18, 2024:** Updated Rating Algorithm to weight fix\_gateway and noted that we are leveraging only 30 of the criteria.
+* **January 18, 2024:** Updated Rating Algorithm to weight fix\_gateway and Alexa criteria to 0; noted that we are leveraging only 30 of the criteria.
