@@ -14,7 +14,7 @@ The data inputs for the calculation of the Coin Metrics Prices are observable tr
 
 ### Feature Descriptions
 
-The Market Selection Framework consists of 45 features, 36 of which are in active use. Features represent individual measurable properties that provide an indication of the suitability for a market to serve as an input data source, which are combined to form a market rating.
+The Market Selection Framework consists of 45 features, 30 of which are in active use. Features represent individual measurable properties that provide an indication of the suitability for a market to serve as an input data source, which are combined to form a market rating.
 
 Some of the features described in this section are indicator variables that encode qualitative information about a market or exchange. These indicator variables can require a degree of subjectivity in determining whether a market or exchange meets a certain criteria. In such cases, the indicator variable is set to true only if an unambiguous source is found that provides sufficient information to make an evaluation. In the absence of such a source, the indicator variable is set to false.
 
@@ -113,7 +113,7 @@ The rating algorithm uses a weighted sum using a custom weighting function of th
 | Feature                          | Weight |
 | -------------------------------- | ------ |
 | has\_websocket\_feed             | 1      |
-| has\_fix\_gateway                | 1      |
+| has\_fix\_gateway                | 0      |
 | has\_historical\_trade\_data     | 1      |
 | has\_trading\_policy             | 1      |
 | has\_market\_surveillance        | 1      |
@@ -140,15 +140,19 @@ The rating algorithm uses a weighted sum using a custom weighting function of th
 | market\_volume\_dispersion       | 1      |
 | market\_volume\_price\_corr\_raw | 1      |
 | market\_volume\_price\_corr\_usd | 1      |
-| alexa\_rank                      | 2      |
-| alexa\_page\_views\_per\_million | 1      |
-| alexa\_reach\_per\_million       | 1      |
-| alexa\_pvpmvu                    | 1      |
-| alexa\_rpmvu                     | 1      |
-| similarweb\_global\_rank         | 2      |
-| similarweb\_visit\_monthly       | 1      |
-| similarweb\_vmvu                 | 1      |
+| alexa\_rank                      | 0      |
+| alexa\_page\_views\_per\_million | 0      |
+| alexa\_reach\_per\_million       | 0      |
+| alexa\_pvpmvu                    | 0      |
+| alexa\_rpmvu                     | 0      |
+| similarweb\_global\_rank         | 4      |
+| similarweb\_visit\_monthly       | 3      |
+| similarweb\_vmvu                 | 3      |
 
 ### Selection Algorithm
 
 Markets with a rating higher than 22.5 are selected. For each asset in the coverage universe, markets that are in the top 4 by rank are also selected, regardless of the market's rating. Any market with volume, measured in U.S. dollars over the past 90 days, of less than 5 percent of the volume of the selected market with the largest volume is excluded.
+
+### Change Log
+
+* **January 18, 2024:** Updated Rating Algorithm to weight fix\_gateway and noted that we are leveraging only 30 of the criteria.
