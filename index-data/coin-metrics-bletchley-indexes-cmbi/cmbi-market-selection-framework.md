@@ -133,5 +133,5 @@ Markets with a rating higher than 22.5 are selected. For each asset in the cover
 
 ### Change Log
 
-* **January 18, 2024:** Updated Rating Algorithm to weight fix\_gateway and Alexa criteria to 0; noted that we are leveraging only 30 of the criteria.
-* January 18, 2024:   Removed the following inactive variables: `has_fix_gateway`, `alexa_rank_normalized`, `alexa_page_views_per_million_normalized`, `alexa_reach_per_million_normalized`, `alexa_pvpmvu_normalized`, and `alexa_rpmvu_normalized`. Reallocated alexa variable weights to similarweb weights. Removed market orderbooks section.
+* **January 18, 2024:** Noted that we are leveraging only 30 of the criteria.
+* **January 18, 2024:**   Removed the following inactive variables: `has_fix_gateway`, `alexa_rank_normalized`, `alexa_page_views_per_million_normalized`, `alexa_reach_per_million_normalized`, `alexa_pvpmvu_normalized`, and `alexa_rpmvu_normalized`. Reallocated alexa variable weights to similarweb weights. Removed market orderbooks section.
