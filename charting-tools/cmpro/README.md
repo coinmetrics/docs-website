@@ -2,11 +2,11 @@
 description: cmtv.coinmetrics.io
 ---
 
-# Pro Charts
+# CMTV Charts (Labs)
 
 ## Introduction
 
-Our Coin Metrics Pro Visualization Tool incorporates the charting capabilities and indicators familiar to professional users.  It also enables our power users (market and network data users) to view our multiple datasets in a single screen.  And, users of our real-time feed can enjoy live market monitoring.
+Our Coin Metrics Trading View Visualization Tool incorporates the charting capabilities and indicators familiar to professional users.  It also enables our power users (market and network data users) to view our multiple datasets in a single screen.  And, users of our real-time feed can enjoy live market monitoring.
 
 ## Data Sources
 
@@ -20,7 +20,6 @@ All data is sourced from the CM v4 API. &#x20;
 We also offer four external benchmarks sourced from the FRED API.  This data is not endorsed or certified by the Federal Reserve Bank of St. Louis.  These benchmarks include the&#x20;
 
 * &#x20;S\&P 500 Index (http://fred.stlouisfed.org/series/SP500), which is an S\&P Dow Jones Indices LLC product; note the daily value for this index is as of 4pm NY time
-* London Bullion Market Index (http://fred.stlouisfed.org/series/GOLDAMGBD228NLBM), which is an ICE Benchmark Administration Limited product; note the daily value for this index is as of 10:30am London time
 * Trade Weighted US Dollar Index (http://fred.stlouisfed.org/seris/DTWEXBGS), which is a Board of Governors of the Federal Reserve System (US) product; note that the daily value for this index is 12:00pm NY time
 * CBOE Volatility Index (http://fred.stlouisfed.org/series/VIXCLS), which is a Chicago Board Options Exchange product; note that the daily value for this index is 3:15pm Chicago time
 

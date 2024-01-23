@@ -876,5 +876,5 @@
   * [Troubleshooting](charting-tools/data-visualization/trouble-shooting.md)
 * [Dashboard](charting-tools/dashboard/README.md)
   * [Troubleshooting](charting-tools/dashboard/troubleshooting.md)
-* [Pro Charts](charting-tools/cmpro/README.md)
+* [CMTV Charts (Labs)](charting-tools/cmpro/README.md)
   * [Troubleshooting](charting-tools/cmpro/troubleshooting.md)
