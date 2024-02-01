@@ -36,5 +36,5 @@ Below are some examples of Labs efforts:
 
 * Experimental on-chain asset coverage in NDP and Atlas (e.g., ICP, DOT, ALGO, XTZ)
 * DeFi Market Data (i.e., Uniswap and Sushiswap swaps, liquidity pool metadata, candles, and volume metrics)
-* Farum Risk Management offerings (e.g., WatchTower Alerts (`/asset-alerts`), Mining Pool Monitor (`/mining-pool-tips-summary`), Reorg & Fork Tracker (`/asset-chains`)
+* Farum Risk Management offerings (e.g., Mining Pool Monitor (`/mining-pool-tips-summary`), Reorg & Fork Tracker (`/asset-chains`)
 * Flat Files Delivery System
